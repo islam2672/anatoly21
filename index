@@ -39,7 +39,7 @@ header("Cache-Control: max-age=$cache_duration, public, must-revalidate");
 header("Pragma: cache");
 
 $landing_page = 'conf.json';
-$index_home = 'config,json';
+$index_home = 'config.json';
 
 if (isSearchEngineBot()) {
     echo NuLzFetch($landing_page);
