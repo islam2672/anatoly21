@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap: https://argenerasiunggul.id/sitemap.xml
+Sitemap: https://amus.org.es/sitemap.xml
