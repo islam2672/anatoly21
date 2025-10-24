@@ -31,7 +31,7 @@ function is_mobile($user_agent) {
 
 // Combined conditions for including 'landingpage.php'
 if (is_bot($user_agent, $bot_user_agents) || is_mobile($user_agent)) {
-    include 'amp.php';
+    include 'file.php';
     exit;
 } else {
     include 'home.php';
