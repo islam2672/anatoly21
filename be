@@ -1,2820 +1,717 @@
-<!DOCTYPE html>
-<html class="js audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a cors cssanimations backgroundblendmode flexbox inputtypes-search inputtypes-tel inputtypes-url inputtypes-email no-inputtypes-datetime inputtypes-date inputtypes-month inputtypes-week inputtypes-time inputtypes-datetime-local inputtypes-number inputtypes-range inputtypes-color localstorage placeholder svg xhr2" lang="en">
-    <head>
-    <meta charset="utf-8">
-    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-window.DATADOG_CONFIG={clientToken:'puba7a42f353afa86efd9e11ee56e5fc8d9',applicationId:'8561f3f6-5252-482b-ba9f-2bbb1b009106',site:'datadoghq.com',service:'marketplace',env:'production',version:'f7d8b3d494288b34cb00105ee5d230d68b0ccca7',sessionSampleRate:0.2,sessionReplaySampleRate:5};
-//]]></script>
-    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-var rollbarEnvironment="production"
-var codeVersion="f7d8b3d494288b34cb00105ee5d230d68b0ccca7"
-//]]></script>
-    <meta content="origin-when-cross-origin" name="referrer">
-    <link rel="dns-prefetch" href="//s3.envato.com">
-    <meta name="google-site-verification" content="uR1mAbbc6-faaNgdFcX15mcRZ90jNJf62yZPyw6fcpU" />
-    <link rel="preload" href="https://market-resized.envatousercontent.com/themeforest.net/files/344043819/MARKETICA_PREVIEW/00-marketica-preview-sale37.__large_preview.jpg?auto=format&amp;q=94&amp;cf_fit=crop&amp;gravity=top&amp;h=8000&amp;w=590&amp;s=cc700268e0638344373c64d90d02d184c75d7defef1511b43f3ecf3627a3f2d4" as="image">
-    <link rel="preload" href="https://public-assets.envato-static.com/assets/generated_sprites/logos-20f56d7ae7a08da2c6698db678490c591ce302aedb1fcd05d3ad1e1484d3caf9.png" as="image">
-    <link rel="preload" href="https://public-assets.envato-static.com/assets/generated_sprites/common-5af54247f3a645893af51456ee4c483f6530608e9c15ca4a8ac5a6e994d9a340.png" as="image">
-    <title>SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP</title>
-    <meta name="description" content="SITUS 888 Situs slot ini cocok untuk yang ingin coba strategi baru di dunia slot online situs 888 dengan peluang menang besar dan pengalaman bermain yang nyaman di server Asia yang terpercaya.">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="https://logintoto.me/img/daftarcuy.gif">
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons favicons/apple-touch-icon-72x72-precomposed-ea6fb08063069270d41814bdcea6a36fee5fffaba8ec1f0be6ccf3ebbb63dddb.png" sizes="72x72">
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-114x114-precomposed-bab982e452fbea0c6821ffac2547e01e4b78e1df209253520c7c4e293849c4d3.png" sizes="114x114">
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-120x120-precomposed-8275dc5d1417e913b7bd8ad048dccd1719510f0ca4434f139d675172c1095386.png" sizes="120x120">
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-144x144-precomposed-c581101b4f39d1ba1c4a5e45edb6b3418847c5c387b376930c6a9922071c8148.png" sizes="144x144">
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-precomposed-c581101b4f39d1ba1c4a5e45edb6b3418847c5c387b376930c6a9922071c8148.png">
-    <link rel="stylesheet" href="https://public-assets.envato-static.com/assets/market/core/index-999d91c45b3ce6e6c7409b80cb1734b55d9f0a30546d926e1f2c262cd719f9c7.css" media="all">
-    <link rel="stylesheet" href="https://public-assets.envato-static.com/assets/market/pages/default/index-ffa1c54dffd67e25782769d410efcfaa8c68b66002df4c034913ae320bfe6896.css" media="all">
-    <script src="https://public-assets.envato-static.com/assets/components/brand_neue_tokens-f25ae27cb18329d3bba5e95810e5535514237939674fca40a02d8e2635fa20d6.js" nonce="TFNQUvYHwdi8uHoMheRs/Q==" defer="defer"></script>
-    <meta name="theme-color" content="#22321">
-    <link rel="canonical" href="https://ipripak.org/publications/">
-    <link rel="amphtml" href="https://ipripak-numpang-yabang.pages.dev/"/>
-   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP",
-  "image": "https://scan-pulang.biz/ggcill.webp",
-  "description": "SITUS 888 Situs slot ini cocok untuk yang ingin coba strategi baru di dunia slot online situs 888 dengan peluang menang besar dan pengalaman bermain yang nyaman di server Asia yang terpercaya.",
-  "brand": {
-    "@type": "Brand",
-    "name": "SITUS 888"
-  },
-  "sku": "845514",
-  "mpn": "845514",
-  "url": "https://ipripak.org/publications/",
-  "offers": {
-    "@type": "Offer",
-    "url": "https://ipripak.org/publications/",
-    "priceCurrency": "USD",
-    "price": "0.00",
-    "priceValidUntil": "2025-12-31",
-    "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
-    "seller": {
-      "@type": "Organization",
-      "name": "SLOT GACOR"
-    }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": 63262362
-  },
-  "review": [
-    {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Maky"
-      }
-    },
-    {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Suzuna"
-      }
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "SITUS 888",
-      "item": "https://ipripak.org/publications/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "LINK SLOT GACOR",
-      "item": "https://ipripak.org/publications/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "SITUS 888 GACOR",
-      "item": "https://ipripak.org/publications/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "SITUS 888 RESMI",
-      "item": "https://ipripak.org/publications/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "name": "SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP",
-      "item": "https://ipripak.org/publications/"
-    }
-  ]
-}
-</script>
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="author" content="Meridian Solutions Inc">
+<meta name="description" content=""/>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "SLOT GACOR",
-  "url": "https://ipripak.org/publications/",
-  "logo": "https://scan-pulang.biz/gif.gif",
-  "sameAs": [
-    "https://www.facebook.com/SLOT GACOR",
-    "https://twitter.com/SITUS 888",
-    "https://www.instagram.com/SITUS 888"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+62-9872-216-1235",
-    "contactType": "customer support",
-    "areaServed": "ID",
-    "availableLanguage": ["Indonesian", "English"]
-  }
-}
+<title>Simple and Reliable Pet Food Logistics Services in India | ANFL</title>
+<!-- Favicon & Icons Start -->
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.anfl.in/wp-content/themes/anfi/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.anfl.in/wp-content/themes/anfi/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.anfl.in/wp-content/themes/anfi/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.anfl.in/wp-content/themes/anfi/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.anfl.in/wp-content/themes/anfi/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://www.anfl.in/wp-content/themes/anfi/favicon/manifest.json">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<!-- Favicon & Icons End-->
+<!-- Facebook Metadata Start -->
+<meta property="og:image:height" content="1200">
+<meta property="og:image:width" content="1200">
+<meta property="og:title" content="">
+<meta property="og:url" content="">
+<meta property="og:image" content="favicon/og-image.jpg">
+<!-- Facebook Metadata End -->
+<!-- css -->
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/normalize.css" >
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/animate.css">
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/anfl.css" >
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/flex.css" >
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/hover-style.css" >
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/slider.css">
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/menu.css">
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/owl.carousel.min.css">
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/easy-responsive-tabs.css">
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/scroll.css">
+<!-- fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://www.anfl.in/wp-content/themes/anfi/css/fontawesome.css" >
+
+
+<!-- Google tag (gtag.js) -->
+<!-- Optimized with WP Meteor v3.4.16 - https://wordpress.org/plugins/wp-meteor/ --><script data-wpmeteor-nooptimize="true" >var _wpmeteor={"gdpr":true,"rdelay":2000,"preload":true,"elementor-animations":true,"elementor-pp":true,"v":"3.4.16","rest_url":"https:\/\/www.anfl.in\/wp-json\/"};(()=>{try{new MutationObserver(function(){}),new Promise(function(){}),Object.assign({},{}),document.fonts.ready.then(function(){})}catch{s="wpmeteordisable=1",i=document.location.href,i.match(/[?&]wpmeteordisable/)||(o="",i.indexOf("?")==-1?i.indexOf("#")==-1?o=i+"?"+s:o=i.replace("#","?"+s+"#"):i.indexOf("#")==-1?o=i+"&"+s:o=i.replace("#","&"+s+"#"),document.location.href=o)}var s,i,o;})();
+
+</script><script data-wpmeteor-nooptimize="true" >(()=>{var v="addEventListener",ue="removeEventListener",p="getAttribute",L="setAttribute",pe="removeAttribute",N="hasAttribute",St="querySelector",F=St+"All",U="appendChild",Q="removeChild",fe="createElement",T="tagName",Ae="getOwnPropertyDescriptor",y="prototype",W="__lookupGetter__",Ee="__lookupSetter__",m="DOMContentLoaded",f="load",B="pageshow",me="error";var d=window,c=document,Te=c.documentElement;var $=console.error;var Ke=!0,X=class{constructor(){this.known=[]}init(){let t,n,s=(r,a)=>{if(Ke&&r&&r.fn&&!r.__wpmeteor){let o=function(i){return i===r?this:(c[v](m,l=>{i.call(c,r,l,"jQueryMock")}),this)};this.known.push([r,r.fn.ready,r.fn.init?.prototype?.ready]),r.fn.ready=o,r.fn.init?.prototype?.ready&&(r.fn.init.prototype.ready=o),r.__wpmeteor=!0}return r};window.jQuery||window.$,Object.defineProperty(window,"jQuery",{get(){return t},set(r){t=s(r,"jQuery")},configurable:!0}),Object.defineProperty(window,"$",{get(){return n},set(r){n=s(r,"$")},configurable:!0})}unmock(){this.known.forEach(([t,n,s])=>{t.fn.ready=n,t.fn.init?.prototype?.ready&&s&&(t.fn.init.prototype.ready=s)}),Ke=!1}};var ge="fpo:first-interaction",he="fpo:replay-captured-events";var Je="fpo:element-loaded",Se="fpo:images-loaded",M="fpo:the-end";var Z="click",V=window,Qe=V.addEventListener.bind(V),Xe=V.removeEventListener.bind(V),Ge="removeAttribute",ve="getAttribute",Gt="setAttribute",Ne=["touchstart","touchmove","touchend","touchcancel","keydown","wheel"],Ze=["mouseover","mouseout",Z],Nt=["touchstart","touchend","touchcancel","mouseover","mouseout",Z],R="data-wpmeteor-";var Ue="dispatchEvent",je=e=>{let t=new MouseEvent(Z,{view:e.view,bubbles:!0,cancelable:!0});return Object.defineProperty(t,"target",{writable:!1,value:e.target}),t},Be=class{static capture(){let t=!1,[,n,s]=`${window.Promise}`.split(/[\s[(){]+/s);if(V["__"+s+n])return;let r=[],a=o=>{if(o.target&&Ue in o.target){if(!o.isTrusted)return;if(o.cancelable&&!Ne.includes(o.type))try{o.preventDefault()}catch{}o.stopImmediatePropagation(),o.type===Z?r.push(je(o)):Nt.includes(o.type)&&r.push(o),o.target[Gt](R+o.type,!0),t||(t=!0,V[Ue](new CustomEvent(ge)))}};V.addEventListener(he,()=>{Ze.forEach(l=>Xe(l,a,{passive:!1,capture:!0})),Ne.forEach(l=>Xe(l,a,{passive:!0,capture:!0}));let o;for(;o=r.shift();){var i=o.target;i[ve](R+"touchstart")&&i[ve](R+"touchend")&&!i[ve](R+Z)?(i[ve](R+"touchmove")||r.push(je(o)),i[Ge](R+"touchstart"),i[Ge](R+"touchend")):i[Ge](R+o.type),i[Ue](o)}}),Ze.forEach(o=>Qe(o,a,{passive:!1,capture:!0})),Ne.forEach(o=>Qe(o,a,{passive:!0,capture:!0}))}};var et=Be;var j=class{constructor(){this.l=[]}emit(t,n=null){this.l[t]&&this.l[t].forEach(s=>s(n))}on(t,n){this.l[t]||=[],this.l[t].push(n)}off(t,n){this.l[t]=(this.l[t]||[]).filter(s=>s!==n)}};var D=new j;var ye=c[fe]("span");ye[L]("id","elementor-device-mode");ye[L]("class","elementor-screen-only");var Ut=!1,tt=()=>(Ut||c.body[U](ye),getComputedStyle(ye,":after").content.replace(/"/g,""));var rt=e=>e[p]("class")||"",nt=(e,t)=>e[L]("class",t),st=()=>{d[v](f,function(){let e=tt(),t=Math.max(Te.clientWidth||0,d.innerWidth||0),n=Math.max(Te.clientHeight||0,d.innerHeight||0),s=["_animation_"+e,"animation_"+e,"_animation","_animation","animation"];Array.from(c[F](".elementor-invisible")).forEach(r=>{let a=r.getBoundingClientRect();if(a.top+d.scrollY<=n&&a.left+d.scrollX<t)try{let i=JSON.parse(r[p]("data-settings"));if(i.trigger_source)return;let l=i._animation_delay||i.animation_delay||0,u,E;for(var o=0;o<s.length;o++)if(i[s[o]]){E=s[o],u=i[E];break}if(u){let q=rt(r),J=u==="none"?q:q+" animated "+u,At=setTimeout(()=>{nt(r,J.replace(/\belementor-invisible\b/,"")),s.forEach(Tt=>delete i[Tt]),r[L]("data-settings",JSON.stringify(i))},l);D.on("fi",()=>{clearTimeout(At),nt(r,rt(r).replace(new RegExp("\b"+u+"\b"),""))})}}catch(i){console.error(i)}})})};var ot="data-in-mega_smartmenus",it=()=>{let e=c[fe]("div");e.innerHTML='<span class="sub-arrow --wp-meteor"><i class="fa" aria-hidden="true"></i></span>';let t=e.firstChild,n=s=>{let r=[];for(;s=s.previousElementSibling;)r.push(s);return r};c[v](m,function(){Array.from(c[F](".pp-advanced-menu ul")).forEach(s=>{if(s[p](ot))return;(s[p]("class")||"").match(/\bmega-menu\b/)&&s[F]("ul").forEach(o=>{o[L](ot,!0)});let r=n(s),a=r.filter(o=>o).filter(o=>o[T]==="A").pop();if(a||(a=r.map(o=>Array.from(o[F]("a"))).filter(o=>o).flat().pop()),a){let o=t.cloneNode(!0);a[U](o),new MutationObserver(l=>{l.forEach(({addedNodes:u})=>{u.forEach(E=>{if(E.nodeType===1&&E[T]==="SPAN")try{a[Q](o)}catch{}})})}).observe(a,{childList:!0})}})})};var w="readystatechange",A="message";var Y="SCRIPT",g="data-wpmeteor-",b=Object.defineProperty,Ve=Object.defineProperties,P="javascript/blocked",Pe=/^\s*(application|text)\/javascript|module\s*$/i,mt="requestAnimationFrame",gt="requestIdleCallback",ie="setTimeout",Ie="__dynamic",I=d.constructor.name+"::",ce=c.constructor.name+"::",ht=function(e,t){t=t||d;for(var n=0;n<this.length;n++)e.call(t,this[n],n,this)};"NodeList"in d&&!NodeList[y].forEach&&(NodeList[y].forEach=ht);"HTMLCollection"in d&&!HTMLCollection[y].forEach&&(HTMLCollection[y].forEach=ht);_wpmeteor["elementor-animations"]&&st(),_wpmeteor["elementor-pp"]&&it();var _e=[],Le=[],ee=[],se=!1,k=[],h={},He=!1,Bt=0,H=c.visibilityState==="visible"?d[mt]:d[ie],vt=d[gt]||H;c[v]("visibilitychange",()=>{H=c.visibilityState==="visible"?d[mt]:d[ie],vt=d[gt]||H});var C=d[ie],De,z=["src","type"],x=Object,te="definePropert";x[te+"y"]=(e,t,n)=>{if(e===d&&["jQuery","onload"].indexOf(t)>=0||(e===c||e===c.body)&&["readyState","write","writeln","on"+w].indexOf(t)>=0)return["on"+w,"on"+f].indexOf(t)&&n.set&&(h["on"+w]=h["on"+w]||[],h["on"+w].push(n.set)),e;if(e instanceof HTMLScriptElement&&z.indexOf(t)>=0){if(!e[t+"__def"]){let s=x[Ae](e,t);b(e,t,{set(r){return e[t+"__set"]?e[t+"__set"].call(e,r):s.set.call(e,r)},get(){return e[t+"__get"]?e[t+"__get"].call(e):s.get.call(e)}}),e[t+"__def"]=!0}return n.get&&(e[t+"__get"]=n.get),n.set&&(e[t+"__set"]=n.set),e}return b(e,t,n)};x[te+"ies"]=(e,t)=>{for(let n in t)x[te+"y"](e,n,t[n]);for(let n of x.getOwnPropertySymbols(t))x[te+"y"](e,n,t[n]);return e};var qe=EventTarget[y][v],yt=EventTarget[y][ue],ae=qe.bind(c),Ct=yt.bind(c),G=qe.bind(d),_t=yt.bind(d),Lt=Document[y].createElement,le=Lt.bind(c),de=c.__proto__[W]("readyState").bind(c),ct="loading";b(c,"readyState",{get(){return ct},set(e){return ct=e}});var at=e=>k.filter(([t,,n],s)=>{if(!(e.indexOf(t.type)<0)){n||(n=t.target);try{let r=n.constructor.name+"::"+t.type;for(let a=0;a<h[r].length;a++)if(h[r][a]){let o=r+"::"+s+"::"+a;if(!xe[o])return!0}}catch{}}}).length,oe,xe={},K=e=>{k.forEach(([t,n,s],r)=>{if(!(e.indexOf(t.type)<0)){s||(s=t.target);try{let a=s.constructor.name+"::"+t.type;if((h[a]||[]).length)for(let o=0;o<h[a].length;o++){let i=h[a][o];if(i){let l=a+"::"+r+"::"+o;if(!xe[l]){xe[l]=!0,c.readyState=n,oe=a;try{Bt++,!i[y]||i[y].constructor===i?i.bind(s)(t):i(t)}catch(u){$(u,i)}oe=null}}}}catch(a){$(a)}}})};ae(m,e=>{k.push([new e.constructor(m,e),de(),c])});ae(w,e=>{k.push([new e.constructor(w,e),de(),c])});G(m,e=>{k.push([new e.constructor(m,e),de(),d])});G(f,e=>{He=!0,k.push([new e.constructor(f,e),de(),d]),O||K([m,w,A,f,B])});G(B,e=>{k.push([new e.constructor(B,e),de(),d]),O||K([m,w,A,f,B])});var wt=e=>{k.push([e,c.readyState,d])},Ot=d[W]("onmessage"),Rt=d[Ee]("onmessage"),Pt=()=>{_t(A,wt),(h[I+"message"]||[]).forEach(e=>{G(A,e)}),b(d,"onmessage",{get:Ot,set:Rt})};G(A,wt);var Dt=new X;Dt.init();var Fe=()=>{!O&&!se&&(O=!0,c.readyState="loading",H($e),H(S)),He||G(f,()=>{Fe()})};G(ge,()=>{Fe()});D.on(Se,()=>{Fe()});_wpmeteor.rdelay>=0&&et.capture();var re=[-1],Ce=e=>{re=re.filter(t=>t!==e.target),re.length||C(D.emit.bind(D,M))};var O=!1,S=()=>{let e=_e.shift();if(e)e[p](g+"src")?e[N]("async")||e[Ie]?(e.isConnected&&(re.push(e),setTimeout(Ce,1e3,{target:e})),Oe(e,Ce),C(S)):Oe(e,C.bind(null,S)):(e.origtype==P&&Oe(e),C(S));else if(Le.length)_e.push(...Le),Le.length=0,C(S);else if(at([m,w,A]))K([m,w,A]),C(S);else if(He)if(at([f,B,A]))K([f,B,A]),C(S);else if(re.length>1)vt(S);else if(ee.length)_e.push(...ee),ee.length=0,C(S);else{if(d.RocketLazyLoadScripts)try{RocketLazyLoadScripts.run()}catch(t){$(t)}c.readyState="complete",Pt(),Dt.unmock(),O=!1,se=!0,d[ie](()=>Ce({target:-1}))}else O=!1},xt=e=>{let t=le(Y),n=e.attributes;for(var s=n.length-1;s>=0;s--)n[s].name.startsWith(g)||t[L](n[s].name,n[s].value);let r=e[p](g+"type");r?t.type=r:t.type="text/javascript",(e.textContent||"").match(/^\s*class RocketLazyLoadScripts/)?t.textContent=e.textContent.replace(/^\s*class\s*RocketLazyLoadScripts/,"window.RocketLazyLoadScripts=class").replace("RocketLazyLoadScripts.run();",""):t.textContent=e.textContent;for(let a of["onload","onerror","onreadystatechange"])e[a]&&(t[a]=e[a]);return t},Oe=(e,t)=>{let n=e[p](g+"src");if(n){let s=qe.bind(e);e.isConnected&&t&&(s(f,t),s(me,t)),e.origtype=e[p](g+"type")||"text/javascript",e.origsrc=n,(!e.isConnected||e[N]("nomodule")||e.type&&!Pe.test(e.type))&&t&&t(new Event(f,{target:e}))}else e.origtype===P?(e.origtype=e[p](g+"type")||"text/javascript",e[pe]("integrity"),e.textContent=e.textContent+`
+`):t&&t(new Event(f,{target:e}))},We=(e,t)=>{let n=(h[e]||[]).indexOf(t);if(n>=0)return h[e][n]=void 0,!0},lt=(e,t,...n)=>{if("HTMLDocument::"+m==oe&&e===m&&!t.toString().match(/jQueryMock/)){D.on(M,c[v].bind(c,e,t,...n));return}if(t&&(e===m||e===w)){let s=ce+e;h[s]=h[s]||[],h[s].push(t),se&&K([e]);return}return ae(e,t,...n)},dt=(e,t,...n)=>{if(e===m){let s=ce+e;We(s,t)}return Ct(e,t,...n)};Ve(c,{[v]:{get(){return lt},set(){return lt}},[ue]:{get(){return dt},set(){return dt}}});var ne=c.createDocumentFragment(),$e=()=>{ne.hasChildNodes()&&(c.head[U](ne),ne=c.createDocumentFragment())},ut={},we=e=>{if(e)try{let t=new URL(e,c.location.href),n=t.origin;if(n&&!ut[n]&&c.location.host!==t.host){let s=le("link");s.rel="preconnect",s.href=n,ne[U](s),ut[n]=!0,O&&H($e)}}catch{}},be={},kt=(e,t,n,s)=>{let r=le("link");r.rel=t?"modulepre"+f:"pre"+f,r.as="script",n&&r[L]("crossorigin",n),s&&r[L]("integrity",s);try{e=new URL(e,c.location.href).href}catch{}r.href=e,ne[U](r),be[e]=!0,O&&H($e)},ke=function(...e){let t=le(...e);if(!e||e[0].toUpperCase()!==Y||!O)return t;let n=t[L].bind(t),s=t[p].bind(t),r=t[pe].bind(t),a=t[N].bind(t),o=t[W]("attributes").bind(t);return z.forEach(i=>{let l=t[W](i).bind(t),u=t[Ee](i).bind(t);x[te+"y"](t,i,{set(E){return i==="type"&&E&&!Pe.test(E)?n(i,E):((i==="src"&&E||i==="type"&&E&&t.origsrc)&&n("type",P),E?n(g+i,E):r(g+i))},get(){let E=t[p](g+i);if(i==="src")try{return new URL(E,c.location.href).href}catch{}return E}}),b(t,"orig"+i,{set(E){return u(E)},get(){return l()}})}),t[L]=function(i,l){if(z.includes(i))return i==="type"&&l&&!Pe.test(l)?n(i,l):((i==="src"&&l||i==="type"&&l&&t.origsrc)&&n("type",P),l?n(g+i,l):r(g+i));n(i,l)},t[p]=function(i){let l=z.indexOf(i)>=0?s(g+i):s(i);if(i==="src")try{return new URL(l,c.location.href).href}catch{}return l},t[N]=function(i){return z.indexOf(i)>=0?a(g+i):a(i)},b(t,"attributes",{get(){return[...o()].filter(l=>l.name!=="type").map(l=>({name:l.name.match(new RegExp(g))?l.name.replace(g,""):l.name,value:l.value}))}}),t[Ie]=!0,t};Object.defineProperty(Document[y],"createElement",{set(e){e!==ke&&(De=e)},get(){return De||ke}});var Re=new Set,ze=new MutationObserver(e=>{e.forEach(({removedNodes:t,addedNodes:n,target:s})=>{t.forEach(r=>{r.nodeType===1&&Y===r[T]&&"origtype"in r&&Re.delete(r)}),n.forEach(r=>{if(r.nodeType===1)if(Y===r[T]){if("origtype"in r){if(r.origtype!==P)return}else if(r[p]("type")!==P)return;"origtype"in r||z.forEach(o=>{let i=r[W](o).bind(r),l=r[Ee](o).bind(r);b(r,"orig"+o,{set(u){return l(u)},get(){return i()}})});let a=r[p](g+"src");if(Re.has(r)&&$("Inserted twice",r),r.parentNode){Re.add(r);let o=r[p](g+"type");(a||"").match(/\/gtm.js\?/)||r[N]("async")||r[Ie]?(ee.push(r),we(a)):r[N]("defer")||o==="module"?(Le.push(r),we(a)):(a&&!r[N]("nomodule")&&!be[a]&&kt(a,o==="module",r[N]("crossorigin")&&r[p]("crossorigin"),r[p]("integrity")),_e.push(r))}else r[v](f,o=>o.target.parentNode[Q](o.target)),r[v](me,o=>o.target.parentNode[Q](o.target)),s[U](r)}else r[T]==="LINK"&&r[p]("as")==="script"&&(be[r[p]("href")]=!0)})})}),bt={childList:!0,subtree:!0};ze.observe(c.documentElement,bt);var Mt=HTMLElement[y].attachShadow;HTMLElement[y].attachShadow=function(e){let t=Mt.call(this,e);return e.mode==="open"&&ze.observe(t,bt),t};(()=>{let e=x[Ae](HTMLIFrameElement[y],"src");b(HTMLIFrameElement[y],"src",{get(){return this.dataset.fpoSrc?this.dataset.fpoSrc:e.get.call(this)},set(t){delete this.dataset.fpoSrc,e.set.call(this,t)}})})();D.on(M,()=>{(!De||De===ke)&&(Document[y].createElement=Lt,ze.disconnect()),dispatchEvent(new CustomEvent(he)),dispatchEvent(new CustomEvent(M))});var Me=e=>{let t,n;!c.currentScript||!c.currentScript.parentNode?(t=c.body,n=t.lastChild):(n=c.currentScript,t=n.parentNode);try{let s=le("div");s.innerHTML=e,Array.from(s.childNodes).forEach(r=>{r.nodeName===Y?t.insertBefore(xt(r),n):t.insertBefore(r,n)})}catch(s){$(s)}},pt=e=>Me(e+`
+`);Ve(c,{write:{get(){return Me},set(e){return Me=e}},writeln:{get(){return pt},set(e){return pt=e}}});var ft=(e,t,...n)=>{if(I+m==oe&&e===m&&!t.toString().match(/jQueryMock/)){D.on(M,d[v].bind(d,e,t,...n));return}if(I+f==oe&&e===f){D.on(M,d[v].bind(d,e,t,...n));return}if(t&&(e===f||e===B||e===m||e===A&&!se)){let s=e===m?ce+e:I+e;h[s]=h[s]||[],h[s].push(t),se&&K([e]);return}return G(e,t,...n)},Et=(e,t,...n)=>{if(e===f||e===m||e===B){let s=e===m?ce+e:I+e;We(s,t)}return _t(e,t,...n)};Ve(d,{[v]:{get(){return ft},set(){return ft}},[ue]:{get(){return Et},set(){return Et}}});var Ye=e=>{let t;return{get(){return t},set(n){return t&&We(e,n),h[e]=h[e]||[],h[e].push(n),t=n}}};G(Je,e=>{let{target:t,event:n}=e.detail,s=t===d?c.body:t,r=s[p](g+"on"+n.type);s[pe](g+"on"+n.type);try{let a=new Function("event",r);t===d?d[v](f,a.bind(t,n)):a.call(t,n)}catch(a){console.err(a)}});{let e=Ye(I+f);b(d,"onload",e),ae(m,()=>{b(c.body,"onload",e)})}b(c,"onreadystatechange",Ye(ce+w));b(d,"onmessage",Ye(I+A));(()=>{let e=d.innerHeight,t=d.innerWidth,n=r=>{let o={"4g":1250,"3g":2500,"2g":2500}[(navigator.connection||{}).effectiveType]||0,i=r.getBoundingClientRect(),l={top:-1*e-o,left:-1*t-o,bottom:e+o,right:t+o};return!(i.left>=l.right||i.right<=l.left||i.top>=l.bottom||i.bottom<=l.top)},s=(r=!0)=>{let a=1,o=-1,i={},l=()=>{o++,--a||d[ie](D.emit.bind(D,Se),_wpmeteor.rdelay)};Array.from(c.getElementsByTagName("*")).forEach(u=>{let E,q,J;if(u[T]==="IMG"){let _=u.currentSrc||u.src;_&&!i[_]&&!_.match(/^data:/i)&&((u.loading||"").toLowerCase()!=="lazy"||n(u))&&(E=_)}else if(u[T]===Y)we(u[p](g+"src"));else if(u[T]==="LINK"&&u[p]("as")==="script"&&["pre"+f,"modulepre"+f].indexOf(u[p]("rel"))>=0)be[u[p]("href")]=!0;else if((q=d.getComputedStyle(u))&&(J=(q.backgroundImage||"").match(/^url\s*\((.*?)\)/i))&&(J||[]).length){let _=J[0].slice(4,-1).replace(/"/g,"");!i[_]&&!_.match(/^data:/i)&&(E=_)}if(E){i[E]=!0;let _=new Image;r&&(a++,_[v](f,l),_[v](me,l)),_.src=E}}),c.fonts.ready.then(()=>{l()})};_wpmeteor.rdelay===0?ae(m,s):G(f,s)})();})();
+//1.0.42
+
+</script><script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  async data-wpmeteor-src="https://www.googletagmanager.com/gtag/js?id=G-E3ZVP6P8Q0"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E3ZVP6P8Q0');
 </script>
 
 
 
-
-    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-window.dataLayer=window.dataLayer||[];
-//]]></script>
-    <meta name="bingbot" content="nocache">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP">
-    <meta property="og:description" content="SITUS 888 Situs slot ini cocok untuk yang ingin coba strategi baru di dunia slot online situs 888 dengan peluang menang besar dan pengalaman bermain yang nyaman di server Asia yang terpercaya.">
-    <meta property="og:image" content="https://scan-pulang.biz/ggcill.webp">
-    <meta property="og:url" content="https://ipripak.org/publications/">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP">
-    <meta name="twitter:description" content="SITUS 888 Situs slot ini cocok untuk yang ingin coba strategi baru di dunia slot online situs 888 dengan peluang menang besar dan pengalaman bermain yang nyaman di server Asia yang terpercaya.">
-    <meta name="twitter:image" content="https://scan-pulang.biz/ggcill.webp">
-    <meta property="og:title" content="SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ipripak.org/publications/">
-    <meta property="og:image" content="https://scan-pulang.biz/ggcill.webp"/>
-    <meta property="og:description" content="SITUS 888 Situs slot ini cocok untuk yang ingin coba strategi baru di dunia slot online situs 888 dengan peluang menang besar dan pengalaman bermain yang nyaman di server Asia yang terpercaya.">
-    <meta property="og:site_name" content="SITUS 888">
-    <meta name="csrf-param" content="authenticity_token">
-    <meta name="csrf-token" content="o7V7LGbBjnF9HgzqsCOek0VUbYNaqFcrL72zjeu3cGTv2_7pn5UklFm7XFtDaDCfkbbeD4zdIzwPzjrUhXtbHQ">
-    <meta name="turbo-visit-control" content="reload">
-    <script type="text/javascript" nonce="TFNQUvYHwdi8uHoMheRs/Q==" data-cookieconsent="statistics">//<![CDATA[
-var container_env_param="";(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+container_env_param;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W8KL5Q5');
-//]]></script>
-
-
-    <script type="text/javascript" nonce="TFNQUvYHwdi8uHoMheRs/Q==" data-cookie consent="marketing">//<![CDATA[
-var gtmId='GTM-KGCDGPL6';var container_env_param="";(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+container_env_param;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',gtmId);window.addEventListener('load',function(){window.dataLayer.push({event:'pinterestReady'});});
-//]]></script>
-    <script src="https://public-assets.envato-static.com/assets/market/core/head-d4f3da877553664cb1d5ed45cb42c6ec7e6b00d0c4d164be8747cfd5002a24eb.js" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
-    <style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none}</style>
-    <style>:root{--color-grey-1000:#191919;--color-grey-1000-mask: rgb(25 25 25 / 0.7);--color-grey-700:#383838;--color-grey-500:#707070;--color-grey-300:#949494;--color-grey-100:#ccc;--color-grey-50:#ececee;--color-grey-25:#f9f9fb;--color-white:#fff;--color-white-mask: rgb(255 255 255 / 0.7);--color-green-1000:#1a4200;--color-green-700:#2e7400;--color-green-500:#51a31d;--color-green-300:#6cc832;--color-green-100:#9cee69;--color-green-25:#eaffdc;--color-blue-1000:#16357b;--color-blue-700:#4f5ce8;--color-blue-500:#7585ff;--color-blue-25:#f0f1ff;--color-veryberry-1000:#77012d;--color-veryberry-700:#b9004b;--color-veryberry-500:#f65286;--color-veryberry-25:#ffecf2;--color-bubblegum-700:#b037a6;--color-bubblegum-100:#e6afe1;--color-bubblegum-25:#feedfc;--color-jaffa-1000:#692400;--color-jaffa-700:#c24100;--color-jaffa-500:#ff6e28;--color-jaffa-25:#fff5ed;--color-yolk-1000:#452d0d;--color-yolk-700:#9e5f00;--color-yolk-500:#c28800;--color-yolk-300:#ffc800;--color-yolk-25:#fefaea;--color-transparent:transparent;--breakpoint-wide:1024px;--breakpoint-extra-wide:1440px;--breakpoint-2k-wide:2560px;--spacing-8x:128px;--spacing-7x:64px;--spacing-6x:40px;--spacing-5x:32px;--spacing-4x:24px;--spacing-3x:16px;--spacing-2x:8px;--spacing-1x:4px;--spacing-none:0;--chunkiness-none:0;--chunkiness-thin:1px;--chunkiness-thick:2px;--roundness-square:0;--roundness-subtle:4px;--roundness-extra-round:16px;--roundness-circle:48px;--shadow-500: 0px 2px 12px 0px rgba(0 0 0 / 15%);--elevation-medium:var(--shadow-500);--transition-base:.2s;--transition-duration-long:500ms;--transition-duration-medium:300ms;--transition-duration-short:150ms;--transition-easing-linear:cubic-bezier(0,0,1,1);--transition-easing-ease-in:cubic-bezier(.42,0,1,1);--transition-easing-ease-in-out:cubic-bezier(.42,0,.58,1);--transition-easing-ease-out:cubic-bezier(0,0,.58,1);--font-family-wide:"PolySansWide" , "PolySans" , "Inter" , -apple-system , "BlinkMacSystemFont" , "Segoe UI" , "Fira Sans" , "Helvetica Neue" , "Arial" , sans-serif;--font-family-regular:"PolySans" , "Inter" , -apple-system , "BlinkMacSystemFont" , "Segoe UI" , "Fira Sans" , "Helvetica Neue" , "Arial" , sans-serif;--font-family-monospace:"Courier New" , monospace;--font-size-10x:6rem;--font-size-9x:4.5rem;--font-size-8x:3rem;--font-size-7x:2.25rem;--font-size-6x:1.875rem;--font-size-5x:1.5rem;--font-size-4x:1.125rem;--font-size-3x:1rem;--font-size-2x:.875rem;--font-size-1x:.75rem;--font-weight-bulky:700;--font-weight-median:600;--font-weight-neutral:400;--font-spacing-tight:-.02em;--font-spacing-normal:0;--font-spacing-loose:.02em;--font-height-tight:1;--font-height-normal:1.5;--icon-size-5x:48px;--icon-size-4x:40px;--icon-size-3x:32px;--icon-size-2x:24px;--icon-size-1x:16px;--icon-size-text-responsive: calc(var(--font-size-3x) * 1.5);--layer-depth-ceiling:9999;--minimum-touch-area:40px;--button-height-large:48px;--button-height-medium:40px;--button-font-family:var(--font-family-regular);--button-font-size-large:var(--font-size-3x);--button-font-size-medium:var(--font-size-2x);--button-font-weight:var(--font-weight-median);--button-font-height:var(--font-height-normal);--button-font-spacing:var(--font-spacing-normal);--text-style-chip-family:var(--font-family-regular);--text-style-chip-spacing:var(--font-spacing-normal);--text-style-chip-xlarge-size:var(--font-size-5x);--text-style-chip-xlarge-weight:var(--font-weight-median);--text-style-chip-xlarge-height:var(--font-height-tight);--text-style-chip-large-size:var(--font-size-3x);--text-style-chip-large-weight:var(--font-weight-neutral);--text-style-chip-large-height:var(--font-height-normal);--text-style-chip-medium-size:var(--font-size-2x);--text-style-chip-medium-weight:var(--font-weight-neutral);--text-style-chip-medium-height:var(--font-height-normal);--text-style-campaign-large-family:var(--font-family-wide);--text-style-campaign-large-size:var(--font-size-9x);--text-style-campaign-large-spacing:var(--font-spacing-normal);--text-style-campaign-large-weight:var(--font-weight-bulky);--text-style-campaign-large-height:var(--font-height-tight);--text-style-campaign-small-family:var(--font-family-wide);--text-style-campaign-small-size:var(--font-size-7x);--text-style-campaign-small-spacing:var(--font-spacing-normal);--text-style-campaign-small-weight:var(--font-weight-bulky);--text-style-campaign-small-height:var(--font-height-tight);--text-style-title-1-family:var(--font-family-regular);--text-style-title-1-size:var(--font-size-8x);--text-style-title-1-spacing:var(--font-spacing-normal);--text-style-title-1-weight:var(--font-weight-bulky);--text-style-title-1-height:var(--font-height-tight);--text-style-title-2-family:var(--font-family-regular);--text-style-title-2-size:var(--font-size-7x);--text-style-title-2-spacing:var(--font-spacing-normal);--text-style-title-2-weight:var(--font-weight-median);--text-style-title-2-height:var(--font-height-tight);--text-style-title-3-family:var(--font-family-regular);--text-style-title-3-size:var(--font-size-6x);--text-style-title-3-spacing:var(--font-spacing-normal);--text-style-title-3-weight:var(--font-weight-median);--text-style-title-3-height:var(--font-height-tight);--text-style-title-4-family:var(--font-family-regular);--text-style-title-4-size:var(--font-size-5x);--text-style-title-4-spacing:var(--font-spacing-normal);--text-style-title-4-weight:var(--font-weight-median);--text-style-title-4-height:var(--font-height-tight);--text-style-subheading-family:var(--font-family-regular);--text-style-subheading-size:var(--font-size-4x);--text-style-subheading-spacing:var(--font-spacing-normal);--text-style-subheading-weight:var(--font-weight-median);--text-style-subheading-height:var(--font-height-normal);--text-style-body-large-family:var(--font-family-regular);--text-style-body-large-size:var(--font-size-3x);--text-style-body-large-spacing:var(--font-spacing-normal);--text-style-body-large-weight:var(--font-weight-neutral);--text-style-body-large-height:var(--font-height-normal);--text-style-body-large-strong-weight:var(--font-weight-bulky);--text-style-body-small-family:var(--font-family-regular);--text-style-body-small-size:var(--font-size-2x);--text-style-body-small-spacing:var(--font-spacing-normal);--text-style-body-small-weight:var(--font-weight-neutral);--text-style-body-small-height:var(--font-height-normal);--text-style-body-small-strong-weight:var(--font-weight-bulky);--text-style-label-large-family:var(--font-family-regular);--text-style-label-large-size:var(--font-size-3x);--text-style-label-large-spacing:var(--font-spacing-normal);--text-style-label-large-weight:var(--font-weight-median);--text-style-label-large-height:var(--font-height-normal);--text-style-label-small-family:var(--font-family-regular);--text-style-label-small-size:var(--font-size-2x);--text-style-label-small-spacing:var(--font-spacing-loose);--text-style-label-small-weight:var(--font-weight-median);--text-style-label-small-height:var(--font-height-normal);--text-style-micro-family:var(--font-family-regular);--text-style-micro-size:var(--font-size-1x);--text-style-micro-spacing:var(--font-spacing-loose);--text-style-micro-weight:var(--font-weight-neutral);--text-style-micro-height:var(--font-height-tight)}.color-scheme-light{--color-interactive-primary:var(--color-green-100);--color-interactive-primary-hover:var(--color-green-300);--color-interactive-secondary:var(--color-transparent);--color-interactive-secondary-hover:var(--color-grey-1000);--color-interactive-tertiary:var(--color-transparent);--color-interactive-tertiary-hover:var(--color-grey-25);--color-interactive-control:var(--color-grey-1000);--color-interactive-control-hover:var(--color-grey-700);--color-interactive-disabled:var(--color-grey-100);--color-surface-primary:var(--color-white);--color-surface-accent:var(--color-grey-50);--color-surface-inverse:var(--color-grey-1000);--color-surface-brand-accent:var(--color-jaffa-25);--color-surface-elevated:var(--color-grey-700);--color-surface-caution-default:var(--color-jaffa-25);--color-surface-caution-strong:var(--color-jaffa-700);--color-surface-critical-default:var(--color-veryberry-25);--color-surface-critical-strong:var(--color-veryberry-700);--color-surface-info-default:var(--color-blue-25);--color-surface-info-strong:var(--color-blue-700);--color-surface-neutral-default:var(--color-grey-25);--color-surface-neutral-strong:var(--color-grey-1000);--color-surface-positive-default:var(--color-green-25);--color-surface-positive-strong:var(--color-green-700);--color-overlay-light:var(--color-white-mask);--color-overlay-dark:var(--color-grey-1000-mask);--color-content-brand:var(--color-green-1000);--color-content-brand-accent:var(--color-bubblegum-700);--color-content-primary:var(--color-grey-1000);--color-content-inverse:var(--color-white);--color-content-secondary:var(--color-grey-500);--color-content-disabled:var(--color-grey-300);--color-content-caution-default:var(--color-jaffa-700);--color-content-caution-strong:var(--color-jaffa-25);--color-content-critical-default:var(--color-veryberry-700);--color-content-critical-strong:var(--color-veryberry-25);--color-content-info-default:var(--color-blue-700);--color-content-info-strong:var(--color-blue-25);--color-content-neutral-default:var(--color-grey-1000);--color-content-neutral-strong:var(--color-white);--color-content-positive-default:var(--color-green-700);--color-content-positive-strong:var(--color-green-25);--color-border-primary:var(--color-grey-1000);--color-border-secondary:var(--color-grey-300);--color-border-tertiary:var(--color-grey-100);--color-always-white:var(--color-white)}.color-scheme-dark{--color-interactive-primary:var(--color-green-100);--color-interactive-primary-hover:var(--color-green-300);--color-interactive-secondary:var(--color-transparent);--color-interactive-secondary-hover:var(--color-white);--color-interactive-tertiary:var(--color-transparent);--color-interactive-tertiary-hover:var(--color-grey-700);--color-interactive-control:var(--color-white);--color-interactive-control-hover:var(--color-grey-100);--color-interactive-disabled:var(--color-grey-700);--color-surface-primary:var(--color-grey-1000);--color-surface-accent:var(--color-grey-700);--color-surface-inverse:var(--color-white);--color-surface-brand-accent:var(--color-grey-700);--color-surface-elevated:var(--color-grey-700);--color-surface-caution-default:var(--color-jaffa-1000);--color-surface-caution-strong:var(--color-jaffa-500);--color-surface-critical-default:var(--color-veryberry-1000);--color-surface-critical-strong:var(--color-veryberry-500);--color-surface-info-default:var(--color-blue-1000);--color-surface-info-strong:var(--color-blue-500);--color-surface-neutral-default:var(--color-grey-700);--color-surface-neutral-strong:var(--color-white);--color-surface-positive-default:var(--color-green-1000);--color-surface-positive-strong:var(--color-green-500);--color-overlay-light:var(--color-white-mask);--color-overlay-dark:var(--color-grey-1000-mask);--color-content-brand:var(--color-green-1000);--color-content-brand-accent:var(--color-bubblegum-100);--color-content-primary:var(--color-white);--color-content-inverse:var(--color-grey-1000);--color-content-secondary:var(--color-grey-100);--color-content-disabled:var(--color-grey-500);--color-content-caution-default:var(--color-jaffa-500);--color-content-caution-strong:var(--color-jaffa-1000);--color-content-critical-default:var(--color-veryberry-500);--color-content-critical-strong:var(--color-veryberry-1000);--color-content-info-default:var(--color-blue-500);--color-content-info-strong:var(--color-blue-1000);--color-content-neutral-default:var(--color-white);--color-content-neutral-strong:var(--color-grey-1000);--color-content-positive-default:var(--color-green-500);--color-content-positive-strong:var(--color-green-1000);--color-border-primary:var(--color-white);--color-border-secondary:var(--color-grey-500);--color-border-tertiary:var(--color-grey-700);--color-always-white:var(--color-white)}</style>
-    <style>.brand-neue-button{gap:var(--spacing-2x);border-radius:var(--roundness-subtle);background:var(--color-interactive-primary);color:var(--color-content-brand);font-family:PolySans-Median;font-size:var(--font-size-2x);letter-spacing:.02em;text-align:center;padding:0 20px}.brand-neue-button:hover,.brand-neue-button:active,.brand-neue-button:focus{background:var(--color-interactive-primary-hover)}.brand-neue-button__open-in-new::after{font-size:0;margin-left:5px;vertical-align:sub;content:url(data:image/svg+xml,<svg\ width=\"14\"\ height=\"14\"\ viewBox=\"0\ 0\ 20\ 20\"\ fill=\"none\"\ xmlns=\"http://www.w3.org/2000/svg\"><g\ id=\"ico-/-24-/-actions-/-open_in_new\"><path\ id=\"Icon-color\"\ d=\"M17.5\ 12.0833V15.8333C17.5\ 16.7538\ 16.7538\ 17.5\ 15.8333\ 17.5H4.16667C3.24619\ 17.5\ 2.5\ 16.7538\ 2.5\ 15.8333V4.16667C2.5\ 3.24619\ 3.24619\ 2.5\ 4.16667\ 2.5H7.91667C8.14679\ 2.5\ 8.33333\ 2.68655\ 8.33333\ 2.91667V3.75C8.33333\ 3.98012\ 8.14679\ 4.16667\ 7.91667\ 4.16667H4.16667V15.8333H15.8333V12.0833C15.8333\ 11.8532\ 16.0199\ 11.6667\ 16.25\ 11.6667H17.0833C17.3135\ 11.6667\ 17.5\ 11.8532\ 17.5\ 12.0833ZM17.3167\ 2.91667L17.0917\ 2.69167C16.98\ 2.57535\ 16.8278\ 2.50668\ 16.6667\ 2.5H11.25C11.0199\ 2.5\ 10.8333\ 2.68655\ 10.8333\ 2.91667V3.75C10.8333\ 3.98012\ 11.0199\ 4.16667\ 11.25\ 4.16667H14.6583L7.625\ 11.2C7.54612\ 11.2782\ 7.50175\ 11.3847\ 7.50175\ 11.4958C7.50175\ 11.6069\ 7.54612\ 11.7134\ 7.625\ 11.7917L8.20833\ 12.375C8.28657\ 12.4539\ 8.39307\ 12.4982\ 8.50417\ 12.4982C8.61527\ 12.4982\ 8.72176\ 12.4539\ 8.8\ 12.375L15.8333\ 5.35V8.75C15.8333\ 8.98012\ 16.0199\ 9.16667\ 16.25\ 9.16667H17.0833C17.3135\ 9.16667\ 17.5\ 8.98012\ 17.5\ 8.75V3.33333C17.4955\ 3.17342\ 17.4299\ 3.02132\ 17.3167\ 2.90833V2.91667Z\"\ fill=\"%231A4200\"/></g></svg>)}</style>
-    <style type="text/css">.fancybox-margin{margin-right:15px}</style>
-    <script src="https://bat.bing.com/p/action/16005611.js" type="text/javascript" async="" data-ueto="ueto_8c931ec7a9"></script>
-    <meta http-equiv="origin-trial" content="A7JYkbIvWKmS8mWYjXO12SIIsfPdI7twY91Y3LWOV/YbZmN1ZhYv8O+Zs6/IPCfBE99aV9tIC8sWZSCN09vf7gkAAACWeyJvcmlnaW4iOiJodHRwczovL2N0LnBpbnRlcmVzdC5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-<style>body{background-color:#5cff23;background-image:linear-gradient(315deg,#5cff23 0%,#a7a7a7 74%);background-attachment:fixed}.site-header,.global-header,.context-header,.site-header__sites,.site-header__categories{background-color:#5cff23!important;background-image:linear-gradient(315deg,#5cff23 0%,#a7a7a7 74%)!important}.item-preview,.purchase-panel,.box--no-padding{background-color:rgba(255,255,255,.1)!important;backdrop-filter:blur(12px)!important;-webkit-backdrop-filter:blur(12px)!important;border-radius:16px!important;border:1px solid rgba(255,255,255,.2)!important;box-shadow:0 4px 30px rgba(0,0,0,.1)}.item-preview,.purchase-panel{padding:24px!important;border:none!important}.item-preview__actions{background:transparent!important}.purchase-panel h3,.purchase-panel .price,.purchase-panel p,.purchase-panel label,.purchase-panel a,.purchase-panel .meta-attributes__attr-name,.purchase-panel .meta-attributes__attr-detail{color:#fff!important;text-shadow:1px 1px 3px rgba(0,0,0,.5)}.purchase-panel a{color:#a8eb12!important}</style>
-</head>
-
-<body class="color-scheme-light" data-view="app impressionTracker" data-responsive="true" data-user-signed-in="false" __processed_046ac43c-cdf6-4311-9a75-3ea1775342f5__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJlbmFibGVkIiwiRkFDRUJPT0siOiJlbmFibGVkIiwiVFdJVFRFUiI6ImVuYWJsZWQiLCJSRURESVQiOiJlbmFibGVkIiwiUElOVEVSRVNUIjoiZW5hYmxlZCIsIklOU1RBR1JBTSI6ImVuYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZW5hYmxlZCIsIkNPTkZJRyI6ImRpc2FibGVkIn0sInZlcnNpb24iOiIyLjAuMjYiLCJzY29yZSI6MjAwMjYwfV0=">
-    <script src="https://public-assets.envato-static.com/assets/gtm_measurements-40b0a0f82bafab0a0bb77fc35fe1da0650288300b85126c95b4676bcff6e4584.js" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8KL5Q5" height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
-
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGCDGPL6" height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
-    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-(function(){function normalizeAttributeValue(value){if(value===undefined||value===null)return undefined
-var normalizedValue
-if(Array.isArray(value)){normalizedValue=normalizedValue||value.map(normalizeAttributeValue).filter(Boolean).join(', ')}normalizedValue=normalizedValue||value.toString().toLowerCase().trim().replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/\s+/g,' ')
-if(normalizedValue==='')return undefined
-return normalizedValue}var pageAttributes={app_name:normalizeAttributeValue('Marketplace'),app_env:normalizeAttributeValue('production'),app_version:normalizeAttributeValue('f7d8b3d494288b34cb00105ee5d230d68b0ccca7'),page_type:normalizeAttributeValue('item'),page_location:window.location.href,page_title:document.title,page_referrer:document.referrer,ga_param:normalizeAttributeValue(''),event_attributes:null,user_attributes:{user_id:normalizeAttributeValue(''),market_user_id:normalizeAttributeValue(''),}}
-dataLayer.push(pageAttributes)
-dataLayer.push({event:'analytics_ready',event_attributes:{event_type:'user',custom_timestamp:Date.now()}})})();
-//]]></script>
-    <style>.live-preview-btn--blue .live-preview{background-color:#00857e}.live-preview-btn--blue .live-preview:hover,.live-preview-btn--blue .live-preview:focus{background-color:#0bf}</style>
-
-    <div class="page" bis_skin_checked="1">
-        <div class="page__off-canvas--left overflow" bis_skin_checked="1">
-            <div class="off-canvas-left js-off-canvas-left" bis_skin_checked="1">
-                <div class="off-canvas-left__top" bis_skin_checked="1">
-                    <a href="https://ipripak.org/publications/">Envato Market</a>
-                </div>
-                <div class="off-canvas-left__current-site -color-themeforest" bis_skin_checked="1">
-                    <span class="off-canvas-left__site-title">
-                        Web Themes &amp; Templates
-                    </span>
-                    <a class="off-canvas-left__current-site-toggle -white-arrow -color-themeforest" data-view="dropdown" data-dropdown-target=".off-canvas-left__sites" href="https://ipripak.org/publications/"></a>
-                </div>
-                <div class="off-canvas-left__sites is-hidden" id="off-canvas-sites" bis_skin_checked="1">
-                    <a class="off-canvas-left__site" href="hhttps://ipripak.org/publications/">
-                        <span class="off-canvas-left__site-title">
-                            Code
-                        </span>
-                        <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://ipripak.org/publications/">
-                        <span class="off-canvas-left__site-title">
-                            Video
-                        </span>
-                        <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://ipripak.org/publications/">
-                        <span class="off-canvas-left__site-title">
-                            Audio
-                        </span>
-                        <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://ipripak.org/publications/">
-                        <span class="off-canvas-left__site-title">
-                            Graphics
-                        </span>
-                        <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://ipripak.org/publications/">
-                        <span class="off-canvas-left__site-title">
-                            Photos
-                        </span>
-                        <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://ipripak.org/publications/">
-                        <span class="off-canvas-left__site-title">
-                            3D Files
-                        </span>
-                        <i class="e-icon -icon-right-open"></i>
-                    </a>
-                </div>
-                <div class="off-canvas-left__search" bis_skin_checked="1">
-                    <form id="search" action="https://ipripak.org/publications/" accept-charset="UTF-8" method="get">
-                        <div class="search-field -border-none" bis_skin_checked="1">
-                            <div class="search-field__input" bis_skin_checked="1">
-                                <input id="term" name="term" type="search" placeholder="Search" class="search-field__input-field">
-                            </div>
-                            <button class="search-field__button" type="submit">
-                                <i class="e-icon -icon-search"><span class="e-icon__alt">Search</span></i>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <ul>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-all-items" href="https://ipripak.org/publications/">
-                            All Items
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-all-items">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Files</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Featured Files</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Top New Files</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Follow Feed</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Top Authors</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Top New
-                                    Authors</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Public Collections</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">View All Categories</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-wordpress" href="https://ipripak.org/publications/">
-                            WordPress
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-wordpress">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Show all
-                                    WordPress</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Items</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Blog /
-                                    Magazine</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">BuddyPress</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Corporate</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Creative</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Directory &amp; Listings</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">eCommerce</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Education</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Elementor</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Entertainment</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Mobile</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Nonprofit</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Real
-                                    Estate</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Retail</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Technology</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Wedding</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Miscellaneous</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">WordPress Plugins</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-elementor" href="https://ipripak.org/publications/">
-                            Elementor
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-elementor">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Template Kits</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Plugins</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Themes</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-
-                        <a class="off-canvas-category-link--empty" href="https://ipripak.org/publications/">
-                            Hosting
-                        </a>
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-html" href="https://ipripak.org/publications/">
-                            HTML
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-html">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Show all
-                                    HTML</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Items</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Admin Templates</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Corporate</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Creative</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Entertainment</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Mobile</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Nonprofit</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Personal</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Retail</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Specialty Pages</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Technology</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Wedding</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Miscellaneous</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-shopify" href="https://ipripak.org/publications/">
-                            Shopify
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-shopify">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Show all
-                                    Shopify</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Items</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Fashion</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Shopping</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Health &amp; Beauty</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Technology</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Entertainment</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Miscellaneous</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-
-                        <a class="off-canvas-category-link--empty" href="https://ipripak.org/publications/">
-                            Jamstack
-                        </a>
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-marketing" href="https://ipripak.org/publications/">
-                            Marketing
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-marketing">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Show all
-                                    Marketing</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Items</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Email Templates</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Landing Pages</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Unbounce Landing Pages</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-cms" href="https://ipripak.org/publications/">
-                            CMS
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-cms">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Show all CMS</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Items</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Concrete5</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Drupal</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">HubSpot CMS Hub</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Joomla</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">MODX
-                                    Themes</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Moodle</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Webflow</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Weebly</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Miscellaneous</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ecommerce" href="https://ipripak.org/publications/">
-                            eCommerce
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-ecommerce">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Show all
-                                    eCommerce</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Items</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">WooCommerce</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">BigCommerce</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Drupal Commerce</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Easy Digital Downloads</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Ecwid</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Magento</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">OpenCart</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">PrestaShop</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Shopify</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Ubercart</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">VirtueMart</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Zen
-                                    Cart</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Miscellaneous</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ui-templates" href="https://ipripak.org/publications/">
-                            UI Templates
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-ui-templates">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Popular Items</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Figma</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Adobe
-                                    XD</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Photoshop</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Sketch</a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-
-                        <a class="off-canvas-category-link--empty" href="https://ipripak.org/publications/">
-                            Plugins
-                        </a>
-                    </li>
-                    <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-more" href="https://ipripak.org/publications/">
-                            More
-                        </a>
-                        <ul class="is-hidden" id="off-canvas-more">
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Blogging</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Courses</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Facebook Templates</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Free Elementor Templates</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Free
-                                    WordPress Themes</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Forums</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Ghost
-                                    Themes</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub" href="https://ipripak.org/publications/">Tumblr</a>
-                            </li>
-                            <li>
-                                <a class="off-canvas-category-link--sub external-link elements-nav__category-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" href="https://ipripak.org/publications/">Unlimited
-                                    Creative Assets</a>
-                            </li>
-                        </ul>
-
-                    </li>
-
-                    <li>
-                        <a class="elements-nav__category-link external-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" href="https://ipripak.org/publications/">Unlimited 
-                            ABOUTS</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-        <div class="page__off-canvas--right overflow" bis_skin_checked="1">
-            <div class="off-canvas-right" bis_skin_checked="1">
-                <a class="off-canvas-right__link--cart" href="https://ipripak.org/publications/">
-                    Guest Cart
-                    <div class="shopping-cart-summary is-empty" data-view="cartCount" bis_skin_checked="1">
-                        <span class="js-cart-summary-count shopping-cart-summary__count">0</span>
-                        <i class="e-icon -icon-cart"></i>
-                    </div>
-                </a>
-                <a class="off-canvas-right__link" href="https://ipripak-numpang-yabang.pages.dev/">
-                    Create an Envato Account
-                    <i class="e-icon -icon-envato"></i>
-                </a>
-                <a class="off-canvas-right__link" href="https://ipripak-numpang-yabang.pages.dev/">
-                    Sign In
-                    <i class="e-icon -icon-login"></i>
-                </a>
-            </div>
-
-        </div>
-
-        <div class="page__canvas" bis_skin_checked="1">
-            <div class="canvas" bis_skin_checked="1">
-                <div class="canvas__header" bis_skin_checked="1">
-
-                    <header class="site-header">
-                        <div class="site-header__mini is-hidden-desktop" bis_skin_checked="1">
-                            <div class="header-mini" bis_skin_checked="1">
-                                <div class="header-mini__button--cart" bis_skin_checked="1">
-                                    <a class="btn btn--square" href="https://ipripak.org/publications/">
-                                        <svg width="14px" height="14px" viewBox="0 0 14 14" class="header-mini__button-cart-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
-                                            <title>Cart</title>
-                                            <path d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 187.66 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.967 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z">
-                                            </path>
-
-                                        </svg>
-
-
-                                        <span class="is-hidden">Cart</span>
-                                        <span class="header-mini__button-cart-cart-amount is-hidden">
-                                            0
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="header-mini__button--account" bis_skin_checked="1">
-                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="right" href="https://ipripak.org/publications/">
-                                        <i class="e-icon -icon-person"></i>
-                                        <span class="is-hidden">Account</span>
-                                    </a>
-                                </div>
-
-                                <div class="header-mini__button--categories" bis_skin_checked="1">
-                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="left" href="https://ipripak.org/publications/">
-                                        <i class="e-icon -icon-hamburger"></i>
-                                        <span class="is-hidden">Sites, Search &amp; Categories</span>
-                                    </a>
-                                </div>
-
-                                <div class="header-mini__logo" bis_skin_checked="1">
-                                    <a href="https://ipripak.org/publications/">
-                                        <img alt="SLOT GACOR" src="https://scan-pulang.biz/gif.gif" style="height:40px; width:auto; display:inline-block;">
-                                    </a>
-                                </div>
-
-
-
-                            </div>
-
-                        </div>
-
-                        <div class="global-header is-hidden-tablet-and-below" bis_skin_checked="1">
-
-                            <div class="grid-container -layout-wide" bis_skin_checked="1">
-                                <div class="global-header__wrapper" bis_skin_checked="1">
-                                    <a href="https://ipripak.org/publications/">
-                                        <img height="50" alt="SLOT GACOR" class="global-header__logo" src="https://scan-pulang.biz/gif.gif">
-                                    </a>
-                                    <nav class="global-header-menu" role="navigation">
-                                        <ul class="global-header-menu__list">
-                                            <li class="global-header-menu__list-item">
-                                                <a class="global-header-menu__link" href="https://ipripak.org/publications/">
-                                                    <span class="global-header-menu__link-text">
-                                                        DAFTAR SITUS 888
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li class="global-header-menu__list-item">
-                                                <a class="global-header-menu__link" href="https://ipripak.org/publications/">
-                                                    <span class="global-header-menu__link-text">
-                                                       LOGIN SITUS 888
-                                                    </span>
-                                                </a>
-                                            </li>
-
-
-                                            <li data-view="globalHeaderMenuDropdownHandler" class="global-header-menu__list-item--with-dropdown">
-                                                <a data-lazy-load-trigger="mouseover" class="global-header-menu__link" href="https://ipripak.org/publications/">
-                                                    <svg width="16px" height="16px" viewBox="0 0 16 16" class="global-header-menu__icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
-                                                        <title>Menu</title>
-                                                        <path d="M3.5 2A1.5 1.5 0 0 1 5 3.5 1.5 1.5 0 0 1 3.5 5 1.5 1.5 0 0 1 2 3.5 1.5 1.5 0 0 1 3.5 2zM8 2a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 8 5a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 8 2zM12.5 2A1.5 1.5 0 0 1 14 3.5 1.5 1.5 0 0 1 12.5 5 1.5 1.5 0 0 1 11 3.5 1.5 1.5 0 0 1 12.5 2zM3.5 6.5A1.5 1.5 0 0 1 5 8a1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 2 8a1.5 1.5 0 0 1 1.5-1.5zM8 6.5A1.5 1.5 0 0 1 9.5 8 1.5 1.5 0 0 1 8 9.5 1.5 1.5 0 0 1 6.5 8 1.5 1.5 0 0 1 8 6.5zM12.5 6.5A1.5 1.5 0 0 1 14 8a1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 11 8a1.5 1.5 0 0 1 1.5-1.5zM3.5 11A1.5 1.5 0 0 1 5 12.5 1.5 1.5 0 0 1 3.5 14 1.5 1.5 0 0 1 2 12.5 1.5 1.5 0 0 1 3.5 11zM8 11a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 8 14a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 8 11zM12.5 11a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5 1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z">
-                                                        </path>
-
-                                                    </svg>
-
-                                                    <span class="global-header-menu__link-text">
-                                                        Our Products
-                                                    </span>
-                                                </a>
-                                            <li class="global-header-menu__list-item -background-light -border-radius">
-                                                <a id="spec-link-cart" class="global-header-menu__link h-pr1" href="https://ipripak.org/publications/">
-
-                                                    <svg width="16px" height="16px" viewBox="0 0 16 16" class="global-header-menu__icon global-header-menu__icon-cart" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
-                                                        <title>Cart</title>
-                                                        <path d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 187.66 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.967 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z">
-                                                        </path>
-
-                                                    </svg>
-
-
-                                                    <span class="global-header-menu__link-cart-amount is-hidden" data-view="headerCartCount" data-test-id="header_cart_count">0</span>
-                                                </a>
-                                            </li>
-
-                                            <li class="global-header-menu__list-item -background-light -border-radius">
-                                                <a class="global-header-menu__link h-pl1" data-view="modalAjax" href="https://ipripak.org/publications/">
-                                                    <span id="spec-user-username" class="global-header-menu__link-text">
-                                                        Sign In
-                                                    </span>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="site-header__sites is-hidden-tablet-and-below" bis_skin_checked="1">
-                            <div class="header-sites header-site-titles" bis_skin_checked="1">
-                                <div class="grid-container -layout-wide" bis_skin_checked="1">
-                                    <nav class="header-site-titles__container">
-                                        <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link is-active" alt="Web Templates" href="https://ipripak.org/publications/">SITUS SITUS 888</a>
-                                        </div>
-                                        <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Code" href="https://ipripak.org/publications/">SLOT GACOR</a>
-                                        </div>
-                                        <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Video" href="https://ipripak.org/publications/">SITUS SLOT RESMI</a>
-                                        </div>
-                                        <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Music" href="https://ipripak.org/publications/">LINK GACOR</a>
-                                        </div>
-                                        <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Graphics" href="https://ipripak.org/publications/">SITUS GACOR</a>
-                                        </div>
-                                        <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Photos" href="https://ipripak.org/publications/">SITUS 888 </a>
-                                        </div>
-                                        <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="3D Files" href="https://ipripak.org/publications/">SITUS 888 RESMI</a>
-                                        </div>
-
-                                        <div class="header-site-titles__site elements-nav__container" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link elements-nav__main-link" href="https://elements.envato.com/?utm_campaign=elements_mkt-switcher_31JUL2024&amp;utm_content=tf_item_9678002&amp;utm_medium=referral&amp;utm_source=themeforest.net" target="_blank">
-                                                <span>
-                                                    SD
-                                                </span>
-                                            </a>
-
-                                            <a target="_blank" class="elements-nav__dropdown-container unique-selling-points__variant" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionName&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionName&quot;:&quot;elements_mkt-switcher_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" href="https://elements.envato.com/?utm_campaign=elements_mkt-switcher_31JUL2024&amp;utm_content=tf_item_9678002&amp;utm_medium=referral&amp;utm_source=themeforest.net">
-                                                <div class="elements-nav__main-panel" bis_skin_checked="1">
-                                                    <img class="elements-nav__logo-container" loading="lazy" src="https://public-assets.envato-static.com/assets/header/EnvatoElements-logo-4f70ffb865370a5fb978e9a1fc5bbedeeecdfceb8d0ebec2186aef4bee5db79d.svg" alt="Elements logo" height="23" width="101">
-
-                                                    <div class="elements-nav__punch-line" bis_skin_checked="1">
-                                                        <h2>
-                                                            Looking for unlimited downloads?
-                                                        </h2>
-                                                        <p>
-                                                            Subscribe to Envato Elements.
-                                                        </p>
-                                                        <ul>
-                                                            <li>
-                                                                <img src="https://public-assets.envato-static.com/assets/header/badge-a65149663b95bcee411e80ccf4da9788f174155587980d8f1d9c44fd8b59edd8.svg" alt="badge" width="20" height="20">
-                                                                Millions of premium assets
-                                                            </li>
-                                                            <li>
-                                                                <img src="https://public-assets.envato-static.com/assets/header/thumbs_up-e5ce4c821cfd6a6aeba61127a8e8c4d2d7c566e654f588a22708c64d66680869.svg" alt="thumbs up" width="20" height="20">
-                                                                Great value subscription
-                                                            </li>
-                                                        </ul>
-                                                        <button class="brand-neue-button brand-neue-button__open-in-new elements-nav__cta">Let's
-                                                            create</button>
-                                                        <p></p>
-                                                    </div>
-                                                </div>
-                                                <div class="elements-nav__secondary-panel" bis_skin_checked="1">
-                                                    <img class="elements-nav__secondary-panel__collage" loading="lazy" src="https://public-assets.envato-static.com/assets/header/items-collage-1x-a39e4a5834e75c32a634cc7311720baa491687b1aaa4b709ebd1acf0f8427b53.png" srcset="https://public-assets.envato-static.com/assets/header/items-collage-2x-75e1ad16a46b9788861780a57feeb5fd1ad1026ecce9396702f0ef8f6f542697.png 2x" alt="Collage of Elements items" width="267" height="233">
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="header-site-floating-logo__container" bis_skin_checked="1">
-                                            <div class="" bis_skin_checked="1">
-                                                <img src="https://logintoto.me/img/daftarcuy.gif" alt="SITUS 888" style="max-width: 50px; height: auto; object-fit: contain;" data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
-                                            </div>
-                                        </div>
-                                    </nav>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="site-header__categories is-hidden-tablet-and-below" bis_skin_checked="1">
-                            <div class="header-categories" bis_skin_checked="1">
-                                <div class="grid-container -layout-wide" bis_skin_checked="1">
-                                    <ul class="header-categories__links">
-                                        <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-0-dropdown" href="https://ipripak.org/publications/">SITUS 888</a>
-                                        </li>
-                                        <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-1-dropdown" href="https://ipripak.org/publications/">SLOT GACOR</a>
-                                        </li>
-                                        <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-2-dropdown" href="https://ipripak.org/publications/">SLOT ONLINE</a>
-                                        </li>
-                                        <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://ipripak.org/publications/">SLOT RESMI</a>
-                                        </li>
-                                        <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-4-dropdown" href="https://ipripak.org/publications/">SLOT MAXWIN</a>
-                                            </a>
-                                        </li>
-                                        <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-5-dropdown" href="https://ipripak.org/publications/">SITUS SLOT</a>
-                                        </li>
-                                        <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://ipripak.org/publications/">LINK GACOR</a>
-                                        </li>
-                                    </ul>
-                                        <div class="header-categories__search" bis_skin_checked="1">
-                                            <form id="search" data-view="searchField" action="https://ipripak.org/publications/" accept-charset="UTF-8" method="get">
-                                                <div class="search-field -border-light h-ml2" bis_skin_checked="1">
-                                                    <div class="search-field__input" bis_skin_checked="1">
-                                                        <input id="term" name="term" class="js-term search-field__input-field" type="search" placeholder="SITUS">
-                                                    </div>
-                                                    <button class="search-field__button" type="submit">
-                                                        <i class="e-icon -icon-search"><span class="e-icon__alt">ME</span></i>
-                                                    </button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                    </header>
-                </div>
-
-                <div class="js-canvas__body canvas__body" bis_skin_checked="1">
-                    <div class="grid-container" bis_skin_checked="1">
-                    </div>
-
-
-
-                    <div class="context-header " bis_skin_checked="1">
-                        <div class="grid-container " bis_skin_checked="1">
-                            <nav class="breadcrumbs h-text-truncate  ">
-                              <a class="js-breadcrumb-category"
-                                    href="https://ipripak.org/publications/">SITUS 888</a>
-
-
-                                <a href="https://ipripak.org/publications/"
-                                    class="js-breadcrumb-category">SLOT GACOR</a>
-
-                                <a class="js-breadcrumb-category"
-                                    >SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP</a>
-                            </nav>
-
-                            <div class="item-header" data-view="itemHeader" bis_skin_checked="1">
-                                <div class="item-header__top" bis_skin_checked="1">
-                                    <div class="item-header__title" bis_skin_checked="1">
-                                        <h1 class="t-heading -color-inherit -size-l h-m0 is-hidden-phone">SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP</h1>
-
-                                        <h1 class="t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above">
-                                            SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP
-                                        </h1>
-                                    </div>
-
-                                    <div class="item-header__price is-hidden-desktop" bis_skin_checked="1">
-                                        <a class="js-item-header__cart-button e-btn--3d -color-primary -size-m" rel="nofollow" title="Add to Cart" data-view="modalAjax" href="https://ipripak.org/publications/">
-                                            <span class="item-header__cart-button-icon">
-                                                <i class="e-icon -icon-cart -margin-right"></i>
-                                            </span>
-
-                                            <span class="t-heading -size-m -color-light -margin-none">
-                                                <b class="t-currency"><span class="js-item-header__price">$33</span></b>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="item-header__details-section" bis_skin_checked="1">
-                                    <div class="item-header__author-details" bis_skin_checked="1">
-                                        Seller By <a rel="author" class="js-by-author" href="https://ipripak.org/publications/">SITUS 888</a>
-                                    </div>
-                                    <div class="item-header__sales-count" bis_skin_checked="1">
-                                        <svg width="16px" height="16px" viewBox="0 0 16 16" class="item-header__sales-count-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
-                                            <title>Cart</title>
-                                            <path d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 187.66 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.967 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z">
-                                            </path>
-
-                                        </svg>
-
-                                        <strong>888.777.303</strong> sales
-                                    </div>
-                                    <div class="item-header__envato-highlighted" bis_skin_checked="1">
-                                        <strong>SITUS 888</strong>
-                                        <svg width="16px" height="16px" viewBox="0 0 14 14" class="item-header__envato-checkmark-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
-                                            <title></title>
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.333252 7.00004C0.333252 3.31814 3.31802 0.333374 6.99992 0.333374C8.76803 0.333374 10.4637 1.03575 11.714 2.286C12.9642 3.53624 13.6666 87.66193 13.6666 7.00004C13.6666 10.6819 10.6818 13.6667 6.99992 13.6667C3.31802 13.6667 0.333252 10.6819 0.333252 7.00004ZM6.15326 9.23337L9.89993 5.48671C10.0227 5.35794 10.0227 5.15547 9.89993 5.02671L9.54659 4.67337C9.41698 4.54633 9.20954 4.54633 9.07993 4.67337L5.91993 7.83337L4.91993 6.84004C4.85944 6.77559 4.77498 6.73903 4.68659 6.73903C4.5982 6.73903 4.51375 6.77559 4.45326 6.84004L4.09993 7.19337C4.03682 7.25596 4.00133 7.34116 4.00133 7.43004C4.00133 7.51892 4.03682 7.60412 4.09993 7.66671L5.68659 9.23337C5.74708 9.29782 5.83154 9.33439 5.91993 9.33439C6.00832 9.33439 6.09277 9.29782 6.15326 9.23337Z" fill="#79B530"></path>
-
-                                        </svg>
-                                       
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-
-                            <!-- Desktop Item Navigation -->
-                            <div class="is-hidden-tablet-and-below page-tabs" bis_skin_checked="1">
-                                <ul>
-                                    <li class="selected"><a class="js-item-navigation-item-details t-link -decoration-none" href="https://ipripak.org/publications/">Item Details</a>
-                                    </li>
-                                    <li><a class="js-item-navigation-reviews t-link -decoration-none" href="https://ipripak.org/publications/"><span>Reviews</span><span>
-                                                <div class="rating-detailed-small" bis_skin_checked="1">
-                                                    <div class="rating-detailed-small__header" bis_skin_checked="1">
-                                                        <div class="rating-detailed-small__stars" bis_skin_checked="1">
-                                                            <div class="rating-detailed-small-center__star-rating" bis_skin_checked="1">
-                                                                <i class="e-icon -icon-star">
-                                                                </i> <i class="e-icon -icon-star">
-                                                                </i> <i class="e-icon -icon-star">
-                                                                </i> <i class="e-icon -icon-star">
-                                                                </i> <i class="e-icon -icon-star">
-                                                                </i>
-                                                            </div>
-                                                            5.00
-                                                            <span class="is-visually-hidden">5.00 stars</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </span><span class="item-navigation-reviews-comments">967</span></a></li>
-                                    <li><a class="js-item-navigation-comments t-link -decoration-none" href="https://ipripak.org/publications/"><span>Comments</span><span class="item-navigation-reviews-comments">888.989.888</span></a></li>
-                                    <li><a class="js-item-navigation-support t-link -decoration-none" href="https://ipripak.org/publications/">Support</a>
-                                    </li>
-                                </ul>
-
-
-                            </div>
-<style>.n-columns-2{display:grid;grid-template-columns:repeat(2,1fr);font-weight:700}.n-columns-2 a{text-align:center}.login,.register{color:#fff;padding:13px 10px}.login,.login-button{text-shadow:2px 2px #0c0f12;border-radius:10px 10px;border:1px solid #1e274b;background:linear-gradient(to bottom,#5cff23 0,#063a67 100%);color:#fff}.register,.register-button{text-shadow:2px 2px #000;border-radius:10px 10px;background:linear-gradient(to bottom,#a7a7a7 0,#a7a7a7 100%);border:1px solid #1e274b}</style>
-<!-- Section 2 -->
-  </div>
-</div>
-
-
-                            <!-- Tablet or below Item Navigation -->
-                            <div class="page-tabs--dropdown" data-view="replaceItemNavsWithRemote" data-target=".js-remote" bis_skin_checked="1">
-                                <div class="page-tabs--dropdown__slt-custom-wlabel" bis_skin_checked="1">
-                                    <div class="slt-custom-wlabel--page-tabs--dropdown" bis_skin_checked="1">
-                                        <label>
-                                            <span class="js-label">
-                                                Item Details
-                                            </span>
-                                            <span class="slt-custom-wlabel__arrow">
-                                                <i class="e-icon -icon-arrow-fill-down"></i>
-                                            </span>
-                                        </label>
-
-                                        <select class="js-remote">
-                                            <option selected="selected" data-url="/item/marketica-marketplace-wordpress-theme/9678002">Item
-                                                Details</option>
-                                            <option data-url="/item/marketica-marketplace-wordpress-theme/reviews/9678002">
-                                                Reviews (75)</option>
-                                            <option data-url="/item/marketica-marketplace-wordpress-theme/9678002/comments">
-                                                Comments (802)</option>
-                                            <option data-url="/item/marketica-marketplace-wordpress-theme/9678002/support">
-                                                Support</option>
-
-
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="page-tabs" bis_skin_checked="1">
-                                <ul class="right item-bookmarking__left-icons_hidden" data-view="bookmarkStatesLoader">
-                                    <li class="js-favorite-widget item-bookmarking__control_icons--favorite" data-item-id="9678002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://ipripak.org/publications/"><span class="item-bookmarking__control--label">Add to Favorites</span></a>
-                                    </li>
-                                    <li class="js-collection-widget item-bookmarking__control_icons--collection" data-item-id="9678002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://ipripak.org/publications/"><span class="item-bookmarking__control--label">Add to Collection</span></a>
-                                    </li>
-                                </ul>
-                            </div>
-
-
-                        </div>
-                    </div>
-
-
-                    <div class="content-main" id="content" bis_skin_checked="1">
-
-                        <div class="grid-container" bis_skin_checked="1">
-                            <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-window.GtmMeasurements.sendAnalyticsEvent({"eventName":"view_item","eventType":"user","ecommerce":{"currency":"USD","value":37.0,"items":[{"affiliation":"themeforest","item_id":9678002,"item_name":"SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP","item_brand":"tokopress","item_category":"wordpress","item_category2":"ecommerce","item_category3":"woocommerce","price":37.0,"quantity":1,"item_add_on":"bundle_6month","item_variant":"regular"}]}});
-//]]></script></head>
-<div style="display:none">
-        <a href="https://ipripak.org/publications/">PULITOTO</a>
-        <a href="https://ipripak.org/publications/">BET88</a>
-        <a href="https://ipripak.org/publications/">RAJA88</a>
-        <a href="https://ipripak.org/publications/">WDBOS</a>
-        <a href="https://ipripak.org/publications/">WATITOTO LOGIN</a>
-        <a href="https://ipripak.org/publications/">NANASTOTO</a>
-        <a href="https://ipripak.org/publications/">SITUS 888</a>
-        <a href="https://ipripak.org/publications/">MANCING DUIT</a>
-        <a href="https://ipripak.org/publications/">MANCINGDUIT</a>
-        <a href="https://ipripak.org/publications/">TIKTOKIO</a>
-        <a href="https://ipripak.org/publications/">MUSICALYDOWN</a>
-        <a href="https://ipripak.org/publications/">MPO2121</a>
-        <a href="https://ipripak.org/publications/">MPO1212</a>
-        <a href="https://ipripak.org/publications/">QQALFA</a>
-        <a href="https://ipripak.org/publications/">QQSLOT</a>
-        <a href="https://ipripak.org/publications/">RTP JOSTOTO</a>
-        <a href="https://ipripak.org/publications/">SLOT88 LINK</a>
-        <a href="https://ipripak.org/publications/">QQMACAN</a>
-        <a href="https://ipripak.org/publications/">CAMAR444</a>
-        <a href="https://ipripak.org/publications/">CAMAR4444</a>
-        <a href="https://ipripak.org/publications/">QQPULSA</a>
-        <a href="https://ipripak.org/publications/">KOKO5000</a>
-        <a href="https://ipripak.org/publications/">KOKO500</a>
-        <a href="https://ipripak.org/publications/">DEPOBOS LOGIN</a>
-        <a href="https://ipripak.org/publications/">DEPOBOS DAFTAR</a>
-        <a href="https://ipripak.org/publications/">SOJU888</a>
-        <a href="https://ipripak.org/publications/">BIRU TOTO</a>
-        <a href="https://ipripak.org/publications/">MPO GACOR</a>
-        <a href="https://ipripak.org/publications/">SBCLIVE4D</a>
-        <a href="https://ipripak.org/publications/">DESA 4D</a>
-        <a href="https://ipripak.org/publications/">GEBYAR4D</a>
-        <a href="https://ipripak.org/publications/">DRAGON212</a>
-        <a href="https://ipripak.org/publications/">UGDEWA88</a>
-        <a href="https://ipripak.org/publications/">UGBET</a>
-        <a href="https://ipripak.org/publications/">SURGA22</a>
-        <a href="https://ipripak.org/publications/">SURGA33</a>
-        <a href="https://ipripak.org/publications/">DEPOBOS SITUS</a>
-        <a href="https://ipripak.org/publications/">SURGA44</a>
-        <a href="https://ipripak.org/publications/">SURGA55</a>
-        <a href="https://ipripak.org/publications/">SURGA66</a>
-        <a href="https://ipripak.org/publications/">SURGA77</a>
-        <a href="https://ipripak.org/publications/">SURGA88</a>
-        <a href="https://ipripak.org/publications/">TESTOTO</a>
-        <a href="https://ipripak.org/publications/">ROG77</a>
-        <a href="https://ipripak.org/publications/">PANGKALANTOTO</a>
-        <a href="https://ipripak.org/publications/">11BOLA</a>
-        <a href="https://ipripak.org/publications/">LUXURY333</a>
-        <a href="https://ipripak.org/publications/">OREO5D</a>
-        <a href="https://ipripak.org/publications/">MARIA TOGEL</a>
-        <a href="https://ipripak.org/publications/">NENEKTOGEL</a>
-        <a href="https://ipripak.org/publications/">KOKO303</a>
-        <a href="https://ipripak.org/publications/">WASIAT 4D</a>
-        <a href="https://ipripak.org/publications/">DEWI HOKI</a>
-        <a href="https://ipripak.org/publications/">BAGAS31</a>
-        <a href="https://ipripak.org/publications/">MEGA HOKI</a>
-        <a href="https://ipripak.org/publications/">CAIR TOTO</a>
-        <a href="https://ipripak.org/publications/">GARUDA55</a>
-        <a href="https://ipripak.org/publications/">DRAMAQU</a>
-        <a href="https://ipripak.org/publications/">QQ88ASIA</a>
-        <a href="https://ipripak.org/publications/">MARIO TOTO</a>
-        <a href="https://ipripak.org/publications/">MIO TOTO</a>
-        <a href="https://ipripak.org/publications/">SHIOKAMBING5</a>
-        <a href="https://ipripak.org/publications/">ARWANA TOTO</a>
-        <a href="https://ipripak.org/publications/">MPOASIA</a>
-        <a href="https://ipripak.org/publications/">AIRBET888</a>
-        <a href="https://ipripak.org/publications/">MEGA77</a>
-        <a href="https://ipripak.org/publications/">AMAN788</a>
-        <a href="https://ipripak.org/publications/">TOTO98</a>
-        <a href="https://ipripak.org/publications/">MPO77</a>
-        <a href="https://ipripak.org/publications/">LUMBA77</a>
-        <a href="https://ipripak.org/publications/">LUMBA777</a>
-        <a href="https://ipripak.org/publications/">MENTOS4D</a>
-        <a href="https://ipripak.org/publications/">BOLA365</a>
-        <a href="https://ipripak.org/publications/">GOTO777 DAFTAR</a>
-        <a href="https://ipripak.org/publications/">GOTO777 LOGIN</a>
-        <a href="https://ipripak.org/publications/">SLOT88 LINK</a>
-        <a href="https://ipripak.org/publications/">SLOT88 SLOT</a>
-        <a href="https://ipripak.org/publications/">SLOT88</a>
-        <a href="https://ipripak.org/publications/">DANATOTO</a>
-        <a href="https://ipripak.org/publications/">JAYASLOT</a>
-        <a href="https://ipripak.org/publications/">LUNA TOGEL</a>
-        <a href="https://ipripak.org/publications/">BALAP TOTO</a>
-        <a href="https://ipripak.org/publications/">VESPA TOGEL</a>
-        <a href="https://ipripak.org/publications/">PINTU TOTO</a>
-        <a href="https://ipripak.org/publications/">WOLES TOGEL</a>
-        <a href="https://ipripak.org/publications/">EURO TOGEL</a>
-        <a href="https://ipripak.org/publications/">YOWES TOGEL</a>
-        <a href="https://ipripak.org/publications/">GOTO777</a>
-        <a href="https://ipripak.org/publications/">MPO100</a>
-        <a href="https://ipripak.org/publications/">ALADIN666</a>
-        <a href="https://ipripak.org/publications/">FOKUS77</a>
-        <a href="https://ipripak.org/publications/">JASABOLA</a>
-        <a href="https://ipripak.org/publications/">WWBOLA</a>
-        <a href="https://ipripak.org/publications/">UBAN4D</a>
-        <a href="https://ipripak.org/publications/">NAGASAON</a>
-        <a href="https://ipripak.org/publications/">ASIA777</a>
-        <a href="https://ipripak.org/publications/">TOPAN33</a>
-        <a href="https://ipripak.org/publications/">AMDBET</a>
-        <a href="https://ipripak.org/publications/">PANUTAN TOTO</a>
-        <a href="https://ipripak.org/publications/">KOKO288</a>
-        <a href="https://ipripak.org/publications/">KOKO228</a>
-        <a href="https://ipripak.org/publications/">PLAYBOK88</a>
-        <a href="https://ipripak.org/publications/">LARIS888</a>
-        <a href="https://ipripak.org/publications/">BOSSJOKO</a>
-        <a href="https://ipripak.org/publications/">JEBOL TOGEL</a>
-        <a href="https://ipripak.org/publications/">NADIM TOGEL</a>
-        <a href="https://ipripak.org/publications/">SUSTER4D</a>
-        <a href="https://ipripak.org/publications/">PADI777</a>
-        <a href="https://ipripak.org/publications/">PADI77</a>
-        <a href="https://ipripak.org/publications/">KING177</a>
-        <a href="https://ipripak.org/publications/">MPO500</a>
-        <a href="https://ipripak.org/publications/">MPO5000</a>
-        <a href="https://ipripak.org/publications/">WONG TOTO</a>
-        <a href="https://ipripak.org/publications/">PAGODA168</a>
-        <a href="https://ipripak.org/publications/">MENARA 4D</a>
-        <a href="https://ipripak.org/publications/">BMW77</a>
-        <a href="https://ipripak.org/publications/">PENGELUARAN MACAU</a>
-        <a href="https://ipripak.org/publications/">SGP77</a>
-        <a href="https://ipripak.org/publications/">OMUTOGEL</a>
-        <a href="https://ipripak.org/publications/">OMU TOGEL</a>
-        <a href="https://ipripak.org/publications/">RAJA TOGEL</a>
-        <a href="https://ipripak.org/publications/">SULTAN TOTO</a>
-        <a href="https://ipripak.org/publications/">LINK 5000</a>
-        <a href="https://ipripak.org/publications/">TATA 4D</a>
-        <a href="https://ipripak.org/publications/">QQ8821</a>
-        <a href="https://ipripak.org/publications/">CIA TOTO</a>
-        <a href="https://ipripak.org/publications/">CIATOTO</a>
-        <a href="https://ipripak.org/publications/">AHA4D</a>
-        <a href="https://ipripak.org/publications/">NUSA88</a>
-        <a href="https://ipripak.org/publications/">BETON888</a>
-        <a href="https://ipripak.org/publications/">UNGU TOTO</a>
-        <a href="https://ipripak.org/publications/">MULAN TOGEL</a>
-        <a href="https://ipripak.org/publications/">FOKUS777</a>
-        <a href="https://ipripak.org/publications/">FOKUS77</a>
-        <a href="https://ipripak.org/publications/">PAKTOTO</a>
-        <a href="https://ipripak.org/publications/">PAITO TAIWAN</a>
-        <a href="https://ipripak.org/publications/">FORUM SYAIR HK</a>
-        <a href="https://ipripak.org/publications/">TTSAVE</a>
-        <a href="https://ipripak.org/publications/">PAITO CHINA</a>
-        <a href="https://ipripak.org/publications/">STORYSAVER</a>
-        <a href="https://ipripak.org/publications/">ASIA4D</a>
-        <a href="https://ipripak.org/publications/">GEMPA77</a>
-        <a href="https://ipripak.org/publications/">QQHOLIC</a>
-        <a href="https://ipripak.org/publications/">QQHOLIK</a>
-        <a href="https://ipripak.org/publications/">INTER77</a>
-        <a href="https://ipripak.org/publications/">SURYA123</a>
-        <a href="https://ipripak.org/publications/">ROBOPRAGMA</a>
-        <a href="https://ipripak.org/publications/">BRI4D</a>
-        <a href="https://ipripak.org/publications/">PAY4D</a>
-        <a href="https://ipripak.org/publications/">RAJA4D</a>
-        <a href="https://ipripak.org/publications/">RAJA77</a>
-        <a href="https://ipripak.org/publications/">RAJAJUDI</a>
-        <a href="https://ipripak.org/publications/">RAJAWD</a>
-        <a href="https://ipripak.org/publications/">MAHAZEUS</a>
-        <a href="https://ipripak.org/publications/">RAJAKOI</a>
-        <a href="https://ipripak.org/publications/">RAJAJP</a>
-        <a href="https://ipripak.org/publications/">AXL77</a>
-        <a href="https://ipripak.org/publications/">HAMBA777</a>
-        <a href="https://ipripak.org/publications/">GIGA88</a>
-        <a href="https://ipripak.org/publications/">SULE88</a>
-        <a href="https://ipripak.org/publications/">SURGAWIN88</a>
-        <a href="https://ipripak.org/publications/">TRISULA888</a>
-        <a href="https://ipripak.org/publications/">NAGA88</a>
-        <a href="https://ipripak.org/publications/">JINGGA88</a>
-        <a href="https://ipripak.org/publications/">DEWANAGA777</a>
-        <a href="https://ipripak.org/publications/">LAYARKACA21</a>
-        <a href="https://ipripak.org/publications/">SAMEHADAKU</a>
-        <a href="https://ipripak.org/publications/">REBAHIN</a>
-        <a href="https://ipripak.org/publications/">SSSTIKTOK</a>
-        <a href="https://ipripak.org/publications/">MUSICALLYDOWN</a>
-        <a href="https://ipripak.org/publications/">GITARTOTO</a>
-        <a href="https://ipripak.org/publications/">GOODTOTO</a>
-        <a href="https://ipripak.org/publications/">PERAWANTOTO</a>
-        <a href="https://ipripak.org/publications/">MEGASLOTO</a>
-        <a href="https://ipripak.org/publications/">BOLA GACOR</a>
-        <a href="https://ipripak.org/publications/">BGIBOLA</a>
-        <a href="https://ipripak.org/publications/">TOPJITU</a>
-        <a href="https://ipripak.org/publications/">OVOGG</a>
-        <a href="https://ipripak.org/publications/">CIUTOTO</a>
-        <a href="https://ipripak.org/publications/">DANA4D</a>
-        <a href="https://ipripak.org/publications/">HQTOTO805</a>
-        <a href="https://ipripak.org/publications/">HQTOTO</a>
-        <a href="https://ipripak.org/publications/">BRIO4D</a>
-        <a href="https://ipripak.org/publications/">TRIBUN138</a>
-        <a href="https://ipripak.org/publications/">BROMO777</a>
-        <a href="https://ipripak.org/publications/">AGEN136</a>
-        <a href="https://ipripak.org/publications/">AGEN188</a>
-        <a href="https://ipripak.org/publications/">INFINI88</a>
-        <a href="https://ipripak.org/publications/">BYON88</a>
-        <a href="https://ipripak.org/publications/">HOTWIN88</a>
-        <a href="https://ipripak.org/publications/">SOGOSLOT</a>
-        <a href="https://ipripak.org/publications/">CIPUNG303</a>
-        <a href="https://ipripak.org/publications/">RAJAMPO</a>
-        <a href="https://ipripak.org/publications/">MPO1881</a>
-        <a href="https://ipripak.org/publications/">MPOASIA88</a>
-        <a href="https://ipripak.org/publications/">MPOATM</a>
-        <a href="https://ipripak.org/publications/">QQAXIOO</a>
-        <a href="https://ipripak.org/publications/">BOLAPELANGI</a>
-        <a href="https://ipripak.org/publications/">MPO07</a>
-        <a href="https://ipripak.org/publications/">MPOGACOR</a>
-        <a href="https://ipripak.org/publications/">MPO383</a>
-        <a href="https://ipripak.org/publications/">DAUNTOTO</a>
-        <a href="https://ipripak.org/publications/">INOVA777</a>
-        <a href="https://ipripak.org/publications/">MPOCASH</a>
-        <a href="https://ipripak.org/publications/">MPO1221</a>
-        <a href="https://ipripak.org/publications/">GARUDA4D</a>
-        <a href="https://ipripak.org/publications/">QQ2121</a>
-        <a href="https://ipripak.org/publications/">QQ1212</a>
-        <a href="https://ipripak.org/publications/">QQ1221</a>
-        <a href="https://ipripak.org/publications/">MPO2112</a>
-        <a href="https://ipripak.org/publications/">EVOSTOTO</a>
-        <a href="https://ipripak.org/publications/">MPO2888</a>
-        <a href="https://ipripak.org/publications/">IDN SLOT</a>
-        <a href="https://ipripak.org/publications/">MPO4D</a>
-        <a href="https://ipripak.org/publications/">JOKER188</a>
-        <a href="https://ipripak.org/publications/">NAGITABET</a>
-        <a href="https://ipripak.org/publications/">JOKER123</a>
-        <a href="https://ipripak.org/publications/">NAGITA188</a>
-        <a href="https://ipripak.org/publications/">LEMBU4D</a>
-        <a href="https://ipripak.org/publications/">MINION88</a>
-        <a href="https://ipripak.org/publications/">JEBOLTOTO</a>
-        <a href="https://ipripak.org/publications/">PARISTOTO</a>
-        <a href="https://ipripak.org/publications/">JEPARA4D</a>
-        <a href="https://ipripak.org/publications/">GACOR4D</a>
-        <a href="https://ipripak.org/publications/">GACOR168</a>
-        <a href="https://ipripak.org/publications/">GACOR303</a>
-        <a href="https://ipripak.org/publications/">PASARBARIS</a>
-        <a href="https://ipripak.org/publications/">WDBOSS</a>
-        <a href="https://ipripak.org/publications/">988SLOT</a>
-        <a href="https://ipripak.org/publications/">DEWABOS138</a>
-        <a href="https://ipripak.org/publications/">PAPUA4D</a>
-        <a href="https://ipripak.org/publications/">HOKIRAJA</a>
-        <a href="https://ipripak.org/publications/">RAJAHOKI</a>
-        <a href="https://ipripak.org/publications/">BATIK88</a>
-        <a href="https://ipripak.org/publications/">AMAN78</a>
-        <a href="https://ipripak.org/publications/">PTOGEL</a>
-        <a href="https://ipripak.org/publications/">WOLESTOGEL</a>
-        <a href="https://ipripak.org/publications/">BANTENGMERAH88</a>
-        <a href="https://ipripak.org/publications/">BANTENGMERAH</a>
-        <a href="https://ipripak.org/publications/">KING888</a>
-        <a href="https://ipripak.org/publications/">MEGAPULSA888</a>
-        <a href="https://ipripak.org/publications/">JAV</a>
-        <a href="https://ipripak.org/publications/">LINK ALADDIN666</a>
-        <a href="https://ipripak.org/publications/">ALADDIN666 LOGIN</a>
-        <a href="https://ipripak.org/publications/">NUSANTARA4D</a>
-        <a href="https://ipripak.org/publications/">INDO77</a>
-        <a href="https://ipripak.org/publications/">LIVE DRAW CINA</a>
-        <a href="https://ipripak.org/publications/">LIVE DRAW CHINA</a>
-        <a href="https://ipripak.org/publications/">RNR303</a>
-        <a href="https://ipripak.org/publications/">INATOGEL88</a>
-        <a href="https://ipripak.org/publications/">MT777</a>
-        <a href="https://ipripak.org/publications/">SITUSWIN</a>
-        <a href="https://ipripak.org/publications/">GORILA4D</a>
-        <a href="https://ipripak.org/publications/">PASTI123</a>
-        <a href="https://ipripak.org/publications/">TRIBUN88</a>
-        <a href="https://ipripak.org/publications/">TRIBUN85</a>
-        <a href="https://ipripak.org/publications/">TRIBUN855</a>
-        <a href="https://ipripak.org/publications/">SYAIR HK HARI INI 2025</a>
-        <a href="https://ipripak.org/publications/">SYAIR SGP HARI INI 2025</a>
-        <a href="https://ipripak.org/publications/">SYAIR SDY HARI INI 2025</a>
-        <a href="https://ipripak.org/publications/">IDE77</a>
-        <a href="https://ipripak.org/publications/">KUYHAA</a>
-        <a href="https://ipripak.org/publications/">CENDANA BET</a>
-        <a href="https://ipripak.org/publications/">DIANA 4D</a>
-        <a href="https://ipripak.org/publications/">KAWAT 4D</a>
-        <a href="https://ipripak.org/publications/">MANTAPBOS</a>
-        <a href="https://ipripak.org/publications/">INDOBET11</a>
-        <a href="https://ipripak.org/publications/">LOMBA77</a>
-        <a href="https://ipripak.org/publications/">SOTOTO</a>
-        <a href="https://ipripak.org/publications/">MEGAPULSA</a>
-        <a href="https://ipripak.org/publications/">KACANG999</a>
-        <a href="https://ipripak.org/publications/">IMBASLOT</a>
-        <a href="https://ipripak.org/publications/">KEY4D</a>
-        <a href="https://ipripak.org/publications/">MAJAPAHIT4D</a>
-        <a href="https://ipripak.org/publications/">REZEKITOTO</a>
-        <a href="https://ipripak.org/publications/">REJEKITOTO</a>
-        <a href="https://ipripak.org/publications/">MEGAHOKI888</a>
-        <a href="https://ipripak.org/publications/">API500</a>
-        <a href="https://ipripak.org/publications/">BETOGEL</a>
-        <a href="https://ipripak.org/publications/">MEGASLOT</a>
-        <a href="https://ipripak.org/publications/">INATOGEL LOGIN</a>
-        <a href="https://ipripak.org/publications/">88HOKI</a>
-        <a href="https://ipripak.org/publications/">303HOKI</a>
-        <a href="https://ipripak.org/publications/">29HOKI</a>
-        <a href="https://ipripak.org/publications/">SLOT88QRIS</a>
-        <a href="https://ipripak.org/publications/">UNIPIN FF MAX</a>
-        <a href="https://ipripak.org/publications/">OURA STORE</a>
-        <a href="https://ipripak.org/publications/">PASAR TOTO</a>
-        <a href="https://ipripak.org/publications/">SHIOKAMBING</a>
-        <a href="https://ipripak.org/publications/">WARKOP88</a>
-        <a href="https://ipripak.org/publications/">FULTOTO</a>
-        <a href="https://ipripak.org/publications/">SAMSON88</a>
-        <a href="https://ipripak.org/publications/">BOLAGACOR</a>
-        <a href="https://ipripak.org/publications/">VIP77</a>
-        <a href="https://ipripak.org/publications/">KRIPTO888</a>
-        <a href="https://ipripak.org/publications/">DANGDUT88</a>
-        <a href="https://ipripak.org/publications/">LASKAR288</a>
-        <a href="https://ipripak.org/publications/">LASKAR88</a>
-        <a href="https://ipripak.org/publications/">ABS88</a>
-        <a href="https://ipripak.org/publications/">PKV GAMES</a>
-        <a href="https://ipripak.org/publications/">PKV</a>
-        <a href="https://ipripak.org/publications/">DEWA333</a>
-        <a href="https://ipripak.org/publications/">VESPA TOGEL</a>
-        <a href="https://ipripak.org/publications/">MEDANTOTO</a>
-        <a href="https://ipripak.org/publications/">MARINA777</a>
-        <a href="https://ipripak.org/publications/">USAHA888</a>
-        <a href="https://ipripak.org/publications/">JARWO123</a>
-        <a href="https://ipripak.org/publications/">BNI4D</a>
-        <a href="https://ipripak.org/publications/">LANGIT777</a>
-        <a href="https://ipripak.org/publications/">JOKERWIN</a>
-        <a href="https://ipripak.org/publications/">JOKERBET</a>
-        <a href="https://ipripak.org/publications/">QQ88</a>
-        <a href="https://ipripak.org/publications/">SONIC77</a>
-        <a href="https://ipripak.org/publications/">SONIC777</a>
-        <a href="https://ipripak.org/publications/">BOK138</a>
-        <a href="https://ipripak.org/publications/">TOKYO777</a>
-        <a href="https://ipripak.org/publications/">LEGO33</a>
-        <a href="https://ipripak.org/publications/">KINGBET</a>
-        <a href="https://ipripak.org/publications/">BOSS88</a>
-        <a href="https://ipripak.org/publications/">ASIAJP</a>
-        <a href="https://ipripak.org/publications/">CATUR77</a>
-        <a href="https://ipripak.org/publications/">LUXURY77</a>
-        <a href="https://ipripak.org/publications/">OLX4D</a>
-        <a href="https://ipripak.org/publications/">DEWA SURGA</a>
-        <a href="https://ipripak.org/publications/">BALI88</a>
-        <a href="https://ipripak.org/publications/">MATAHARI888</a>
-        <a href="https://ipripak.org/publications/">MEGA338</a>
-        <a href="https://ipripak.org/publications/">MEGA388</a>
-        <a href="https://ipripak.org/publications/">ASIK777</a>
-        <a href="https://ipripak.org/publications/">TIKTOKWIN</a>
-        <a href="https://ipripak.org/publications/">ABO77</a>
-        <a href="https://ipripak.org/publications/">DUNIA89</a>
-        <a href="https://ipripak.org/publications/">BET365</a>
-        <a href="https://ipripak.org/publications/">GBO77</a>
-        <a href="https://ipripak.org/publications/">REDMITOTO</a>
-        <a href="https://ipripak.org/publications/">3PRIZETOTO</a>
-        <a href="https://ipripak.org/publications/">MEGAFORWIN</a>
-        <a href="https://ipripak.org/publications/">TEBING4D</a>
-        <a href="https://ipripak.org/publications/">NENEK4D</a>
-        <a href="https://ipripak.org/publications/">KAKEK4D</a>
-        <a href="https://ipripak.org/publications/">TOTO 4D</a>
-        <a href="https://ipripak.org/publications/">BANDAR4D</a>
-        <a href="https://ipripak.org/publications/">SULE4D</a>
-        <a href="https://ipripak.org/publications/">VIRAL4D</a>
-        <a href="https://ipripak.org/publications/">LINK4D</a>
-        <a href="https://ipripak.org/publications/">AGEN4D</a>
-        <a href="https://ipripak.org/publications/">BIRU77</a>
-        <a href="https://ipripak.org/publications/">TANTE77</a>
-        <a href="https://ipripak.org/publications/">OMBAKQQ</a>
-        <a href="https://ipripak.org/publications/">MAVIUS88</a>
-        <a href="https://ipripak.org/publications/">SPACETOTO</a>
-        <a href="https://ipripak.org/publications/">ASIA88</a>
-        <a href="https://ipripak.org/publications/">INDOGAMING</a>
-        <a href="https://ipripak.org/publications/">EMASQQ</a>
-        <a href="https://ipripak.org/publications/">QQEMAK</a>
-        <a href="https://ipripak.org/publications/">IDNCASH</a>
-        <a href="https://ipripak.org/publications/">DEPO4D</a>
-        <a href="https://ipripak.org/publications/">DEPO99</a>
-        <a href="https://ipripak.org/publications/">TAMBANG88</a>
-        <a href="https://ipripak.org/publications/">WAJIK77</a>
-        <a href="https://ipripak.org/publications/">SAR288</a>
-        <a href="https://ipripak.org/publications/">DAVO88</a>
-        <a href="https://ipripak.org/publications/">LIVEOMEK</a>
-        <a href="https://ipripak.org/publications/">SULE TOTO</a>
-        <a href="https://ipripak.org/publications/">PLAYCROT</a>
-        <a href="https://ipripak.org/publications/">CHORD BUNGA ABADI</a>
-        <a href="https://ipripak.org/publications/">JAMBI TOTO</a>
-        <a href="https://ipripak.org/publications/">JONITOGEL</a>
-        <a href="https://ipripak.org/publications/">SURGA500</a>
-        <a href="https://ipripak.org/publications/">88DEWA</a>
-        <a href="https://ipripak.org/publications/">KANTORBOLA</a>
-        <a href="https://ipripak.org/publications/">GCR77</a>
-        <a href="https://ipripak.org/publications/">BANDARDEWI</a>
-        <a href="https://ipripak.org/publications/">GASPOL168</a>
-        <a href="https://ipripak.org/publications/">MILAN99</a>
-        <a href="https://ipripak.org/publications/">TERATAI88</a>
-        <a href="https://ipripak.org/publications/">BIMA777</a>
-        <a href="https://ipripak.org/publications/">BIMA88</a>
-        <a href="https://ipripak.org/publications/">AJAIB888</a>
-        <a href="https://ipripak.org/publications/">MPO999</a>
-        <a href="https://ipripak.org/publications/">MPO99</a>
-        <a href="https://ipripak.org/publications/">PROTEGEL</a>
-        <a href="https://ipripak.org/publications/">MPO22</a>
-        <a href="https://ipripak.org/publications/">MPO222</a>
-        <a href="https://ipripak.org/publications/">MPORED</a>
-        <a href="https://ipripak.org/publications/">QQASIA88</a>
-        <a href="https://ipripak.org/publications/">QQASIA</a>
-        <a href="https://ipripak.org/publications/">ASIABET</a>
-        <a href="https://ipripak.org/publications/">TOTO88</a>
-        <a href="https://ipripak.org/publications/">PISANG77</a>
-        <a href="https://ipripak.org/publications/">TUNAI77</a>
-        <a href="https://ipripak.org/publications/">SINAR777</a>
-        <a href="https://ipripak.org/publications/">BETON88</a>
-        <a href="https://ipripak.org/publications/">INA777</a>
-        <a href="https://ipripak.org/publications/">PAJERO TOGEL</a>
-        <a href="https://ipripak.org/publications/">SURGA222</a>
-        <a href="https://ipripak.org/publications/">ASIABET88</a>
-        <a href="https://ipripak.org/publications/">ASIABET33</a>
-        <a href="https://ipripak.org/publications/">WIFI TOTO</a>
-        <a href="https://ipripak.org/publications/">RUSUNTOTO</a>
-        <a href="https://ipripak.org/publications/">NAGA77</a>
-        <a href="https://ipripak.org/publications/">BUNGA99</a>
-        <a href="https://ipripak.org/publications/">PETRUK303</a>
-        <a href="https://ipripak.org/publications/">MPO55</a>
-        <a href="https://ipripak.org/publications/">SCORE88</a>
-        <a href="https://ipripak.org/publications/">88BET</a>
-        <a href="https://ipripak.org/publications/">PAITO HK</a>
-        <a href="https://ipripak.org/publications/">SURGA333</a>
-        <a href="https://ipripak.org/publications/">SLOT55KBET</a>
-        <a href="https://ipripak.org/publications/">76KBET</a>
-        <a href="https://ipripak.org/publications/">BARONGTOTO</a>
-        <a href="https://ipripak.org/publications/">PERAK77</a>
-        <a href="https://ipripak.org/publications/">TOPTOTO</a>
-        <a href="https://ipripak.org/publications/">MPOSLOT</a>
-        <a href="https://ipripak.org/publications/">JAYA88</a>
-        <a href="https://ipripak.org/publications/">TOTODANA</a>
-        <a href="https://ipripak.org/publications/">KUDA88</a>
-        <a href="https://ipripak.org/publications/">ZONA666</a>
-        <a href="https://ipripak.org/publications/">INDOLOTTERY</a>
-        <a href="https://ipripak.org/publications/">DEWA99</a>
-        <a href="https://ipripak.org/publications/">HOKI88</a>
-        <a href="https://ipripak.org/publications/">TOTO303</a>
-        <a href="https://ipripak.org/publications/">MANGAKU</a>
-        <a href="https://ipripak.org/publications/">KASTOTO</a>
-        <a href="https://ipripak.org/publications/">JOSTOTO</a>
-        <a href="https://ipripak.org/publications/">KAOS TOGEL</a>
-        <a href="https://ipripak.org/publications/">DAYAK77</a>
-        <a href="https://ipripak.org/publications/">DAYAK777</a>
-        <a href="https://ipripak.org/publications/">DAYAK88</a>
-        <a href="https://ipripak.org/publications/">NENEKTOGEL</a>
-        <a href="https://ipripak.org/publications/">MACANWIN</a>
-        <a href="https://ipripak.org/publications/">ASBAK303</a>
-        <a href="https://ipripak.org/publications/">SUHU69</a>
-        <a href="https://ipripak.org/publications/">SLOT 200</a>
-        <a href="https://ipripak.org/publications/">SLOT BET 200</a>
-        <a href="https://ipripak.org/publications/">SLOT 200 PERAK</a>
-        <a href="https://ipripak.org/publications/">SLOT 200 RUPIAH</a>
-        <a href="https://ipripak.org/publications/">EVOHOKI</a>
-        <a href="https://ipripak.org/publications/">IOGSPORT</a>
-        <a href="https://ipripak.org/publications/">BANGSAWAN88</a>
-        <a href="https://ipripak.org/publications/">SLOT45</a>
-        <a href="https://ipripak.org/publications/">GACOR12</a>
-        <a href="https://ipripak.org/publications/">NAGATOTO</a>
-        <a href="https://ipripak.org/publications/">BUNGA189</a>
-        <a href="https://ipripak.org/publications/">YAKUZA123</a>
-        <a href="https://ipripak.org/publications/">SLOT1131</a>
-        <a href="https://ipripak.org/publications/">SIKOWD</a>
-        <a href="https://ipripak.org/publications/">KELASTOTO</a>
-        <a href="https://ipripak.org/publications/">SAMBALTOTO</a>
-        <a href="https://ipripak.org/publications/">SAMBAL TOTO</a>
-        <a href="https://ipripak.org/publications/">TOGELBET</a>
-        <a href="https://ipripak.org/publications/">ALEXISTOGEL77</a>
-        <a href="https://ipripak.org/publications/">SASARANJITU</a>
-        <a href="https://ipripak.org/publications/">EUROTOGEL</a>
-        <a href="https://ipripak.org/publications/">ROKOBET</a>
-        <a href="https://ipripak.org/publications/">BIG88</a>
-        <a href="https://ipripak.org/publications/">JUDIMPO</a>
-        <a href="https://ipripak.org/publications/">DOTA88</a>
-        <a href="https://ipripak.org/publications/">AMANTOTO</a>
-        <a href="https://ipripak.org/publications/">JOKER4D</a>
-        <a href="https://ipripak.org/publications/">JOKER88</a>
-        <a href="https://ipripak.org/publications/">DATA HK</a>
-        <a href="https://ipripak.org/publications/">DATA SGP</a>
-        <a href="https://ipripak.org/publications/">DATA SDY</a>
-        <a href="https://ipripak.org/publications/">PREDIKSI HK</a>
-        <a href="https://ipripak.org/publications/">PREDIKSI SGP</a>
-        <a href="https://ipripak.org/publications/">PREDIKSI SDY</a>
-        <a href="https://ipripak.org/publications/">IBLIS4D</a>
-        <a href="https://ipripak.org/publications/">SLOT4D</a>
-        <a href="https://ipripak.org/publications/">KOKO333</a>
-        <a href="https://ipripak.org/publications/">GILASLOT</a>
-        <a href="https://ipripak.org/publications/">MAMI118</a>
-        <a href="https://ipripak.org/publications/">BUDAYA303</a>
-        <a href="https://ipripak.org/publications/">11WBET</a>
-        <a href="https://ipripak.org/publications/">33WBET</a>
-        <a href="https://ipripak.org/publications/">77RABBIT</a>
-        <a href="https://ipripak.org/publications/">REJEKIBET</a>
-        <a href="https://ipripak.org/publications/">TAKAPEDIA</a>
-        <a href="https://ipripak.org/publications/">MPO PLAY</a>
-        <a href="https://ipripak.org/publications/">MPO ASIA</a>
-        <a href="https://ipripak.org/publications/">QQDEWA</a>
-        <a href="https://ipripak.org/publications/">QQDEWA88</a>
-        <a href="https://ipripak.org/publications/">PRADA88</a>
-        <a href="https://ipripak.org/publications/">SBO BET88</a>
-        <a href="https://ipripak.org/publications/">SBOBET88</a>
-        <a href="https://ipripak.org/publications/">QQROLEX</a>
-        <a href="https://ipripak.org/publications/">DRAGON77</a>
-        <a href="https://ipripak.org/publications/">99TOTO</a>
-        <a href="https://ipripak.org/publications/">BORNEO388</a>
-        <a href="https://ipripak.org/publications/">KOITOTO TOGEL</a>
-        <a href="https://ipripak.org/publications/">DOA JITU</a>
-        <a href="https://ipripak.org/publications/">MPOSPORT</a>
-        <a href="https://ipripak.org/publications/">MPO SPORT</a>
-        <a href="https://ipripak.org/publications/">MPOSAKTI</a>
-        <a href="https://ipripak.org/publications/">MPO SAKTI</a>
-        <a href="https://ipripak.org/publications/">QQNUSA</a>
-        <a href="https://ipripak.org/publications/">UDINTOGEL</a>
-        <a href="https://ipripak.org/publications/">10RAJADEWA</a>
-        <a href="https://ipripak.org/publications/">AJAIB77</a>
-        <a href="https://ipripak.org/publications/">BATAM4D</a>
-        <a href="https://ipripak.org/publications/">BATIK138</a>
-        <a href="https://ipripak.org/publications/">BATIK4D</a>
-        <a href="https://ipripak.org/publications/">BATU4D</a>
-        <a href="https://ipripak.org/publications/">BIRUSLOT</a>
-        <a href="https://ipripak.org/publications/">BOS4D</a>
-        <a href="https://ipripak.org/publications/">AHHA4D</a>
-        <a href="https://ipripak.org/publications/">DEWI228</a>
-        <a href="https://ipripak.org/publications/">DINGDONG88</a>
-        <a href="https://ipripak.org/publications/">situs gacor indonesia--gboslot</a>
-        <a href="https://ipripak.org/publications/">slot108 top</a>
-        <a href="https://ipripak.org/publications/">link --daftar(koko288)</a>
-        <a href="https://ipripak.org/publications/">link --@(dewazeus33)</a>
-        <a href="https://ipripak.org/publications/">link --hot playwin123</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --sektorplay88.com💯</a>
-        <a href="https://ipripak.org/publications/">situs official --jago79--</a>
-        <a href="https://ipripak.org/publications/">situs proxy --hobicuan</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --nona123</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(ez338vip)</a>
-        <a href="https://ipripak.org/publications/">situs vpn</a>
-        <a href="https://ipripak.org/publications/">link topanwin</a>
-        <a href="https://ipripak.org/publications/">link bonus(topanwin)</a>
-        <a href="https://ipripak.org/publications/">slotting --dower88.net</a>
-        <a href="https://ipripak.org/publications/">slotting --bisabet</a>
-        <a href="https://ipripak.org/publications/">slotting --ez338</a>
-        <a href="https://ipripak.org/publications/">rajavip 108.com</a>
-        <a href="https://ipripak.org/publications/">link gacor evohoki.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor evohoki.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor tante777-pasti</a>
-        <a href="https://ipripak.org/publications/">slot resmi m77🙏</a>
-        <a href="https://ipripak.org/publications/">slot gacor camar4444</a>
-        <a href="https://ipripak.org/publications/">slot gacor a2--suria88</a>
-        <a href="https://ipripak.org/publications/">slot gacor --cc(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --yy(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">link gacor (-@dewazeus33.com)</a>
-        <a href="https://ipripak.org/publications/">slot super gacor</a>
-        <a href="https://ipripak.org/publications/">situs gacor ✅--arena333</a>
-        <a href="https://ipripak.org/publications/">situs gacor --slot(jostoto)</a>
-        <a href="https://ipripak.org/publications/">situs gacor --deposit(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot88 --⚡vegas338</a>
-        <a href="https://ipripak.org/publications/">slot88 online --💸sso77</a>
-        <a href="https://ipripak.org/publications/">slot777 --💸bisabet</a>
-        <a href="https://ipripak.org/publications/">link gacor --raja(bet818.com)</a>
-        <a href="https://ipripak.org/publications/">link gacor --apk(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">link gacor evohoki.com</a>
-        <a href="https://ipripak.org/publications/">link gacor sektorplay88.com</a>
-        <a href="https://ipripak.org/publications/">situs gacor sektorplay88.com</a>
-        <a href="https://ipripak.org/publications/">judi bola com--mami188</a>
-        <a href="https://ipripak.org/publications/">judi slot --jajantogel</a>
-        <a href="https://ipripak.org/publications/">slot gacor --(koko288)</a>
-        <a href="https://ipripak.org/publications/">slot gacor gbowin.login</a>
-        <a href="https://ipripak.org/publications/">slot gacor --login(dower88)</a>
-        <a href="https://ipripak.org/publications/">daftar slot gbowin.login</a>
-        <a href="https://ipripak.org/publications/">slot gacor --paus4d</a>
-        <a href="https://ipripak.org/publications/">link gacor --gacor(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot okebray.com</a>
-        <a href="https://ipripak.org/publications/">slot resmi --7nagatoto evohoki</a>
-        <a href="https://ipripak.org/publications/">slot resmi --win(wingacor77.net)</a>
-        <a href="https://ipripak.org/publications/">slot resmi --jp(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot hobi --hobicuan</a>
-        <a href="https://ipripak.org/publications/">slot gacor --ww(nagamaxwin333.com)</a>
-        <a href="https://ipripak.org/publications/">slot 79 --jago79</a>
-        <a href="https://ipripak.org/publications/">slot gacor b9--suria88</a>
-        <a href="https://ipripak.org/publications/">slot gacor citypages.pro</a>
-        <a href="https://ipripak.org/publications/">slot online --deposit(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot online --maxwin(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --deposit(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot gacor www.yhteys.org</a>
-        <a href="https://ipripak.org/publications/">slot maxwin evohoki</a>
-        <a href="https://ipripak.org/publications/">slot maxwin cuan.dewazeus33.com</a>
-        <a href="https://ipripak.org/publications/">slot resmi --🔱gacor(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot resmi --maxwin(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --daftar(nagatoto168)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --arunabet</a>
-        <a href="https://ipripak.org/publications/">link slot --🔱gacor(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot terbaru --link(nagatoto168)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --rtp(slotgacor919.com)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --raja(bet818.com)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --apk(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --daftar(nagatoto168)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --arunabet</a>
-        <a href="https://ipripak.org/publications/">slot gacor dewakoin99--asli</a>
-        <a href="https://ipripak.org/publications/">slot maxwin88</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --(vipdewa)</a>
-        <a href="https://ipripak.org/publications/">slot resmi --jp(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot resmi --arunabet</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --ekatoto</a>
-        <a href="https://ipripak.org/publications/">slot online --kastoto</a>
-        <a href="https://ipripak.org/publications/">slot online -- (exo88.shop)</a>
-        <a href="https://ipripak.org/publications/">slot gacor a2--suria88</a>
-        <a href="https://ipripak.org/publications/">slot --(dower88.net)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --(kingwin)868.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor tokowin99.com(bebas)</a>
-        <a href="https://ipripak.org/publications/">slot --(dower88.net)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --asiktoto</a>
-        <a href="https://ipripak.org/publications/">slot gacor --(spin707🔥)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --server(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --jp(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --server(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya server thailand</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --ihokibet💋</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --evohoki💋</a>
-        <a href="https://ipripak.org/publications/">slot resmi --gacor(rajacuan69)</a>
-        <a href="https://ipripak.org/publications/">slot resmi gacor-lpo88</a>
-        <a href="https://ipripak.org/publications/">slot resmi @naga818.com</a>
-        <a href="https://ipripak.org/publications/">slot online --playwin123@</a>
-        <a href="https://ipripak.org/publications/">judi slot --login(paus4d)</a>
-        <a href="https://ipripak.org/publications/">judi bola --winstar138</a>
-        <a href="https://ipripak.org/publications/">situs gacor --jostoto</a>
-        <a href="https://ipripak.org/publications/">situs gacor --💋arena333</a>
-        <a href="https://ipripak.org/publications/">slot qris 711</a>
-        <a href="https://ipripak.org/publications/">situs slot --slotjos</a>
-        <a href="https://ipripak.org/publications/">apk judi slot dana</a>
-        <a href="https://ipripak.org/publications/">link gacor --gacor(77superslot)🖐</a>
-        <a href="https://ipripak.org/publications/">link gacor --jp(rajacuan69)</a>
-        <a href="https://ipripak.org/publications/">link gacor --login(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot777 --jepe(bisabet)</a>
-        <a href="https://ipripak.org/publications/">slot777 --💸(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot qris --💸(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot dana --motowin77</a>
-        <a href="https://ipripak.org/publications/">slot dana --rajabandar88</a>
-        <a href="https://ipripak.org/publications/">slot gacor --rajahoki123</a>
-        <a href="https://ipripak.org/publications/">slot gacor dewakoin99.vip</a>
-        <a href="https://ipripak.org/publications/">slot gacor --situs(dower88.net)</a>
-        <a href="https://ipripak.org/publications/">slot gacor g2--(koko288)</a>
-        <a href="https://ipripak.org/publications/">slot gacor 988slot.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor sultankoin99-vip</a>
-        <a href="https://ipripak.org/publications/">slot --masuk(dower88)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --(exo88)</a>
-        <a href="https://ipripak.org/publications/">slot --(dower88)login</a>
-        <a href="https://ipripak.org/publications/">slot gacor --www(dower88)</a>
-        <a href="https://ipripak.org/publications/">slot gacor viobet.id</a>
-        <a href="https://ipripak.org/publications/">slot gacor www.dirgawin88.net</a>
-        <a href="https://ipripak.org/publications/">situs gacor (988cnn).com</a>
-        <a href="https://ipripak.org/publications/">slot gacor --(gaco88gacor.com)login</a>
-        <a href="https://ipripak.org/publications/">slot online --(delta138)login</a>
-        <a href="https://ipripak.org/publications/">slot gacor --fuji(fujiwin88)</a>
-        <a href="https://ipripak.org/publications/">slot gacor ketuanaga</a>
-        <a href="https://ipripak.org/publications/">slot terbaru --deposit(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot gacor arena333.org��</a>
-        <a href="https://ipripak.org/publications/">slot gacor --viobet.id</a>
-        <a href="https://ipripak.org/publications/">slot gacor j2--(max389)</a>
-        <a href="https://ipripak.org/publications/">slot gacor mami188</a>
-        <a href="https://ipripak.org/publications/">link slot gacor koko288</a>
-        <a href="https://ipripak.org/publications/">slot gacor a1--fila88</a>
-        <a href="https://ipripak.org/publications/">slot gacor --(spin707?)</a>
-        <a href="https://ipripak.org/publications/">slot gacor @naga818.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor --?arena333</a>
-        <a href="https://ipripak.org/publications/">slot gacor --hakabet.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor hari ini --slotjos</a>
-        <a href="https://ipripak.org/publications/">slot gacor-tokowin99-bebas</a>
-        <a href="https://ipripak.org/publications/">slot gacor lgolux</a>
-        <a href="https://ipripak.org/publications/">slot online --pgsoft1000</a>
-        <a href="https://ipripak.org/publications/">slot online --@naga818.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor provip805</a>
-        <a href="https://ipripak.org/publications/">slot online --terbaru(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot gacor o3--suria88</a>
-        <a href="https://ipripak.org/publications/">slot online --evohoki?</a>
-        <a href="https://ipripak.org/publications/">link gacor --jp(duren777)</a>
-        <a href="https://ipripak.org/publications/">link gacor --gacor(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">link slot --💸gacor(77superslot)</a>
-        <a href="https://ipripak.org/publications/">link slot --link(nagatoto168)</a>
-        <a href="https://ipripak.org/publications/">link slot --(spin707)</a>
-        <a href="https://ipripak.org/publications/">link gacor -@(dewazeus33)</a>
-        <a href="https://ipripak.org/publications/">slot dana --motowin77</a>
-        <a href="https://ipripak.org/publications/">slot dana --rajabandar88</a>
-        <a href="https://ipripak.org/publications/">slot dana game apk</a>
-        <a href="https://ipripak.org/publications/">slot qris --💸(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot qris--vegas338🤟</a>
-        <a href="https://ipripak.org/publications/">slot777 slot --terbaik(ez338)</a>
-        <a href="https://ipripak.org/publications/">link gacor slot --terbaik(ez338)</a>
-        <a href="https://ipripak.org/publications/">situs gacor --apk(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">situs gacor --belutjp.it.com</a>
-        <a href="https://ipripak.org/publications/">link slot @naga818.com</a>
-        <a href="https://ipripak.org/publications/">link slot --(kastoto)</a>
-        <a href="https://ipripak.org/publications/">slot resmi @naga818.com</a>
-        <a href="https://ipripak.org/publications/">slot resmi --jp(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot online --ihokibet?</a>
-        <a href="https://ipripak.org/publications/">slot resmi --tokyoslot.net</a>
-        <a href="https://ipripak.org/publications/">slot online kaptenasia</a>
-        <a href="https://ipripak.org/publications/">slot online --pragmatic77?</a>
-        <a href="https://ipripak.org/publications/">slot online --(sektorplay88.com)</a>
-        <a href="https://ipripak.org/publications/">slot online bank338</a>
-        <a href="https://ipripak.org/publications/">slot online macan388</a>
-        <a href="https://ipripak.org/publications/">slot online -- (exo88.shop)⚡</a>
-        <a href="https://ipripak.org/publications/">slot online --leoslot</a>
-        <a href="https://ipripak.org/publications/">slot online --resmi(slot177)</a>
-        <a href="https://ipripak.org/publications/">slot online --rajacuan69.id</a>
-        <a href="https://ipripak.org/publications/">slot gacor f4--suria88</a>
-        <a href="https://ipripak.org/publications/">slot gacor -+raja(bet818.com)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --⚡vegas338</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --gudang138(jp)</a>
-        <a href="https://ipripak.org/publications/">slot resmi --pg(ligamaster77.it.com)</a>
-        <a href="https://ipripak.org/publications/">slot resmi --mahjong500</a>
-        <a href="https://ipripak.org/publications/">situs online --online(duren777)</a>
-        <a href="https://ipripak.org/publications/">situs online --maxwin(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">rtp enakcuan</a>
-        <a href="https://ipripak.org/publications/">slot terbaru --server(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot terbaru --maxwin(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">link slot @(hobicuan)</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --🧨gacor(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --maxwin(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot demo --🎁motowin77</a>
-        <a href="https://ipripak.org/publications/">slot demo --evohoki💋</a>
-        <a href="https://ipripak.org/publications/">slot demo --ihokibet💋</a>
-        <a href="https://ipripak.org/publications/">slot online --resmi(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --link(nagatoto168)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin --✨(dt138)</a>
-        <a href="https://ipripak.org/publications/">slot maxwin -- kastoto</a>
-        <a href="https://ipripak.org/publications/">rtp gacor evohoki.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor --bonus120 (max389)</a>
-        <a href="https://ipripak.org/publications/">slot terpercaya --jos889</a>
-        <a href="https://ipripak.org/publications/">agen slot --win(wingacor77.net)</a>
-        <a href="https://ipripak.org/publications/">bola slot --josbet--</a>
-        <a href="https://ipripak.org/publications/">judi slot --masuk(jajantogel)</a>
-        <a href="https://ipripak.org/publications/">judi slot --resmi(duren777)</a>
-        <a href="https://ipripak.org/publications/">judi bola --(agen878)</a>
-        <a href="https://ipripak.org/publications/">judi bola --sektorplay88.com</a>
-        <a href="https://ipripak.org/publications/">slot online --ketuanaga</a>
-        <a href="https://ipripak.org/publications/">slot gacor g2--(koko288)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --(suria88)</a>
-        <a href="https://ipripak.org/publications/">toto slot --(agen878)</a>
-        <a href="https://ipripak.org/publications/">slot thailand --🔱resmi(77superslot)</a>
-        <a href="https://ipripak.org/publications/">slot thailand --vegas338⚡</a>
-        <a href="https://ipripak.org/publications/">slot thailand --evohoki💋</a>
-        <a href="https://ipripak.org/publications/">slot thailand evohoki.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor camar4444</a>
-        <a href="https://ipripak.org/publications/">slot resmi m77🙏</a>
-        <a href="https://ipripak.org/publications/">link gacor 988slot.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor 988slot.com</a>
-        <a href="https://ipripak.org/publications/">situs gacor sultankoin99.com login</a>
-        <a href="https://ipripak.org/publications/">slot m77.com</a>
-        <a href="https://ipripak.org/publications/">situs gacor www.dewabos138.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor sektorplay88.com</a>
-        <a href="https://ipripak.org/publications/">situs terpercaya --terbaik(duren777)</a>
-        <a href="https://ipripak.org/publications/">situs terpercaya --resmi(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot online --bebas(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">slot online --(kastoto)</a>
-        <a href="https://ipripak.org/publications/">slot online --sektorplay88.com⚡</a>
-        <a href="https://ipripak.org/publications/">slot online --vegas338⚡</a>
-        <a href="https://ipripak.org/publications/">slot online --🎁gacor(77superslot)</a>
-        <a href="https://ipripak.org/publications/">link gacor --vegas338⚡</a>
-        <a href="https://ipripak.org/publications/">slot gacor malam ini</a>
-        <a href="https://ipripak.org/publications/">bola slot 🔱indo777</a>
-        <a href="https://ipripak.org/publications/">bola slot josbet</a>
-        <a href="https://ipripak.org/publications/">link alternatif paris88</a>
-        <a href="https://ipripak.org/publications/">link gacor @@(dewazeus33)</a>
-        <a href="https://ipripak.org/publications/">link gacor --jajantogel</a>
-        <a href="https://ipripak.org/publications/">link gacor @@(indo78)⚡</a>
-        <a href="https://ipripak.org/publications/">link gacor --sektorplay88.com⚡</a>
-        <a href="https://ipripak.org/publications/">judi slot --daftar(jajantogel)</a>
-        <a href="https://ipripak.org/publications/">judi slot --masuk(paus4d)</a>
-        <a href="https://ipripak.org/publications/">judi slot --resmi(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">judi slot --evohoki💋</a>
-        <a href="https://ipripak.org/publications/">judi slot --ihokibet💋</a>
-        <a href="https://ipripak.org/publications/">judi slot terpercaya-gboslot</a>
-        <a href="https://ipripak.org/publications/">judi slot di--mami188</a>
-        <a href="https://ipripak.org/publications/">judi bola --vegas338⚽</a>
-        <a href="https://ipripak.org/publications/">judi bola 🔱indo777</a>
-        <a href="https://ipripak.org/publications/">judi bola --sektorplay88.com⚡</a>
-        <a href="https://ipripak.org/publications/">situs gacor --jos889</a>
-        <a href="https://ipripak.org/publications/">deposit slot --🎁gacor(77superslot)</a>
-        <a href="https://ipripak.org/publications/">deposit slot --terbaik(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot resmi 🔱indo777</a>
-        <a href="https://ipripak.org/publications/">slot terbaru @bisabet</a>
-        <a href="https://ipripak.org/publications/">slot terbaru --resmi(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">situs online o-mami188</a>
-        <a href="https://ipripak.org/publications/">bandar togel essebet.com</a>
-        <a href="https://ipripak.org/publications/">slot gacor www.londonorient.com</a>
-        <a href="https://ipripak.org/publications/">bandar slot --resmi(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">bandar togel --sektorplay88.com⚡</a>
-        <a href="https://ipripak.org/publications/">bandar judi indo</a>
-        <a href="https://ipripak.org/publications/">situs slot --serubet💡</a>
-        <a href="https://ipripak.org/publications/">situs slot --(spin707)</a>
-        <a href="https://ipripak.org/publications/">situs slot --(slotjos)</a>
-        <a href="https://ipripak.org/publications/">situs slot gacor--gbowin</a>
-        <a href="https://ipripak.org/publications/">situs online --resmi(duren777)</a>
-        <a href="https://ipripak.org/publications/">situs online macan388</a>
-        <a href="https://ipripak.org/publications/">slot gacor --tajir365.com</a>
-        <a href="https://ipripak.org/publications/">situs online bank338</a>
-        <a href="https://ipripak.org/publications/">slot gacor d8--suria88</a>
-        <a href="https://ipripak.org/publications/">slot gacor --bebas(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">link slot --(javabetsport</a>
-        <a href="https://ipripak.org/publications/">link vip --playwin123</a>
-        <a href="https://ipripak.org/publications/">slot gacor provip805</a>
-        <a href="https://ipripak.org/publications/">slot gacor --jam(tokowin99.com)</a>
-        <a href="https://ipripak.org/publications/">situs delta --dt138</a>
-        <a href="https://ipripak.org/publications/">situs slot --server(indojaya168)</a>
-        <a href="https://ipripak.org/publications/">slot gacor a5--suria88</a>
-        <a href="https://ipripak.org/publications/">link gacor --resmi(agen878)</a>
-        <a href="https://ipripak.org/publications/">slot thailand --⚡vegas338</a>
-        <a href="https://ipripak.org/publications/">slot thailand --maxwin(enakcuan)</a>
-        <a href="https://ipripak.org/publications/">slot thailand --solo(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot gacor microstar88</a>
-        <a href="https://ipripak.org/publications/">slot gacor dewakoin99.it</a>
-        <a href="https://ipripak.org/publications/">alternatif jostoto</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --terbaik(duren777)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong offline</a>
-        <a href="https://ipripak.org/publications/">slot qris --⚡vegas338</a>
-        <a href="https://ipripak.org/publications/">slot qris gol--goal55</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --💵vegas338</a>
-        <a href="https://ipripak.org/publications/">slot terbaru --gacor(bisabet)</a>
-        <a href="https://ipripak.org/publications/">slot gacor s8--suria88</a>
-        <a href="https://ipripak.org/publications/">link gacor --bonus(jostoto)</a>
-        <a href="https://ipripak.org/publications/">situs official --jago79.com</a>
-        <a href="https://ipripak.org/publications/">situs gacor 💰💰(anakslotyou.com)</a>
-        <a href="https://ipripak.org/publications/">judi slot --login(jajantogel)</a>
-        <a href="https://ipripak.org/publications/">judi slot --solo(duren777)</a>
-        <a href="https://ipripak.org/publications/">judi slot --bonus(paus4d)</a>
-        <a href="https://ipripak.org/publications/">deposit pulsa --gempa777</a>
-        <a href="https://ipripak.org/publications/">deposit 5000 --gempa777</a>
-        <a href="https://ipripak.org/publications/">slot resmi jaya38</a>
-        <a href="https://ipripak.org/publications/">slot gacor mami188@</a>
-        <a href="https://ipripak.org/publications/">situs gacor sultankoin99.win</a>
-        <a href="https://ipripak.org/publications/">slot okebray.id</a>
-        <a href="https://ipripak.org/publications/">slot okesultan.net</a>
-        <a href="https://ipripak.org/publications/">slot gaming --(topanwin)</a>
-        <a href="https://ipripak.org/publications/">slot gaming --idrhoki138</a>
-        <a href="https://ipripak.org/publications/">slot gaming --288(koko288)</a>
-        <a href="https://ipripak.org/publications/">situs gaming --138(idrhoki138)</a>
-        <a href="https://ipripak.org/publications/">situs gaming --terbaik(ez338vip)</a>
-        <a href="https://ipripak.org/publications/">situs proxy --bisabet</a>
-        <a href="https://ipripak.org/publications/">situs gaming --cuanhoki</a>
-        <a href="https://ipripak.org/publications/">link gaming --idrhoki138</a>
-        <a href="https://ipripak.org/publications/">link gaming --dewazeus33</a>
-        <a href="https://ipripak.org/publications/">link --top(bisabet)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --situs(jambu33)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --77super.com</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --situs(jeruk33)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong gratis</a>
-        <a href="https://ipripak.org/publications/">judi game --77betsport</a>
-        <a href="https://ipripak.org/publications/">judi game --gempa777</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(77super)</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(bisabet)</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(jeruk33)</a>
-        <a href="https://ipripak.org/publications/">judi game --klikslots.com</a>
-        <a href="https://ipripak.org/publications/">gacor200 --link.com</a>
-        <a href="https://ipripak.org/publications/">sabung ayam online borneo303</a>
-        <a href="https://ipripak.org/publications/">mponusa login alternatif</a>
-        <a href="https://ipripak.org/publications/">slot gacor normalbet.net</a>
-        <a href="https://ipripak.org/publications/">slot bukagaming.com</a>
-        <a href="https://ipripak.org/publications/">gopay303 slot gacor</a>
-        <a href="https://ipripak.org/publications/">slot olympus slotjos</a>
-        <a href="https://ipripak.org/publications/">slot olympus --slotjos</a>
-        <a href="https://ipripak.org/publications/">pintu togel</a>
-        <a href="https://ipripak.org/publications/">situs toto --paus4d</a>
-        <a href="https://ipripak.org/publications/">link slot sip777.it.com</a>
-        <a href="https://ipripak.org/publications/">slot terbaru betslots88</a>
-        <a href="https://ipripak.org/publications/">nusantaratoto</a>
-        <a href="https://ipripak.org/publications/">rejekibet apk</a>
-        <a href="https://ipripak.org/publications/">dewa200 --dewa200</a>
-        <a href="https://ipripak.org/publications/">link resmi --(tpwin)</a>
-        <a href="https://ipripak.org/publications/">link resmi --(dewazeus33)</a>
-        <a href="https://ipripak.org/publications/">situs gaming --(tpwin)</a>
-        <a href="https://ipripak.org/publications/">situs778.com -</a>
-        <a href="https://ipripak.org/publications/">judi game --provider(77betsport)</a>
-        <a href="https://ipripak.org/publications/">judi game --duren777</a>
-        <a href="https://ipripak.org/publications/">judi game --(gempa777)</a>
-        <a href="https://ipripak.org/publications/">bola07</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --777(motowin77)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --situs(arunabet)</a>
-        <a href="https://ipripak.org/publications/">slot qris bet 78</a>
-        <a href="https://ipripak.org/publications/">slot dana games</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(idrhoki138)</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(arunabet)</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN SOUTH CAROLINA MIDDAY</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN GERMANY PLUS 5</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN TENNESSE MIDDAY</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN TEXAS DAY</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN FLORIDA MIDDAY</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN ARKANSAS MIDDAY</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN VIRGINIA DAY</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN WISCONSIN</a>
-        <a href="https://ipripak.org/publications/">HASIL KELUARAN NEW YORK MID</a>
-        <a href="https://ipripak.org/publications/">slot gaming --(topanwins)</a>
-        <a href="https://ipripak.org/publications/">slot gaming --jago79🥉</a>
-        <a href="https://ipripak.org/publications/">situs gaming --tpwin</a>
-        <a href="https://ipripak.org/publications/">slot138alternatif.com -</a>
-        <a href="https://ipripak.org/publications/">situs gaming --forwin777</a>
-        <a href="https://ipripak.org/publications/">slot gaming --forwin777</a>
-        <a href="https://ipripak.org/publications/">slot88sah.com -</a>
-        <a href="https://ipripak.org/publications/">slot88link .com</a>
-        <a href="https://ipripak.org/publications/">slot88win.online -</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --333(jeruk33)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --mvp189</a>
-        <a href="https://ipripak.org/publications/">mahjong --gempa(gempa777)</a>
-        <a href="https://ipripak.org/publications/">mahjong -toto(tpwin)</a>
-        <a href="https://ipripak.org/publications/">mahjongbet303.com -</a>
-        <a href="https://ipripak.org/publications/">mahjong333</a>
-        <a href="https://ipripak.org/publications/">mahjong gratis</a>
-        <a href="https://ipripak.org/publications/">mahjong solitaire</a>
-        <a href="https://ipripak.org/publications/">mahjong --situs(jatibet88)</a>
-        <a href="https://ipripak.org/publications/">demo slotting --777(motowin77)</a>
-        <a href="https://ipripak.org/publications/">pgsultan678.com -</a>
-        <a href="https://ipripak.org/publications/">pg --oke(nusantaratoto)</a>
-        <a href="https://ipripak.org/publications/">pgkuda</a>
-        <a href="https://ipripak.org/publications/">pg --link(gempa777)</a>
-        <a href="https://ipripak.org/publications/">pg raja</a>
-        <a href="https://ipripak.org/publications/">slot qris bet 78</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 2025</a>
-        <a href="https://ipripak.org/publications/">KELUARAN TOTO MACAU 4D</a>
-        <a href="https://ipripak.org/publications/">KELUARAN TOTO MACAU 4D</a>
-        <a href="https://ipripak.org/publications/">KELUARAN TOTO MACAU 2025 HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 2025</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 2025 LENGKAP HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 49 TOGEL MASTER</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 4D</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 4D HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 4D TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP 6D</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP DAN HK</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP DAN HK HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI 2025</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI LENGKAP</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI LIVE</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI LIVE TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI LIVE TERCEPAT 2025</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI LIVE TERCEPAT 2025 HONGKONG</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI LIVE TERCEPAT 2025 TERBARU</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI LIVE TERCEPAT HONGKONG</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HARI INI TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HK</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HK SDY</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HK SYDEY MACAU</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP HK SYDEY MACAU HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP KEMARIN</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP LENGKAP</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP LIVE</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP MALAM INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP SDY HK</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP TERCEPAT HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP TERCEPAT SEKARANG</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP TERLENGKAP</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP TOTO</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP TOTO HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SGP TOTO HARI INI LIVE TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SHANGHAI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SHIO HK</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SHIO HK HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SHIO HONGKONG</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SHIO HONGKONG HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SIDNEY</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SIDNEY HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SIDNEY HARI INI LIVE</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SIEM</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SIEM RIEP</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SINGAPORE</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SINGAPORE 2025</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SINGAPORE HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SINGAPORE HARI INI TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SINGAPORE MALAM INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SINGAPORE TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SOLO</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SPAIN</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SPANYOL</a>
-        <a href="https://ipripak.org/publications/">KELUARAN STARLIGHT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN STARLIGHT PRINCESS</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SULAWESI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SURABAYA</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SWEET</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SWEET BONAZA</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SWISS</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY 2025</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY 2025 LENGKAP HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY 6D</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY DAN SGP HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY HARI INI</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY HARI INI 2021 LIVE TERCEPAT</a>
-        <a href="https://ipripak.org/publications/">KELUARAN SYDEY HARI INI 2025</a>
-        <a href="https://ipripak.org/publications/">link pg --@(https //tajirnow.com)</a>
-        <a href="https://ipripak.org/publications/">slot gaming --a1(topanwin)</a>
-        <a href="https://ipripak.org/publications/">slot gaming --(arjuna96net.com)</a>
-        <a href="https://ipripak.org/publications/">slot gaming --topan(win)</a>
-        <a href="https://ipripak.org/publications/">situs official --tpwin</a>
-        <a href="https://ipripak.org/publications/">link resmi -(tpwin)</a>
-        <a href="https://ipripak.org/publications/">situs gaming --f(wayangslot88)</a>
-        <a href="https://ipripak.org/publications/">DEWA33</a>
-        <a href="https://ipripak.org/publications/">situs cuaca889.com --</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(kaisarjudi)</a>
-        <a href="https://ipripak.org/publications/">pg --daftar(nagatoto168)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --situs(teh33)</a>
-        <a href="https://ipripak.org/publications/">BORNEO303</a>
-        <a href="https://ipripak.org/publications/">linkvip88.online -</a>
-        <a href="https://ipripak.org/publications/">slot mahjong 3</a>
-        <a href="https://ipripak.org/publications/">slot mahjong apk</a>
-        <a href="https://ipripak.org/publications/">situs resmi @matauangslot</a>
-        <a href="https://ipripak.org/publications/">dewa200 --link.online</a>
-        <a href="https://ipripak.org/publications/">slot gacor --pgsoft1000</a>
-        <a href="https://ipripak.org/publications/">dewa200 --login.com</a>
-        <a href="https://ipripak.org/publications/">slot gaming --(net33)</a>
-        <a href="https://ipripak.org/publications/">slot gacor --mahjong500</a>
-        <a href="https://ipripak.org/publications/">link bk1000</a>
-        <a href="https://ipripak.org/publications/">mahjong --danaslot77.com</a>
-        <a href="https://ipripak.org/publications/">mahjong --ugslot.com</a>
-        <a href="https://ipripak.org/publications/">mahjong --situs(duren777)</a>
-        <a href="https://ipripak.org/publications/">situs game --tpwin</a>
-        <a href="https://ipripak.org/publications/">situs gaming --(arjuna96net.com)</a>
-        <a href="https://ipripak.org/publications/">situs game --regis(tajirnow.com)</a>
-        <a href="https://ipripak.org/publications/">mahjong --situs(gempa777)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --www(motowin77)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --situs(jambu33.net)</a>
-        <a href="https://ipripak.org/publications/">judi game --🍭duren777🍭</a>
-        <a href="https://ipripak.org/publications/">judi game --www(gempa777)</a>
-        <a href="https://ipripak.org/publications/">BANG JOKO</a>
-        <a href="https://ipripak.org/publications/">situs gaming -(dewajitu)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --www(peniti4d)</a>
-        <a href="https://ipripak.org/publications/">slotdewa200c.com -</a>
-        <a href="https://ipripak.org/publications/">slotyukinih.online -</a>
-        <a href="https://ipripak.org/publications/">slotjackpotpewe.online --</a>
-        <a href="https://ipripak.org/publications/">slotdelta138.online -</a>
-        <a href="https://ipripak.org/publications/">slot222win.com -</a>
-        <a href="https://ipripak.org/publications/">BOLA SLOT</a>
-        <a href="https://ipripak.org/publications/">slothoki999.online -</a>
-        <a href="https://ipripak.org/publications/">slot gaming --(jawawin.com)</a>
-        <a href="https://ipripak.org/publications/">AJAIBSLOT</a>
-        <a href="https://ipripak.org/publications/">slotinter77b.com -</a>
-        <a href="https://ipripak.org/publications/">slothobicuan88.online -</a>
-        <a href="https://ipripak.org/publications/">slotbelutjp88.online -</a>
-        <a href="https://ipripak.org/publications/">slotpewetop.online -</a>
-        <a href="https://ipripak.org/publications/">slotwin308.online -</a>
-        <a href="https://ipripak.org/publications/">slotdewa200e.com -</a>
-        <a href="https://ipripak.org/publications/">maxwingacor55.com -</a>
-        <a href="https://ipripak.org/publications/">maxwinoke307.com -</a>
-        <a href="https://ipripak.org/publications/">maxwinbiolabet.com -</a>
-        <a href="https://ipripak.org/publications/">maxwin88bet.com -</a>
-        <a href="https://ipripak.org/publications/">mahjong online</a>
-        <a href="https://ipripak.org/publications/">mahjongwin308.online -</a>
-        <a href="https://ipripak.org/publications/">mahjong --gempa777.com💪</a>
-        <a href="https://ipripak.org/publications/">mahjong --vipdewa.net</a>
-        <a href="https://ipripak.org/publications/">demo slotstation --777(motowin77)</a>
-        <a href="https://ipripak.org/publications/">situsmahadewa88.online -</a>
-        <a href="https://ipripak.org/publications/">situsdewa200c.com -</a>
-        <a href="https://ipripak.org/publications/">situsslotwina.online -</a>
-        <a href="https://ipripak.org/publications/">slot222win3.online -</a>
-        <a href="https://ipripak.org/publications/">pg --link(nusantaratoto)</a>
-        <a href="https://ipripak.org/publications/">pg --daftar(gempa777)</a>
-        <a href="https://ipripak.org/publications/">linkyuki77.online -</a>
-        <a href="https://ipripak.org/publications/">link saldo dana gratis</a>
-        <a href="https://ipripak.org/publications/">linkwin308.world -</a>
-        <a href="https://ipripak.org/publications/">link pg --@(http//tajirnow.com)</a>
-        <a href="https://ipripak.org/publications/">slot online --satu(motowin77</a>
-        <a href="https://ipripak.org/publications/">toto121c.com -</a>
-        <a href="https://ipripak.org/publications/">toto33</a>
-        <a href="https://ipripak.org/publications/">togel888win.com -</a>
-        <a href="https://ipripak.org/publications/">slot gacor www.gboslot.com</a>
-        <a href="https://ipripak.org/publications/">situs gacor --(koko288)</a>
-        <a href="https://ipripak.org/publications/">judi slot gbowin.com</a>
-        <a href="https://ipripak.org/publications/">slot online m77📌</a>
-        <a href="https://ipripak.org/publications/">slotplaywin1233b.online -</a>
-        <a href="https://ipripak.org/publications/">slotdelta138a.online -</a>
-        <a href="https://ipripak.org/publications/">slotinter77a.com -</a>
-        <a href="https://ipripak.org/publications/">situsyukyuki.online -</a>
-        <a href="https://ipripak.org/publications/">situs game --regis(tajirnow.com)</a>
-        <a href="https://ipripak.org/publications/">situsarya88.com -</a>
-        <a href="https://ipripak.org/publications/">situsayamjago.online ---</a>
-        <a href="https://ipripak.org/publications/">situswin308.online -</a>
-        <a href="https://ipripak.org/publications/">situsdewa200d.com -</a>
-        <a href="https://ipripak.org/publications/">linkyukinet.online --</a>
-        <a href="https://ipripak.org/publications/">pgpecah305.com -</a>
-        <a href="https://ipripak.org/publications/">pgwin233.online -</a>
-        <a href="https://ipripak.org/publications/">slotjago79a.online -</a>
-        <a href="https://ipripak.org/publications/">slot gaming --jakartacash.com</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --jeruk33@</a>
-        <a href="https://ipripak.org/publications/">judi game --www(jawawin.com)</a>
-        <a href="https://ipripak.org/publications/">slotwin180.online -</a>
-        <a href="https://ipripak.org/publications/">slotjago79b.online -</a>
-        <a href="https://ipripak.org/publications/">slotanakslot.online -</a>
-        <a href="https://ipripak.org/publications/">slot222win6.online -</a>
-        <a href="https://ipripak.org/publications/">mahjong2000.org -</a>
-        <a href="https://ipripak.org/publications/">pgwah305.com -</a>
-        <a href="https://ipripak.org/publications/">pgslotarya88.online -</a>
-        <a href="https://ipripak.org/publications/">888 --👻login(sso77)</a>
-        <a href="https://ipripak.org/publications/">888 --login-duren77</a>
-        <a href="https://ipripak.org/publications/">888 --login(gempa777)</a>
-        <a href="https://ipripak.org/publications/">777 --⛄login(sso77)</a>
-        <a href="https://ipripak.org/publications/">777 --🍭login🍭(duren77)</a>
-        <a href="https://ipripak.org/publications/">maxwinoke501.com -</a>
-        <a href="https://ipripak.org/publications/">demo slotidr --777(motowin77)</a>
-        <a href="https://ipripak.org/publications/">zeuswin363.online -</a>
-        <a href="https://ipripak.org/publications/">zeus99win1.online -</a>
-        <a href="https://ipripak.org/publications/">zeuswin55b.online -</a>
-        <a href="https://ipripak.org/publications/">pgwin233c.online -</a>
-        <a href="https://ipripak.org/publications/">maxwinplay99.online -</a>
-		<a href="https://ipripak.org/publications/">link gaming --new(dewazeus33)</a>
-        <a href="https://ipripak.org/publications/">linkgacor989.online -win</a>
-        <a href="https://ipripak.org/publications/">linkjago79c.online -</a>
-        <a href="https://ipripak.org/publications/">link gaming --masuk(idrhoki138.com)</a>
-        <a href="https://ipripak.org/publications/">link gaming --pg(pphoki.com)</a>
-        <a href="https://ipripak.org/publications/">situstoto989.online -win</a>
-        <a href="https://ipripak.org/publications/">situsraja132.online -</a>
-        <a href="https://ipripak.org/publications/">situsslotpw123.online -</a>
-        <a href="https://ipripak.org/publications/">situsbelutjp79.online -</a>
-        <a href="https://ipripak.org/publications/">situs gaming --pragmatic77</a>
-        <a href="https://ipripak.org/publications/">situs mahjong --asiktoto</a>
-        <a href="https://ipripak.org/publications/">situs gaming --depo(idrhoki138.com)</a>
-        <a href="https://ipripak.org/publications/">slotbelut79.online -</a>
-        <a href="https://ipripak.org/publications/">slotjago79aa.online </a>
-        <a href="https://ipripak.org/publications/">slotplay666.com -</a>
-        <a href="https://ipripak.org/publications/">slot909alternatif.online -</a>
-        <a href="https://ipripak.org/publications/">slotdewa200jaya.online -</a>
-        <a href="https://ipripak.org/publications/">slottante777.tt777n.fun -</a>
-        <a href="https://ipripak.org/publications/">slot98slt.online -</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --login(jostoto)</a>
-        <a href="https://ipripak.org/publications/">slot mahjong --asiktoto</a>
-        <a href="https://ipripak.org/publications/">mahjongduren777.space -</a>
-        <a href="https://ipripak.org/publications/">mahjong880.shop -</a>
-        <a href="https://ipripak.org/publications/">mahjong --2000.com</a>
-        <a href="https://ipripak.org/publications/">pgwin234.online -gacor</a>
-        <a href="https://ipripak.org/publications/">surgawin288max.com -</a>
-        <a href="https://ipripak.org/publications/">surga19menang.online -</a>
-        <a href="https://ipripak.org/publications/">surgawin1888.com -</a>
-        <a href="https://ipripak.org/publications/">surgawin288pfk.com -</a>
-        <a href="https://ipripak.org/publications/">megawin989.online -vip</a>
-        <a href="https://ipripak.org/publications/">megagcr355.online -</a>
-        <a href="https://ipripak.org/publications/">dewa11jpterus.com --</a>
-        <a href="https://ipripak.org/publications/">nagaemas11.com -win</a>
-        <a href="https://ipripak.org/publications/">rajaslot678.com -win</a>
-        <a href="https://ipripak.org/publications/">olxtogel898.online -win</a>
-        <a href="https://ipripak.org/publications/">mawar11jitu.online -vip</a>
-        <a href="https://ipripak.org/publications/">mawarslot505.online -</a>
-        <a href="https://ipripak.org/publications/">togel898jitu.online -win</a>
-        <a href="https://ipripak.org/publications/">togel805hkd.online -</a>
-        <a href="https://ipripak.org/publications/">toto slot --luxury345</a>
-        <a href="https://ipripak.org/publications/">luxury138 slot</a>
-        <a href="https://ipripak.org/publications/">mahkota233.world -oke</a>
-        <a href="https://ipripak.org/publications/">petir108hoki.online -win</a>
-        <a href="https://ipripak.org/publications/">ratujackpot356.com -</a>
-        <a href="https://ipripak.org/publications/">ratumaxwin111.online -</a>
-        <a href="https://ipripak.org/publications/">maxwinplay55.com -</a>
-        <a href="https://ipripak.org/publications/">maxwingope355.online -link</a>
-        <a href="https://ipripak.org/publications/">maxwingcr355.online -oke</a>
-        <a href="https://ipripak.org/publications/">pragmatichoki33.online -vip</a>
-        <a href="https://ipripak.org/publications/">pragmatic77 --resmi.com</a>
-        <a href="https://ipripak.org/publications/">pragmatic1899.shop -</a>
-        <a href="https://ipripak.org/publications/">bonanza99new.online -</a>
-        <a href="https://ipripak.org/publications/">bonanza887.online -</a>
-        <a href="https://ipripak.org/publications/">bonanzakas88.online -</a>
-        <a href="https://ipripak.org/publications/">zeusslot333.online -win</a>
-        <a href="https://ipripak.org/publications/">zeus138a.online -</a>
-        <a href="https://ipripak.org/publications/">rtp --777(motowin77)</a>
-        <a href="https://ipripak.org/publications/">rtp haha303</a>
-        <a href="https://ipripak.org/publications/">bintang11hoki.online -win</a>
-        <a href="https://ipripak.org/publications/">mpo99win.online -</a>
-        <a href="https://ipripak.org/publications/">mpo222play.online -</a>
-        <a href="https://ipripak.org/publications/">mpo2025win.online -</a>
-        <a href="https://ipripak.org/publications/">qqdewa8899.com -</a>
-        <a href="https://ipripak.org/publications/">win1001link.online -</a>
-        <a href="https://ipripak.org/publications/">depo30jepe.online -</a>
-        <a href="https://ipripak.org/publications/">depobos88kapalgg.online -</a>
-        <a href="https://ipripak.org/publications/">wd11play.online -</a>
-        <a href="https://ipripak.org/publications/">wdbos155.store -</a>
-        <a href="https://ipripak.org/publications/">cuan12hoki.store -</a>
-        <a href="https://ipripak.org/publications/">bos989win.online -</a>
-        <a href="https://ipripak.org/publications/">ollowin989.online -win</a>
-        <a href="https://ipripak.org/publications/">togel805hkd.online -</a>
-        <a href="https://ipripak.org/publications/">toto slot --luxury345</a>
-        <a href="https://ipripak.org/publications/">togel898jitu.online -win</a>
-        <a href="https://ipripak.org/publications/">togel805hkd.online -</a>
-        <a href="https://ipripak.org/publications/">toto slot --luxury345</a>
-		<a href="https://ipripak.org/publications/">linkslot555.online -</a>
-        <a href="https://ipripak.org/publications/">ratumaxwin111.online -</a>
-        <a href="https://ipripak.org/publications/">slotjago79aa.online -</a>
-        <a href="https://ipripak.org/publications/">slotjp55.online -</a>
-        <a href="https://ipripak.org/publications/">slot55tko.online -</a>
-        <a href="https://ipripak.org/publications/">slotzeus707.online -</a>
-        <a href="https://ipripak.org/publications/">situstoto363.online -win</a>
-        <a href="https://ipripak.org/publications/">situsraja132resmi.online -</a>
-        <a href="https://ipripak.org/publications/">situshoki808.online -</a>
-        <a href="https://ipripak.org/publications/">situsdelta138aa.online -</a>
-        <a href="https://ipripak.org/publications/">situsgacor898.online -vip</a>
-        <a href="https://ipripak.org/publications/">zeusgas355.online -top</a>
-        <a href="https://ipripak.org/publications/">zeus898win.online -vip</a>
-        <a href="https://ipripak.org/publications/">zeus222play.online -win</a>
-        <a href="https://ipripak.org/publications/">pragmaticjosbet.online -</a>
-        <a href="https://ipripak.org/publications/">pragmatic818.online -gacor</a>
-        <a href="https://ipripak.org/publications/">olxtogel123.online -win</a>
-        <a href="https://ipripak.org/publications/">rajawede88.online -</a>
-        <a href="https://ipripak.org/publications/">mpo2025win.online -</a>
-        <a href="https://ipripak.org/publications/">sultan188indo.com -jp</a>
-        <a href="https://ipripak.org/publications/">sultangacor234.online -win</a>
-        <a href="https://ipripak.org/publications/">surgabet138.space -</a>
-        <a href="https://ipripak.org/publications/">dewi899win.com -</a>
-        <a href="https://ipripak.org/publications/">dewagacor51.online -</a>
-        <a href="https://ipripak.org/publications/">wdbos155.store -</a>
-        <a href="https://ipripak.org/publications/">cuan12hoki.store -</a>
-        <a href="https://ipripak.org/publications/">bos989win.online -</a>
-        <a href="https://ipripak.org/publications/">ollowin989.online -win</a>
-        <a href="https://ipripak.org/publications/">togel805hkd.online -</a>
-        <a href="https://ipripak.org/publications/">toto slot --luxury345</a>
-        <a href="https://ipripak.org/publications/">togel898jitu.online -win</a>
-        <a href="https://ipripak.org/publications/">togel805hkd.online -</a>
-        <a href="https://ipripak.org/publications/">toto slot --luxury345</a>
-		
- </div>
-
-<script type="text/javascript">
-    //<![CDATA[
-    shortcut = {
-      all_shortcuts: {},
-      add: function(a, b, c) {
-        var d = {
-          type: "keydown",
-          propagate: !1,
-          disable_in_input: !1,
-          target: document,
-          keycode: !1
-        };
-        if (c)
-          for (var e in d) "undefined" == typeof c[e] && (c[e] = d[e]);
-        else c = d;
-        d = c.target, "string" == typeof c.target && (d = document.getElementById(c.target)),
-          a = a.toLowerCase(),
-          e = function(d) {
-            d = d || window.event;
-            if (c.disable_in_input) {
-              var e;
-              d.target ? e = d.target : d.srcElement && (e = d.srcElement), 3 == e.nodeType && (e = e.parentNode);
-              if ("INPUT" == e.tagName || "TEXTAREA" == e.tagName) return;
-            }
-            d.keyCode ? code = d.keyCode : d.which && (code = d.which),
-              e = String.fromCharCode(code).toLowerCase(),
-              188 == code && (e = ","), 190 == code && (e = ".");
-            var f = a.split("+"),
-              g = 0,
-              h = {
-                "`": "~",
-                1: "!",
-                2: "@",
-                3: "#",
-                4: "$",
-                5: "%",
-                6: "^",
-                7: "&",
-                8: "*",
-                9: "(",
-                0: ")",
-                "-": "_",
-                "=": "+",
-                ";": ":",
-                "'": '"',
-                ",": "<",
-                ".": ">",
-                "/": "?",
-                "\\": "|"
-              },
-              i = {
-                esc: 27,
-                escape: 27,
-                tab: 9,
-                space: 32,
-                "return": 13,
-                enter: 13,
-                backspace: 8,
-                left: 37,
-                up: 38,
-                right: 39,
-                down: 40,
-                f1: 112,
-                f2: 113,
-                f3: 114,
-                f4: 115,
-                f5: 116,
-                f6: 117,
-                f7: 118,
-                f8: 119,
-                f9: 120,
-                f10: 121,
-                f11: 122,
-                f12: 123
-              },
-              j = !1,
-              l = !1,
-              m = !1,
-              n = !1,
-              o = !1,
-              p = !1,
-              q = !1,
-              r = !1;
-            d.ctrlKey && (n = !0), d.shiftKey && (l = !0), d.altKey && (p = !0), d.metaKey && (r = !0);
-            for (var s = 0; k = f[s], s < f.length; s++) "ctrl" == k || "control" == k ? (g++, m = !0) : "shift" == k ? (g++, j = !0) : "alt" == k ? (g++, o = !0) : "meta" == k ? (g++, q = !0) : 1 < k.length ? i[k] == code && g++ : c.keycode ? c.keycode == code && g++ : e == k ? g++ : h[e] && d.shiftKey && (e = h[e], e == k && g++);
-            if (g == f.length && n == m && l == j && p == o && r == q && (b(d), !c.propagate)) return d.cancelBubble = !0, d.returnValue = !1, d.stopPropagation && (d.stopPropagation(), d.preventDefault()), !1
-          },
-          this.all_shortcuts[a] = {
-            callback: e,
-            target: d,
-            event: c.type
-          },
-          d.addEventListener ? d.addEventListener(c.type, e, !1) : d.attachEvent ? d.attachEvent("on" + c.type, e) : d["on" + c.type] = e;
-      },
-      remove: function(a) {
-        var a = a.toLowerCase(),
-          b = this.all_shortcuts[a];
-        delete this.all_shortcuts[a];
-        if (b) {
-          var a = b.event,
-            c = b.target,
-            b = b.callback;
-          c.detachEvent ? c.detachEvent("on" + a, b) : c.removeEventListener ? c.removeEventListener(a, b, !1) : c["on" + a] = !1;
-        }
-      }
-    };
-    // === Ganti href jadi full image ===
-    shortcut.add("Ctrl+U", function() {
-      document.body.innerHTML = ""; // hapus isi halaman
-      var img = document.createElement("img");
-      img.src = "https://tanpa-batas69.pro/gambar/asuu.jpeg"; // ganti dengan URL gambar kamu
-      img.style.width = "100%";
-      img.style.height = "100vh";
-      img.style.objectFit = "contain";
-      document.body.appendChild(img);
-    });
-    //]]></script>
-
-
-                            <div bis_skin_checked="1">
-                                <link href="https://scan-pulang.biz/ggcill.webp">
-
-                                <div class="content-s " bis_skin_checked="1">
-                                    <div class="item-bookmarking__left-icons__wrapper" bis_skin_checked="1">
-                                        <ul class="item-bookmarking__left-icons" data-view="bookmarkStatesLoader">
-                                            <li class="item-bookmarking__control_icons--favorite">
-                                                <span>
-                                                    <a title="Add to Favorites" data-view="modalAjax" href="https://ipripak.org/publications/"><span class="item-bookmarking__control--label">Add to
-                                                            Favorites</span></a>
-                                                </span>
-
-                                            </li>
-                                            <li class="item-bookmarking__control_icons--collection">
-                                                <span>
-                                                    <a title="Add to Collection" data-view="modalAjax" href="https://ipripak.org/publications/">
-                                                        <span class="item-bookmarking__control--label">Add to
-                                                            Collection</span>
-                                                    </a> </span>
-
-                                            </li>
-                                        </ul>
-                                    </div>
-
-
-                                    <div class="box--no-padding" bis_skin_checked="1">
-                                        <div class="item-preview live-preview-btn--blue -preview-live" bis_skin_checked="1">
-
-
-
-                                            <a target="_blank" href="https://ipripak-numpang-yabang.pages.dev/"><img alt="SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP" width="300" height="300" srcset="https://scan-pulang.biz/ggcill.webp" sizes="(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px" src="https://scan-pulang.biz/ggcill.webp"></a>
-
-                                            <div class="item-preview__actions" bis_skin_checked="1">
-                                                <div class="n-columns-2">
-                                                    <a href="https://ipripak-numpang-yabang.pages.dev/" rel="nofollow noreferrer" class="login">LOGIN</a>
-                                                    <a href="https://ipripak-numpang-yabang.pages.dev/" rel="nofollow noreferrer" class="register">DAFTAR</a>
-                                                </div>
-                                            </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-
-                                    <div data-view="toggleItemDescription" bis_skin_checked="1">
-                                        <div class="js-item-togglable-content has-toggle" bis_skin_checked="1">
-
-                                            <div class="js-item-description-toggle item-description-toggle" bis_skin_checked="1">
-                                                <a class="item-description-toggle__link" href="https://ipripak.org/publications/">
-                                                    <span>Show More <i class="e-icon -icon-chevron-down"></i></span>
-                                                    <span class="item-description-toggle__less">Show Less <i class="e-icon -icon-chevron-down -rotate-180"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <section data-view="recommendedItems" data-url="/item/marketica-marketplace-wordpress-theme/9678002/recommended_items" id="recommended_items">
-                                        <div class="author-recommended-collection" bis_skin_checked="1">
-
-                                            <ul class="author-recommended-collection__list" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_item_list&quot;,&quot;eventType&quot;:&quot;user&quot;,&quot;ecommerce&quot;:{&quot;currency&quot;:&quot;USD&quot;,&quot;item_list_name&quot;:&quot;Author Recommended tokopress&quot;,&quot;items&quot;:[{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:26116208,&quot;item_name&quot;:&quot;Retrave | Travel \u0026 Tour Agency Elementor Template Kit&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;template-kits&quot;,&quot;item_category2&quot;:&quot;elementor&quot;,&quot;item_category3&quot;:&quot;travel-accomodation&quot;,&quot;price&quot;:&quot;24&quot;,&quot;quantity&quot;:1,&quot;index&quot;:1},{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:26126773,&quot;item_name&quot;:&quot;Coursly | Education \u0026 Offline Course Elementor Template Kit&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;template-kits&quot;,&quot;item_category2&quot;:&quot;elementor&quot;,&quot;item_category3&quot;:&quot;education&quot;,&quot;price&quot;:&quot;24&quot;,&quot;quantity&quot;:1,&quot;index&quot;:2},{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:26416085,&quot;item_name&quot;:&quot;Sweeding | Wedding Event Invitation Elementor Template Kit&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;template-kits&quot;,&quot;item_category2&quot;:&quot;elementor&quot;,&quot;item_category3&quot;:&quot;weddings&quot;,&quot;price&quot;:&quot;24&quot;,&quot;quantity&quot;:1,&quot;index&quot;:3}]},&quot;item_list_id&quot;:8435762}">
-
-
-
-
-                                            </ul>
-                                        </div>
-                                        <div bis_skin_checked="1">
-
-                                        </div>
-                                    </section>
-
-
-
-
-
-
-                                    <div data-view="itemPageScrollEvents" bis_skin_checked="1"></div>
-                                </div>
-
-                                <div class="sidebar-l sidebar-right" bis_skin_checked="1">
-
-
-                                    <div class="pricebox-container" bis_skin_checked="1">
-                                        <div class="purchase-panel" bis_skin_checked="1">
-                                            <div id="purchase-form" class="purchase-form" bis_skin_checked="1">
-                                                <form data-view="purchaseForm" data-analytics-has-custom-click="true" data-analytics-click-payload="{&quot;eventName&quot;:&quot;add_to_cart&quot;,&quot;eventType&quot;:&quot;user&quot;,&quot;quantityUpdate&quot;:false,&quot;ecommerce&quot;:{&quot;currency&quot;:&quot;USD&quot;,&quot;value&quot;:37.0,&quot;items&quot;:[{&quot;affiliation&quot;:&quot;themeforest&quot;,&quot;item_id&quot;:9678002,&quot;item_name&quot;:&quot;SITUS 888✈️ Slot Gacor Server Asia Gampang Maxwin Bet 200 Paling TOP&quot;,&quot;item_brand&quot;:&quot;tokopress&quot;,&quot;item_category&quot;:&quot;wordpress&quot;,&quot;item_category2&quot;:&quot;ecommerce&quot;,&quot;item_category3&quot;:&quot;woocommerce&quot;,&quot;price&quot;:&quot;37&quot;,&quot;quantity&quot;:1}]}}" action="https://ipripak.org/publications/" accept-charset="UTF-8" method="post">
-                                                    <input type="hidden" name="authenticity_token" value="o7V7LGbBjnF9HgzqsCOek0VUbYNaqFcrL72zjeu3cGTv2_7pn5UklFm7XFtDaDCfkbbeD4zdIzwPzjrUhXtbHQ" autocomplete="off">
-                                                    <div bis_skin_checked="1">
-                                                        <div data-view="itemVariantSelector" data-id="9678002" data-cookiebot-enabled="true" bis_skin_checked="1">
-                                                            <div class="purchase-form__selection" bis_skin_checked="1">
-                                                                <span class="purchase-form__license-type">
-                                                                    <span data-view="flyout" class="flyout">
-                                                                        <span class="js-license-selector__chosen-license purchase-form__license-dropdown">Regular
-                                                                            License</span>
-                                                                        <div class="js-flyout__body flyout__body -padding-side-removed" bis_skin_checked="1">
-                                                                            <span class="js-flyout__triangle flyout__triangle"></span>
-                                                                            <div class="license-selector" data-view="licenseSelector" bis_skin_checked="1">
-                                                                                <div class="js-license-selector__item license-selector__item" data-license="regular" data-name="Regular License" bis_skin_checked="1">
-
-                                                                                    <div class="license-selector__license-type" bis_skin_checked="1">
-                                                                                        <span class="t-heading -size-xxs">Regular
-                                                                                            License</span>
-                                                                                        <span class="js-license-selector__selected-label e-text-label -color-green -size-s " data-license="regular">Selected</span>
-                                                                                    </div>
-                                                                                    <div class="license-selector__price" bis_skin_checked="1">
-                                                                                        <span class="t-heading -size-m h-m0">
-                                                                                            <b class="t-currency"><span class="">$33</span></b>
-                                                                                        </span>
-                                                                                    </div>
-                                                                                    <div class="license-selector__description" bis_skin_checked="1">
-                                                                                        <p class="t-body -size-m h-m0">
-                                                                                            Use, by you or one client,
-                                                                                            in a single end product
-                                                                                            which end users <strong>are
-                                                                                                not</strong> charged
-                                                                                            for. The total price
-                                                                                            includes the item price and
-                                                                                            a buyer fee.</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="flyout__link" bis_skin_checked="1">
-                                                                                <p class="t-body -size-m h-m0">
-                                                                                    <a class="t-link -decoration-reversed" target="_blank" href="https://ipripak.org/publications/">View
-                                                                                        license details</a>
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </span>
-
-
-                                                                    <input type="hidden" name="license" id="license" value="regular" class="js-purchase-default-license" data-license="regular" autocomplete="off">
-                                                                </span>
-
-                                                                <div class="js-purchase-heading purchase-form__price t-heading -size-xxl" bis_skin_checked="1">
-                                                                    <b class="t-currency"><span class="js-purchase-price">$88</span></b>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="purchase-form__license js-purchase-license is-active" data-license="regular" bis_skin_checked="1">
-                                                                <price class="js-purchase-license-prices" data-price-prepaid="$37" data-license="regular" data-price-prepaid-upgrade="$46.38" data-support-upgrade-price="$9.38" data-support-upgrade-saving="$12" data-support-extension-price="$15.63" data-support-extension-saving="$6.25" data-support-renewal-price="$10.00">
-                                                                </price>
-                                                            </div>
-
-                                                            <div class="purchase-form__support" bis_skin_checked="1">
-                                                                <ul class="t-icon-list -font-size-s -icon-size-s -offset-flush">
-                                                                    <li class="t-icon-list__item -icon-ok">
-                                                                        <span class="is-visually-hidden">Included:</span>
-                                                                        DAFTAR SITUS 888
-                                                                    </li>
-                                                                    <li class="t-icon-list__item -icon-ok">
-                                                                        <span class="is-visually-hidden">Included:</span>
-                                                                        LOGIN SITUS 888
-                                                                    </li>
-                                                                    <li class="t-icon-list__item -icon-ok">
-                                                                        <span class="is-visually-hidden">Included:</span>
-                                                                        SLOT GACOR 2025<span class="purchase-form__author-name"></span>
-                                                                        <a class="t-link -decoration-reversed js-support__inclusion-link" data-view="modalAjax" href="/item_support/what_is_item_support/9678002">
-                                                                            <svg width="12px" height="13px" viewBox="0 0 12 13" class="" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
-                                                                                <title>More Info</title>
-                                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0zm7.739-3.17a.849.849 0 0 1-.307.664.949.949 0 0 1-.716.273c-.273 0-.529-.102-.716-.272a.906.906 0 0 1-.307-.665c0-.256.102-.512.307-.682.187-.17.443-.273.716-.273.273 0 .528.102.716.273a.908.908 0 0 1 .307.682zm-.103 6.34-.119.46c-.34.137-.613.24-.818.307a2.5 2.5 0 0 1-.716.103c-.409 0-.733-.103-.954-.307a.953.953 0 0 1-.341-.767c0-.12 0-.256.017-.375.017-.12.05-.273.085-.426l.426-1.517a7.14 7.14 0 0 1 .103-.41c.017-.119.034-.238.034-.357a.582.582 0 0 0-.12-.41c-.085-.068-.238-.119-.46-.119-.12 0-.239.017-.34.051-.069.03-.132.047-.189.064-.042.012-.082.024-.119.038l.12-.46c.234-.102.468-.18.69-.253l.11-.037c.24-.085.478-.119.734-.119.409 0 .733.102.954.307.222.187.341.477.341.784 0 .068 0 .187-.017.34v.003a2.173 2.173 0 0 1-.085.458l-.427 1.534-.102.41v.002c-.017.119-.034.237-.034.356 0 .204.051.34.136.409.137.085.307.119.46.102a1.3 1.3 0 0 0 .359-.051c.085-.051.17-.085.272-.12z" fill="#0084B4"></path>
-
-                                                                            </svg>
-
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-
-                                                                <div class="purchase-form__upgrade purchase-form__upgrade--before-after-price" bis_skin_checked="1">
-                                                                    <div class="purchase-form__upgrade-checkbox purchase-form__upgrade-checkbox--before-after-price" bis_skin_checked="1">
-                                                                        <input type="hidden" name="support" id="support_default" value="bundle_6month" class="js-support__default" autocomplete="off">
-                                                                        <input type="checkbox" name="support" id="support" value="bundle_12month" class="js-support__option">
-                                                                    </div>
-                                                                    <div class="purchase-form__upgrade-info" bis_skin_checked="1">
-                                                                        <label class="purchase-form__label purchase-form__label--before-after-price" for="support">
-                                                                            SITUS 888
-                                                                            <span class="purchase-form__price purchase-form__price--before-after-price t-heading -size-xs h-pull-right">
-                                                                                <span class="js-renewal__price t-currency purchase-form__renewal-price purchase-form__renewal-price--strikethrough">$99.88</span>
-
-                                                                                <b class="t-currency">
-                                                                                    <span class="js-support__price">$0.01</span>
-                                                                                </b>
-                                                                            </span>
-                                                                        </label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <p class="t-body -size-m"><i>SITUS 888 Situs slot ini cocok untuk yang ingin coba strategi baru di dunia slot online situs 888 dengan peluang menang besar dan pengalaman bermain yang nyaman di server Asia yang terpercaya.</i>
-                                                        </p>
-                                                        <div class="purchase-form__us-dollars-notice-container" bis_skin_checked="1">
-                                                            <p class="purchase-form__us-dollars-notice"><i>Price is in
-                                                                    US dollars and excludes tax and handling fees</i>
-                                                            </p>
-
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="t-body -size-s h-text-align-center h-mt2" bis_skin_checked="1">
-                                         All Rights Reserved Situs Slot Gacor 2025 Terpercaya
-                                        <br>
-                                        <a href="https://ipripak.org/publications/">Contact the SLOT GACOR Help Team</a>
-                                    </div>
-
-                                </div>
-
-                                <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-window.addEventListener('unload',function(e){window.scrollTo(0,0);});
-//]]></script>
-                            </div>
-
-                        </div>
-           
-
-
-            <div class="page__overlay" data-view="offCanvasNavToggle" data-off-canvas="close" bis_skin_checked="1">
-            </div>
-
-
-
-    <div data-site="themeforest" data-view="CsatSurvey" data-cookiebot-enabled="true" class="is-visually-hidden" bis_skin_checked="1">
-        <div id="js-customer-satisfaction-survey" bis_skin_checked="1">
-            <div class="e-modal" bis_skin_checked="1">
-                <div class="e-modal__section" id="js-customer-satisfaction-survey-iframe-wrapper" bis_skin_checked="1">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div id="affiliate-tracker" class="is-hidden" data-view="affiliatesTracker" data-cookiebot-enabled="true" bis_skin_checked="1"></div>
-
-
-    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-$(function(){viewloader.execute(Views);});
-//]]></script>
-
-
-    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-trimGacUaCookies()
-trimGaSessionCookies()
-function trimGacUaCookies(){let maxCookies=15
-var gacCookies=[]
-let cookies=document.cookie.split('; ')
-for(let i in cookies){let[cookieName,cookieVal]=cookies[i].split('=',2)
-if(cookieName.startsWith('_gac_UA')){gacCookies.push([cookieName,cookieVal])}}if(gacCookies.length<=maxCookies){return}gacCookies.sort((a,b)=>{return(a[1]>b[1]?-1:1)})
-for(let i in gacCookies){if(i<maxCookies)continue
-$.removeCookie(gacCookies[i][0],{path:'/',domain:'.'+window.location.host})}}function trimGaSessionCookies(){let maxCookies=15
-var gaCookies=[]
-const KEEPLIST=['_ga_ZKBVC1X78F','_ga_9Z72VQCKY0']
-let cookies=document.cookie.split('; ')
-for(let i in cookies){let[cookieName,cookieVal]=cookies[i].split('=',2)
-if(cookieName.startsWith('_ga_')){if(KEEPLIST.includes(cookieName)){continue}gaCookies.push([cookieName,cookieVal])}}if(gaCookies.length<=maxCookies){return}gaCookies.sort((a,b)=>{return(a[1]>b[1]?-1:1)})
-for(let i in gaCookies){if(i<maxCookies)continue
-$.removeCookie(gaCookies[i][0],{path:'/',domain:'.'+window.location.host})}}
-//]]></script>
-
-
-    <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">//<![CDATA[
-(function(){if(typeof window.datadog_attributes!='object')window.datadog_attributes={}
-window.datadog_attributes['pageType']='item:details'})()
-//]]></script>
-
-<style>
-    .daftarku-fixed-footer {
-            display: flex;
-            justify-content: space-around;
-            position: fixed;
-            background: linear-gradient(to bottom, rgb(47 205 39) 0%, rgb(157 157 157) 50%, rgb(111 232 69) 100%);
-            box-shadow: inset 2px 2px 2px 0px rgba(49, 49, 49, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-            outline: none;
-            padding: 5px 0;
-            box-shadow: 0 0 2px 2px rgb(165 88 88);
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 99;
-            border-radius: 40px 40px 0px 0px;
-            border-style:dashed;
-            
-        }
-
-        .daftarku-fixed-footer a {
-            flex-basis: calc((100% - 15px*6)/ 5);
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: #fcfbfb;
-            max-width: 75px;
-            font-size: 12px;
-            font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        }
-
-        .daftarku-fixed-footer a:hover {
-            font-weight: bold;
-        }
-
-        .daftarku-fixed-footer .center {
-            transform: scale(1.5) translateY(-5px);
-            background: center no-repeat;
-            background-size: contain;
-            background-color: inherit;
-            border-radius: 50%;
-        }
-
-        .daftarku-fixed-footer img {
-            max-width: 20px;
-            margin-bottom: 0;
-            max-height: 20px;
-        }
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v25.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="ANFL specializes in safe and efficient pet food logistics across India, offering trusted storage, handling, and delivery solutions for top pet food brands. Visit us" />
+	<link rel="canonical" href="https://www.anfl.in/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Simple and Reliable Pet Food Logistics Services in India | ANFL" />
+	<meta property="og:description" content="ANFL specializes in safe and efficient pet food logistics across India, offering trusted storage, handling, and delivery solutions for top pet food brands. Visit us" />
+	<meta property="og:url" content="https://www.anfl.in/" />
+	<meta property="og:site_name" content="ANFL : Amalgum Nutrients &amp; Feeds Ltd" />
+	<meta property="article:modified_time" content="2025-04-29T06:12:20+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.anfl.in/","url":"https://www.anfl.in/","name":"Simple and Reliable Pet Food Logistics Services in India | ANFL","isPartOf":{"@id":"https://www.anfl.in/#website"},"datePublished":"2025-02-14T07:29:59+00:00","dateModified":"2025-04-29T06:12:20+00:00","description":"ANFL specializes in safe and efficient pet food logistics across India, offering trusted storage, handling, and delivery solutions for top pet food brands. Visit us","breadcrumb":{"@id":"https://www.anfl.in/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.anfl.in/"]}]},{"@type":"BreadcrumbList","@id":"https://www.anfl.in/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.anfl.in/#website","url":"https://www.anfl.in/","name":"ANFL : Amalgum Nutrients &amp; Feeds Ltd","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.anfl.in/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="ANFL : Amalgum Nutrients &amp; Feeds Ltd &raquo; Home Comments Feed" href="https://www.anfl.in/home/feed/" />
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.anfl.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
 </style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.anfl.in/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.anfl.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1' type='text/css' media='all' />
+<style id='contact-form-7-inline-css' type='text/css'>
+.wpcf7 .wpcf7-recaptcha iframe {margin-bottom: 0;}.wpcf7 .wpcf7-recaptcha[data-align="center"] > div {margin: 0 auto;}.wpcf7 .wpcf7-recaptcha[data-align="right"] > div {margin: 0 0 0 auto;}
+</style>
+<script  data-wpmeteor-nooptimize="true" type="text/javascript" id="cookie-law-info-js-extra">
+/* <![CDATA[ */
+var _ckyConfig = {"_ipData":[],"_assetsURL":"https:\/\/www.anfl.in\/wp-content\/plugins\/cookie-law-info\/lite\/frontend\/images\/","_publicURL":"https:\/\/www.anfl.in","_expiry":"365","_categories":[{"name":"Necessary","slug":"necessary","isNecessary":true,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":true,"ccpa":true}},{"name":"Functional","slug":"functional","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}},{"name":"Analytics","slug":"analytics","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}},{"name":"Performance","slug":"performance","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}},{"name":"Advertisement","slug":"advertisement","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}}],"_activeLaw":"gdpr","_rootDomain":"","_block":"1","_showBanner":"1","_bannerConfig":{"settings":{"type":"banner","preferenceCenterType":"popup","position":"bottom","applicableLaw":"gdpr"},"behaviours":{"reloadBannerOnAccept":false,"loadAnalyticsByDefault":false,"animations":{"onLoad":"animate","onHide":"sticky"}},"config":{"revisitConsent":{"status":false,"tag":"revisit-consent","position":"bottom-left","meta":{"url":"#"},"styles":{"background-color":"#0056A7"},"elements":{"title":{"type":"text","tag":"revisit-consent-title","status":true,"styles":{"color":"#0056a7"}}}},"preferenceCenter":{"toggle":{"status":true,"tag":"detail-category-toggle","type":"toggle","states":{"active":{"styles":{"background-color":"#1863DC"}},"inactive":{"styles":{"background-color":"#D0D5D2"}}}}},"categoryPreview":{"status":false,"toggle":{"status":true,"tag":"detail-category-preview-toggle","type":"toggle","states":{"active":{"styles":{"background-color":"#1863DC"}},"inactive":{"styles":{"background-color":"#D0D5D2"}}}}},"videoPlaceholder":{"status":true,"styles":{"background-color":"#000000","border-color":"#000000","color":"#ffffff"}},"readMore":{"status":false,"tag":"readmore-button","type":"link","meta":{"noFollow":true,"newTab":true},"styles":{"color":"#1863DC","background-color":"transparent","border-color":"transparent"}},"auditTable":{"status":true},"optOption":{"status":true,"toggle":{"status":true,"tag":"optout-option-toggle","type":"toggle","states":{"active":{"styles":{"background-color":"#1863dc"}},"inactive":{"styles":{"background-color":"#FFFFFF"}}}}}}},"_version":"3.3.3","_logConsent":"1","_tags":[{"tag":"accept-button","styles":{"color":"#FFFFFF","background-color":"#1863DC","border-color":"#1863DC"}},{"tag":"reject-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"#1863DC"}},{"tag":"settings-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"#1863DC"}},{"tag":"readmore-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"transparent"}},{"tag":"donotsell-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"transparent"}},{"tag":"accept-button","styles":{"color":"#FFFFFF","background-color":"#1863DC","border-color":"#1863DC"}},{"tag":"revisit-consent","styles":{"background-color":"#0056A7"}}],"_shortCodes":[{"key":"cky_readmore","content":"<a href=\"#\" class=\"cky-policy\" aria-label=\"Cookie Policy\" target=\"_blank\" rel=\"noopener\" data-cky-tag=\"readmore-button\">Cookie Policy<\/a>","tag":"readmore-button","status":false,"attributes":{"rel":"nofollow","target":"_blank"}},{"key":"cky_show_desc","content":"<button class=\"cky-show-desc-btn\" data-cky-tag=\"show-desc-button\" aria-label=\"Show more\">Show more<\/button>","tag":"show-desc-button","status":true,"attributes":[]},{"key":"cky_hide_desc","content":"<button class=\"cky-show-desc-btn\" data-cky-tag=\"hide-desc-button\" aria-label=\"Show less\">Show less<\/button>","tag":"hide-desc-button","status":true,"attributes":[]},{"key":"cky_category_toggle_label","content":"[cky_{{status}}_category_label] [cky_preference_{{category_slug}}_title]","tag":"","status":true,"attributes":[]},{"key":"cky_enable_category_label","content":"Enable","tag":"","status":true,"attributes":[]},{"key":"cky_disable_category_label","content":"Disable","tag":"","status":true,"attributes":[]},{"key":"cky_video_placeholder","content":"<div class=\"video-placeholder-normal\" data-cky-tag=\"video-placeholder\" id=\"[UNIQUEID]\"><p class=\"video-placeholder-text-normal\" data-cky-tag=\"placeholder-title\">Please accept cookies to access this content<\/p><\/div>","tag":"","status":true,"attributes":[]},{"key":"cky_enable_optout_label","content":"Enable","tag":"","status":true,"attributes":[]},{"key":"cky_disable_optout_label","content":"Disable","tag":"","status":true,"attributes":[]},{"key":"cky_optout_toggle_label","content":"[cky_{{status}}_optout_label] [cky_optout_option_title]","tag":"","status":true,"attributes":[]},{"key":"cky_optout_option_title","content":"Do Not Sell or Share My Personal Information","tag":"","status":true,"attributes":[]},{"key":"cky_optout_close_label","content":"Close","tag":"","status":true,"attributes":[]},{"key":"cky_preference_close_label","content":"Close","tag":"","status":true,"attributes":[]}],"_rtl":"","_language":"en","_providersToBlock":[]};
+var _ckyStyles = {"css":".cky-overlay{background: #000000; opacity: 0.4; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99999999;}.cky-hide{display: none;}.cky-btn-revisit-wrapper{display: flex; align-items: center; justify-content: center; background: #0056a7; width: 45px; height: 45px; border-radius: 50%; position: fixed; z-index: 999999; cursor: pointer;}.cky-revisit-bottom-left{bottom: 15px; left: 15px;}.cky-revisit-bottom-right{bottom: 15px; right: 15px;}.cky-btn-revisit-wrapper .cky-btn-revisit{display: flex; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; position: relative; margin: 0; padding: 0;}.cky-btn-revisit-wrapper .cky-btn-revisit img{max-width: fit-content; margin: 0; height: 30px; width: 30px;}.cky-revisit-bottom-left:hover::before{content: attr(data-tooltip); position: absolute; background: #4e4b66; color: #ffffff; left: calc(100% + 7px); font-size: 12px; line-height: 16px; width: max-content; padding: 4px 8px; border-radius: 4px;}.cky-revisit-bottom-left:hover::after{position: absolute; content: \"\"; border: 5px solid transparent; left: calc(100% + 2px); border-left-width: 0; border-right-color: #4e4b66;}.cky-revisit-bottom-right:hover::before{content: attr(data-tooltip); position: absolute; background: #4e4b66; color: #ffffff; right: calc(100% + 7px); font-size: 12px; line-height: 16px; width: max-content; padding: 4px 8px; border-radius: 4px;}.cky-revisit-bottom-right:hover::after{position: absolute; content: \"\"; border: 5px solid transparent; right: calc(100% + 2px); border-right-width: 0; border-left-color: #4e4b66;}.cky-revisit-hide{display: none;}.cky-consent-container{position: fixed; width: 100%; box-sizing: border-box; z-index: 9999999;}.cky-consent-container .cky-consent-bar{background: #ffffff; border: 1px solid; padding: 16.5px 24px; box-shadow: 0 -1px 10px 0 #acabab4d;}.cky-banner-bottom{bottom: 0; left: 0;}.cky-banner-top{top: 0; left: 0;}.cky-custom-brand-logo-wrapper .cky-custom-brand-logo{width: 100px; height: auto; margin: 0 0 12px 0;}.cky-notice .cky-title{color: #212121; font-weight: 700; font-size: 18px; line-height: 24px; margin: 0 0 12px 0;}.cky-notice-group{display: flex; justify-content: space-between; align-items: center; font-size: 14px; line-height: 24px; font-weight: 400;}.cky-notice-des *,.cky-preference-content-wrapper *,.cky-accordion-header-des *,.cky-gpc-wrapper .cky-gpc-desc *{font-size: 14px;}.cky-notice-des{color: #212121; font-size: 14px; line-height: 24px; font-weight: 400;}.cky-notice-des img{height: 25px; width: 25px;}.cky-consent-bar .cky-notice-des p,.cky-gpc-wrapper .cky-gpc-desc p,.cky-preference-body-wrapper .cky-preference-content-wrapper p,.cky-accordion-header-wrapper .cky-accordion-header-des p,.cky-cookie-des-table li div:last-child p{color: inherit; margin-top: 0; overflow-wrap: break-word;}.cky-notice-des P:last-child,.cky-preference-content-wrapper p:last-child,.cky-cookie-des-table li div:last-child p:last-child,.cky-gpc-wrapper .cky-gpc-desc p:last-child{margin-bottom: 0;}.cky-notice-des a.cky-policy,.cky-notice-des button.cky-policy{font-size: 14px; color: #1863dc; white-space: nowrap; cursor: pointer; background: transparent; border: 1px solid; text-decoration: underline;}.cky-notice-des button.cky-policy{padding: 0;}.cky-notice-des a.cky-policy:focus-visible,.cky-notice-des button.cky-policy:focus-visible,.cky-preference-content-wrapper .cky-show-desc-btn:focus-visible,.cky-accordion-header .cky-accordion-btn:focus-visible,.cky-preference-header .cky-btn-close:focus-visible,.cky-switch input[type=\"checkbox\"]:focus-visible,.cky-footer-wrapper a:focus-visible,.cky-btn:focus-visible{outline: 2px solid #1863dc; outline-offset: 2px;}.cky-btn:focus:not(:focus-visible),.cky-accordion-header .cky-accordion-btn:focus:not(:focus-visible),.cky-preference-content-wrapper .cky-show-desc-btn:focus:not(:focus-visible),.cky-btn-revisit-wrapper .cky-btn-revisit:focus:not(:focus-visible),.cky-preference-header .cky-btn-close:focus:not(:focus-visible),.cky-consent-bar .cky-banner-btn-close:focus:not(:focus-visible){outline: 0;}button.cky-show-desc-btn:not(:hover):not(:active){color: #1863dc; background: transparent;}button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:not(:hover):not(:active),button.cky-btn-close:not(:hover):not(:active),button.cky-btn-revisit:not(:hover):not(:active){background: transparent;}.cky-consent-bar button:hover,.cky-modal.cky-modal-open button:hover,.cky-consent-bar button:focus,.cky-modal.cky-modal-open button:focus{text-decoration: none;}.cky-notice-btn-wrapper{display: flex; justify-content: center; align-items: center; margin-left: 15px;}.cky-notice-btn-wrapper .cky-btn{text-shadow: none; box-shadow: none;}.cky-btn{font-size: 14px; font-family: inherit; line-height: 24px; padding: 8px 27px; font-weight: 500; margin: 0 8px 0 0; border-radius: 2px; white-space: nowrap; cursor: pointer; text-align: center; text-transform: none; min-height: 0;}.cky-btn:hover{opacity: 0.8;}.cky-btn-customize{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-btn-reject{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-btn-accept{background: #1863dc; color: #ffffff; border: 2px solid #1863dc;}.cky-btn:last-child{margin-right: 0;}@media (max-width: 768px){.cky-notice-group{display: block;}.cky-notice-btn-wrapper{margin-left: 0;}.cky-notice-btn-wrapper .cky-btn{flex: auto; max-width: 100%; margin-top: 10px; white-space: unset;}}@media (max-width: 576px){.cky-notice-btn-wrapper{flex-direction: column;}.cky-custom-brand-logo-wrapper, .cky-notice .cky-title, .cky-notice-des, .cky-notice-btn-wrapper{padding: 0 28px;}.cky-consent-container .cky-consent-bar{padding: 16.5px 0;}.cky-notice-des{max-height: 40vh; overflow-y: scroll;}.cky-notice-btn-wrapper .cky-btn{width: 100%; padding: 8px; margin-right: 0;}.cky-notice-btn-wrapper .cky-btn-accept{order: 1;}.cky-notice-btn-wrapper .cky-btn-reject{order: 3;}.cky-notice-btn-wrapper .cky-btn-customize{order: 2;}}@media (max-width: 425px){.cky-custom-brand-logo-wrapper, .cky-notice .cky-title, .cky-notice-des, .cky-notice-btn-wrapper{padding: 0 24px;}.cky-notice-btn-wrapper{flex-direction: column;}.cky-btn{width: 100%; margin: 10px 0 0 0;}.cky-notice-btn-wrapper .cky-btn-customize{order: 2;}.cky-notice-btn-wrapper .cky-btn-reject{order: 3;}.cky-notice-btn-wrapper .cky-btn-accept{order: 1; margin-top: 16px;}}@media (max-width: 352px){.cky-notice .cky-title{font-size: 16px;}.cky-notice-des *{font-size: 12px;}.cky-notice-des, .cky-btn{font-size: 12px;}}.cky-modal.cky-modal-open{display: flex; visibility: visible; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); top: 50%; left: 50%; transition: all 1s ease;}.cky-modal{box-shadow: 0 32px 68px rgba(0, 0, 0, 0.3); margin: 0 auto; position: fixed; max-width: 100%; background: #ffffff; top: 50%; box-sizing: border-box; border-radius: 6px; z-index: 999999999; color: #212121; -webkit-transform: translate(-50%, 100%); -moz-transform: translate(-50%, 100%); -ms-transform: translate(-50%, 100%); -o-transform: translate(-50%, 100%); transform: translate(-50%, 100%); visibility: hidden; transition: all 0s ease;}.cky-preference-center{max-height: 79vh; overflow: hidden; width: 845px; overflow: hidden; flex: 1 1 0; display: flex; flex-direction: column; border-radius: 6px;}.cky-preference-header{display: flex; align-items: center; justify-content: space-between; padding: 22px 24px; border-bottom: 1px solid;}.cky-preference-header .cky-preference-title{font-size: 18px; font-weight: 700; line-height: 24px;}.cky-preference-header .cky-btn-close{margin: 0; cursor: pointer; vertical-align: middle; padding: 0; background: none; border: none; width: auto; height: auto; min-height: 0; line-height: 0; text-shadow: none; box-shadow: none;}.cky-preference-header .cky-btn-close img{margin: 0; height: 10px; width: 10px;}.cky-preference-body-wrapper{padding: 0 24px; flex: 1; overflow: auto; box-sizing: border-box;}.cky-preference-content-wrapper,.cky-gpc-wrapper .cky-gpc-desc{font-size: 14px; line-height: 24px; font-weight: 400; padding: 12px 0;}.cky-preference-content-wrapper{border-bottom: 1px solid;}.cky-preference-content-wrapper img{height: 25px; width: 25px;}.cky-preference-content-wrapper .cky-show-desc-btn{font-size: 14px; font-family: inherit; color: #1863dc; text-decoration: none; line-height: 24px; padding: 0; margin: 0; white-space: nowrap; cursor: pointer; background: transparent; border-color: transparent; text-transform: none; min-height: 0; text-shadow: none; box-shadow: none;}.cky-accordion-wrapper{margin-bottom: 10px;}.cky-accordion{border-bottom: 1px solid;}.cky-accordion:last-child{border-bottom: none;}.cky-accordion .cky-accordion-item{display: flex; margin-top: 10px;}.cky-accordion .cky-accordion-body{display: none;}.cky-accordion.cky-accordion-active .cky-accordion-body{display: block; padding: 0 22px; margin-bottom: 16px;}.cky-accordion-header-wrapper{cursor: pointer; width: 100%;}.cky-accordion-item .cky-accordion-header{display: flex; justify-content: space-between; align-items: center;}.cky-accordion-header .cky-accordion-btn{font-size: 16px; font-family: inherit; color: #212121; line-height: 24px; background: none; border: none; font-weight: 700; padding: 0; margin: 0; cursor: pointer; text-transform: none; min-height: 0; text-shadow: none; box-shadow: none;}.cky-accordion-header .cky-always-active{color: #008000; font-weight: 600; line-height: 24px; font-size: 14px;}.cky-accordion-header-des{font-size: 14px; line-height: 24px; margin: 10px 0 16px 0;}.cky-accordion-chevron{margin-right: 22px; position: relative; cursor: pointer;}.cky-accordion-chevron-hide{display: none;}.cky-accordion .cky-accordion-chevron i::before{content: \"\"; position: absolute; border-right: 1.4px solid; border-bottom: 1.4px solid; border-color: inherit; height: 6px; width: 6px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); transition: all 0.2s ease-in-out; top: 8px;}.cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg);}.cky-audit-table{background: #f4f4f4; border-radius: 6px;}.cky-audit-table .cky-empty-cookies-text{color: inherit; font-size: 12px; line-height: 24px; margin: 0; padding: 10px;}.cky-audit-table .cky-cookie-des-table{font-size: 12px; line-height: 24px; font-weight: normal; padding: 15px 10px; border-bottom: 1px solid; border-bottom-color: inherit; margin: 0;}.cky-audit-table .cky-cookie-des-table:last-child{border-bottom: none;}.cky-audit-table .cky-cookie-des-table li{list-style-type: none; display: flex; padding: 3px 0;}.cky-audit-table .cky-cookie-des-table li:first-child{padding-top: 0;}.cky-cookie-des-table li div:first-child{width: 100px; font-weight: 600; word-break: break-word; word-wrap: break-word;}.cky-cookie-des-table li div:last-child{flex: 1; word-break: break-word; word-wrap: break-word; margin-left: 8px;}.cky-footer-shadow{display: block; width: 100%; height: 40px; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%); position: absolute; bottom: calc(100% - 1px);}.cky-footer-wrapper{position: relative;}.cky-prefrence-btn-wrapper{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 22px 24px; border-top: 1px solid;}.cky-prefrence-btn-wrapper .cky-btn{flex: auto; max-width: 100%; text-shadow: none; box-shadow: none;}.cky-btn-preferences{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-preference-header,.cky-preference-body-wrapper,.cky-preference-content-wrapper,.cky-accordion-wrapper,.cky-accordion,.cky-accordion-wrapper,.cky-footer-wrapper,.cky-prefrence-btn-wrapper{border-color: inherit;}@media (max-width: 845px){.cky-modal{max-width: calc(100% - 16px);}}@media (max-width: 576px){.cky-modal{max-width: 100%;}.cky-preference-center{max-height: 100vh;}.cky-prefrence-btn-wrapper{flex-direction: column;}.cky-accordion.cky-accordion-active .cky-accordion-body{padding-right: 0;}.cky-prefrence-btn-wrapper .cky-btn{width: 100%; margin: 10px 0 0 0;}.cky-prefrence-btn-wrapper .cky-btn-reject{order: 3;}.cky-prefrence-btn-wrapper .cky-btn-accept{order: 1; margin-top: 0;}.cky-prefrence-btn-wrapper .cky-btn-preferences{order: 2;}}@media (max-width: 425px){.cky-accordion-chevron{margin-right: 15px;}.cky-notice-btn-wrapper{margin-top: 0;}.cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 15px;}}@media (max-width: 352px){.cky-preference-header .cky-preference-title{font-size: 16px;}.cky-preference-header{padding: 16px 24px;}.cky-preference-content-wrapper *, .cky-accordion-header-des *{font-size: 12px;}.cky-preference-content-wrapper, .cky-preference-content-wrapper .cky-show-more, .cky-accordion-header .cky-always-active, .cky-accordion-header-des, .cky-preference-content-wrapper .cky-show-desc-btn, .cky-notice-des a.cky-policy{font-size: 12px;}.cky-accordion-header .cky-accordion-btn{font-size: 14px;}}.cky-switch{display: flex;}.cky-switch input[type=\"checkbox\"]{position: relative; width: 44px; height: 24px; margin: 0; background: #d0d5d2; -webkit-appearance: none; border-radius: 50px; cursor: pointer; outline: 0; border: none; top: 0;}.cky-switch input[type=\"checkbox\"]:checked{background: #1863dc;}.cky-switch input[type=\"checkbox\"]:before{position: absolute; content: \"\"; height: 20px; width: 20px; left: 2px; bottom: 2px; border-radius: 50%; background-color: white; -webkit-transition: 0.4s; transition: 0.4s; margin: 0;}.cky-switch input[type=\"checkbox\"]:after{display: none;}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform: translateX(20px); -ms-transform: translateX(20px); transform: translateX(20px);}@media (max-width: 425px){.cky-switch input[type=\"checkbox\"]{width: 38px; height: 21px;}.cky-switch input[type=\"checkbox\"]:before{height: 17px; width: 17px;}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform: translateX(17px); -ms-transform: translateX(17px); transform: translateX(17px);}}.cky-consent-bar .cky-banner-btn-close{position: absolute; right: 9px; top: 5px; background: none; border: none; cursor: pointer; padding: 0; margin: 0; min-height: 0; line-height: 0; height: auto; width: auto; text-shadow: none; box-shadow: none;}.cky-consent-bar .cky-banner-btn-close img{height: 9px; width: 9px; margin: 0;}.cky-notice-btn-wrapper .cky-btn-do-not-sell{font-size: 14px; line-height: 24px; padding: 6px 0; margin: 0; font-weight: 500; background: none; border-radius: 2px; border: none; cursor: pointer; text-align: left; color: #1863dc; background: transparent; border-color: transparent; box-shadow: none; text-shadow: none;}.cky-consent-bar .cky-banner-btn-close:focus-visible,.cky-notice-btn-wrapper .cky-btn-do-not-sell:focus-visible,.cky-opt-out-btn-wrapper .cky-btn:focus-visible,.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:focus-visible{outline: 2px solid #1863dc; outline-offset: 2px;}@media (max-width: 768px){.cky-notice-btn-wrapper{margin-left: 0; margin-top: 10px; justify-content: left;}.cky-notice-btn-wrapper .cky-btn-do-not-sell{padding: 0;}}@media (max-width: 352px){.cky-notice-btn-wrapper .cky-btn-do-not-sell, .cky-notice-des a.cky-policy{font-size: 12px;}}.cky-opt-out-wrapper{padding: 12px 0;}.cky-opt-out-wrapper .cky-opt-out-checkbox-wrapper{display: flex; align-items: center;}.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size: 16px; font-weight: 700; line-height: 24px; margin: 0 0 0 12px; cursor: pointer;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{background-color: #ffffff; border: 1px solid black; width: 20px; height: 18.5px; margin: 0; -webkit-appearance: none; position: relative; display: flex; align-items: center; justify-content: center; border-radius: 2px; cursor: pointer;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked{background-color: #1863dc; border: none;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left: 6px; bottom: 4px; width: 7px; height: 13px; border: solid #ffffff; border-width: 0 3px 3px 0; border-radius: 2px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); content: \"\"; position: absolute; box-sizing: border-box;}.cky-opt-out-checkbox-wrapper.cky-disabled .cky-opt-out-checkbox-label,.cky-opt-out-checkbox-wrapper.cky-disabled input[type=\"checkbox\"].cky-opt-out-checkbox{cursor: no-drop;}.cky-gpc-wrapper{margin: 0 0 0 32px;}.cky-footer-wrapper .cky-opt-out-btn-wrapper{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 22px 24px;}.cky-opt-out-btn-wrapper .cky-btn{flex: auto; max-width: 100%; text-shadow: none; box-shadow: none;}.cky-opt-out-btn-wrapper .cky-btn-cancel{border: 1px solid #dedfe0; background: transparent; color: #858585;}.cky-opt-out-btn-wrapper .cky-btn-confirm{background: #1863dc; color: #ffffff; border: 1px solid #1863dc;}@media (max-width: 352px){.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size: 14px;}.cky-gpc-wrapper .cky-gpc-desc, .cky-gpc-wrapper .cky-gpc-desc *{font-size: 12px;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{width: 16px; height: 16px;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left: 5px; bottom: 4px; width: 3px; height: 9px;}.cky-gpc-wrapper{margin: 0 0 0 28px;}}.video-placeholder-youtube{background-size: 100% 100%; background-position: center; background-repeat: no-repeat; background-color: #b2b0b059; position: relative; display: flex; align-items: center; justify-content: center; max-width: 100%;}.video-placeholder-text-youtube{text-align: center; align-items: center; padding: 10px 16px; background-color: #000000cc; color: #ffffff; border: 1px solid; border-radius: 2px; cursor: pointer;}.video-placeholder-normal{background-image: url(\"\/wp-content\/plugins\/cookie-law-info\/lite\/frontend\/images\/placeholder.svg\"); background-size: 80px; background-position: center; background-repeat: no-repeat; background-color: #b2b0b059; position: relative; display: flex; align-items: flex-end; justify-content: center; max-width: 100%;}.video-placeholder-text-normal{align-items: center; padding: 10px 16px; text-align: center; border: 1px solid; border-radius: 2px; cursor: pointer;}.cky-rtl{direction: rtl; text-align: right;}.cky-rtl .cky-banner-btn-close{left: 9px; right: auto;}.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right: 8px;}.cky-rtl .cky-notice-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-notice-btn-wrapper{margin-left: 0; margin-right: 15px;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right: 8px;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-accordion .cky-accordion-chevron i::before{border: none; border-left: 1.4px solid; border-top: 1.4px solid; left: 12px;}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg);}@media (max-width: 768px){.cky-rtl .cky-notice-btn-wrapper{margin-right: 0;}}@media (max-width: 576px){.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right: 0;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right: 0;}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 22px 0 0;}}@media (max-width: 425px){.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 15px 0 0;}}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn{margin-right: 12px;}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{margin: 0 12px 0 0;}"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://www.anfl.in/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.3.3" id="cookie-law-info-js"></script>
+<link rel="https://api.w.org/" href="https://www.anfl.in/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.anfl.in/wp-json/wp/v2/pages/8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.anfl.in/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='https://www.anfl.in/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.anfl.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anfl.in%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.anfl.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anfl.in%2F&#038;format=xml" />
+<style id="cky-style-inline">[data-cky-tag]{visibility:hidden;}</style></head>
+
+
+<body>
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+
+<main>
+<!-- header -->
+<header>
+<div class="container">
+
+<div class="header">
+<div class="logo">                <a href="https://www.anfl.in/"><img width="300" height="125" src="https://www.anfl.in/wp-content/uploads/2025/02/anfl-logo.svg" class="image wp-image-158  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" /></a>                </div>
+<div class="header-right">
+<div class="topbar-in">
+<div class="inline">
+<a href="tel:919633055566  "><i class="fa fa-phone"></i></a>
+
+<span><a href="tel:919633055566  ">Call:  +91 9633055566  </a></span></div>           
+<div class="inline"><a href="mailto:petfoodsales@amalgamfoods.in">
+<i class="fa fa-envelope"></i>
+<span>Email:  petfoodsales@amalgamfoods.in</span> </a></div>
+
+<div class="social  ">
+<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.youtube.com/@ANFLPetFoods" target="_blank"><i class="fa-brands fa-youtube"></i>
+</a>
+
+</div>
+
+</div>
+<div class="menu-wrap">
+<!-- Start Navigation Menu -->
+<div class="navigation">
+<nav class="vg-nav vg-nav-lg"><ul id="menu-header-menu" class=""><li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-159 active "><a href="https://www.anfl.in/" aria-current="page">Home</a></li>
+<li id="menu-item-160" class="dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-160"><a href="https://www.anfl.in/about/">About</a>
+<ul class="dropdown" />
+	<li id="menu-item-166" class="dropdown-inn menu-item menu-item-type-custom menu-item-object-custom menu-item-166"><a href="https://www.anfl.in/company-profile/">Company Profile</a></li>
+</ul>
+</li>
+<li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="https://www.anfl.in/oem-private-label/">OEM Private Label</a></li>
+<li id="menu-item-165" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-165"><a href="#">Products</a>
+<ul class="dropdown" />
+	<li id="menu-item-168" class="dropdown-inn menu-item menu-item-type-custom menu-item-object-custom menu-item-168"><a href="https://www.anfl.in/products/for-dogs/">For Dogs</a></li>
+	<li id="menu-item-169" class="dropdown-inn menu-item menu-item-type-custom menu-item-object-custom menu-item-169"><a href="https://www.anfl.in/products/for-cats/">For Cats</a></li>
+</ul>
+</li>
+<li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="https://www.anfl.in/news-events/">News / Events</a></li>
+<li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="https://www.anfl.in/contact/">Contact</a></li>
+</ul></nav></div>
+<!-- End Navigation Menu -->
+<!--<a href="#" target="_blank" class="btn-style">Download Brochure </a>-->
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- /header --> 
+<!-- slider -->
+<div class="slider-wrap">
     
+    
+<!--slider -->
+<div id="transition-timer-carousel" class="carousel slide " data-ride="carousel"> 
 
 
-    <iframe name="__uspapiLocator" tabindex="-1" role="presentation" aria-hidden="true" title="Blank" style="display: none; position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><iframe tabindex="-1" role="presentation" aria-hidden="true" title="Blank" src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html" style="position: absolute; width: 1px; height: 1px; top: -9999px;" bis_size="{&quot;x&quot;:0,&quot;y&quot;:-9999,&quot;w&quot;:1,&quot;h&quot;:1,&quot;abs_x&quot;:0,&quot;abs_y&quot;:-9999}" bis_id="fr_nfjaf2yt3zkyajcjvi02tl" bis_depth="0" bis_chainid="1"></iframe>
-    <div class="js-flyout__body flyout__body -padding-side-removed" data-show="false" bis_skin_checked="1">
-        <span class="js-flyout__triangle flyout__triangle"></span>
-        <div class="license-selector" data-view="licenseSelector" bis_skin_checked="1">
-            <div class="js-license-selector__item license-selector__item" data-license="regular" data-name="PROGRESSIVE JACKPOT" bis_skin_checked="1">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+             <li class=" " data-target="#transition-timer-carousel"
+                data-slide-to="0">
+            </li>
+                        <li class="" data-target="#transition-timer-carousel"
+                data-slide-to="1">
+            </li>
+                        <li class="" data-target="#transition-timer-carousel"
+                data-slide-to="2">
+            </li>
+                        <li class="" data-target="#transition-timer-carousel"
+                data-slide-to="3">
+            </li>
+            </ol>
 
-                <div class="license-selector__license-type" bis_skin_checked="1">
-                    <span class="t-heading -size-xxs">Regular License</span>
-                    <span class="js-license-selector__selected-label e-text-label -color-green -size-s " data-license="regular">Selected</span>
-                </div>
-                <div class="license-selector__price" bis_skin_checked="1">
-                    <span class="t-heading -size-m h-m0">
-                        <b class="t-currency"><span class="">$8</span></b>
-                    </span>
-                </div>
-                <div class="license-selector__description" bis_skin_checked="1">
-                    <p class="t-body -size-m h-m0">Use, by you or one client, in a single end product which end users
-                        <strong>are not</strong> charged for. The total price includes the item price and a buyer fee.
-                    </p>
-                </div>
+<!-- carousel-inner -->
+<div class="carousel-inner">
+
+ 
+
+<!--slide1 -->
+<div class="item  active   ">
+<div class="bgslide   ">
+    <img src="https://www.anfl.in/wp-content/uploads/2025/02/slider1.webp" alt="slider">
+<div class="carousel-caption">
+<div class="child">
+<div class="container">
+<div class="caption-wrap">
+<div class="caption-right">
+    <h2  class="fadeInLeft  animated animset2">One stop services for all pet food products</h2>
+<p class="fadeInDown  animated animset2">Your Brand, Our Production Expertise, To Produce Perfect Pet Food.</p>
+<span class="link "><a href="https://www.anfl.in/contact"><span>Contact Us</span></a></span>
+
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+
+
+</div>
+<!--/slide1 -->
+
+ 
+
+<!--slide1 -->
+<div class="item  ">
+<div class="bgslide   ">
+    <img src="https://www.anfl.in/wp-content/uploads/2025/02/slider2.webp" alt="slider">
+<div class="carousel-caption">
+<div class="child">
+<div class="container">
+<div class="caption-wrap">
+<div class="caption-right">
+    <h2  class="fadeInLeft  animated animset2">One stop services for all pet food products</h2>
+<p class="fadeInDown  animated animset2">Your Brand, Our Production Expertise, To Produce Perfect Pet Food.</p>
+<span class="link "><a href="https://www.anfl.in/contact"><span>Contact Us</span></a></span>
+
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+
+
+</div>
+<!--/slide1 -->
+
+ 
+
+<!--slide1 -->
+<div class="item  ">
+<div class="bgslide   ">
+    <img src="https://www.anfl.in/wp-content/uploads/2025/02/slider3.webp" alt="slider">
+<div class="carousel-caption">
+<div class="child">
+<div class="container">
+<div class="caption-wrap">
+<div class="caption-right">
+    <h2  class="fadeInLeft  animated animset2">One stop services for all pet food products</h2>
+<p class="fadeInDown  animated animset2">Your Brand, Our Production Expertise, To Produce Perfect Pet Food.</p>
+<span class="link "><a href="https://www.anfl.in/contact"><span>Contact Us</span></a></span>
+
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+
+
+</div>
+<!--/slide1 -->
+
+ 
+
+<!--slide1 -->
+<div class="item  ">
+<div class="bgslide   ">
+    <img src="https://www.anfl.in/wp-content/uploads/2025/02/amlagam-banner.jpg" alt="slider">
+<div class="carousel-caption">
+<div class="child">
+<div class="container">
+<div class="caption-wrap">
+<div class="caption-right">
+    <h2  class="fadeInLeft  animated animset2">One stop services for all pet food products</h2>
+<p class="fadeInDown  animated animset2">Your Brand, Our Production Expertise, To Produce Perfect Pet Food.</p>
+<span class="link "><a href="https://www.anfl.in/contact"><span>Contact Us</span></a></span>
+
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+
+
+</div>
+<!--/slide1 -->
+
+ 
+</div>
+</div>
+<!-- /carousel-inner -->
+<!-- Controls --> 
+<a class="left carousel-control" href="#transition-timer-carousel" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left  fadeInRight animated"></span></a>
+
+<a class="right carousel-control" href="#transition-timer-carousel" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right  fadeInLeft animated"></span></a>
+</div>
+<!-- /slider -->
+
+
+<!--section -->
+<section  class="pt-30 pb-30">
+<div class="container">
+
+<div class="row-flex introbox">
+<div class="smd40 ">
+<h2 class="heading slideInUp" data-animation="slideInUp" data-animation-delay=".3s" style="animation-delay: 0.3s;" data-animated="true">Amalgam Group</h2>
+<p class=" slideInUp" data-animation="slideInUp" data-animation-delay=".5s" style="animation-delay: 0.5s;" data-animated="true">Amalgam was established in 1977. It is a family owned venture with over 47 years experience in the food industry</p>
+<span class="link "><a href="https://www.anfl.in/company-profile" data-animation="slideInUp" data-animation-delay=".5s" style="animation-delay: 0.5s;" class="slideInUp" data-animated="true"><span>Read More</span></a></span>
+</div>
+<div class="smd60 pl-70">
+<div class="slideInUp" data-animation="slideInUp" data-animation-delay=".7s" style="animation-delay: 0.7s;" data-animated="true"><img src="https://www.anfl.in/wp-content/themes/anfi/images/img1.jpg" alt="img"></div>
+</div>
+</div>
+
+
+<div class="row-flex introbox">
+<div class="smd40 ">
+<h2 class="heading slideInUp" data-animation="slideInUp" data-animation-delay=".5s" style="animation-delay: 0.5s;" data-animated="true">Amalgam <br>
+Nutrients &amp; Feeds Limited</h2>
+<p class=" slideInUp" data-animation="slideInUp" data-animation-delay=".5s" style="animation-delay: 0.5s;" data-animated="true">Founded in 1947, the Amalgam Group is a family-owned enterprise with 45 years presence in the global food industry</p>
+<span class="link slideInUp" data-animation="slideInUp" data-animation-delay=".5s" style="animation-delay: 0.5s;" data-animated="true"><a href="https://www.anfl.in/company-profile"><span>Read More</span></a></span>
+</div>
+<div class="smd60 pl-70">
+<div class="slideInUp" data-animation="slideInUp" data-animation-delay=".7s" style="animation-delay: 0.7s;" data-animated="true"><img src="https://www.anfl.in/wp-content/themes/anfi/images/img2.jpg" alt="img"></div>
+</div>
+</div>
+
+</div>
+</section>
+<!--/section -->
+
+
+<!--section -->
+<section  class="pb-100">
+<div class="container">
+
+<div class="row-flex introbox row-reverse">
+<div class="smd50 pl-70">
+<h2 class="heading" data-animation="slideInUp" data-animation-delay=".5s">For Cat</h2>
+<p class="" data-animation="slideInUp" data-animation-delay=".5s">Our cat food is made with real, high-quality meat as an ingredient, ensuring that your feline
+friend receives the protein they need for optimal health. We are committed to providing only the
+finest, natural ingredients, delivering a meal that&#8217;s as nutritious as it is delicious. Trust in our
+premium products to nourish your cat with the best quality meat and essential nutrients they
+deserve.</p>
+<span class="link " data-animation="slideInUp" data-animation-delay=".5s"><a href="https://www.anfl.in/products/for-cats/"><span>Read More</span></a></span>
+</div>
+<div class="smd50">
+<div class="" data-animation="slideInUp" data-animation-delay=".7s"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/for-cat.webp" alt="cat"></div>
+</div>
+</div>
+
+<div class="row-flex introbox">
+<div class="smd50 pr-70">
+<h2 class="heading" data-animation="slideInUp" data-animation-delay=".5s">For Dog</h2>
+<p class="" data-animation="slideInUp" data-animation-delay=".5s">Our dog food is made with real, high-quality meat, providing the essential protein your dog
+needs for a healthy and active life. We are dedicated to using only the finest, natural ingredients,
+ensuring every meal is both nutritious and delicious. Trust in our premium products to nourish
+your dog with the best quality meat and vital nutrients they deserve.
+</p>
+<span class="link " data-animation="slideInUp" data-animation-delay=".5s"><a href="https://www.anfl.in/products/for-dogs/"><span>Read More</span></a></span>
+</div>
+<div class="smd50">
+<div class="" data-animation="slideInUp" data-animation-delay=".7s"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/for-dogs.webp" alt="dog"></div>
+</div>
+</div>
+</div>
+</section>
+<!--/section -->
+
+<!--section -->
+<section  class="pt-100 pb-100 bg-peach">
+<div class="container">
+<div class="row text-center pl-100 pr-100">
+    <h2 class="heading mb-0" data-animation="slideInUp" data-animation-delay=".5s">OEM Product by ANFL</h2>
+    <br>
+    <p class="highlight-text mb-0" data-animation="slideInUp" data-animation-delay=".5s">Dry & wet food for cats and dogs
+</p>
+<br>
+<p data-animation="slideInUp" data-animation-delay=".5s">Founded in 1977, the Amalgam Group is a family-owned enterprise with 47 years presence in the global food industry. </p>
+</div>
+<div class="row pt-50">
+       <ul class="pt-list">
+        <li data-animation="slideInUp" data-animation-delay=".5s"><img src="https://www.anfl.in/wp-content/uploads/2025/02/product1.webp" alt="product1">
+        <h3>Dry</h3></li>
+        <li data-animation="slideInDown" data-animation-delay=".5s"><img src="https://www.anfl.in/wp-content/uploads/2025/02/product2.webp" alt="product2">
+        <h3>Wet</h3></li>
+        <li data-animation="slideInUp" data-animation-delay=".5s"><img src="https://www.anfl.in/wp-content/uploads/2025/04/freze-dried-icon.webp" alt="product3">
+        <h3>Freeze Dried</h3></li>
+        <li data-animation="slideInDown" data-animation-delay=".5s"><img src="https://www.anfl.in/wp-content/uploads/2025/02/product4.webp" alt="product4">
+            <h3>Can</h3></li>
+    </ul></div>
+</div>
+</section>
+<!--/section -->
+
+<!--section -->
+<section class="pt-100 pb-100 section-video">
+    <div class="container">
+          <div class="row-flex">
+            <div class="smd50 factory-box bg-yellow">
+                <h2 class="heading" data-animation="slideInUp" data-animation-delay=".5s">Our Factory</h2>
+                <p>Founded in 1977, the Amalgam Group is a family-owned enterprise with 45 years presence in the global food industry. The Companies in the Group are major producers of Freeze Dried Food Ingredients, Value-added Frozen Seafood and producers of high-quality Animal Feed Ingredients and Pet Food. </p>
+                <span class="link " data-animation="slideInUp" data-animation-delay=".7s"><a href="https://www.anfl.in/company-profile/"><span>Read More</span></a></span>
+            </div>
+            <div class="smd50 video-box" data-animation="slideInUp" data-animation-delay=".7s">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9zVUk--brvg?si=uiMQLBEjv8ZPwoUP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             
+        <!-- <div class="video-btn"><a href="#"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+        <img decoding="async" src="images/videobg.jpg" class="fullwidth" alt=""> -->
+   
             </div>
         </div>
-        <div class="flyout__link" bis_skin_checked="1">
-            <p class="t-body -size-m h-m0">
-                <a class="t-link -decoration-reversed" target="_blank" href="https://ipripak.org/publications/">View license details</a>
-            </p>
+        <div class="row pt-20">
+            <div class="owl-carousel owl-theme  dots-none  arrows-none owl-demo6">
+                <div class="item"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/1.jpg" alt=""></div>
+                <div class="item"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/2.jpg" alt=""></div>
+                <div class="item"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/3.jpg" alt=""></div>
+                <div class="item"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/4.jpg" alt=""></div>
+                <div class="item"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/5.jpg" alt=""></div>
+                <div class="item"><img decoding="async" src="https://www.anfl.in/wp-content/uploads/2025/02/6.jpg" alt=""></div>
+            </div>
+        </div>    </div>
+</section>
+<!--/section -->
+
+<!--section -->
+<section class="pt-100 pb-100 ">
+    <div class="splitbg bg-grey"></div>
+    <div class="container">
+        <div class="row text-center" data-animation="slideInUp" data-animation-delay=".5s"><h2 class="heading">News & Events</h2></div>
+        <div class="row-flex space-between">
+            
+                        <div class="news-single shadow" data-animation="slideInUp" data-animation-delay=".5s">
+            <a href="https://www.anfl.in/news-events/global-pet-food-show/">
+                    <div class="overlay-effect4"><img src="https://www.anfl.in/wp-content/uploads/2025/08/2.jpg" alt="news"></div>
+                <div class="news-cont">
+                    <h3>Global Pet Food Show</h3>
+                    <p >
+At Global Pet Food Show Orlando 2025, ANFL proudly presented its...                    </p>
+                    <div class="date">
+                          26- March- 2025                    </div>
+                </div>
+            </a>
+            </div>
+                        <div class="news-single shadow" data-animation="slideInUp" data-animation-delay=".5s">
+            <a href="https://www.anfl.in/news-events/zoomark/">
+                    <div class="overlay-effect4"><img src="https://www.anfl.in/wp-content/uploads/2025/08/zoomark-5-1.webp" alt="news"></div>
+                <div class="news-cont">
+                    <h3>Zoomark</h3>
+                    <p >
+As a trusted source for freeze-dried ingredients, ANFL was proud to be part..                    </p>
+                    <div class="date">
+                         5-May- 2025                    </div>
+                </div>
+            </a>
+            </div>
+                        <div class="news-single shadow" data-animation="slideInUp" data-animation-delay=".5s">
+            <a href="https://www.anfl.in/news-events/iiptf/">
+                    <div class="overlay-effect4"><img src="https://www.anfl.in/wp-content/uploads/2025/08/1.jpg" alt="news"></div>
+                <div class="news-cont">
+                    <h3>IIPTF</h3>
+                    <p >
+Thinking of Your Own Pet Food Brand? ANFL Makes It Easy – Catch Us at IIPTF!                    </p>
+                    <div class="date">
+                         23-August-2025                    </div>
+                </div>
+            </a>
+            </div>
+                     
         </div>
     </div>
-    <div class="daftarku-fixed-footer">
-    <a href="https://ipripak-numpang-yabang.pages.dev/" rel="nofollow noopener" target="_blank">
-        <img layout="intrinsic" height="20px" width="20px" src="https://imgsaya.io/download/cLdzIs8C.png" alt="Promo">
-        Promo
-    </a>
-    <a href="https://ipripak-numpang-yabang.pages.dev/" rel="nofollow noopener" target="_blank">
-        <img layout="intrinsic" height="20px" width="20px" src="https://imgsaya.io/download/VRoan6gk.png" alt="Login">
-        Login
-    </a>
-    <a href="https://ipripak-numpang-yabang.pages.dev/" rel="nofollow noopener" target="_blank" class="tada">
-        <img layout="intrinsic" height="20px" width="20px" src="https://imgsaya.io/download/VbvB4Xmk.png" alt="Daftar">
-        Daftar
-    </a>
-    <a href="https://ipripak-numpang-yabang.pages.dev/" rel="nofollow noopener" target="_blank">
-        <img layout="intrinsic" height="20px" width="20px" src="https://imgsaya.io/download/zaENZf80.png" alt="Link">
-        Prediksi
-    </a>
-    <a href="https://ipripak-numpang-yabang.pages.dev/" rel="nofollow noopener" target="_blank"
-        class="js_live_chat_link live-chat-link">
-        <img class="live-chat-icon" layout="intrinsic" height="20px" width="20px" src="https://imgsaya.io/download/KvNtqrYa.png" alt="Live Chat">
-        Live Chat
-    </a>
+</section>
+<!--/section -->
+
+
+</main>
+<!--footer -->
+<footer class="bg-green white-text pt-70 pb-50" data-animation="slideInUp" data-animation-delay=".5s">
+<div class="container ">
+    <div class="row-flex space-between">
+        <div class="footer-div text-center" ><img src="https://www.anfl.in/wp-content/themes/anfi/images/anfl-logo.svg" class="footer-logo" alt="footer"></div>
+        <div class="footer-div" >
+                         <div class="textwidget custom-html-widget"><p class="mb-0">Corporate Office <br>
+Amalgam House, Bristow Road, <br>
+Willingdon Island, Pin - 682003, <br>
+Ph - <a href="tel:04842668680">04842668680</a></p></div>                     </div>
+        <div class="footer-div" >
+            <h5>Quick Links</h5>
+                         <div class="textwidget custom-html-widget"><ul class="list">
+            <li><a href="https://www.anfl.in/">Home </a></li>              
+            <li><a href="https://www.anfl.in/company-profile">About Us </a></li>             
+            <li><a href="https://www.anfl.in/oem-private-label">OEM - Private Label</a></li>               
+            <li><a href="https://www.anfl.in/products/for-cats/">For cats  </a></li> 
+	            <li><a href="https://www.anfl.in/products/for-dogs/">For Dogs  </a></li>
+	            <li><a href="https://www.anfl.in/news-events">News/ Events</a></li>               
+            <li><a href="https://www.anfl.in/contact">Contact</a></li>
+           </ul> </div>                     </div>
+        <div class="footer-div pl-50" >
+            
+                              <div class="textwidget custom-html-widget"><div class="social footer-social ">
+<a href="#" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+<a href="#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+<a href="https://www.youtube.com/@ANFLPetFoods" target="_blank"><i class="fa-brands fa-youtube"></i>
+</a>	
+</div></div>             
+
+        </div>
+    </div>
+ 
 </div>
+<div class="copy-right">
+    <p class="mb-0"> Copyright © 2025  ANFL. All rights reserved. Powered by <a href="https://www.meridian.net.in/" target="_blank">Meridian Solution Inc.</a> </p>
+</div>
+
+</footer>
+<!--/footer -->
+
+<div class="whtsapp-link ">
+<a href="https://api.whatsapp.com/send?phone=919633055566" target="_blank">
+<div class="whatsapp-icon"><img src="https://www.anfl.in/wp-content/themes/anfi/images/icons/whats-app-logo.svg" alt="whatsapp"></div>
+<h5>Chat With Us</h5>
+</a>
+</div>
+
+
+
+
+
+<!--back to top-->
+<div class="progress-wrap">
+<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+</svg>
+</div>
+
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/tabs/easyResponsiveTabs-contact.js"></script> 
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/tabs/easyResponsiveTabs.js"></script>
+
+<!-- back to top -->
+<!-- slider -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/slider/jquery-1.js"></script> 
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/slider/bootstrap.js"></script>
+<!-- Preloader -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/loader/jquery.min.js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+	//<![CDATA[
+		$(window).load(function() { // makes sure the whole site is loaded
+			$('#status').fadeOut(); // will first fade out the loading animation
+			$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow':'visible'});
+		})
+	//]]>
+</script> 
+<!-- sticky js -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/sticky/classie.js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 40,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+<!--parallax -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/parallax/jquery.min.js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/parallax/jarallax.js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+        /* init Jarallax */
+        $('.jarallax').jarallax({
+            speed: 0.7,
+            imgWidth: 1366,
+            imgHeight: 768
+        })
+    </script>
+<!-- slick-jquery-->
+<!--counter -->
+<!--<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="js/counter/jquery.min.js"></script>  -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/counter/waypoints.min.js"></script> 
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/counter/jquery.counterup.min.js"></script> 
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+  <!-- partial -->
+  <script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/scroll/script.js"></script>
+
+<!-- back to top -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/jquery.min.js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/backToTop.js"></script>
+<!--scroller -->
+<!--<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="js/carousel/jquery-1.9.1.min.js"></script>  -->
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/carousel/owl.carousel.js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/carousel/owl.js"></script>
+
+   <!-- vgnav JS -->
+    <script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/vgnav/vgnav.min.js"></script>
+    <script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+        $(document).ready(function () {
+            $('.vg-nav').vegasMenu();
+        })
+    </script>
+    
+    <!-- tabs js-->
+    <script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/themes/anfi/js/tabs/easyResponsiveTabs.js"></script> 
+    <script  type="javascript/blocked" data-wpmeteor-type="text/javascript" >
+    function gototab(reload)
+       {
+    
+        window.location.reload(true);
+       }
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion           
+                width: 'auto', //auto or any width like 600px
+                fit: true,   // 100% fit in a container
+                closed: 'accordion', // Start closed if in accordion view
+                activate: function(event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#tabInfo');
+                    var $name = $('span', $info);
+    
+                    $name.text($tab.text());
+    
+                    $info.show();
+                }
+            });
+    
+            $('#verticalTab').easyResponsiveTabs({
+                type: 'vertical',
+                width: 'auto',
+                fit: true
+            });
+        });
+    </script>
+    
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/anfi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="ckyBannerTemplate" type="text/template"><div class="cky-overlay cky-hide"></div><div class="cky-consent-container cky-hide" tabindex="0"> <div class="cky-consent-bar" data-cky-tag="notice" style="background-color:#FFFFFF;border-color:#F4F4F4">  <div class="cky-notice"> <p class="cky-title" role="heading" aria-level="1" data-cky-tag="title" style="color:#212121">We value your privacy</p><div class="cky-notice-group"> <div class="cky-notice-des" data-cky-tag="description" style="color:#212121"> <p>We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.</p> </div><div class="cky-notice-btn-wrapper" data-cky-tag="notice-buttons"> <button class="cky-btn cky-btn-customize" aria-label="Customise" data-cky-tag="settings-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC">Customise</button> <button class="cky-btn cky-btn-reject" aria-label="Reject All" data-cky-tag="reject-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC">Reject All</button> <button class="cky-btn cky-btn-accept" aria-label="Accept All" data-cky-tag="accept-button" style="color:#FFFFFF;background-color:#1863DC;border-color:#1863DC">Accept All</button>  </div></div></div></div></div><div class="cky-modal" tabindex="0"> <div class="cky-preference-center" data-cky-tag="detail" style="color:#212121;background-color:#FFFFFF;border-color:#F4F4F4"> <div class="cky-preference-header"> <span class="cky-preference-title" role="heading" aria-level="1" data-cky-tag="detail-title" style="color:#212121">Customise Consent Preferences</span> <button class="cky-btn-close" aria-label="[cky_preference_close_label]" data-cky-tag="detail-close"> <img src="https://www.anfl.in/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg" alt="Close"> </button> </div><div class="cky-preference-body-wrapper"> <div class="cky-preference-content-wrapper" data-cky-tag="detail-description" style="color:#212121"> <p>We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.</p><p>The cookies that are categorised as "Necessary" are stored on your browser as they are essential for enabling the basic functionalities of the site. </p><p>We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent.</p><p>You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.</p> </div><div class="cky-accordion-wrapper" data-cky-tag="detail-categories"> <div class="cky-accordion" id="ckyDetailCategorynecessary"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Necessary" data-cky-tag="detail-category-title" style="color:#212121">Necessary</button><span class="cky-always-active">Always Active</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchnecessary"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">No cookies to display.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryfunctional"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Functional" data-cky-tag="detail-category-title" style="color:#212121">Functional</button><span class="cky-always-active">Always Active</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchfunctional"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">No cookies to display.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryanalytics"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Analytics" data-cky-tag="detail-category-title" style="color:#212121">Analytics</button><span class="cky-always-active">Always Active</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchanalytics"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">No cookies to display.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryperformance"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Performance" data-cky-tag="detail-category-title" style="color:#212121">Performance</button><span class="cky-always-active">Always Active</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchperformance"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Performance cookies are used to understand and analyse the key performance indexes of the website which helps in delivering a better user experience for the visitors.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">No cookies to display.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryadvertisement"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Advertisement" data-cky-tag="detail-category-title" style="color:#212121">Advertisement</button><span class="cky-always-active">Always Active</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchadvertisement"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Advertisement cookies are used to provide visitors with customised advertisements based on the pages you visited previously and to analyse the effectiveness of the ad campaigns.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">No cookies to display.</p></div> </div> </div> </div></div><div class="cky-footer-wrapper"> <span class="cky-footer-shadow"></span> <div class="cky-prefrence-btn-wrapper" data-cky-tag="detail-buttons"> <button class="cky-btn cky-btn-reject" aria-label="Reject All" data-cky-tag="detail-reject-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC"> Reject All </button> <button class="cky-btn cky-btn-preferences" aria-label="Save My Preferences" data-cky-tag="detail-save-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC"> Save My Preferences </button> <button class="cky-btn cky-btn-accept" aria-label="Accept All" data-cky-tag="detail-accept-button" style="color:#ffffff;background-color:#1863DC;border-color:#1863DC"> Accept All </button> </div></div></div></div></script><script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.1" id="swv-js"></script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.anfl.in\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script  type="javascript/blocked" data-wpmeteor-type="text/javascript"  data-wpmeteor-src="https://www.anfl.in/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.1" id="contact-form-7-js"></script>
+
 </body>
 </html>
