@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap: https://amus.org.es/sitemap.xml
+Sitemap: https://web2techsolutions.com/sitemap.xml
