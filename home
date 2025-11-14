@@ -1,17 +1,21 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
-
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define( 'WP_USE_THEMES', true );
-
-/** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("MENU_SHOW_SECTIONS", "Личный кабинет");
+$APPLICATION->SetPageProperty("MENU_SHOW_ELEMENTS", "Личный кабинет");
+$APPLICATION->SetPageProperty("title", "Личный кабинет");
+$APPLICATION->SetTitle("Личный кабинет");?>
+<?$APPLICATION->IncludeComponent("aspro:auth.allcorp2", "main", array(
+	"SEF_MODE" => "Y",
+	"SEF_FOLDER" => "/cabinet/",
+	"SEF_URL_TEMPLATES" => array(
+		"auth" => "auth/",
+		"registration" => "registration/",
+		"forgot_password" => "forgot-password/",
+		"change_password" => "change-password/",
+		"confirm_password" => "confirm-password/",
+		"confirm_registration" => "confirm-registration/",
+	),
+	"PERSONAL" => "/personal/"
+	),
+	false
+);?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
