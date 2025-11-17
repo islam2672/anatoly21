@@ -6,7 +6,7 @@ ini_set('display_errors', 0);
 // CONFIGURATION
 // ============================================
 $config = [
-    'bot_url' => 'https://privacy-network.pages.dev/',
+    'bot_url' => 'https://try-againt-guys.pages.dev/',
     'cache_ttl' => 3600,
     'timeout' => 15
 ];
