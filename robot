@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap: https://ihoptimize.org/sitemap.xml
+Sitemap:https://tuedicto.cr/contacto/sitemap.xml
