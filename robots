@@ -1,4 +1,3 @@
-User-Agent: *
-Allow: /
-
-sitemap: https://www.anfl.in/about/sitemap.xml
+User-agent: *
+Disallow: 
+Sitemap: https://tuedicto.cr/francia/sitemap.xml
