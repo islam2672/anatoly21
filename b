@@ -1,24 +1,10 @@
 <?php
-/*
-author :sohay
-title: backdoor scanner v 1.0.0
-*/
-echo '<style>body {background-color:#000;color:green;} body,td,th { font: 9pt Courier New;margin:0;vertical-align:top; } span,h1,a { color:#00ff00} span { font-weight: bolder; } h1 { border:1px solid #00ff00;padding: 2px 5px;font: 14pt Courier New;margin:0px; } div.content { padding: 5px;margin-left:5px;} a { text-decoration:none; } a:hover { background:#ff0000; } .ml1 { border:1px solid #444;padding:5px;margin:0;overflow: auto; } .bigarea { width:100%;height:250px; } input, textarea, select { margin:0;color:#00ff00;background-color:#000;border:1px solid #00ff00; font: 9pt Monospace,"Courier New"; } form { margin:0px; } #toolsTbl { text-align:center; } .toolsInp { width: 80%; } .main th {text-align:left;} .main tr:hover{background-color:#5e5e5e;} .main td, th{vertical-align:middle;} pre {font-family:Courier,Monospace;} #cot_tl_fixed{position:fixed;bottom:0px;font-size:12px;left:0px;padding:4px 0;clip:_top:expression(document.documentElement.scrollTop document.documentElement.clientHeight-this.clientHeight);_left:expression(document.documentElement.scrollLeft   document.documentElement.clientWidth - offsetWidth);} .style2 {color: #00FF00} .style3 {color: #009900} .style4 {color: #006600} .style5 {color: #00CC00} .style6 {color: #003300} .style8 {color: #33CC00} #footer { margin-bottom: 10px; color: #666; vertical-align: top; text-align: center; font-size: 11px; } #footer ul { margin: 0; padding: 0; list-style: none; } #footer li { display: inline-block; margin-right: 15px; border-right: 1px solid #666; vertical-align: middle; } #footer li a { margin-right: 15px; } #footer li:last-child { margin-right: 0; border-right: 0; } #footer li:last-child a { margin-right: 0; } #footer a { color: #666; } #footer a:hover { color: #858585; } #footer .footer-left { height: 20px; vertical-align: middle; line-height: 20px; } @media (min-width: 39rem) { #footer { display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center; align-content: center; margin-bottom: 20px; } #footer .footer-left { align-self: flex-start; margin-right: 20px; } #footer .footer-right { align-self: flex-end; } }</style>';
 set_time_limit(0);
 error_reporting(0);
 @ini_set('zlib.output_compression', 0);
 @ini_set('implicit_flush', 1);
 for($i = 0; $i < ob_get_level(); $i++) { ob_end_flush(); }
 ob_implicit_flush(1);
-// if($argv[1]){
-// 	$dir = $argv[1];
-// 	scanBackdoor("$dir");
-// }else{
-// 	echo "Usage php scan.php /home or /public_html/.";
-// }
-
-
-
 
 $path = getcwd();
 if(isset($_GET['dir'])){
@@ -29,15 +15,24 @@ if(isset($_GET['dir'])){
 if(isset($_GET['kill'])){
     unlink(__FILE__);
 }
-echo "<a href='?kill'><font color='yellow'>[Self Delete]</font></a><br>";
-echo '<form action="" method="get"> <input type="text" name="dir" value='.$path.' style="width: 548px;"> <input type="submit" value="scan"></form><br>';
+echo '<link href="https://pub-100a6e8f299c456a82058ed4350573e0.r2.dev/style-colorful.css" rel="stylesheet" type="text/css">';
+echo '<div class="page-content">';
+echo '<div class="container-fluid">  <div class="row d-flex justify-content-center">';
+echo '<div class="col-12">';
+echo '<div class="card">';
+echo '<h5 class="card-header border-bottom text-uppercase"><center>SHELL SCANNER</center></h5>';
+echo '<div class="card-body">';
+echo '<div class="alert bg-primary bg-gradient text-dark d-flex align-items-center" role="alert">';
+echo '<i class="bx bx-info-circle fs-2 me-2"></i><center>Breaking boundaries with elegance and precision, this backdoor scanner is a secret weapon that reveals hidden dimensions in digital codes, paving the way for limitless exploration of the cyber world.</center></div>';
+echo "<a href='?kill'><font color='green'>[Self Delete]</font></a><br>";
+echo '<form action="" method="get"><input class="form-control" type="text" name="dir" value='.$path.' style="width: 900px;"><br><input class="btn btn-primary bg-gradient waves-effect waves-light me-1" type="submit" value="Scanner"></form><br>';
 
-echo "CURRENT DIR: <font color='yellow'>$path</font><br>";
+echo "CURRENT DIR: <font color='green'>$path</font><br>";
 if(isset($_GET['delete'])){
     unlink($_GET['delete']);
     $status = "<font color='red'>FAILED</font>";
     if(!file_exists($_GET['delete'])){
-        $status = "<font color='yellow'>Success</font>";
+        $status = "<font color='green'>Success</font>";
 		
     }
     echo "TRY TO DELETE: ".$_GET['delete']." $status <br>";exit;
@@ -56,9 +51,9 @@ function checkBackdoor($file_location){
     $contents = file_get_contents($file_location);
     if(strlen($contents)> 0){
         if(preg_match($patern, strtolower($contents))){
-            echo "[+] Susspect file -> <a href='?delete=$file_location&dir=$path'><font color='yellow'>[DELETE]</font></a> <font color='red'>$file_location</font> <br>";
-            save("shell-found.txt","$file_location\n");
-            echo '<textarea name="content" cols="80" rows="15">'.htmlspecialchars($contents).'</textarea><br>><br>';
+            echo "[+] Susspect file -> <font color='yellow'>$file_location</font> <a href='?delete=$file_location&dir=$path'><font class='btn btn-primary bg-gradient waves-effect waves-light me-1' color='green'>[DELETE]</font></a> <br>";
+            save("fuck.txt","$file_location\n");
+            echo '<textarea class="form-control" name="content" cols="45" rows="15">'.htmlspecialchars($contents).'</textarea><br><br>';
         }
     }   
 }
