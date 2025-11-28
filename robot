@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://ispace.edu.vn/tin-tuc/sitemap.xml
+Sitemap:https://ispace.edu.vn/sitemap.xml
