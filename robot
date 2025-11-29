@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://dasiasi.ro/anunturi/sitemap.xml
+Sitemap:https://dasiasi.ro/stiri/sitemap.xml
