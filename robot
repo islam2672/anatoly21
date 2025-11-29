@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:http://kitaakigawa.com/sitemap.xml
+Sitemap:https://dasiasi.ro/anunturi/sitemap.xml
