@@ -1,17 +1,1364 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
 
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define( 'WP_USE_THEMES', true );
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://faithassociates.co.uk/xmlrpc.php">
+    	<script type="text/javascript">function theChampLoadEvent(e){var t=window.onload;if(typeof window.onload!="function"){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+		<script type="text/javascript">var theChampDefaultLang = 'en_GB', theChampCloseIconPath = 'https://faithassociates.co.uk/wp-content/plugins/super-socializer/images/close.png';</script>
+		<script>var theChampSiteUrl = 'https://faithassociates.co.uk', theChampVerified = 0, theChampEmailPopup = 0, heateorSsMoreSharePopupSearchText = 'Search';</script>
+			<script> var theChampFBKey = '', theChampFBLang = 'en_US', theChampFbLikeMycred = 0, theChampSsga = 0, theChampCommentNotification = 0, theChampHeateorFcmRecentComments = 0, theChampFbIosLogin = 0; </script>
+						<script type="text/javascript">var theChampFBCommentUrl = 'https://faithassociates.co.uk/mosque-expo-2025-set-to-unite-global-islamic-leaders-and-innovators-building-on-the-success-of-2024/'; var theChampFBCommentColor = ''; var theChampFBCommentNumPosts = ''; var theChampFBCommentWidth = '100%'; var theChampFBCommentOrderby = ''; var theChampCommentingTabs = "wordpress,facebook,disqus", theChampGpCommentsUrl = 'https://faithassociates.co.uk/mosque-expo-2025-set-to-unite-global-islamic-leaders-and-innovators-building-on-the-success-of-2024/', theChampDisqusShortname = '', theChampScEnabledTabs = 'wordpress,fb', theChampScLabel = 'Leave a reply', theChampScTabLabels = {"wordpress":"Default Comments (0)","fb":"Facebook Comments","disqus":"Disqus Comments"}, theChampGpCommentsWidth = 0, theChampCommentingId = 'respond'</script>
+					<style type="text/css">
+						.the_champ_button_instagram span.the_champ_svg,a.the_champ_instagram span.the_champ_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
+					.the_champ_horizontal_sharing .the_champ_svg,.heateor_ss_standard_follow_icons_container .the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_horizontal_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_horizontal_sharing span.the_champ_svg:hover,.heateor_ss_standard_follow_icons_container span.the_champ_svg:hover{
+				border-color: transparent;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg,.heateor_ss_floating_follow_icons_container span.the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_vertical_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg:hover,.heateor_ss_floating_follow_icons_container span.the_champ_svg:hover{
+						border-color: transparent;
+		}
+	</style>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v26.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>news - Faith Associates</title>
+	<link rel="canonical" href="https://faithassociates.co.uk/blog/" />
+	<link rel="next" href="https://faithassociates.co.uk/blog/page/2/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="news - Faith Associates" />
+	<meta property="og:url" content="https://faithassociates.co.uk/blog/" />
+	<meta property="og:site_name" content="Faith Associates" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@faithassociates" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":["WebPage","CollectionPage"],"@id":"https://faithassociates.co.uk/blog/","url":"https://faithassociates.co.uk/blog/","name":"news - Faith Associates","isPartOf":{"@id":"https://faithassociates.co.uk/#website"},"datePublished":"2015-12-15T07:37:19+00:00","dateModified":"2018-03-30T07:23:29+00:00","breadcrumb":{"@id":"https://faithassociates.co.uk/blog/#breadcrumb"},"inLanguage":"en-GB"},{"@type":"BreadcrumbList","@id":"https://faithassociates.co.uk/blog/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://faithassociates.co.uk/"},{"@type":"ListItem","position":2,"name":"news"}]},{"@type":"WebSite","@id":"https://faithassociates.co.uk/#website","url":"https://faithassociates.co.uk/","name":"Faith Associates","description":"Faith Associates - Global Leaders in Mosque Madrassah development","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://faithassociates.co.uk/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"}]}</script>
+	<!-- / Yoast SEO plugin. -->
 
-/** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//translate.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Faith Associates &raquo; Feed" href="https://faithassociates.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Faith Associates &raquo; Comments Feed" href="https://faithassociates.co.uk/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Faith Associates &raquo; iCal Feed" href="https://faithassociates.co.uk/trainings/?ical=1" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/faithassociates.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='sbi_styles-css' href='https://faithassociates.co.uk/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.9.1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://faithassociates.co.uk/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://faithassociates.co.uk/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='stm-stm-css' href='https://faithassociates.co.uk/wp-content/uploads/stm_fonts/stm/stm.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-language-translator-css' href='https://faithassociates.co.uk/wp-content/plugins/google-language-translator/css/style.css?ver=6.0.20' type='text/css' media='' />
+<link rel='stylesheet' id='glt-toolbar-styles-css' href='https://faithassociates.co.uk/wp-content/plugins/google-language-translator/css/toolbar.css?ver=6.0.20' type='text/css' media='' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css' href='https://faithassociates.co.uk/wp-content/plugins/recent-tweets-widget/tp_twitter_plugin.css?ver=1.0' type='text/css' media='screen' />
+<link rel="preload" class="mv-grow-style" href="https://faithassociates.co.uk/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1.34.7" as="style"><noscript><link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://faithassociates.co.uk/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1.34.7' type='text/css' media='all' />
+</noscript><style id='dpsp-frontend-style-pro-inline-css' type='text/css'>
+
+				@media screen and ( max-width : 720px ) {
+					.dpsp-content-wrapper.dpsp-hide-on-mobile,
+					.dpsp-share-text.dpsp-hide-on-mobile {
+						display: none;
+					}
+					.dpsp-has-spacing .dpsp-networks-btns-wrapper li {
+						margin:0 2% 10px 0;
+					}
+					.dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count) {
+						max-height: 40px;
+						padding: 0;
+						justify-content: center;
+					}
+					.dpsp-content-wrapper.dpsp-size-small .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 32px;
+					}
+					.dpsp-content-wrapper.dpsp-size-large .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 46px;
+					}
+				}
+			
+</style>
+<link rel='stylesheet' id='cff-css' href='https://faithassociates.co.uk/wp-content/plugins/custom-facebook-feed/assets/css/cff-style.min.css?ver=4.3.2' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='sb-font-awesome-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/assets/css/bootstrap.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='consulting-style-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/style.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_font_awesome_5_shims-css' href='https://faithassociates.co.uk/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.3.0' type='text/css' media='all' />
+<style id='vc_font_awesome_5_shims-inline-css' type='text/css'>
+body #wrapper .fa.fa-facebook{font-family:'Font Awesome 5 Brands' !important;}
+</style>
+<link rel='stylesheet' id='vc_font_awesome_5-css' href='https://faithassociates.co.uk/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.3.0' type='text/css' media='all' />
+<style id='vc_font_awesome_5-inline-css' type='text/css'>
+body #wrapper .fa.fa-map-marker{font-family:'FontAwesome' !important;} body .fa.fa-map-marker:before{content:"\f041"}
+</style>
+<link rel='stylesheet' id='font-awesome-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/assets/css/font-awesome.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='consulting-layout-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/assets/css/layout_15/main.css?ver=4.0' type='text/css' media='all' />
+<style id='consulting-layout-inline-css' type='text/css'>
+.page_title{ background-repeat: no-repeat !important; background-image: url() !important; }.mtc, .mtc_h:hover{
+					color: #444036!important
+				}.stc, .stc_h:hover{
+					color: #50c19a!important
+				}.ttc, .ttc_h:hover{
+					color: #e4f68f!important
+				}.mbc, .mbc_h:hover, .stm-search .stm_widget_search button{
+					background-color: #444036!important
+				}.sbc, .sbc_h:hover{
+					background-color: #50c19a!important
+				}.tbc, .tbc_h:hover{
+					background-color: #e4f68f!important
+				}.mbdc, .mbdc_h:hover{
+					border-color: #444036!important
+				}.sbdc, .sbdc_h:hover{
+					border-color: #50c19a!important
+				}.tbdc, .tbdc_h:hover{
+					border-color: #e4f68f!important
+				}mark { color: #0064b9 !important; } ul#menu-main-menu > li.current-menu-parent#menu-item-1849 > a { color: #444036 !important; } .page-id-979 #lts_hgt .stm_news_unit-block { min-height: 210px; } h1.h2 { text-transform: capitalize; } .stm_secondary_bg_color button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-outline.vc_btn3-icon-right.vc_btn3-color-theme_style_2 { color: #fff !important; border-color: #fff !important; } body.site_layout_15 .info_box.style_1.stm_style_l15_icon .stm_icon_l15 { color: #fff !important; } #slide-2-layer-9 { color: #fff !important; } #slide-1-layer-9 { color: #fff !important; } #slide-1-layer-9 { color: #fff !important; } #rev_slider_1_1_forcefullwidth .heading_font { color: #fff !important; } .info_box i { color: #0064B9 !important; } .stats_counter h3 { color: #0064B9 !important; } .stm_services .item .item_wr .content h5::before { background: #0064B9 !important; } .stm_services .item .item_wr .content .read_more .stm_icon { color: #0064B9 !important; } .vc_tta-tabs-list { background: #0064B9 !important; } .vc_tta-tabs-list li a { background: #0064B9 !important; color: #fff !important; } .vc_tta-tabs-list .vc_tta-tab.vc_active a { background: #ddd !important; color: #0064B9 !important; } body.site_layout_15.header_style_2 .top_nav .top_nav_wrapper .main_menu_nav > li.current-menu-item > a::after { background-color: #0064B9 !important; } body.site_layout_15 .stm_news .news_list li .post_inner .stm_news_unit-block a { color: #0063B9 !important; } body.site_layout_15 .request_callback .row .stm_request_callback_submit button{ color: #0064B9; } #abt { padding-top: 65px; padding-bottom: 76px; } #abt-img { margin-top:90px; } #service { padding-top: 63px ; padding-bottom: 55px ; } #testimonial { padding-top: 60px; padding-bottom: 60px ; } #lts_hgt { padding-top: 63px ; padding-bottom: 50px; } #sidebar-1 { margin-bottom: 100px; } #portfoli { margin-bottom: 110px; } .text a { color:#fff!important; } .vc_grid-filter.vc_grid-filter-filled.vc_grid-filter-color-grey > .vc_grid-filter-item.vc_active { border-bottom: 3px solid #0064b9 !important; } select { width: 100%; min-height: 40px; font-size: 20px; font-weight: 600; color: #2087c1; } #social1 .wpb_column.vc_column_container.vc_col-sm-4 { max-width: 83px; width: 100%; float: left; margin: 0 auto; } .logo.media-left.media-middle a img { max-width: 100px!important; height: auto; padding-top: 10px; } body.header_style_2 .header_top .top_nav { padding: 15px 0!important; } body.site_layout_15.header_style_2 .top_nav .top_nav_wrapper .main_menu_nav > li.current-menu-item > a:after { content: ''; position: absolute; bottom: -19px!important; } body.site_layout_15 .stm_news .news_list li .post_inner .stm_news_unit-block a { color: #fff !important; } body.site_layout_15 .stm_news .news_list li .post_inner .stm_news_unit-block h5:after { content: ''; display: block; width: 25px; height: 2px; margin-top: 14px; background: #0064b9!important; } .single-publications .page_title .breadcrumbs span, h1.h2 { color: #fff!important; } .page_title.transparent h1.h2 { margin-bottom: 20px; color: #000!important; } #lt_pbltn .vc_gitem-post-data-source-post_excerpt { display: none; } #lt_pbltn .vc_btn3-container.vc_btn3-left { display: none; } .stm_news_unit-block { min-height: 211px; } img#im { margin: 0 auto; width: 100%; } .stm_services_tabs .services_categories ul { background: #fde428!important; } .stm_services_tabs .services_categories ul li.ui-state-active a { background: #002e5b!important; color: #fde428!important; } .stm_services_tabs .services_categories ul li a { font-family: "Merriweather"; font-weight: 600!important; } body.site_layout_15 .stm_works_wr.style_1 .works_filter { padding: 0; background: #fde428!important; display: table; width: 100%; } body.site_layout_15 .stm_works_wr.style_1 .works_filter li a { margin: 10px 5px; font-size: 12px!important; line-height: 14px!important; height: 65px!important; } body.site_layout_15 .stm_works_wr.style_1 .works_filter li.active a { color: #fff!important; background: #002e5b!important; border-bottom-color: transparent!important; border-radius: 5px; vertical-align: middle; margin: 10px 5px!important; } body.site_layout_15 .stm_works_wr.style_1 .works_filter li a:hover{ color: #fff!important; background: #002e5b!important; border-bottom-color: transparent!important; border-radius: 5px; vertical-align: middle; } body.site_layout_15 .stm_works_wr.grid_with_filter.style_1 .stm_works .item .info .category a i { position: relative; top: -1px; left: 3px; color: #0064b9!important; font-size: 12px; } #menu-main-menu li a:hover { color: #00000!important; } body.site_layout_15 .stm_works_wr.grid_with_filter.style_1 .stm_works .item .info { padding: 24px 28px 22px!important; border: 3px solid #f2f2f2!important; border-top: 0!important; min-height: 150px; } .widget.widget_nav_menu ul li:hover > a { border-left-color: #0064b9!important; } body .vc_general.vc_btn3.vc_btn3-color-white.vc_btn3-style-flat:hover { background: #002e5b!important; border-color: #002e5b!important; color: #fff; } body .vc_general.vc_btn3.vc_btn3-color-white.vc_btn3-style-flat:hover .vc_btn3-icon { color: #fde428 !important; } ul.vc_grid-filter.vc_clearfix.vc_grid-filter-filled.vc_grid-filter-size-lg.vc_grid-filter-center.vc_grid-filter-color-grey { padding: 14px 20px; margin: 0 0 40px; background: #fde428; } li.vc_active.vc_grid-filter-item span { background: #002e5b!important; color: #fff!important; padding: 10px 10px!important; border-radius: 7px!important; } .page-id-11 .vc_tta-tabs-list { background: #fde428 !important; } .page-id-11 button.button.size-lg.icon_right { background: #fde428; border-color: #fde428; color: #0064b9; } .page-id-11 .vc_tta-tabs-list li a { background: #fde428 !important; color: #002e5b !important; } .vc_tta-tabs-list .vc_tta-tab.vc_active a { background: #002e5b !important; color: #fde428 !important; } img.wp-image-2149.aligncenter { width: 100%; } #btnn button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-flat.vc_btn3-block.vc_btn3-icon-right.vc_btn3-color-theme_style_2 { background: #002e5b; border-color: #002e5b; } #btnn button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-flat.vc_btn3-block.vc_btn3-icon-right.vc_btn3-color-theme_style_2:hover { background: #002e5b; border-color: #002e5b; color: #fff; } body.site_layout_15 .vc_general.vc_btn3.vc_btn3-color-theme_style_2.vc_btn3-style-outline { padding-top: 9px; border: 2px solid #002c57; background: #002c57; color: #fff; } body .vc_general.vc_btn3.vc_btn3-color-theme_style_2.vc_btn3-style-flat { color: #fff; border-color: #002e5b!important; background: #002e5b!important; border-width: 3px; } body .vc_general.vc_btn3.vc_btn3-color-theme_style_2.vc_btn3-style-flat:hover { background: transparent; border-color: #fff; color: #ffffff!important; } body .vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-icon-right:not(.vc_btn3-o-empty) .vc_btn3-icon { right: 15px; width: auto; font-size: 14px; height: 14px; line-height: 14px; color: #fde428!important; } .page_title.transparent .breadcrumbs span i.fa { color: #50c19a; } .breadcrumbs > span i.fa { font-weight: 600; } .breadcrumbs > span i.fa { font-weight: 600; } .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } user agent stylesheet i, cite, em, var, address, dfn { font-style: italic; } .page_title.transparent .breadcrumbs { margin-bottom: 16px; color: #808080; } .page_title.transparent .breadcrumbs { margin-bottom: 16px; color: #808080; } .breadcrumbs { position: relative; font-size: 12px; line-height: 22px; color: inherit; margin: 0 0 6px; text-transform: capitalize; } .breadcrumbs { position: relative; font-size: 12px; line-height: 22px; color: inherit; margin: 0 0 6px; text-transform: capitalize; } .top_nav .top_nav_wrapper > ul > li, .top_nav .main_menu_nav > ul > li, .breadcrumbs { text-transform: none !important; } .page_title { position: relative; padding: 54px 0 27px; background-color: #0064B9; margin: 0 0 73px; background-position: 50% 0; color: #222222; background-size: cover; } .page_title { position: relative; padding: 54px 0 27px; background-color: #0064B9; margin: 0 0 73px; background-position: 50% 0; color: #222222; background-size: cover; } body, body .vc_general.vc_btn3 small, body.site_layout_15 .stats_counter .counter_title, body.site_layout_15 .testimonials_carousel.style_1:not(.disable_carousel) .testimonial .info .position, body.site_layout_15 .testimonials_carousel.style_1:not(.disable_carousel) .testimonial .info .company, .default_widgets .widget.widget_nav_menu ul li .children li, .default_widgets .widget.widget_categories ul li .children li, .default_widgets .widget.widget_product_categories ul li .children li, .stm_sidebar .widget.widget_nav_menu ul li .children li, .stm_sidebar .widget.widget_categories ul li .children li, .stm_sidebar .widget.widget_product_categories ul li .children li, .shop_widgets .widget.widget_nav_menu ul li .children li, .shop_widgets .widget.widget_categories ul li .children li, .shop_widgets .widget.widget_product_categories ul li .children li { font-family: Montserrat; } body { font-family: PT Serif; font-size: 14px; } body { color: #777777; } body { font-family: PT Serif; font-size: 14px; } body { color: #777777; } body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.42857143; color: #333; background-color: #fff; } html { font-size: 100%; } html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } html { font-size: 100%; } html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } html { font-size: 10px; -webkit-tap-highlight-color: rgba(0,0,0,0); } html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } .fa-angle-right:before { content: "\f105"; } .fa-angle-right:before { content: "\f105"; } *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } .widget.widget_nav_menu ul li.current_page_item > a, .widget.widget_nav_menu ul li.current-cat > a, .widget.widget_categories ul li.current-menu-item > a, .widget.widget_categories ul li.current_page_item > a { border-left-color: #0064b9!Important; } .wpb_wrapper .vc_grid-filter.vc_grid-filter-filled.vc_grid-filter-color-grey > .vc_grid-filter-item.vc_active, .wpb_wrapper .vc_grid-filter.vc_grid-filter-filled.vc_grid-filter-color-grey > .vc_grid-filter-item:hover { background-color: transparent !important; border-bottom: 0px solid transparent!important; } .page_title.transparent .breadcrumbs span i.fa { color: #0064b9!important; } label { display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: bold; width: 100%; } input.wpcf7-form-control.wpcf7-submit { background: #002e5b; color: #fff; } .wpcf7-form-control.g-recaptcha.wpcf7-recaptcha { height: 95px!important; margin-top: -25px; } .pum-theme-1808 .pum-container, .pum-theme-default-theme .pum-container { padding: 25px!important; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ); } .pum-theme-1808 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 6px!important; } .pum-theme-1808 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { background-color: #002e5b !important; } span.wpcf7-form-control-wrap.pdf { display: none; } .wpb_wrapper .widget.widget_nav_menu ul li.current-menu-item > a{ border-left-color: #0265b7!important; } textarea.wpcf7-form-control.wpcf7-textarea { height: 112px; } input.wpcf7-form-control.wpcf7-submit { background: #002e5b; color: #fff; width: 40%; } @media screen and (min-width: 320px) and (max-width: 767px) { .stm_icon_l15 { width: 100%!important; float: left; vertical-align: middle; height: auto!important; max-width: 70px; margin-top: 15px!important; } .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title>a { color: #fff!important; } #abt { padding-top: 25px !important; padding-bottom: 30px !important; } #abt-img { margin-top:20px!important; } body.site_layout_15 .testimonials_carousel.style_1:not(.disable_carousel) .testimonial .info .stm_video_url { position: relative; display: block; margin: 0 0 30px; top: 0; left: 35%!important; } #service{ padding-top: 25px !important; padding-bottom: 30px !important; } #testimonial { padding-top: 0px; padding-bottom: 0px ; } #lts_hgt { padding-top: 25px!important ; padding-bottom: 30px!important; } .page-id-979 #lts_hgt .stm_news_unit-block { min-height: 140px!important; } .stm_news .news_list li .image img { display: block; max-width: 100%; height: auto; width: 100%; } #footer.style_2 .footer_widgets #nav_menu-3 { margin-bottom: 0px!important; } .page_title.transparent.disable_title { margin: 0px 0px!important; padding: 0px; } h3, h2 { padding: 0px 0 0!important; } .vc_custom_1513942045643 { margin-bottom: 15px !important; } .vc_custom_1451991003825 { margin-bottom: 10px !important; } #sidebar-1 { margin-bottom:0px!important; } .staff_list ul li .staff_image img { display: block; max-width: 100%; height: auto; -webkit-transform: translateZ(0); transform: translateZ(0); width: 100%; } #safty::before { background: url(http://www.faithassociates.co.uk/wp-content/uploads/2015/10/backgroudn2.png) no-repeat; background-size: contain; width: 100%; height: 200vh !important; content: ""; left: -19px; top: -73px!important; position: absolute; } .posts_grid .post_thumbnail img { display: block; max-width: 100%; height: auto; width: 100%; } .stm_works_wr.grid_with_filter.style_1 .stm_works .item .info { padding: 24px 0px 22px; border: 3px solid #f2f2f2; border-top: none; } button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-outline.vc_btn3-block.vc_btn3-icon-right.vc_btn3-color-theme_style_2 { margin: 0 auto!important; } #portfoli { margin-bottom: 50px!important; } .input-group { position: inherit!important; display: table; border-collapse: separate; } .icon_texts { display: none; } } @media screen and (min-width: 768px) and (max-width: 992px) { body.site_layout_15 .stm_works_wr.style_1 .works_filter li { float: left!important; display: inline; width: auto!important; } body.site_layout_15 .stm_works_wr.style_1 .works_filter li a { min-height: 50px; padding: 10px 15px 21px; } } .tagcloud a { display: none !important; } .tagcloud a:nth-child(1), .tagcloud a:nth-child(2), .tagcloud a:nth-child(3), .tagcloud a:nth-child(4), .tagcloud a:nth-child(5), .tagcloud a:nth-child(6), .tagcloud a:nth-child(7) { display: inline-block !important; } .cff-likebox { margin-top: -15px; } @media screen and (min-width: 320px) and (max-width: 767px) { .tp-kbimg-wrap img { display: none; } .tp-bgimg.defaultimg { background-size: 100%!important; } } .about_vacantion { background: #FDE428 !important; } .stm_sidebar .addtoany_share_save_container {display:none; } .stm_service .addtoany_share_save_container { position: absolute; margin-top: -45px; } @media (max-width: 750px) { .stm_service .addtoany_share_save_container { margin-top: -145px; } } @media (max-width: 750px) { .publications-template-default .addtoany_share_save_container { margin-top: -50px; } } .vc_row.wpb_row.vc_row-fluid.third_bg_color.vc_custom_1451889219674 { margin-top: 50px; } .content_wrapper .addtoany_share_save_container { margin-top: -74px; } .single-post .content_wrapper .addtoany_share_save_container { margin-top: 16px; } @media only screen and (max-device-width: 768px) { .content_wrapper .addtoany_share_save_container { margin-top: -158px; } } a.cart_count { display: none !important; } body.site_layout_15.header_style_2 .top_nav .top_nav_wrapper .main_menu_nav > li > a { padding: 10px 14px !important; } .Contact_Button { } #Contact_Button { background-color: #046ac9; border-color: #046ac9; } #Contact_Button:hover { background-color:#0356a3; border-color: #0356a3; color: #cfcfcf; } /* mobile blue header - Saif */ #header > div.mobile_header > div.logo_wrapper.clearfix { background-color: #0064b9 !important; color: #0064b9; } #menu_toggle > button:before { background-color: #ffffff !important; color: #ffffff; } #menu_toggle > button { background-color: #ffffff !important; } #menu_toggle.open button { background: 0 0 !important; } #menu_toggle > button:after { background-color: #ffffff !important; color: #ffffff; } /* #cff { height: 250px !important; } */ body .vc_tta-container .vc_tta.vc_general.vc_tta-tabs.theme_style.vc_tta-o-no-fill .vc_tta-tabs-container .vc_tta-tabs-list { background: #444036 !important; } body .vc_tta-container .vc_tta.vc_general.vc_tta-tabs.theme_style .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a{ background: #444036 !important; color: white !important; } body .vc_tta-container .vc_tta.vc_general.vc_tta-tabs.theme_style .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a{ color: #e4f68f !important; } 
+</style>
+<link rel='stylesheet' id='select2-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/assets/css/select2.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='header_builder-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/assets/css/header_builder.css?ver=4.0' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='consulting-default-font-css' href='https://fonts.googleapis.com/css?family=PT+Serif%3A400%2C700%2C700italic%2C400italic%26subset%3Dlatin%2Cgreek%2Cgreek-ext%2Cvietnamese%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic%7CMerriweather%3A400%2C300%2C400italic%2C700%26subset%3Dlatin%2Clatin-ext&#038;ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/assets/css/jquery.fancybox.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='consulting-global-styles-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/assets/css/global_styles/main.css?ver=4.0' type='text/css' media='all' />
+<style id='consulting-global-styles-inline-css' type='text/css'>
+
+    
+        .elementor-widget-video .eicon-play {
+            border-color: #e4f68f;
+            background-color: #e4f68f;
+        }
+
+        .elementor-widget-wp-widget-nav_menu ul li,
+        .elementor-widget-wp-widget-nav_menu ul li a {
+            color: #444036;
+        }
+
+        .elementor-widget-wp-widget-nav_menu ul li.current-cat:hover>a,
+        .elementor-widget-wp-widget-nav_menu ul li.current-cat>a,
+        .elementor-widget-wp-widget-nav_menu ul li.current-menu-item:hover>a,
+        .elementor-widget-wp-widget-nav_menu ul li.current-menu-item>a,
+        .elementor-widget-wp-widget-nav_menu ul li.current_page_item:hover>a,
+        .elementor-widget-wp-widget-nav_menu ul li.current_page_item>a,
+        .elementor-widget-wp-widget-nav_menu ul li:hover>a {
+            border-left-color: #50c19a;
+        }
+
+        div.elementor-widget-button a.elementor-button,
+        div.elementor-widget-button .elementor-button {
+            background-color: #444036;
+        }
+
+        div.elementor-widget-button a.elementor-button:hover,
+        div.elementor-widget-button .elementor-button:hover {
+            background-color: #e4f68f;
+            color: #444036;
+        }
+
+        .elementor-default .elementor-text-editor ul:not(.elementor-editor-element-settings) li:before,
+        .elementor-default .elementor-widget-text-editor ul:not(.elementor-editor-element-settings) li:before {
+            color: #50c19a;
+        }
+
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-content-wrapper .elementor-tab-mobile-title,
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title {
+            background-color: #e4f68f;
+        }
+
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-content-wrapper .elementor-tab-mobile-title,
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title a {
+            color: #444036;
+        }
+
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-content-wrapper .elementor-tab-mobile-title.elementor-active,
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active {
+            background-color: #444036;
+        }
+
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-content-wrapper .elementor-tab-mobile-title.elementor-active,
+        .consulting_elementor_wrapper .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active a {
+            color: #e4f68f;
+        }
+
+        .radial-progress .circle .mask .fill {
+            background-color: #e4f68f;
+        }
+
+    
+
+    
+</style>
+<link rel='stylesheet' id='stm_megamenu-css' href='https://faithassociates.co.uk/wp-content/themes/consulting/inc/megamenu/assets/css/megamenu.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='the_champ_frontend_css-css' href='https://faithassociates.co.uk/wp-content/plugins/super-socializer/css/front.css?ver=7.14.3' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='https://faithassociates.co.uk/wp-content/plugins/popup-maker/assets/css/pum-site.min.css?ver=1.20.6' type='text/css' media='all' />
+<style id='popup-maker-site-inline-css' type='text/css'>
+/* Popup Google Fonts */
+@import url('//fonts.googleapis.com/css?family=Acme|Montserrat');
+
+/* Popup Theme 7913: Floating Bar - Soft Blue */
+.pum-theme-7913, .pum-theme-floating-bar { background-color: rgba( 255, 255, 255, 0.00 ) } 
+.pum-theme-7913 .pum-container, .pum-theme-floating-bar .pum-container { padding: 8px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 238, 246, 252, 1.00 ) } 
+.pum-theme-7913 .pum-title, .pum-theme-floating-bar .pum-title { color: #505050; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-7913 .pum-content, .pum-theme-floating-bar .pum-content { color: #505050; font-family: inherit; font-weight: 400 } 
+.pum-theme-7913 .pum-content + .pum-close, .pum-theme-floating-bar .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 5px; bottom: auto; top: 50%; padding: 0px; color: #505050; font-family: Sans-Serif; font-weight: 700; font-size: 15px; line-height: 18px; border: 1px solid #505050; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ); transform: translate(0, -50%) } 
+
+/* Popup Theme 7914: Content Only - For use with page builders or block editor */
+.pum-theme-7914, .pum-theme-content-only { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-7914 .pum-container, .pum-theme-content-only .pum-container { padding: 0px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ) } 
+.pum-theme-7914 .pum-title, .pum-theme-content-only .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-7914 .pum-content, .pum-theme-content-only .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 } 
+.pum-theme-7914 .pum-content + .pum-close, .pum-theme-content-only .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 7px; bottom: auto; top: 7px; padding: 0px; color: #000000; font-family: inherit; font-weight: 700; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ) } 
+
+/* Popup Theme 1813: Framed Border */
+.pum-theme-1813, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-1813 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-1813 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-1813 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-1813 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Acme; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 1812: Cutting Edge */
+.pum-theme-1812, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-1812 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-1812 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-size: 26px; line-height: 28px } 
+.pum-theme-1812 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit } 
+.pum-theme-1812 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: inherit; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 1811: Hello Box */
+.pum-theme-1811, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-1811 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-1811 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-size: 32px; line-height: 36px } 
+.pum-theme-1811 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-1811 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: inherit; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 1810: Enterprise Blue */
+.pum-theme-1810, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-1810 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-1810 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 34px; line-height: 36px } 
+.pum-theme-1810 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-1810 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: inherit; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 1809: Light Box */
+.pum-theme-1809, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-1809 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-1809 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-1809 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit } 
+.pum-theme-1809 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 30px; width: 30px; left: auto; right: -24px; bottom: auto; top: -24px; padding: 0px; color: #ffffff; font-family: inherit; font-size: 24px; line-height: 26px; border: 2px solid #ffffff; border-radius: 30px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 1808: Default Theme */
+.pum-theme-1808, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-1808 .pum-container, .pum-theme-default-theme .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-1808 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: inherit; font-size: 32px; font-style: normal; line-height: 36px } 
+.pum-theme-1808 .pum-content, .pum-theme-default-theme .pum-content { color: #8c8c8c; font-family: inherit; font-weight: inherit; font-style: normal } 
+.pum-theme-1808 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: inherit; font-size: 12px; font-style: normal; line-height: 14px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+#pum-1814 {z-index: 1999999999}
+
+</style>
+<link rel='stylesheet' id='addtoany-css' href='https://faithassociates.co.uk/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://faithassociates.co.uk/wp-includes/css/dashicons.min.css?ver=6.8.3' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='stm-google-fonts-css' href='//fonts.googleapis.com/css?family=Montserrat%7CMontserrat%3Aregular%2C700%2C500%2C600&#038;subset=latin&#038;ver=4.0' type='text/css' media='all' />
+<script type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
+	Share: "Share",
+	Save: "Save",
+	Subscribe: "Subscribe",
+	Email: "Email",
+	Bookmark: "Bookmark",
+	ShowAll: "Show All",
+	ShowLess: "Show less",
+	FindServices: "Find service(s)",
+	FindAnyServiceToAddTo: "Instantly find any service to add to",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Bookmark in your browser",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Add to your favourites",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;",
+	ThanksForSharing: "Thanks for sharing!",
+	ThanksForFollowing: "Thanks for following!"
+};
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" defer src="https://faithassociates.co.uk/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<script type="text/javascript" src="//faithassociates.co.uk/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.20" async id="tp-tools-js"></script>
+<script type="text/javascript" src="//faithassociates.co.uk/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.20" async id="revmin-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/themes/consulting/inc/megamenu/assets/js/megamenu.js?ver=6.8.3" id="stm_megamenu-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-TXZC5DFN" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["faithassociates.co.uk"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-TXZC5DFN");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+/* ]]> */
+</script>
+<link rel="https://api.w.org/" href="https://faithassociates.co.uk/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://faithassociates.co.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<style id="essential-blocks-global-styles">
+            :root {
+                --eb-global-primary-color: #101828;
+--eb-global-secondary-color: #475467;
+--eb-global-tertiary-color: #98A2B3;
+--eb-global-text-color: #475467;
+--eb-global-heading-color: #1D2939;
+--eb-global-link-color: #444CE7;
+--eb-global-background-color: #F9FAFB;
+--eb-global-button-text-color: #FFFFFF;
+--eb-global-button-background-color: #101828;
+--eb-gradient-primary-color: linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+--eb-gradient-secondary-color: linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+--eb-gradient-tertiary-color: linear-gradient(90deg, hsla(248, 21%, 15%, 1) 0%, hsla(250, 14%, 61%, 1) 100%);
+--eb-gradient-background-color: linear-gradient(90deg, rgb(250, 250, 250) 0%, rgb(233, 233, 233) 49%, rgb(244, 243, 243) 100%);
+
+                --eb-tablet-breakpoint: 1024px;
+--eb-mobile-breakpoint: 767px;
+
+            }
+            
+            
+        </style><style>#google_language_translator{clear:both;}#flags{width:165px;}#flags a{display:inline-block;margin-right:2px;}#google_language_translator{width:auto!important;}div.skiptranslate.goog-te-gadget{display:inline!important;}.goog-tooltip{display: none!important;}.goog-tooltip:hover{display: none!important;}.goog-text-highlight{background-color:transparent!important;border:none!important;box-shadow:none!important;}#google_language_translator select.goog-te-combo{color:#32373c;}#google_language_translator{color:transparent;}body{top:0px!important;}#goog-gt-{display:none!important;}font font{background-color:transparent!important;box-shadow:none!important;position:initial!important;}#glt-translate-trigger{bottom:auto;top:0;}.tool-container.tool-top{top:50px!important;bottom:auto!important;}.tool-container.tool-top .arrow{border-color:transparent transparent #d0cbcb; top:-14px;}#glt-translate-trigger > span{color:#ffffff;}#glt-translate-trigger{background:#1e73be;}.goog-te-gadget .goog-te-combo{width:300px;}</style><meta name="generator" content="Site Kit by Google 1.160.0" /><meta name="hubbub-info" description="Hubbub 1.34.7"><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://faithassociates.co.uk"><link rel="alternate" href="https://faithassociates.co.uk/wp-json/tribe/events/v1/" />        <script type="text/javascript">
+            var ajaxurl = 'https://faithassociates.co.uk/wp-admin/admin-ajax.php';
+            var stm_ajax_load_events = 'c879138b1e';
+            var stm_ajax_load_portfolio = '4f80c309f1';
+            var stm_ajax_add_event_member_sc = '4bc725982a';
+            var stm_custom_register = '474c970775';
+            var stm_get_prices = '47dac955bc';
+            var stm_get_history = 'e6278045da';
+            var consulting_install_plugin = 'd1287f1e2f';
+            var stm_ajax_add_review = '1b9d230b6c';
+        </script>
+        <meta name="google-site-verification" content="MZr-raPd-QATEgaI0isiHv7WGneHzUKtYMLv4lQBhBE"><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!-- There is no amphtml version available for this URL. --><meta name="generator" content="Powered by Slider Revolution 6.7.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style id="uagb-style-frontend-7">.uag-blocks-common-selector{z-index:var(--z-index-desktop) !important}@media (max-width: 976px){.uag-blocks-common-selector{z-index:var(--z-index-tablet) !important}}@media (max-width: 767px){.uag-blocks-common-selector{z-index:var(--z-index-mobile) !important}}
+</style><link rel="icon" href="https://faithassociates.co.uk/wp-content/uploads/2020/01/cropped-Faith-Associates-image-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://faithassociates.co.uk/wp-content/uploads/2020/01/cropped-Faith-Associates-image-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://faithassociates.co.uk/wp-content/uploads/2020/01/cropped-Faith-Associates-image-180x180.png" />
+<meta name="msapplication-TileImage" content="https://faithassociates.co.uk/wp-content/uploads/2020/01/cropped-Faith-Associates-image-270x270.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<style type="text/css" title="dynamic-css" class="options-output">.top_nav_wr .top_nav .logo a img{width:170px;}body,
+					body .vc_general.vc_btn3 small,
+					body.site_layout_15 .stats_counter .counter_title,
+					body.site_layout_15 .testimonials_carousel.style_1:not(.disable_carousel) .testimonial .info .position,
+					body.site_layout_15 .testimonials_carousel.style_1:not(.disable_carousel) .testimonial .info .company,
+					.default_widgets .widget.widget_nav_menu ul li .children li,
+					.default_widgets .widget.widget_categories ul li .children li,
+					.default_widgets .widget.widget_product_categories ul li .children li,
+					.stm_sidebar .widget.widget_nav_menu ul li .children li,
+					.stm_sidebar .widget.widget_categories ul li .children li,
+					.stm_sidebar .widget.widget_product_categories ul li .children li,
+					.shop_widgets .widget.widget_nav_menu ul li .children li,
+					.shop_widgets .widget.widget_categories ul li .children li,
+					.shop_widgets .widget.widget_product_categories ul li .children li{font-family:Montserrat;} h1, .h1,
+					h2, .h2,
+					h3, .h3,
+					h4, .h4,
+					h5, .h5,
+					h6, .h6,
+					.heading_font,
+					body.site_layout_15 .stm_works_wr.style_1 .works_filter li a,
+					.top_nav .top_nav_wrapper > ul,
+					.top_nav .icon_text strong,
+					.stm_testimonials .item .testimonial-info .testimonial-text .name,
+					.stats_counter .counter_title,
+					.stm_contact .stm_contact_info .stm_contact_job,
+					.vacancy_table_wr .vacancy_table thead th,
+					.testimonials_carousel .testimonial .info .position,
+					.testimonials_carousel .testimonial .info .company,
+					.stm_gmap_wrapper .gmap_addresses .addresses .item .title,
+					.company_history > ul > li .year,
+					.stm_contacts_widget,
+					.stm_works_wr.grid .stm_works .item .item_wr .title,
+					.stm_works_wr.grid_with_filter .stm_works .item .info .title,
+					body .vc_general.vc_btn3,
+					.consulting-rev-title,
+					.consulting-rev-title-2,
+					.consulting-rev-title-3,
+					.consulting-rev-text,
+					body .vc_tta-container .vc_tta.vc_general.vc_tta-tabs.theme_style .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a,
+					strong, b,
+					.button,
+					.woocommerce a.button,
+					.woocommerce button.button,
+					.woocommerce input.button,
+					.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+					.woocommerce input.button.alt,
+					.request_callback p,
+					ul.comment-list .comment .comment-author,
+					.page-numbers .page-numbers,
+					#footer .footer_widgets .widget.widget_recent_entries ul li a,
+					.default_widgets .widget.widget_nav_menu ul li,
+					.default_widgets .widget.widget_categories ul li,
+					.default_widgets .widget.widget_product_categories ul li,
+					.stm_sidebar .widget.widget_nav_menu ul li, .stm_sidebar .widget.widget_categories ul li,
+					.stm_sidebar .widget.widget_product_categories ul li,
+					.shop_widgets .widget.widget_nav_menu ul li,
+					.shop_widgets .widget.widget_categories ul li,
+					.shop_widgets .widget.widget_product_categories ul li,
+					.default_widgets .widget.widget_recent_entries ul li a,
+					.stm_sidebar .widget.widget_recent_entries ul li a,
+					.shop_widgets .widget.widget_recent_entries ul li a,
+					.staff_bottom_wr .staff_bottom .infos .info,
+					.woocommerce .widget_price_filter .price_slider_amount .button,
+					.woocommerce ul.product_list_widget li .product-title,
+					.woocommerce ul.products li.product .price,
+					.woocommerce a.added_to_cart,
+					.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+					.woocommerce div.product form.cart .variations label,
+					.woocommerce table.shop_table th,
+					.woocommerce-cart table.cart th.product-name a,
+					.woocommerce-cart table.cart td.product-name a,
+					.woocommerce-cart table.cart th .amount,
+					.woocommerce-cart table.cart td .amount,
+					.stm_services .item .item_wr .content .read_more,
+					.staff_list ul li .staff_info .staff_department,
+					.stm_partner.style_2 .stm_partner_content .position,
+					.staff_carousel_item .staff_department,
+					body.header_style_5 .header_top .info-text strong,
+					.stm_services_tabs .services_categories ul li a,
+					.stm_services_tabs .service_tab_item .service_name,
+					.stm_services_tabs .service_tab_item .service_cost,
+					.stm_works_wr.grid_2.style_1 .stm_works .item .item_wr .title,
+					.stm_works_wr.grid_2.style_2 .stm_works .item .item_wr .title,
+					.stm_works_wr.grid_with_filter.style_1 .stm_works .item .item_wr .title,
+					.stm_works_wr.grid_with_filter.style_2 .stm_works .item .item_wr .title,
+					body.header_style_7 .side_nav .main_menu_nav > li > a,
+					body.header_style_7 .side_nav .main_menu_nav > li ul li a,
+					body.header_style_5 .header_top .info-text b{font-family:Montserrat;}h1, .h1{text-transform:capitalize;}h2, .h2{text-transform:capitalize;}h3, .h3{text-transform:none;}h4, .h4{text-transform:none;}h5, .h5{text-transform:none;}h6, .h6{text-transform:none;}</style>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="blog wp-theme-consulting wp-child-theme-consulting-child tribe-no-js ally-default site_layout_15  header_style_2 sticky_menu vc_sidebar_page wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
+<div id="wrapper">
+    <div id="fullpage" class="content_wrapper">
+                        <header id="header">
+                                                                                                                            <div class="header_top clearfix">
+                            <div class="container">
+                                <div class="logo media-left media-middle">
+                                                                            <a href="https://faithassociates.co.uk/"><img
+                                                    src="http://faithassociates.co.uk/wp-content/uploads/2018/02/logo-1.jpg"
+                                                    style="width: 170px; height: px;"
+                                                    alt="Faith Associates"/></a>
+                                                                    </div>
+                                <div class="top_nav media-body media-middle">
+                                                                            <div class="header_socials">
+                                                                                            <a target="_blank" href="https://en-gb.facebook.com/FaithAssociates1/"><i
+                                                            class="fa fa-facebook"></i></a>
+                                                                                            <a target="_blank" href="https://twitter.com/faithassociates?lang=en"><i
+                                                            class="fa fa-twitter"></i></a>
+                                                                                            <a target="_blank" href="https://www.instagram.com/faith_associates/"><i
+                                                            class="fa fa-instagram"></i></a>
+                                                                                            <a target="_blank" href="https://www.linkedin.com/company/faith-associates/"><i
+                                                            class="fa fa-linkedin"></i></a>
+                                                                                                                                </div>
+                                                                        <div class="top_nav_wrapper clearfix">
+                                        <ul id="menu-main-menu" class="main_menu_nav"><li id="menu-item-1680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1680"><a href="https://faithassociates.co.uk/">Home</a></li>
+<li id="menu-item-2075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2075"><a href="https://faithassociates.co.uk/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-7121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7121 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/strategic-projects/">Strategic Projects</a></li>
+	<li id="menu-item-1981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1981 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/careers/">Careers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5439 stm_mega_second_col_width_default"><a href="https://faithassociates.co.uk/vacancies/">Vacancies</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2005 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/about-us/company-history/">Organisation history</a></li>
+	<li id="menu-item-2006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2006 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/about-us/our-clients/">Our clients</a></li>
+	<li id="menu-item-2007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2007 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/about-us/our-team/">Our team</a></li>
+	<li id="menu-item-5541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5541 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-5776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5776"><a href="http://www.faithassociates.co.uk/mosque-services/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-6226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6226 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/safety/">Safety</a>
+	<ul class="sub-menu">
+		<li id="menu-item-6230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6230 stm_mega_second_col_width_default"><a href="https://faithassociates.co.uk/what-we-do/">What We Do</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/mosque-services/">Mosque Services</a></li>
+	<li id="menu-item-5773" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5773 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/madrassah-services/">Madrassah Support</a></li>
+	<li id="menu-item-5772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5772 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/imam-services/">Imam Services</a></li>
+	<li id="menu-item-5771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5771 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/strategic-services/">Strategic Services</a></li>
+	<li id="menu-item-5770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5770 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/safeguarding-services/">Safeguarding Services</a></li>
+</ul>
+</li>
+<li id="menu-item-8288" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8288"><a href="https://faithassociates.co.uk/strengthening-mosque-resilience-birmingham-chapter-event-at-aston-university/">Events</a></li>
+<li id="menu-item-9927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9927"><a href="https://faithassociates.co.uk/sport/">Sports</a></li>
+<li id="menu-item-9685" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9685"><a href="https://faithassociates.co.uk/international/">International</a></li>
+<li id="menu-item-7671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7671"><a href="https://faithassociates.co.uk/publications/">Publications</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1534"><a href="/blog/?layout=grid&#038;sidebar_id=none">news</a></li>
+<li id="menu-item-1893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"><a href="https://faithassociates.co.uk/contact-us/">Contact Us</a></li>
+</ul>                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                        <div class="mobile_header">
+                        <div class="logo_wrapper clearfix">
+                            <div class="logo">
+                                                                    <a href="https://faithassociates.co.uk/"><img
+                                                src="http://faithassociates.co.uk/wp-content/uploads/2018/02/logo-1.jpg"
+                                                style="width: 170px; height: px;"
+                                                alt="Faith Associates"/></a>
+                                                            </div>
+                            <div id="menu_toggle">
+                                <button></button>
+                            </div>
+                        </div>
+                        <div class="header_info">
+                            <div class="top_nav_mobile">
+                                <ul id="menu-main-menu-1" class="main_menu_nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1680"><a href="https://faithassociates.co.uk/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2075"><a href="https://faithassociates.co.uk/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7121 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/strategic-projects/">Strategic Projects</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1981 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/careers/">Careers</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5439 stm_mega_second_col_width_default"><a href="https://faithassociates.co.uk/vacancies/">Vacancies</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2005 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/about-us/company-history/">Organisation history</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2006 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/about-us/our-clients/">Our clients</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2007 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/about-us/our-team/">Our team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5541 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5776"><a href="http://www.faithassociates.co.uk/mosque-services/">Services</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6226 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/safety/">Safety</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6230 stm_mega_second_col_width_default"><a href="https://faithassociates.co.uk/what-we-do/">What We Do</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/mosque-services/">Mosque Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5773 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/madrassah-services/">Madrassah Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5772 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/imam-services/">Imam Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5771 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/strategic-services/">Strategic Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5770 stm_col_width_default stm_mega_cols_inside_default"><a href="https://faithassociates.co.uk/safeguarding-services/">Safeguarding Services</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8288"><a href="https://faithassociates.co.uk/strengthening-mosque-resilience-birmingham-chapter-event-at-aston-university/">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9927"><a href="https://faithassociates.co.uk/sport/">Sports</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9685"><a href="https://faithassociates.co.uk/international/">International</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7671"><a href="https://faithassociates.co.uk/publications/">Publications</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1534"><a href="/blog/?layout=grid&#038;sidebar_id=none">news</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"><a href="https://faithassociates.co.uk/contact-us/">Contact Us</a></li>
+</ul>                            </div>
+                                                            <div class="icon_texts">
+                                                                            <div class="icon_text clearfix">
+                                            <div class="icon"><i
+                                                        class="fa fa fa-phone"></i>
+                                            </div>
+                                            <div class="text">
+                                                +44 (0) 1494 416202                                            </div>
+                                        </div>
+                                                                                                                <div class="icon_text clearfix">
+                                            <div class="icon"><i
+                                                        class="fa fa fa-clock-o"></i>
+                                            </div>
+                                            <div class="text">
+                                                We are available from 9:30-18:00 Monday to Friday                                            </div>
+                                        </div>
+                                                                                                                <div class="icon_text clearfix">
+                                            <div class="icon"><i
+                                                        class="fa fa fa-map-marker"></i>
+                                            </div>
+                                            <div class="text">
+                                                Faith Associates, 41 Baker Street, High Wycombe, HP11 2RZ                                             </div>
+                                        </div>
+                                                                    </div>
+                                                        
+                        </div>
+                    </div>
+                                    </header>
+        <div id="main" >
+            	<div class="page_title transparent disable_title">
+					<div class="container">
+				            <div class="breadcrumbs">
+                <!-- Breadcrumb NavXT 7.4.1 -->
+<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to Faith Associates." href="https://faithassociates.co.uk" class="home">Home</a></span><span><i class="fa fa-angle-right"></i></span><span property="itemListElement" typeof="ListItem"><span property="name">news</span><meta property="position" content="2"></span>            </div>
+        							</div>
+			</div>
+            <div class="container">
+
+<div class="row"><div class="col-lg-9 col-md-9 col-sm-12 col-xs-12"><div class="col_in __padd-right">    <div class="posts_list with_sidebar">
+                            <ul class="post_list_ul">
+                <li id="post-10236" class="stm_post_info post-10236 post type-post status-publish format-standard has-post-thumbnail hentry category-newsletters-publicatiom category-blog-news category-press-release">
+			<h4 class="stripe_2">Announcement: Mosque Expo 2025 returns, uniting leaders and innovators.</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				July 11, 2025			</li>
+			<li class="post_by">Posted by: <span>Administator</span></li>
+			<li class="post_cat">Categories:				<span>Newsletters, Blog, Press Release</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/mosque-expo-2025-set-to-unite-global-islamic-leaders-and-innovators-building-on-the-success-of-2024/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2025/06/Mosque-Madrassah-EXPO2-1110x550.png" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" fetchpriority="high" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/mosque-expo-2025-set-to-unite-global-islamic-leaders-and-innovators-building-on-the-success-of-2024/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10211" class="stm_post_info post-10211 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-news category-press-release tag-mosque-resilience">
+			<h4 class="stripe_2">Strengthening Mosque Resilience: Birmingham Chapter event at Aston University</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				June 2, 2025			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Categories:				<span>Blog, Press Release</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/strengthening-mosque-resilience-birmingham-chapter-event-at-aston-university/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2025/06/1000104606-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/strengthening-mosque-resilience-birmingham-chapter-event-at-aston-university/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10203" class="stm_post_info post-10203 post type-post status-publish format-standard has-post-thumbnail hentry category-environment-news category-blog-news category-news-news tag-eco-mosque">
+			<h4 class="stripe_2">Faith Associates Deliver Eco-Mosque Net Zero Conference for Mosque Leadership</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				April 22, 2025			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Categories:				<span>Blog, News, Environment</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/faith-associates-deliver-eco-mosque-net-zero-conference-for-mosque-leadership/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1080" height="509" src="https://faithassociates.co.uk/wp-content/uploads/2025/04/Screenshot_20250423_005136_LinkedIn.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" srcset="https://faithassociates.co.uk/wp-content/uploads/2025/04/Screenshot_20250423_005136_LinkedIn.jpg 1080w, https://faithassociates.co.uk/wp-content/uploads/2025/04/Screenshot_20250423_005136_LinkedIn-300x141.jpg 300w, https://faithassociates.co.uk/wp-content/uploads/2025/04/Screenshot_20250423_005136_LinkedIn-1024x483.jpg 1024w, https://faithassociates.co.uk/wp-content/uploads/2025/04/Screenshot_20250423_005136_LinkedIn-768x362.jpg 768w, https://faithassociates.co.uk/wp-content/uploads/2025/04/Screenshot_20250423_005136_LinkedIn-900x424.jpg 900w" sizes="(max-width: 1080px) 100vw, 1080px" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/faith-associates-deliver-eco-mosque-net-zero-conference-for-mosque-leadership/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10171" class="stm_post_info post-10171 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-news tag-mosque tag-beacon-mosque tag-mosque-expo">
+			<h4 class="stripe_2">1000 Attendees Attend Mosque Expo &#038; 7th Beacon Mosque Awards 2024</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				December 2, 2024			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Category:				<span>Blog</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/1000-attendees-attend-mosque-expo-7th-beacon-mosque-awards-2024/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2024/12/467672180_10231354496258591_7396103345346133821_n-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" loading="lazy" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/1000-attendees-attend-mosque-expo-7th-beacon-mosque-awards-2024/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10160" class="stm_post_info post-10160 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-october-7th tag-gaza tag-palestine tag-israel tag-pow tag-muslims tag-mosque-security tag-mosques tag-report">
+			<h4 class="stripe_2">Report on Incidents Against Mosques &#038; Muslim Institutions In The UK Since October 7th 2023</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				October 8, 2024			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Category:				<span>Uncategorized</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/report-on-incidents-against-mosques-muslim-institutions-in-the-uk-since-october-7th-2023/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2024/10/IMG-20241008-WA0001-1-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" loading="lazy" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/report-on-incidents-against-mosques-muslim-institutions-in-the-uk-since-october-7th-2023/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10149" class="stm_post_info post-10149 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-news category-news-news tag-mosque-security tag-mosque">
+			<h4 class="stripe_2">Faith Associates Deliver Third Mosque Security Briefing Event in West London</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				September 16, 2024			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Categories:				<span>Blog, News</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/faith-associates-deliver-third-mosque-security-briefing-event-in-west-london/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2024/09/IMG-20240915-WA0019-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" loading="lazy" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/faith-associates-deliver-third-mosque-security-briefing-event-in-west-london/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10141" class="stm_post_info post-10141 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-news tag-mosque tag-liverpool">
+			<h4 class="stripe_2">Faith Associates invited to Liverpool Mosque for briefing event with community following riots</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				September 10, 2024			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Category:				<span>Blog</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/faith-associates-invited-to-liverpool-mosque-for-briefing-event-with-community-following-riots/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2024/09/IMG-20240910-WA0004-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" loading="lazy" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/faith-associates-invited-to-liverpool-mosque-for-briefing-event-with-community-following-riots/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10137" class="stm_post_info post-10137 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-news tag-mosque-security tag-mosque tag-security">
+			<h4 class="stripe_2">Faith Associates Deliver Second Mosque Security Briefing Event Supported by Mayor of London</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				September 6, 2024			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Category:				<span>Blog</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/faith-associates-deliver-second-mosque-security-briefing-event-supported-by-mayor-of-london/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2024/09/IMG-20240906-WA0012-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" loading="lazy" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/faith-associates-deliver-second-mosque-security-briefing-event-supported-by-mayor-of-london/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10112" class="stm_post_info post-10112 post type-post status-publish format-standard has-post-thumbnail hentry category-news-news category-press-release tag-mosque tag-muslim-community tag-sadiq-khan tag-mosques">
+			<h4 class="stripe_2">Faith Associates hold Mosque Security briefing event with the Mayor of London</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				August 15, 2024			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Categories:				<span>News, Press Release</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/faith-associates-hold-mosque-security-briefing-event-with-mayor-of-london/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2024/08/IMG-20240814-WA0050-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" loading="lazy" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/faith-associates-hold-mosque-security-briefing-event-with-mayor-of-london/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li><li id="post-10040" class="stm_post_info post-10040 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-news tag-islam tag-madrassah tag-mosques tag-mosque tag-faith tag-football tag-wildcats tag-football-association">
+			<h4 class="stripe_2">Faith Associates Launch first Mosque Wildcats Centres in partnership with the Football Association</h4>
+		<div class="stm_post_details clearfix">
+		<ul class="clearfix">
+			<li class="post_date">
+				<i class="fa fa fa-clock-o"></i>
+				July 17, 2024			</li>
+			<li class="post_by">Posted by: <span>Faith Associates</span></li>
+			<li class="post_cat">Category:				<span>Blog</span>
+			</li>
+		</ul>
+		<div class="comments_num">
+			<a href="https://faithassociates.co.uk/faith-associates-launch-first-mosque-wildcats-centres-in-partnership-with-the-football-association/#respond"><i class="fa fa-comment-o"></i>No Comments </a>
+		</div>
+	</div>
+			<div class="post_thumbnail">
+			<img width="1110" height="550" src="https://faithassociates.co.uk/wp-content/uploads/2024/07/IMG-20240630-WA0051-1110x550.jpg" class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" alt="" decoding="async" loading="lazy" />		</div>
+		<div class="post_excerpt">
+        	</div>
+	<div class="post_read_more">
+		<a class="button bordered icon_right" href="https://faithassociates.co.uk/faith-associates-launch-first-mosque-wildcats-centres-in-partnership-with-the-football-association/">
+			read more			<i class="fa fa-chevron-right"></i>
+		</a>
+	</div>
+</li>            </ul>
+            </div>
+
+<ul class='page-numbers'>
+	<li><span aria-current="page" class="page-numbers current">1</span></li>
+	<li><a class="page-numbers" href="https://faithassociates.co.uk/blog/page/2/">2</a></li>
+	<li><a class="page-numbers" href="https://faithassociates.co.uk/blog/page/3/">3</a></li>
+	<li><span class="page-numbers dots">&hellip;</span></li>
+	<li><a class="page-numbers" href="https://faithassociates.co.uk/blog/page/41/">41</a></li>
+	<li><a class="next page-numbers" href="https://faithassociates.co.uk/blog/page/2/"><i class="fa fa-chevron-right"></i></a></li>
+</ul>
+</div></div>
+<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                    <div class="sidebar-area stm_sidebar">
+                <style type="text/css" scoped>
+                    .vc_custom_1452662185213{margin-bottom: 40px !important;}.vc_custom_1452662201783{margin-right: 0px !important;margin-bottom: 40px !important;margin-left: 0px !important;}.vc_custom_1452056633692{padding-top: 37px !important;padding-right: 30px !important;padding-bottom: 40px !important;padding-left: 30px !important;}.vc_custom_1470050875956{margin-bottom: 9px !important;}.vc_custom_1514612426503{margin-bottom: 17px !important;}.vc_custom_1452665411890{margin-bottom: 27px !important;border-top-width: 3px !important;padding-top: 30px !important;border-top-style: solid !important;}                </style>
+                <div class="vc_row wpb_row vc_row-fluid vc_custom_1452662185213"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_wp_search wpb_content_element"><aside class="widget widget_search"><form method="get" class="search-form" action="https://faithassociates.co.uk/">
+	<input type="search" class="form-control" placeholder="Search..." value="" name="s" />
+	<button type="submit"><i class="fa fa-search"></i></button>
+</form></aside></div><div class="vc_wp_custommenu wpb_content_element"><div class="widget widget_nav_menu"><div class="menu-blog-cat-sidebar-container"><ul id="menu-blog-cat-sidebar" class="menu"><li id="menu-item-4954" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4954"><a href="https://faithassociates.co.uk/category/architecture-news/">Architecture</a></li>
+<li id="menu-item-4955" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4955"><a href="https://faithassociates.co.uk/category/charity-news/">Charity</a></li>
+<li id="menu-item-4956" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4956"><a href="https://faithassociates.co.uk/category/interfaith-news/">Interfaith</a></li>
+<li id="menu-item-4957" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4957"><a href="https://faithassociates.co.uk/category/leadership-news/">Leadership</a></li>
+<li id="menu-item-4958" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4958"><a href="https://faithassociates.co.uk/category/politics-news/">Politics</a></li>
+<li id="menu-item-4959" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4959"><a href="https://faithassociates.co.uk/category/sustainability-news/">Sustainability</a></li>
+</ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid third_bg_color vc_custom_1452662201783"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1452056633692"><div class="wpb_wrapper"><div class="vc_custom_heading vc_custom_1470050875956 text_align_left" ><div style="font-size: 16px;color: #222222;text-align: left;font-family:Poppins;font-weight:600;font-style:normal" class="consulting-custom-title">How can we help you?</div></div>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1514612426503" >
+		<div class="wpb_wrapper">
+			<p><span style="font-size: 13px; line-height: 22px;">Contact us at the Faith Associates office nearest to you or submit a business inquiry online.</span></p>
+
+		</div>
+	</div>
+<div class="vc_btn3-container vc_btn3-inline" ><a class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-icon-left vc_btn3-color-white" href="https://faithassociates.co.uk/contact-us/" title=""><i class="vc_btn3-icon "></i> contacts</a></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_wp_archives wpb_content_element"><aside class="widget widget_archive"><h5 class="widget_title">archive</h5>		<label class="screen-reader-text" for="archives-dropdown--1">archive</label>
+		<select id="archives-dropdown--1" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://faithassociates.co.uk/2025/07/'> July 2025 </option>
+	<option value='https://faithassociates.co.uk/2025/06/'> June 2025 </option>
+	<option value='https://faithassociates.co.uk/2025/04/'> April 2025 </option>
+	<option value='https://faithassociates.co.uk/2024/12/'> December 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/10/'> October 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/09/'> September 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/08/'> August 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/07/'> July 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/06/'> June 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/05/'> May 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/04/'> April 2024 </option>
+	<option value='https://faithassociates.co.uk/2024/03/'> March 2024 </option>
+	<option value='https://faithassociates.co.uk/2023/03/'> March 2023 </option>
+	<option value='https://faithassociates.co.uk/2022/06/'> June 2022 </option>
+	<option value='https://faithassociates.co.uk/2021/12/'> December 2021 </option>
+	<option value='https://faithassociates.co.uk/2021/09/'> September 2021 </option>
+	<option value='https://faithassociates.co.uk/2021/03/'> March 2021 </option>
+	<option value='https://faithassociates.co.uk/2021/01/'> January 2021 </option>
+	<option value='https://faithassociates.co.uk/2020/11/'> November 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/10/'> October 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/09/'> September 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/07/'> July 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/06/'> June 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/05/'> May 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/04/'> April 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/03/'> March 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/02/'> February 2020 </option>
+	<option value='https://faithassociates.co.uk/2020/01/'> January 2020 </option>
+	<option value='https://faithassociates.co.uk/2019/12/'> December 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/11/'> November 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/10/'> October 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/09/'> September 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/07/'> July 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/05/'> May 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/04/'> April 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/03/'> March 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/02/'> February 2019 </option>
+	<option value='https://faithassociates.co.uk/2019/01/'> January 2019 </option>
+	<option value='https://faithassociates.co.uk/2018/12/'> December 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/11/'> November 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/10/'> October 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/09/'> September 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/06/'> June 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/05/'> May 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/04/'> April 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/03/'> March 2018 </option>
+	<option value='https://faithassociates.co.uk/2018/02/'> February 2018 </option>
+	<option value='https://faithassociates.co.uk/2017/11/'> November 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/10/'> October 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/09/'> September 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/08/'> August 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/07/'> July 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/06/'> June 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/04/'> April 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/03/'> March 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/02/'> February 2017 </option>
+	<option value='https://faithassociates.co.uk/2017/01/'> January 2017 </option>
+	<option value='https://faithassociates.co.uk/2016/12/'> December 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/11/'> November 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/10/'> October 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/09/'> September 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/08/'> August 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/07/'> July 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/05/'> May 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/04/'> April 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/03/'> March 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/02/'> February 2016 </option>
+	<option value='https://faithassociates.co.uk/2016/01/'> January 2016 </option>
+	<option value='https://faithassociates.co.uk/2015/12/'> December 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/11/'> November 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/10/'> October 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/09/'> September 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/08/'> August 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/07/'> July 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/06/'> June 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/05/'> May 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/04/'> April 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/03/'> March 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/02/'> February 2015 </option>
+	<option value='https://faithassociates.co.uk/2015/01/'> January 2015 </option>
+	<option value='https://faithassociates.co.uk/2014/11/'> November 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/10/'> October 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/09/'> September 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/08/'> August 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/06/'> June 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/05/'> May 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/04/'> April 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/03/'> March 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/02/'> February 2014 </option>
+	<option value='https://faithassociates.co.uk/2014/01/'> January 2014 </option>
+	<option value='https://faithassociates.co.uk/2013/12/'> December 2013 </option>
+	<option value='https://faithassociates.co.uk/2013/11/'> November 2013 </option>
+	<option value='https://faithassociates.co.uk/2013/10/'> October 2013 </option>
+	<option value='https://faithassociates.co.uk/2013/07/'> July 2013 </option>
+	<option value='https://faithassociates.co.uk/2013/06/'> June 2013 </option>
+	<option value='https://faithassociates.co.uk/2013/05/'> May 2013 </option>
+	<option value='https://faithassociates.co.uk/2013/04/'> April 2013 </option>
+
+		</select>
+
+			<script type="text/javascript">
+/* <![CDATA[ */
+
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown--1" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+
+/* ]]> */
+</script>
+</aside></div><div class="vc_custom_heading border_base_color vc_custom_1452665411890 text_align_left" ><div style="font-size: 16px;color: #000000;line-height: 16px;text-align: left;font-family:Poppins;font-weight:600;font-style:normal" class="consulting-custom-title">see our gallery</div></div>
+	<div class="wpb_gallery wpb_content_element  vc_clearfix">
+		<div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_image_grid" data-interval="5"><ul class="wpb_image_grid_ul"><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/11/C66710A5-BB2B-4D61-8F3B-5583D970517B-e1573733237881-576x1024.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/11/C66710A5-BB2B-4D61-8F3B-5583D970517B-e1573733237881-75x75.jpg" width="75" height="75" alt="C66710A5-BB2B-4D61-8F3B-5583D970517B" title="C66710A5-BB2B-4D61-8F3B-5583D970517B" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJSZAh8WsAIZw2e-1024x768.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJSZAh8WsAIZw2e-75x75.jpg" width="75" height="75" alt="EJSZAh8WsAIZw2e" title="EJSZAh8WsAIZw2e" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQD2u4XkAUBhAg-1024x768.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQD2u4XkAUBhAg-75x75.jpg" width="75" height="75" alt="EJQD2u4XkAUBhAg" title="EJQD2u4XkAUBhAg" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQIl4sWsAEUYHo-1024x768.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQIl4sWsAEUYHo-75x75.jpg" width="75" height="75" alt="EJQIl4sWsAEUYHo" title="EJQIl4sWsAEUYHo" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQIl3hXUAE_D7n.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQIl3hXUAE_D7n-75x75.jpg" width="75" height="75" alt="EJQIl3hXUAE_D7n" title="EJQIl3hXUAE_D7n" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJPz8GyX0AMLBYF-1024x768.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJPz8GyX0AMLBYF-75x75.jpg" width="75" height="75" alt="EJPz8GyX0AMLBYF" title="EJPz8GyX0AMLBYF" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQApYcWoAETYMl-1024x768.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/11/EJQApYcWoAETYMl-75x75.jpg" width="75" height="75" alt="EJQApYcWoAETYMl" title="EJQApYcWoAETYMl" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/09/70224072_2409834445766764_2588045321456058368_n.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/09/70224072_2409834445766764_2588045321456058368_n-75x75.jpg" width="75" height="75" alt="70224072_2409834445766764_2588045321456058368_n" title="70224072_2409834445766764_2588045321456058368_n" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/09/DSC_3348-1024x678.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/09/DSC_3348-75x75.jpg" width="75" height="75" alt="DSC_3348" title="DSC_3348" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/09/69831847_2417100871706788_3551556934358269952_o-1024x498.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/09/69831847_2417100871706788_3551556934358269952_o-75x75.jpg" width="75" height="75" alt="69831847_2417100871706788_3551556934358269952_o" title="69831847_2417100871706788_3551556934358269952_o" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/09/69886242_2417090215041187_4830009247716605952_o-1024x678.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/09/69886242_2417090215041187_4830009247716605952_o-75x75.jpg" width="75" height="75" alt="69886242_2417090215041187_4830009247716605952_o" title="69886242_2417090215041187_4830009247716605952_o" /></a></li><li class="isotope-item"><a class="prettyphoto" href="https://faithassociates.co.uk/wp-content/uploads/2019/09/MG_5480-1024x683.jpg" data-rel="prettyPhoto[rel-10040-295403511]"><img loading="lazy" decoding="async" class="" src="https://faithassociates.co.uk/wp-content/uploads/2019/09/MG_5480-75x75.jpg" width="75" height="75" alt="_MG_5480" title="_MG_5480" /></a></li></ul></div>
+		</div> 
+	</div> </div></div></div></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://faithassociates.co.uk/faith-associates-launch-first-mosque-wildcats-centres-in-partnership-with-the-football-association/" data-a2a-title="Faith Associates Launch first Mosque Wildcats Centres in partnership with the Football Association"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Ffaithassociates.co.uk%2Ffaith-associates-launch-first-mosque-wildcats-centres-in-partnership-with-the-football-association%2F&amp;linkname=Faith%20Associates%20Launch%20first%20Mosque%20Wildcats%20Centres%20in%20partnership%20with%20the%20Football%20Association" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Ffaithassociates.co.uk%2Ffaith-associates-launch-first-mosque-wildcats-centres-in-partnership-with-the-football-association%2F&amp;linkname=Faith%20Associates%20Launch%20first%20Mosque%20Wildcats%20Centres%20in%20partnership%20with%20the%20Football%20Association" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Ffaithassociates.co.uk%2Ffaith-associates-launch-first-mosque-wildcats-centres-in-partnership-with-the-football-association%2F&amp;linkname=Faith%20Associates%20Launch%20first%20Mosque%20Wildcats%20Centres%20in%20partnership%20with%20the%20Football%20Association" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Ffaithassociates.co.uk%2Ffaith-associates-launch-first-mosque-wildcats-centres-in-partnership-with-the-football-association%2F&amp;linkname=Faith%20Associates%20Launch%20first%20Mosque%20Wildcats%20Centres%20in%20partnership%20with%20the%20Football%20Association" title="LinkedIn" rel="nofollow noopener" target="_blank"></a></div></div>            </div>
+            </div></div>
+	</div> <!--.container-->
+	</div> <!--#main-->
+	</div> <!--.content_wrapper-->
+	    	<footer id="footer" class="footer style_2 no-copyright">
+		
+				<div class="widgets_row">
+			<div class="container">
+				<div class="footer_widgets">
+					<div class="row">
+													<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								                                                                            																																											<section id="text-2" class="widget widget_text"><h4 class="widget_title no_stripe">Facebook Feed</h4>			<div class="textwidget"><div class="cff-wrapper"><div class="cff-wrapper-ctn  cff-wrapper-fixed-height"  style="height:350px;" ><div id="cff"  class="cff cff-list-container  cff-fixed-height  cff-default-styles  cff-mob-cols-1 cff-tab-cols-1"   style="width:100%;"   data-char="400" >	<div id="cff-visual-header-237376870989" class="cff-visual-header cff-has-name">
+						<div class="cff-header-inner-wrap">
+						<div class="cff-header-text" >
+
+				            <a href="https://facebook.com/237376870989" target="_blank" rel="nofollow noopener" title="" class="cff-header-name"><h3 style="font-size:inheritpx;"></h3></a>
+				        						</div>
+		</div>
+	</div>
+<div class="cff-error-msg">
+	<div>
+		<i class="fa fa-lock" aria-hidden="true" style="margin-right: 5px;"></i><b>This message is only visible to admins.</b><br/>
+		Problem displaying Facebook posts. Backup cache in use.					<br/><a href="javascript:void(0);" id="cff-show-error" onclick="cffShowError()">Click to show error</a>
+			<script type="text/javascript">function cffShowError() { document.getElementById("cff-error-reason").style.display = "block"; document.getElementById("cff-show-error").style.display = "none"; }</script>
+			</div>
+			<div id="cff-error-reason">
+									<b>Error:</b> (#200) Provide valid app ID													<b>Type:</b> OAuthException																												
+			</div>
+				
+</div>
+<div class="cff-posts-wrap">
+<div class="cff-likebox cff-bottom" >
+		<iframe title="Likebox Iframe" src="" class="fb_iframe_widget" data-likebox-id="237376870989" data-likebox-width="300" data-likebox-header="1" data-hide-cover="" data-hide-cta="" data-likebox-faces="" data-height="70" data-locale="en_US" scrolling="no" allowTransparency="true" allow="encrypted-media" ></iframe>
+</div>
+</div><input class="cff-pag-url" type="hidden" data-locatornonce="5d606d4f7c" data-cff-shortcode="{&quot;feed&quot;: &quot;1&quot;}" data-post-id="" data-feed-id="237376870989"></div></div><div class="cff-clear"></div></div>
+</div>
+		</section>							</div>
+													<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+																<section id="media_image-2" class="widget widget_media_image"><h4 class="widget_title no_stripe">Mosque Expo</h4><a href="https://mosqueexpo.com"><img width="500" height="500" src="https://faithassociates.co.uk/wp-content/uploads/2025/06/Original.jpg" class="image wp-image-10234  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" title="Mosque Expo 2022" decoding="async" loading="lazy" srcset="https://faithassociates.co.uk/wp-content/uploads/2025/06/Original.jpg 500w, https://faithassociates.co.uk/wp-content/uploads/2025/06/Original-300x300.jpg 300w, https://faithassociates.co.uk/wp-content/uploads/2025/06/Original-150x150.jpg 150w, https://faithassociates.co.uk/wp-content/uploads/2025/06/Original-50x50.jpg 50w, https://faithassociates.co.uk/wp-content/uploads/2025/06/Original-320x320.jpg 320w" sizes="auto, (max-width: 500px) 100vw, 500px" /></a></section>							</div>
+													<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+																<section id="custom_html-2" class="widget_text widget widget_custom_html"><h4 class="widget_title no_stripe">From Our X Feed</h4><div class="textwidget custom-html-widget"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Meat, believed to be pork, and an Israeli flag left at the entrance of a mosque is being treated as a potential hate crime, police have said.<a href="https://t.co/vc3aOOdnbe">https://t.co/vc3aOOdnbe</a></p>&mdash; Faith Associates (@FaithAssociates) <a href="https://twitter.com/FaithAssociates/status/1958178871787798642?ref_src=twsrc%5Etfw">August 20, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div></section>							</div>
+													<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+																<section id="text-5" class="widget widget_text"><h4 class="widget_title no_stripe">Get in touch</h4>			<div class="textwidget"><p>The team at Faith Associates is happy to help, get in touch whether it is to do with booking training, advice or anything else &#8211; we will respond in 1 working day.</p>
+<p><a id="Contact_Button" class="button size-large span" href="https://faithassociates.co.uk/contact-us/">Contact Us</a></p>
+</div>
+		</section><section id="block-3" class="widget widget_block">
+<ul class="wp-block-social-links has-icon-color is-style-logos-only is-content-justification-center is-layout-flex wp-container-core-social-links-is-layout-16018d1d wp-block-social-links-is-layout-flex"><li style="color: #046ac9; " class="wp-social-link wp-social-link-linkedin  wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://uk.linkedin.com/company/faith-associates" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li>
+
+<li style="color: #046ac9; " class="wp-social-link wp-social-link-facebook  wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://en-gb.facebook.com/FaithAssociates1/" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Facebook</span></a></li>
+
+<li style="color: #046ac9; " class="wp-social-link wp-social-link-twitter  wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://twitter.com/faithassociates?lang=en" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Twitter</span></a></li>
+
+<li style="color: #046ac9; " class="wp-social-link wp-social-link-instagram  wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://www.instagram.com/faith_associates/" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Instagram</span></a></li></ul>
+</section>							</div>
+											</div>
+				</div>
+			</div>
+		</div>
+	
+			<div class="copyright_row">
+			<div class="container">
+				<div class="copyright_row_wr">
+																<div class="copyright">
+							Copyright © 2024 Faith Associates. All rights reserved 						</div>
+									</div>
+			</div>
+		</div>
+		</footer>
+    	</div> <!--#wrapper-->
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = false;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/consulting-child\/*","\/wp-content\/themes\/consulting\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Custom Facebook Feed JS -->
+<script type="text/javascript">var cffajaxurl = "https://faithassociates.co.uk/wp-admin/admin-ajax.php";
+var cfflinkhashtags = "false";
+</script>
+<div id="glt-translate-trigger"><span class="notranslate">Translate »</span></div><div id="glt-toolbar"></div><div id="flags" style="display:none" class="size24"><ul id="sortable" class="ui-sortable"><li id="Bengali"><a href="#" title="Bengali" class="nturl notranslate bn flag Bengali"></a></li><li id="Bosnian"><a href="#" title="Bosnian" class="nturl notranslate bs flag Bosnian"></a></li><li id="Danish"><a href="#" title="Danish" class="nturl notranslate da flag Danish"></a></li><li id="English"><a href="#" title="English" class="nturl notranslate en flag English"></a></li><li id="French"><a href="#" title="French" class="nturl notranslate fr flag French"></a></li><li id="German"><a href="#" title="German" class="nturl notranslate de flag German"></a></li><li id="Hindi"><a href="#" title="Hindi" class="nturl notranslate hi flag Hindi"></a></li><li id="Pashto"><a href="#" title="Pashto" class="nturl notranslate ps flag Pashto"></a></li><li id="Spanish"><a href="#" title="Spanish" class="nturl notranslate es flag Spanish"></a></li><li id="Swedish"><a href="#" title="Swedish" class="nturl notranslate sv flag Swedish"></a></li><li id="Turkish"><a href="#" title="Turkish" class="nturl notranslate tr flag Turkish"></a></li><li id="Urdu"><a href="#" title="Urdu" class="nturl notranslate ur flag Urdu"></a></li></ul></div><div id='glt-footer'><div id="google_language_translator" class="default-language-en"></div></div><script>function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages:'bn,bs,da,en,fr,de,hi,ps,es,sv,tr,ur', autoDisplay: false}, 'google_language_translator');}</script><div id="mv-grow-data" data-settings='{&quot;general&quot;:{&quot;contentSelector&quot;:false,&quot;show_count&quot;:{&quot;content&quot;:false,&quot;sidebar&quot;:false},&quot;isTrellis&quot;:false,&quot;license_last4&quot;:&quot;&quot;},&quot;post&quot;:null,&quot;shareCounts&quot;:[],&quot;shouldRun&quot;:false}'></div>
+<!--Start of Tawk.to Script (0.9.2)-->
+<script id="tawk-script" type="text/javascript">
+var Tawk_API = Tawk_API || {};
+var Tawk_LoadStart=new Date();
+(function(){
+	var s1 = document.createElement( 'script' ),s0=document.getElementsByTagName( 'script' )[0];
+	s1.async = true;
+	s1.src = 'https://embed.tawk.to/683f0f4098b5d2190c99a8d4/1isr57534';
+	s1.charset = 'UTF-8';
+	s1.setAttribute( 'crossorigin','*' );
+	s0.parentNode.insertBefore( s1, s0 );
+})();
+</script>
+<!--End of Tawk.to Script (0.9.2)-->
+
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<div 
+	id="pum-1814" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-1808 pum-theme-default-theme popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:1814,&quot;slug&quot;:&quot;download-now&quot;,&quot;theme_id&quot;:1808,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;.dwnld_doc&quot;,&quot;do_default&quot;:null,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;position_bottom&quot;:false,&quot;position_right&quot;:false,&quot;position_left&quot;:false,&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;200px&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;400px&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-1814" class="pum-container popmake theme-1808 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			
+<div class="wpcf7 no-js" id="wpcf7-f1807-o1" lang="en-US" dir="ltr" data-wpcf7-id="1807">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/blog/#wpcf7-f1807-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="1807" /><input type="hidden" name="_wpcf7_version" value="6.1.1" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1807-o1" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</fieldset>
+<p><span class="wpcf7-form-control-wrap" data-name="FirstName"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First Name" value="" type="text" name="FirstName" /></span>
+</p>
+<p><span class="wpcf7-form-control-wrap" data-name="LastName"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Last Name" value="" type="text" name="LastName" /></span>
+</p>
+<p><span class="wpcf7-form-control-wrap" data-name="Email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" value="" type="email" name="Email" /></span>
+</p>
+<p>[recaptcha]
+</p>
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Submit" />
+</p>
+<p><span class="wpcf7-form-control-wrap" data-name="pdf"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text" id="pblcn_pdf" aria-invalid="false" value="" type="text" name="pdf" /></span><br />
+<a href="http://www.faithassociates.co.uk/wp-content/uploads/2017/12/PDF-FA.pdf" id="download-pdf"></a>
+</p><p style="display: none !important;" class="akismet-fields-container" data-prefix="_wpcf7_ak_"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="127"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p><input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":true,"openpopup_id":1814}' /><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			X			</button>
+		
+	</div>
+
+</div>
+			<script>
+				const registerAllyAction = () => {
+					if ( ! window?.elementorAppConfig?.hasPro || ! window?.elementorFrontend?.utils?.urlActions ) {
+						return;
+					}
+
+					elementorFrontend.utils.urlActions.addAction( 'allyWidget:open', () => {
+						if ( window?.ea11yWidget?.widget?.open ) {
+							window.ea11yWidget.widget.open();
+						}
+					} );
+				};
+
+				const waitingLimit = 30;
+				let retryCounter = 0;
+
+				const waitForElementorPro = () => {
+					return new Promise( ( resolve ) => {
+						const intervalId = setInterval( () => {
+							if ( retryCounter === waitingLimit ) {
+								resolve( null );
+							}
+
+							retryCounter++;
+
+							if ( window.elementorFrontend && window?.elementorFrontend?.utils?.urlActions ) {
+								clearInterval( intervalId );
+								resolve( window.elementorFrontend );
+							}
+								}, 100 ); // Check every 100 milliseconds for availability of elementorFrontend
+					});
+				};
+
+				waitForElementorPro().then( () => { registerAllyAction(); });
+			</script>
+			<script type="text/javascript">
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+	if ( '1807' == event.detail.contactFormId ) {
+		href= jQuery("#download-pdf").attr("href");
+		location.href = href;
+	}
+}, false );
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://faithassociates.co.uk/wp-admin/admin-ajax.php";
+</script>
+<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type="text/html" id="wpb-modifications"></script>	<div id="fb-root"></div>
+	<link rel='stylesheet' id='js_composer_front-css' href='https://faithassociates.co.uk/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.3.0' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='vc_google_fonts_poppins300regular500600700-css' href='//fonts.googleapis.com/css?family=Poppins%3A300%2Cregular%2C500%2C600%2C700&#038;ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyphoto-css' href='https://faithassociates.co.uk/wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.min.css?ver=6.3.0' type='text/css' media='all' />
+<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-core-social-links-is-layout-16018d1d{justify-content:center;}
+</style>
+<link rel='stylesheet' id='rs-plugin-settings-css' href='//faithassociates.co.uk/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.20' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<script type="text/javascript" id="essential-blocks-blocks-localize-js-extra">
+/* <![CDATA[ */
+var eb_conditional_localize = [];
+var EssentialBlocksLocalize = {"eb_plugins_url":"https:\/\/faithassociates.co.uk\/wp-content\/plugins\/essential-blocks\/","image_url":"https:\/\/faithassociates.co.uk\/wp-content\/plugins\/essential-blocks\/assets\/images","eb_wp_version":"6.8","eb_version":"5.4.2","eb_admin_url":"https:\/\/faithassociates.co.uk\/wp-admin\/","rest_rootURL":"https:\/\/faithassociates.co.uk\/wp-json\/","ajax_url":"https:\/\/faithassociates.co.uk\/wp-admin\/admin-ajax.php","nft_nonce":"e5c18b33f3","post_grid_pagination_nonce":"5045b5b070","placeholder_image":"https:\/\/faithassociates.co.uk\/wp-content\/plugins\/essential-blocks\/assets\/images\/placeholder.png","is_pro_active":"false","upgrade_pro_url":"https:\/\/essential-blocks.com\/upgrade","responsiveBreakpoints":{"tablet":1024,"mobile":767}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/essential-blocks/assets/js/eb-blocks-localize.js?ver=31d6cfe0d16ae931b73c" id="essential-blocks-blocks-localize-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.1" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/faithassociates.co.uk\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/faithassociates.co.uk\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.1" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/google-language-translator/js/scripts.js?ver=6.0.20" id="scripts-js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=GoogleLanguageTranslatorInit" id="scripts-google-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/custom-facebook-feed/assets/js/cff-scripts.min.js?ver=4.3.2" id="cffscripts-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/themes/consulting/assets/js/jquery.fancybox.pack.js?ver=4.0" id="fancybox-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/themes/consulting/assets/js/bootstrap.min.js?ver=4.0" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/themes/consulting/assets/js/select2.min.js?ver=4.0" id="select2-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/themes/consulting/assets/js/custom.js?ver=4.0" id="consulting-custom-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/super-socializer/js/front/social_login/general.js?ver=7.14.3" id="the_champ_ss_general_scripts-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/super-socializer/js/front/facebook/sdk.js?ver=7.14.3" id="the_champ_fb_sdk-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/super-socializer/js/front/facebook/commenting.js?ver=7.14.3" id="the_champ_fb_commenting-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="popup-maker-site-js-extra">
+/* <![CDATA[ */
+var pum_vars = {"version":"1.20.6","pm_dir_url":"https:\/\/faithassociates.co.uk\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/faithassociates.co.uk\/wp-admin\/admin-ajax.php","restapi":"https:\/\/faithassociates.co.uk\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"1808","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_route":"analytics","analytics_api":"https:\/\/faithassociates.co.uk\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/faithassociates.co.uk\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-1814":{"triggers":[{"type":"click_open","settings":{"extra_selectors":".dwnld_doc","do_default":null,"cookie":{"name":null}}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":1808,"size":"medium","responsive_min_width":"200px","responsive_max_width":"400px","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":0,"position_left":0,"position_right":0,"position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":0,"close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"overlay_zindex":"1999999998","theme_slug":"default-theme","id":1814,"slug":"download-now"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/popup-maker/assets/js/site.min.js?defer&amp;ver=1.20.6" id="popup-maker-site-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-84e9a1056bc4922b7cbd.js" id="googlesitekit-events-provider-contact-form-7-js" defer></script>
+<script type="text/javascript" defer src="https://faithassociates.co.uk/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.10.3" id="mc4wp-forms-api-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-mailchimp-489985e529ecb702cf8b.js" id="googlesitekit-events-provider-mailchimp-js" defer></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-popup-maker-0ffaef2216781a6055db.js" id="googlesitekit-events-provider-popup-maker-js" defer></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.3.0" id="wpb_composer_front_js-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.3.0" id="isotope-js"></script>
+<script type="text/javascript" src="https://faithassociates.co.uk/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=6.3.0" id="prettyphoto-js"></script>
+<script>
+jQuery(document).ready(function()
+{
+	jQuery('#wpcf7-f1807-o2 form a#download-pdf').attr('href','');
+	jQuery('#wpcf7-f1807-o2 form #pblcn_pdf').val('');
+	jQuery('#wpcf7-f1807-o2 form #pblcn_pdf').hide();
+	
+});
+</script>
+<script type="text/javascript"> var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"de6d2d13e06b50328d8791b619a518402b84048e7021dcc620931721d8bfa228329e18385431463461407dbfd8364b39", values:{},ready:function(){}}; var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true; s.src="https://salesiq.zoho.eu/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>"); </script>
+
+
+
+</body>
+</html>
