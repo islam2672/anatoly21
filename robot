@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://adjaj.justice.md/sitemap.xml
+Sitemap:https://dasiasi.ro/stiri/sitemap.xml
