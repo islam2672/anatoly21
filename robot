@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://dasiasi.ro/stiri/sitemap.xml
+Sitemap:https://enrra.org/sitemap.xml
