@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://ispace.edu.vn/thong-bao/sitemap.xml
+Sitemap:https://motsimabuse-dietanzschule.de/kursuebersicht/sitemap.xml
