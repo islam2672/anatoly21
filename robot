@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://motsimabuse-dietanzschule.de/kursuebersicht/sitemap.xml
+Sitemap:https://motsimabuse-dietanzschule.de/aboutus/sitemap.xml
