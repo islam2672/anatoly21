@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://motsimabuse-dietanzschule.de/mitgliedschaften/sitemap.xml
+Sitemap:https://motsimabuse-dietanzschule.de/gutscheine/sitemap.xml
