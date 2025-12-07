@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://motsimabuse-dietanzschule.de/christmas-cup/sitemap.xml
+Sitemap:https://motsimabuse-dietanzschule.de/trainer/sitemap.xml
