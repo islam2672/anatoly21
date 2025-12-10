@@ -1,56 +1,12 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-
-# ==== Ausnahmen: Root-Dateien, die DIREKT erreichbar bleiben sollen ====
-# WordPress Kern
-RewriteCond %{REQUEST_URI} !^/index\.php$
-RewriteCond %{REQUEST_URI} !^/wp-login\.php$
-RewriteCond %{REQUEST_URI} !^/wp-cron\.php$
-RewriteCond %{REQUEST_URI} !^/xmlrpc\.php$
-RewriteCond %{REQUEST_URI} !^/wp-signup\.php$
-RewriteCond %{REQUEST_URI} !^/wp-activate\.php$
-
-# Allgemeine sinnvolle Ausnahmen
-RewriteCond %{REQUEST_URI} !^/robots\.txt$
-RewriteCond %{REQUEST_URI} !^/favicon\.ico$
-RewriteCond %{REQUEST_URI} !^/sitemap.*\.xml$
-
-# Sucuri-Dateien
-RewriteCond %{REQUEST_URI} !^/sucuri-sss-uploader_9a15306c-b914-4c76-a331-cf3b3e9ab45f\.php$
-RewriteCond %{REQUEST_URI} !^/sucuri-sss-downloader_9a15306c-b914-4c76-a331-cf3b3e9ab45f\.php$
-
-# ==== Core-Verzeichnisse, die immer erreichbar sein müssen ====
-RewriteCond %{REQUEST_URI} !^/wp-admin/
-RewriteCond %{REQUEST_URI} !^/wp-includes/
-RewriteCond %{REQUEST_URI} !^/wp-content/
-
-# ==== Block alles andere physische ====
-# Wenn Datei oder Verzeichnis *physisch existiert*
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-# …aber NICHT zu obigen Ausnahmen gehört → an WordPress geben
-RewriteRule ^.*$ /index.php [L]
-
-</IfModule>
-
 # BEGIN WordPress
-# Die Anweisungen (Zeilen) zwischen „BEGIN WordPress“ und „END WordPress“ sind
-# dynamisch generiert und sollten nur über WordPress-Filter geändert werden.
-# Alle Änderungen an den Anweisungen zwischen diesen Markierungen werden überschrieben.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
+
+# Jika file atau folder tidak ada, arahkan ke index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
-
 # END WordPress
-
-<FilesMatch "\.(sh)$">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
