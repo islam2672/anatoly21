@@ -1,0 +1,102 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$base_url = 'https://motsimabuse-dietanzschule.de/';
+$tanggal_sekarang = date('Y-m-d');
+
+function baca_file_list($nama_file) {
+    if (!file_exists($nama_file)) {
+        die("File $nama_file tidak ditemukan.");
+    }
+    $data = file($nama_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if ($data === false) {
+        die("Gagal membaca file $nama_file");
+    }
+    return $data;
+}
+
+function buat_index_file($folder, $brand, $title, $deskripsi, $template_konten, $base_url) {
+    $konten_index = str_replace('{{ BRAND }}', strtoupper(htmlspecialchars($brand)), $template_konten);
+    $konten_index = str_replace('{{ TITTLE }}', htmlspecialchars($title), $konten_index);
+    $konten_index = str_replace('{{ DESC }}', htmlspecialchars($deskripsi), $konten_index);
+    $url_folder = $base_url . $folder . '/';
+    $konten_index = str_replace('{{ URL }}', htmlspecialchars($url_folder), $konten_index);
+    
+    return file_put_contents($folder . '/index.php', $konten_index);
+}
+
+$dir_list = baca_file_list('dir.txt');
+$brand_list = baca_file_list('naga.txt');
+$title_list = baca_file_list('tittle.txt');
+$desc_list = baca_file_list('desc.txt');
+
+if (count($dir_list) !== count($brand_list) || 
+    count($dir_list) !== count($title_list) || 
+    count($dir_list) !== count($desc_list)) {
+    die("Jumlah data di semua file harus sama!");
+}
+
+$template_file = 'template.html';
+if (!file_exists($template_file)) {
+    die('File template.html tidak ditemukan.');
+}
+$template_konten = file_get_contents($template_file);
+if ($template_konten === false) {
+    die('Gagal membaca konten dari file template.html.');
+}
+
+for ($i = 0; $i < count($dir_list); $i++) {
+    $folder = trim($dir_list[$i]);
+    $brand = trim($brand_list[$i]);
+    $title = trim($title_list[$i]);
+    $deskripsi = trim($desc_list[$i]);
+    
+    if (!file_exists($folder)) {
+        mkdir($folder, 0755, true);
+    }
+
+    buat_index_file($folder, $brand, $title, $deskripsi, $template_konten, $base_url);
+
+    $url_folder = $base_url . $folder . '/';
+
+    $sitemap_isi = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+    $sitemap_isi .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+    $sitemap_isi .= '    <url>' . "\n";
+    $sitemap_isi .= '        <loc>' . htmlspecialchars($url_folder) . '</loc>' . "\n";
+    $sitemap_isi .= '        <lastmod>' . $tanggal_sekarang . '</lastmod>' . "\n";
+    $sitemap_isi .= '        <changefreq>daily</changefreq>' . "\n";
+    $sitemap_isi .= '        <priority>1.0</priority>' . "\n";
+    $sitemap_isi .= '    </url>' . "\n";
+    $sitemap_isi .= '</urlset>';
+    file_put_contents($folder . '/sitemap.xml', $sitemap_isi);
+
+    $robots_isi = "User-agent: *\n";
+    $robots_isi .= "Allow: /\n";
+    $robots_isi .= "Sitemap: " . $url_folder . "sitemap.xml\n";
+    file_put_contents($folder . '/robots.txt', $robots_isi);
+}
+
+$sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+$sitemap_content .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+
+foreach ($dir_list as $folder) {
+    $folder = trim($folder);
+    $url = $base_url . $folder . '/';
+    $sitemap_content .= '    <url>' . "\n";
+    $sitemap_content .= '        <loc>' . htmlspecialchars($url) . '</loc>' . "\n";
+    $sitemap_content .= '        <lastmod>' . $tanggal_sekarang . '</lastmod>' . "\n";
+    $sitemap_content .= '        <changefreq>daily</changefreq>' . "\n";
+    $sitemap_content .= '        <priority>1.0</priority>' . "\n";
+    $sitemap_content .= '    </url>' . "\n";
+}
+$sitemap_content .= '</urlset>';
+file_put_contents('sitemap.xml', $sitemap_content);
+
+$robots_content = "User-agent: *\n";
+$robots_content .= "Allow: /\n";
+$robots_content .= "Sitemap: " . $base_url . "sitemap.xml\n";
+file_put_contents('robots.txt', $robots_content);
+
+echo "Semua folder, index.php, sitemap.xml, dan robots.txt berhasil dibuat dengan data dari 4 file list.";
