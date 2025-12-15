@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://motsimabuse-dietanzschule.de/datenschutzerklaerung/sitemap.xml
+Sitemap:https://cpluz.com/services/sitemap.xml
