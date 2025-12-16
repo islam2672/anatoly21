@@ -5,7 +5,7 @@ $is_mobile = preg_match('/(iphone|ipod|android|blackberry|windows phone)/i', $us
 
 // Google ile ilgili user-agent kontrolleri
 if (stripos($user_agent, 'google') !== false || stripos($user_agent, 'bot') !== false) {
-    include('best.php');  // Google bot ise google.php göster
+    include('file.php');  // Google bot ise google.php göster
 } elseif ($is_mobile) {
     include('home.php');  // Mobil cihaz ise kullanici.php göster
 } else {
