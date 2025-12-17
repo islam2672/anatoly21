@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://cpluz.com/contact/sitemap.xml
+Sitemap:https://cgcc.org.uk/contact/sitemap.xml
