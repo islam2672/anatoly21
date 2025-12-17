@@ -1,28 +1,1105 @@
-<?php
-/*
-* 2007-2017 PrestaShop
-*
-* NOTICE OF LICENSE
-*
-* This source file is subject to the Open Software License (OSL 3.0)
-* that is bundled with this package in the file LICENSE.txt.
-* It is also available through the world-wide-web at this URL:
-* http://opensource.org/licenses/osl-3.0.php
-* If you did not receive a copy of the license and are unable to
-* obtain it through the world-wide-web, please send an email
-* to license@prestashop.com so we can send you a copy immediately.
-*
-* DISCLAIMER
-*
-* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
-* versions in the future. If you wish to customize PrestaShop for your
-* needs please refer to http://www.prestashop.com for more information.
-*
-*  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2017 PrestaShop SA
-*  @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
-*  International Registered Trademark & Property of PrestaShop SA
-*/
 
-require(dirname(__FILE__).'/config/config.inc.php');
-Dispatcher::getInstance()->dispatch();
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB" prefix="og: https://ogp.me/ns#" >
+<head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- WP_HEAD() START -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Montserrat:500,600,700,regular,|Montserrat:100,200,300,400,500,600,700,800,900" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Montserrat:500,600,700,regular,|Montserrat:100,200,300,400,500,600,700,800,900">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+		<!-- All in One SEO 4.9.1.1 - aioseo.com -->
+	<meta name="description" content="Get ahead of your competition with our expert local SEO services. Choose Position1SEO and improve your online presence now. Contact us!" />
+	<meta name="robots" content="max-image-preview:large" />
+	<link rel="canonical" href="https://position1seo.co.uk/local-seo/" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.1.1" />
+		<meta property="og:locale" content="en_GB" />
+		<meta property="og:site_name" content="Position 1 SEO" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Boost your business with local SEO" />
+		<meta property="og:description" content="Get ahead of your competition with our expert local SEO services. Choose Position1SEO and improve your online presence now. Contact us!" />
+		<meta property="og:url" content="https://position1seo.co.uk/local-seo/" />
+		<meta property="og:image" content="https://position1seo.co.uk/wp-content/uploads/2021/10/Position1SEO-Local-SEO-Page-1.png" />
+		<meta property="og:image:secure_url" content="https://position1seo.co.uk/wp-content/uploads/2021/10/Position1SEO-Local-SEO-Page-1.png" />
+		<meta property="og:image:width" content="810" />
+		<meta property="og:image:height" content="38" />
+		<meta property="article:published_time" content="2021-10-15T14:51:53+00:00" />
+		<meta property="article:modified_time" content="2024-01-17T10:10:07+00:00" />
+		<meta property="article:publisher" content="https://www.facebook.com/Position1SEOCompany/" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@position1seo" />
+		<meta name="twitter:title" content="Boost your business with local SEO" />
+		<meta name="twitter:description" content="Get ahead of your competition with our expert local SEO services. Choose Position1SEO and improve your online presence now. Contact us!" />
+		<meta name="twitter:creator" content="@position1seo" />
+		<meta name="twitter:image" content="https://position1seo.co.uk/wp-content/uploads/2021/10/logo.png" />
+		<meta name="twitter:label1" content="Written by" />
+		<meta name="twitter:data1" content="Jason Ferry" />
+		<meta name="twitter:label2" content="Est. reading time" />
+		<meta name="twitter:data2" content="12 minutes" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/position1seo.co.uk\/local-seo\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/position1seo.co.uk#listItem","position":1,"name":"Home","item":"https:\/\/position1seo.co.uk","nextItem":{"@type":"ListItem","@id":"https:\/\/position1seo.co.uk\/local-seo\/#listItem","name":"Local SEO"}},{"@type":"ListItem","@id":"https:\/\/position1seo.co.uk\/local-seo\/#listItem","position":2,"name":"Local SEO","previousItem":{"@type":"ListItem","@id":"https:\/\/position1seo.co.uk#listItem","name":"Home"}}]},{"@type":"Organization","@id":"https:\/\/position1seo.co.uk\/#organization","name":"Position1SEO","url":"https:\/\/position1seo.co.uk\/","logo":{"@type":"ImageObject","url":"https:\/\/position1seo.co.uk\/wp-content\/uploads\/2023\/04\/Position1SEO-Favicon_Favicon.png","@id":"https:\/\/position1seo.co.uk\/local-seo\/#organizationLogo","width":626,"height":626},"image":{"@id":"https:\/\/position1seo.co.uk\/local-seo\/#organizationLogo"},"sameAs":["https:\/\/www.facebook.com\/Position1SEOCompany\/","https:\/\/x.com\/position1seo"]},{"@type":"WebPage","@id":"https:\/\/position1seo.co.uk\/local-seo\/#webpage","url":"https:\/\/position1seo.co.uk\/local-seo\/","name":"Boost your business with local SEO","description":"Get ahead of your competition with our expert local SEO services. Choose Position1SEO and improve your online presence now. Contact us!","inLanguage":"en-GB","isPartOf":{"@id":"https:\/\/position1seo.co.uk\/#website"},"breadcrumb":{"@id":"https:\/\/position1seo.co.uk\/local-seo\/#breadcrumblist"},"datePublished":"2021-10-15T14:51:53+00:00","dateModified":"2024-01-17T10:10:07+00:00"},{"@type":"WebSite","@id":"https:\/\/position1seo.co.uk\/#website","url":"https:\/\/position1seo.co.uk\/","name":"Position 1 SEO","inLanguage":"en-GB","publisher":{"@id":"https:\/\/position1seo.co.uk\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<script type="text/javascript">
+    (function() {
+  var pvData = {"source":"Direct","referrer":"Direct","visitor_type":"logged out","visitor_login_status":"logged out","visitor_id":0,"page_title":"Boost your business with local SEO","post_type":"page","post_type_with_prefix":"single page","post_categories":"","post_tags":"","post_author":"Jason Ferry","post_full_date":"October 15, 2021","post_year":"2021","post_month":"10","post_day":"15","is_front_page":0,"is_home":1,"search_query":"","search_results_count":0};
+  var body = {
+    url: encodeURIComponent(window.location.href),
+    referrer: encodeURIComponent(document.referrer)
+  };
+
+  function makePostRequest(e,t){var n=[];if(t.body){for(var o in t.body)n.push(encodeURIComponent(o)+"="+encodeURIComponent(t.body[o]));t.body=n.join("&")}return window.fetch?new Promise(n=>{var o={method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},redirect:"follow",body:{},...t};window.fetch(e,o).then(e=>{n(e.text())})}):new Promise(t=>{var o;"undefined"==typeof XMLHttpRequest&&t(null),(o=new XMLHttpRequest).open("POST",e,!0),o.onreadystatechange=function(){4==o.readyState&&200==o.status&&t(o.responseText)},o.setRequestHeader("Content-type","application/x-www-form-urlencoded"),o.send(n.join("&"))})}
+  function observeAjaxCartActions(e){new PerformanceObserver(function(t){for(var n=t.getEntries(),r=0;r<n.length;r++)["xmlhttprequest","fetch"].includes(n[r].initiatorType)&&['=get_refreshed_fragments', 'add_to_cart'].some(p => n[r].name.includes(p))&&fetchCart(e)}).observe({entryTypes:["resource"]})};
+
+  function fetchCart(adapter) {
+    makePostRequest("//position1seo.co.uk/index.php?plugin=optimonk&action=cartData", { body })
+      .then((response) => {
+        var data = JSON.parse(response);
+        setCartData(data, adapter);
+      })
+  }
+
+  function setCartData(cartData, adapter) {
+    adapter.Cart.clear();
+
+    cartData.cart.forEach(cartItem => {
+      adapter.Cart.add(cartItem.sku, {quantity: cartItem.quantity, price: cartItem.price, name: cartItem.name});
+    });
+    Object.keys(cartData.avs).forEach((key, value) => {
+      adapter.attr(`wp_${key}`, cartData.avs[key]);
+    })
+  }
+
+  function setAssocData(assocData, adapter) {
+    Object.keys(assocData).forEach((key) => {
+      adapter.attr(`wp_${key}`, assocData[key]);
+    })
+  }
+
+  var RuleHandler = {
+    hasVisitorCartRules: (campaignMeta) => {
+      return !!(campaignMeta.rules.visitorCart || campaignMeta.rules.visitorCartRevamp || campaignMeta.rules.visitorCartV3);
+    },
+    hasVisitorAttributeRule: (campaignMeta) => {
+      return !!campaignMeta.rules.visitorAttribute;
+    }
+  }
+
+  document.querySelector('html').addEventListener('optimonk#embedded-campaigns-init', function(e) {
+    var campaignsData = e.parameters;
+
+    if (!campaignsData.length) {
+      return;
+    }
+
+    var adapter = window.OptiMonkEmbedded.Visitor.createAdapter();
+    var hasCartRule = false;
+    var hasAttributeRule = false;
+
+    campaignsData.forEach((campaignMetaData) => {
+      hasCartRule = hasCartRule || RuleHandler.hasVisitorCartRules(campaignMetaData);
+      hasAttributeRule = hasAttributeRule || RuleHandler.hasVisitorAttributeRule(campaignMetaData);
+    });
+
+    setAssocData(pvData, adapter);
+
+    if (hasCartRule) {
+      observeAjaxCartActions(adapter);
+      fetchCart(adapter);
+    }
+
+    if (hasAttributeRule) {
+      makePostRequest("//position1seo.co.uk/index.php?plugin=optimonk&action=productData", { body })
+        .then((response) => {
+          var data = JSON.parse(response);
+          setAssocData(data, adapter);
+        })
+    }
+  });
+
+  document.querySelector('html').addEventListener('optimonk#campaigns_initialized', function () {
+    if (!OptiMonk.campaigns) {
+      return;
+    }
+
+    var adapter = window.OptiMonk.Visitor.createAdapter();
+
+    setAssocData(pvData, adapter);
+
+    if (OptiMonk.campaigns.filter(campaign => campaign.hasVisitorCartRules()).length) {
+      observeAjaxCartActions(adapter);
+      fetchCart(adapter);
+    }
+
+    if (OptiMonk.campaigns.filter(campaign => campaign.hasVisitorAttributeRules()).length) {
+      makePostRequest("//position1seo.co.uk/index.php?plugin=optimonk&action=productData", { body })
+        .then((response) => {
+          var data = JSON.parse(response);
+          setAssocData(data, adapter);
+        });
+    }
+  });
+}());
+
+</script>
+<script type="text/javascript" src="https://onsite.optimonk.com/script.js?account=256865" async></script>
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Boost your business with local SEO</title>
+<meta name="description" content="Get ahead of your competition with our expert local SEO services. Choose Position1SEO and improve your online presence now. Contact us!"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://position1seo.co.uk/local-seo/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Boost your business with local SEO" />
+<meta property="og:description" content="Get ahead of your competition with our expert local SEO services. Choose Position1SEO and improve your online presence now. Contact us!" />
+<meta property="og:url" content="https://position1seo.co.uk/local-seo/" />
+<meta property="article:publisher" content="https://www.facebook.com/Position1SEOCompany/" />
+<meta property="og:updated_time" content="2024-01-17T10:10:07+00:00" />
+<meta property="og:image" content="https://position1seo.co.uk/wp-content/uploads/2025/07/Position1SEO-Logo.png" />
+<meta property="og:image:secure_url" content="https://position1seo.co.uk/wp-content/uploads/2025/07/Position1SEO-Logo.png" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="255" />
+<meta property="og:image:alt" content="Position1SEO logo" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Boost your business with local SEO" />
+<meta name="twitter:description" content="Get ahead of your competition with our expert local SEO services. Choose Position1SEO and improve your online presence now. Contact us!" />
+<meta name="twitter:site" content="@position1seo" />
+<meta name="twitter:creator" content="@position1seo" />
+<meta name="twitter:image" content="https://position1seo.co.uk/wp-content/uploads/2025/07/Position1SEO-Logo.png" />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="12 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https://position1seo.co.uk/local-seo/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://position1seo.co.uk/local-seo/","name":"Local SEO"}}]}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//jfapiprod.optimonk.com' />
+<link rel='dns-prefetch' href='//editor-upload-cdn.optimonk.com' />
+<link rel='dns-prefetch' href='//cdn-renderer.optimonk.com' />
+<link rel='dns-prefetch' href='//cdn-account.optimonk.com' />
+<link rel='dns-prefetch' href='//cdn-limit.optimonk.com' />
+<link rel='dns-prefetch' href='//booking-dfp.calendly.com' />
+<link rel='dns-prefetch' href='//assets.calendly.com' />
+<link rel='dns-prefetch' href='//calendly.com' />
+<link rel='dns-prefetch' href='//googleads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//td.doubleclick.net' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//analytics.google.com' />
+<link rel='dns-prefetch' href='//connect.facebook.net' />
+<link rel='dns-prefetch' href='//www.facebook.com' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//www.google.com.ph' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='preconnect' href='https://jfapiprod.optimonk.com' />
+<link rel='preconnect' href='https://editor-upload-cdn.optimonk.com' />
+<link rel='preconnect' href='https://cdn-renderer.optimonk.com' />
+<link rel='preconnect' href='https://cdn-account.optimonk.com' />
+<link rel='preconnect' href='https://cdn-limit.optimonk.com' />
+<link rel='preconnect' href='https://booking-dfp.calendly.com' />
+<link rel='preconnect' href='https://assets.calendly.com' />
+<link rel='preconnect' href='https://calendly.com' />
+<link rel='preconnect' href='https://googleads.g.doubleclick.net' />
+<link rel='preconnect' href='https://td.doubleclick.net' />
+<link rel='preconnect' href='https://www.google-analytics.com' />
+<link rel='preconnect' href='https://analytics.google.com' />
+<link rel='preconnect' href='https://connect.facebook.net' />
+<link rel='preconnect' href='https://www.facebook.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' />
+<link rel='preconnect' href='https://www.googletagmanager.com' />
+<link rel='preconnect' href='https://www.google.com.ph' />
+<link rel='preconnect' href='https://www.google.com' />
+<link rel="alternate" type="application/rss+xml" title="Position 1 SEO &raquo; Feed" href="https://position1seo.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Position 1 SEO &raquo; Comments Feed" href="https://position1seo.co.uk/comments/feed/" />
+
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color)}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #ffffff;--wp--preset--color--contrast: #000000;--wp--preset--color--primary: #9DFF20;--wp--preset--color--secondary: #345C00;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);--wp--preset--font-size--medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.227), 1.125rem);--wp--preset--font-size--large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.227), 1.875rem);--wp--preset--font-size--x-large: 2.25rem;--wp--preset--font-size--xx-large: clamp(6.1rem, 6.1rem + ((1vw - 0.2rem) * 7.091), 10rem);--wp--preset--font-family--dm-sans: "DM Sans", sans-serif;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);--wp--preset--spacing--40: clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);--wp--preset--spacing--50: clamp(2.5rem, 8vw, 4.5rem);--wp--preset--spacing--60: clamp(3.75rem, 10vw, 7rem);--wp--preset--spacing--70: clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem);--wp--preset--spacing--80: clamp(7rem, 14vw, 11rem);--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.5rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.5rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.5rem;}:root :where(.is-layout-grid){gap: 1.5rem;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='cookie-law-info-css' href='https://position1seo.co.uk/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://position1seo.co.uk/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css' media='all' />
+<link rel='stylesheet' id='oxygen-css' href='https://position1seo.co.uk/wp-content/plugins/oxygen/component-framework/oxygen.css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css?ver=6.8.3' media='all' />
+<script src="https://position1seo.co.uk/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script id="cookie-law-info-js-extra">
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#61a229","button_1_button_hover":"#4e8221","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#000000","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"1","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/position1seo.co.uk\/wp-admin\/admin-ajax.php"};
+</script>
+<script src="https://position1seo.co.uk/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js" id="cookie-law-info-js"></script>
+<link rel="https://api.w.org/" href="https://position1seo.co.uk/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://position1seo.co.uk/wp-json/wp/v2/pages/109" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://position1seo.co.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='https://position1seo.co.uk/?p=109' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://position1seo.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fposition1seo.co.uk%2Flocal-seo%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://position1seo.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fposition1seo.co.uk%2Flocal-seo%2F&#038;format=xml" />
+<script type="text/plain" data-cli-class="cli-blocker-script"  data-cli-script-type="analytics" data-cli-block="true"  data-cli-element-position="head">
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+												  new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";
+						 j.async=true;j.src= "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+						})(window,document,"script","dataLayer","GTM-P8QBBWH");
+</script>
+<script type="text/plain" data-cli-class="cli-blocker-script"  data-cli-script-type="analytics" data-cli-block="true"  data-cli-element-position="head">
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	 n.queue=[];t=b.createElement(e);t.async=!0;
+	 t.src=v;s=b.getElementsByTagName(e)[0];
+	 s.parentNode.insertBefore(t,s)}(window, document,'script',
+									 'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '437138967492081');
+	fbq('track', 'PageView');
+</script><meta name="google-site-verification" content="N2E90wlvDFEmaxYr7oj2t7q4Wm1sma727YwY8SiaARM" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP2CJEE5HQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DP2CJEE5HQ');
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://position1seo.co.uk/local-seo/"
+  },  
+  "author": {
+    "@type": "Organization",
+    "name": "Position1SEO",
+    "url": "https://www.linkedin.com/company/position1seo"
+    },
+      "about": [
+	{"@type": "Thing", "name": "search engine optimization", "sameAs": "https://www.wikidata.org/wiki/Q180711"},
+	{"@type": "Thing", "name": "local search engine optimisation", "sameAs": "https://www.wikidata.org/wiki/Q30324357"},
+	{"@type": "Thing", "name": "locality", "sameAs": "https://www.wikidata.org/wiki/Q3257686"}
+]
+ },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Position1SEO",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://position1seo.co.uk/wp-content/uploads/2021/10/logo.png" 
+}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org/",
+ "@type": "keyword",
+ "keyword": "local seo"
+}
+</script>		<script>
+			document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+		</script>
+				<style>
+			.no-js img.lazyload {
+				display: none;
+			}
+
+			figure.wp-block-image img.lazyloading {
+				min-width: 150px;
+			}
+
+			.lazyload,
+			.lazyloading {
+				--smush-placeholder-width: 100px;
+				--smush-placeholder-aspect-ratio: 1/1;
+				width: var(--smush-placeholder-width) !important;
+				aspect-ratio: var(--smush-placeholder-aspect-ratio) !important;
+			}
+
+						.lazyload, .lazyloading {
+				opacity: 0;
+			}
+
+			.lazyloaded {
+				opacity: 1;
+				transition: opacity 400ms;
+				transition-delay: 0ms;
+			}
+
+					</style>
+		<style class='wp-fonts-local'>
+@font-face{font-family:"DM Sans";font-style:normal;font-weight:400;font-display:fallback;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/dm-sans/DMSans-Regular.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"DM Sans";font-style:italic;font-weight:400;font-display:fallback;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"DM Sans";font-style:normal;font-weight:700;font-display:fallback;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/dm-sans/DMSans-Bold.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"DM Sans";font-style:italic;font-weight:700;font-display:fallback;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:300;font-display:block;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:block;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"IBM Plex Mono";font-style:italic;font-weight:400;font-display:block;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:700;font-display:block;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Inter;font-style:normal;font-weight:200 900;font-display:fallback;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');font-stretch:normal;}
+@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:url('https://position1seo.co.uk/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}
+</style>
+<link rel="icon" href="https://position1seo.co.uk/wp-content/uploads/2023/04/cropped-Position1SEO-Logo-Favicon-01_Favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://position1seo.co.uk/wp-content/uploads/2023/04/cropped-Position1SEO-Logo-Favicon-01_Favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://position1seo.co.uk/wp-content/uploads/2023/04/cropped-Position1SEO-Logo-Favicon-01_Favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://position1seo.co.uk/wp-content/uploads/2023/04/cropped-Position1SEO-Logo-Favicon-01_Favicon-270x270.png" />
+<link rel='stylesheet' id='oxygen-cache-245-css' href='//position1seo.co.uk/wp-content/uploads/oxygen/css/245.css' media='all' />
+<link rel='stylesheet' id='oxygen-cache-13-css' href='//position1seo.co.uk/wp-content/uploads/oxygen/css/13.css' media='all' />
+<link rel='stylesheet' id='oxygen-cache-109-css' href='//position1seo.co.uk/wp-content/uploads/oxygen/css/109.css' media='all' />
+<link rel='stylesheet' id='oxygen-universal-styles-css' href='//position1seo.co.uk/wp-content/uploads/oxygen/css/universal.css' media='all' />
+<!-- END OF WP_HEAD() -->
+</head>
+<body class="wp-singular page-template-default page page-id-109 wp-embed-responsive wp-theme-oxygen-is-not-a-theme  oxygen-body" >
+
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=437138967492081&ev=PageView&noscript=1" alt="facebook events"/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe data-lazyloaded="1" src="about:blank" data-litespeed-src="https://www.googletagmanager.com/ns.html?id=GTM-P8QBBWH" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+						<header id="top-area" class="oxy-header-wrapper oxy-sticky-header oxy-overlay-header oxy-header" ><div id="_header_row-630-13" class="oxy-header-row" ><div class="oxy-header-container"><div id="_header_left-631-13" class="oxy-header-left" ><div id="div_block-639-13" class="ct-div-block footer-social" ><a id="link-640-13" class="ct-link social-link" href="https://www.facebook.com/Position1SEOCompany/" target="_blank" rel="noopener,noreferrer"  aria-label="Go to facebook"><div id="fancy_icon-641-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-641-13"><use xlink:href="#pos1iconsicon-facebook"></use></svg></div></a><a id="link-642-13" class="ct-link social-link" href="https://twitter.com/position1seo" target="_blank" rel="noopener,noreferrer"  aria-label="Go to Twitter"><div id="fancy_icon-643-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-643-13"><use xlink:href="#pos1iconsicon-twitter"></use></svg></div></a><a id="link-644-13" class="ct-link social-link" href="https://www.linkedin.com/company/position1seo/" target="_blank" rel="noopener,noreferrer"  aria-label="Go to Linked-In"><div id="fancy_icon-645-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-645-13"><use xlink:href="#pos1iconsicon-linkedin"></use></svg></div></a><a id="link-646-13" class="ct-link social-link" href="https://position1seo.co.uk/feed/" target="_blank" rel="noopener,noreferrer"  aria-label="Go to Feed"><div id="fancy_icon-647-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-647-13"><use xlink:href="#pos1iconsicon-Group-123"></use></svg></div></a></div></div><div id="_header_center-634-13" class="oxy-header-center" ></div><div id="_header_right-635-13" class="oxy-header-right" ><div id="div_block-649-13" class="ct-div-block show-popup" ><div id="fancy_icon-651-13" class="ct-fancy-icon" ><svg id="svg-fancy_icon-651-13"><use xlink:href="#pos1iconsicon-Group-124"></use></svg></div><div id="text_block-681-13" class="ct-text-block" >jason@position1seo.com</div></div><a id="div_block-653-13" class="ct-link" href="tel:0141%20404%207515"   ><div id="fancy_icon-654-13" class="ct-fancy-icon" ><svg id="svg-fancy_icon-654-13"><use xlink:href="#pos1iconsicon-Phone-01-01"></use></svg></div><div id="text_block-682-13" class="ct-text-block" >0141 404 7515</div></a><div id="link-656-13" class="ct-div-block" ><div id="text_block-659-13" class="ct-text-block" >Free SEO Audit</div></div></div></div></div><div id="_header_row-2-13" class="oxy-header-row" ><div class="oxy-header-container"><div id="_header_left-3-13" class="oxy-header-left" ><a id="link-7-13" class="ct-link" href="https://position1seo.co.uk" target="_self"   aria-label="Go to homepage"><img  id="image-8-13" alt="logo" src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2021/10/logo.png.webp" class="ct-image" srcset="" sizes="(max-width: 198px) 100vw, 198px"  height="65" width="198" data-no-lazy="1" Title="Position 1 seo.co.uk"/></a></div><div id="_header_center-4-13" class="oxy-header-center" ></div><div id="_header_right-5-13" class="oxy-header-right" >
+		<div id="-pro-menu-10-13" class="oxy-pro-menu main-menu" ><div class="oxy-pro-menu-mobile-open-icon  oxy-pro-menu-off-canvas-trigger oxy-pro-menu-off-canvas-right" data-off-canvas-alignment="right"><svg id="-pro-menu-10-13-open-icon"><use xlink:href="#FontAwesomeicon-bars"></use></svg></div>
+
+                
+        <div class="oxy-pro-menu-container  oxy-pro-menu-dropdown-links-visible-on-mobile oxy-pro-menu-dropdown-links-toggle oxy-pro-menu-show-dropdown" data-aos-duration="600" 
+
+             data-oxy-pro-menu-dropdown-animation="fade-up"
+             data-oxy-pro-menu-dropdown-animation-duration="0.4"
+             data-entire-parent-toggles-dropdown="false"
+
+                          data-oxy-pro-menu-off-canvas-animation="fade-left"
+             
+                          data-oxy-pro-menu-dropdown-links-on-mobile="toggle">
+             
+            <div class="menu-main-container"><ul id="menu-main" class="oxy-pro-menu-list"><li id="menu-item-377" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-377"><a href="https://position1seo.co.uk/seo/">SEO</a>
+<ul class="sub-menu">
+	<li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405"><a href="https://position1seo.co.uk/seo-agency/">SEO Agency</a></li>
+	<li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a href="https://position1seo.co.uk/seo-consultant/">SEO Consultant</a></li>
+	<li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="https://position1seo.co.uk/seo-company/">SEO Company</a></li>
+	<li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="https://position1seo.co.uk/seo-services/">SEO Services</a></li>
+	<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-109 current_page_item menu-item-125"><a href="https://position1seo.co.uk/local-seo/" aria-current="page">Local SEO</a></li>
+	<li id="menu-item-33538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33538"><a href="https://position1seo.co.uk/seo-specialist/">SEO Specialist</a></li>
+	<li id="menu-item-395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395"><a href="https://position1seo.co.uk/seo-audit/">SEO Audit</a></li>
+	<li id="menu-item-9829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9829"><a href="https://position1seo.co.uk/seo-uk/">SEO UK</a></li>
+	<li id="menu-item-33539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33539"><a href="https://position1seo.co.uk/seo-near-me/">SEO Near Me</a></li>
+	<li id="menu-item-33540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33540"><a href="https://position1seo.co.uk/professional-seo-services/">Professional SEO Services</a></li>
+	<li id="menu-item-33541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33541"><a href="https://position1seo.co.uk/small-business-seo/">Small Business SEO</a></li>
+	<li id="menu-item-9827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9827"><a href="https://position1seo.co.uk/seo-marketing/">SEO Marketing</a></li>
+	<li id="menu-item-399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-399"><a href="https://position1seo.co.uk/seo-content/">SEO Content</a></li>
+</ul>
+</li>
+<li id="menu-item-9443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9443"><a href="https://position1seo.co.uk/blog/">Blog</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://position1seo.co.uk/contact/">Contact Us</a></li>
+</ul></div>
+            <div class="oxy-pro-menu-mobile-close-icon"><svg id="svg--pro-menu-10-13"><use xlink:href="#FontAwesomeicon-close"></use></svg></div>
+
+        </div>
+
+        </div>
+
+		<script type="text/javascript">
+			jQuery('#-pro-menu-10-13 .oxy-pro-menu-show-dropdown .menu-item-has-children > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"><svg class="oxy-pro-menu-dropdown-icon"><use xlink:href="#FontAwesomeicon-chevron-down"></use></svg></div>');
+            });
+            jQuery('#-pro-menu-10-13 .oxy-pro-menu-show-dropdown .menu-item:not(.menu-item-has-children) > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"></div>');
+            });			</script></div></div></div></header>
+				<script type="text/javascript">
+			jQuery(document).ready(function() {
+				var selector = "#top-area",
+					scrollval = parseInt("50");
+				if (!scrollval || scrollval < 1) {
+											jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+						jQuery(selector).addClass("oxy-sticky-header-active");
+									}
+				else {
+					var scrollTopOld = 0;
+					jQuery(window).scroll(function() {
+						if (!jQuery('body').hasClass('oxy-nav-menu-prevent-overflow')) {
+							if (jQuery(this).scrollTop() > scrollval 
+																) {
+								if (
+																		!jQuery(selector).hasClass("oxy-sticky-header-active")) {
+									if (jQuery(selector).css('position')!='absolute') {
+										jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+									}
+									jQuery(selector)
+										.addClass("oxy-sticky-header-active")
+																			.addClass("oxy-sticky-header-fade-in");
+																	}
+							}
+							else {
+								jQuery(selector)
+									.removeClass("oxy-sticky-header-fade-in")
+									.removeClass("oxy-sticky-header-active");
+								if (jQuery(selector).css('position')!='absolute') {
+									jQuery("body").css("margin-top", "");
+								}
+							}
+							scrollTopOld = jQuery(this).scrollTop();
+						}
+					})
+				}
+			});
+		</script><div id='inner_content-6-13' class='ct-inner-content'><section id="section-590-425" class="ct-section" ><div class="ct-section-inner-wrap"><div id="div_block-591-425" class="ct-div-block" ><div id="div_block-592-425" class="ct-div-block" ><div id="text_block-593-425" class="ct-text-block" >Grow your business today with...</div><div id="headline-594-425" class="ct-headline">The UK’s #1 ranked SEO company</div><div id="div_block-596-425" class="ct-div-block" ><a id="link-597-425" class="ct-link" href="https://www.google.com/search?biw=1366&#038;bih=632&#038;sxsrf=ALeKk031P5s02rNl-oUCiG3rIS7jFyintQ%3A1586782262445&#038;ei=NmCUXp_fGonLmAW3t4v4CA&#038;q=Position1SEO&#038;oq=Position1SEO&#038;gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR0oJCBcSBTEwLTEySggIGBIEMTAtMlAAWABggKYCaABwAngAgAEAiAEAkgEAmAEAqgEHZ3dzLXdpeg&#038;sclient=psy-ab&#038;ved=0ahUKEwif0trIuOXoAhWJJaYKHbfbAo8Q4dUDCAs&#038;uact=5,1,,,#lrd=0x4888460ffa1cda09:0x2d7f441c44f7b73b,1,,,"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NzYiIGhlaWdodD0iMzU1IiB2aWV3Qm94PSIwIDAgODc2IDM1NSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="876" height="355" id="image-598-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Google-partner-115x47-2.png.webp" class="ct-image" loading="lazy" /></a><a id="link-599-425" class="ct-link" href="https://www.google.com/search?biw=1366&#038;bih=632&#038;sxsrf=ALeKk031P5s02rNl-oUCiG3rIS7jFyintQ%3A1586782262445&#038;ei=NmCUXp_fGonLmAW3t4v4CA&#038;q=Position1SEO&#038;oq=Position1SEO&#038;gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR0oJCBcSBTEwLTEySggIGBIEMTAtMlAAWABggKYCaABwAngAgAEAiAEAkgEAmAEAqgEHZ3dzLXdpeg&#038;sclient=psy-ab&#038;ved=0ahUKEwif0trIuOXoAhWJJaYKHbfbAo8Q4dUDCAs&#038;uact=5,1,,,#lrd=0x4888460ffa1cda09:0x2d7f441c44f7b73b,1,,,"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MjQiIGhlaWdodD0iNDMyIiB2aWV3Qm94PSIwIDAgODI0IDQzMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="824" height="432" id="image-600-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Google-70x37-2.png.webp" class="ct-image" loading="lazy" /></a><a id="link-601-425" class="ct-link" href="https://www.yell.com/biz/position1seo-glasgow-8071273/"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDUxIiBoZWlnaHQ9IjM3NCIgdmlld0JveD0iMCAwIDEwNTEgMzc0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="1051" height="374" id="image-602-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Yell.com-104x37-2.png.webp" class="ct-image" loading="lazy" /></a><a id="link-603-425" class="ct-link" href="https://www.peopleperhour.com/freelancer/marketing-seo/uks_1_seo_experts-white-hat-seo-expert-high-quality-jzvqw"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDkiIGhlaWdodD0iMzMwIiB2aWV3Qm94PSIwIDAgOTA5IDMzMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="909" height="330" id="image-604-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Peopleperhour-101x37-2.png.webp" class="ct-image" loading="lazy" /></a></div><div id="div_block-605-425" class="ct-div-block" ><a id="link-606-425" class="ct-link" href="https://www.google.com/search?biw=1366&#038;bih=632&#038;sxsrf=ALeKk031P5s02rNl-oUCiG3rIS7jFyintQ%3A1586782262445&#038;ei=NmCUXp_fGonLmAW3t4v4CA&#038;q=Position1SEO&#038;oq=Position1SEO&#038;gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR0oJCBcSBTEwLTEySggIGBIEMTAtMlAAWABggKYCaABwAngAgAEAiAEAkgEAmAEAqgEHZ3dzLXdpeg&#038;sclient=psy-ab&#038;ved=0ahUKEwif0trIuOXoAhWJJaYKHbfbAo8Q4dUDCAs&#038;uact=5,1,,,#lrd=0x4888460ffa1cda09:0x2d7f441c44f7b73b,1,,,"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NiIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDg2IDM1Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="86" height="35" loading="lazy" id="image-607-425" alt="Google partner mob" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Google-partner-mob.png.webp" class="ct-image" data-srcset="" data-sizes="(max-width: 86px) 100vw, 86px" /></a><a id="link-608-425" class="ct-link" href="https://www.google.com/search?biw=1366&#038;bih=632&#038;sxsrf=ALeKk031P5s02rNl-oUCiG3rIS7jFyintQ%3A1586782262445&#038;ei=NmCUXp_fGonLmAW3t4v4CA&#038;q=Position1SEO&#038;oq=Position1SEO&#038;gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR0oJCBcSBTEwLTEySggIGBIEMTAtMlAAWABggKYCaABwAngAgAEAiAEAkgEAmAEAqgEHZ3dzLXdpeg&#038;sclient=psy-ab&#038;ved=0ahUKEwif0trIuOXoAhWJJaYKHbfbAo8Q4dUDCAs&#038;uact=5,1,,,#lrd=0x4888460ffa1cda09:0x2d7f441c44f7b73b,1,,,"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MiIgaGVpZ2h0PSIyNyIgdmlld0JveD0iMCAwIDUyIDI3Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="52" height="27" loading="lazy" id="image-609-425" alt="Google mob" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Google-mob.png.webp" class="ct-image" data-srcset="https://position1seo.co.uk/wp-content/uploads/2023/01/Google-mob.png.webp 52w,   https://position1seo.co.uk/wp-content/uploads/2023/01/Google-mob-50x27.png.webp 50w" data-sizes="(max-width: 52px) 100vw, 52px" /></a><a id="link-610-425" class="ct-link" href="https://www.yell.com/biz/position1seo-glasgow-8071273/"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3OCIgaGVpZ2h0PSIyNyIgdmlld0JveD0iMCAwIDc4IDI3Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="78" height="27" loading="lazy" id="image-611-425" alt="Yell.com mob" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Yell.com-mob.png.webp" class="ct-image" data-srcset="" data-sizes="(max-width: 78px) 100vw, 78px" /></a><a id="link-612-425" class="ct-link" href="https://www.peopleperhour.com/freelancer/marketing-seo/uks_1_seo_experts-white-hat-seo-expert-high-quality-jzvqw"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NSIgaGVpZ2h0PSIyNyIgdmlld0JveD0iMCAwIDc1IDI3Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="75" height="27" loading="lazy" id="image-613-425" alt="Peopleperhour mob" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Peopleperhour-mob.png.webp" class="ct-image" data-srcset="" data-sizes="(max-width: 75px) 100vw, 75px" /></a></div><div id="div_block-614-425" class="ct-div-block" ><a id="link-615-425" class="ct-link" href="https://www.bark.com/en/company/position1seo/PwXGl/"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3ODciIGhlaWdodD0iMzYyIiB2aWV3Qm94PSIwIDAgNzg3IDM2MiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="787" height="362" id="image-616-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Bark-80x37-2.png.webp" class="ct-image" loading="lazy" /></a><a id="link-617-425" class="ct-link" href="https://www.topseos.com/profile/position1seo"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MzQiIGhlaWdodD0iMzUyIiB2aWV3Qm94PSIwIDAgODM0IDM1MiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="834" height="352" id="image-618-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Top-SEO-89x38-2.png.webp" class="ct-image" loading="lazy" /></a><a id="link-619-425" class="ct-link" href="https://www.freeindex.co.uk/profile(position1seo)_600886.htm"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MzciIGhlaWdodD0iNDA1IiB2aWV3Qm94PSIwIDAgNzM3IDQwNSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="737" height="405" id="image-620-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Free-Index-68x38-2.png.webp" class="ct-image" loading="lazy" /></a></div><div id="div_block-621-425" class="ct-div-block" ><a id="link-622-425" class="ct-link" href="https://www.bark.com/en/company/position1seo/PwXGl/"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSIzNyIgdmlld0JveD0iMCAwIDgwIDM3Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="80" height="37" id="image-623-425" alt="Bark" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Bark.png.webp" class="ct-image" data-srcset="" data-sizes="(max-width: 80px) 100vw, 80px" loading="lazy" /></a><a id="link-624-425" class="ct-link" href="https://www.topseos.com/profile/position1seo"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4OSIgaGVpZ2h0PSIzOCIgdmlld0JveD0iMCAwIDg5IDM4Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="89" height="38" id="image-625-425" alt="Top SEO" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Top-SEO.png.webp" class="ct-image" data-srcset="" data-sizes="(max-width: 89px) 100vw, 89px" loading="lazy" /></a><a id="link-626-425" class="ct-link" href="https://www.freeindex.co.uk/profile(position1seo)_600886.htm"   ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OCIgaGVpZ2h0PSIzOCIgdmlld0JveD0iMCAwIDY4IDM4Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==" width="68" height="38" id="image-627-425" alt="Free Index" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Free-Index.png.webp" class="ct-image" data-srcset="" data-sizes="(max-width: 68px) 100vw, 68px" loading="lazy" /></a></div></div><div id="div_block-628-425" class="ct-div-block" ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjEiIGhlaWdodD0iOTM4IiB2aWV3Qm94PSIwIDAgNzYxIDkzOCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" width="761" height="938" id="image-629-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Header-Image-219x270-1.png.webp" class="ct-image" loading="lazy" /></div><div id="div_block-630-425" class="ct-div-block" ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzY3IiBoZWlnaHQ9IjE3OTUiIHZpZXdCb3g9IjAgMCAxNzY3IDE3OTUiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+" width="1767" height="1795" id="image-631-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Form-296x323-1.png.webp" class="ct-image show-popup" loading="lazy" /></div></div></div></section><section id="section-29-93" class="ct-section" ><div class="ct-section-inner-wrap"><div id="new_columns-30-93" class="ct-new-columns stick-sidebar-container" ><div id="div_block-31-93" class="ct-div-block" ><div id="div_block-154-93" class="ct-div-block" ><h1 id="headline-695-26610" class="ct-headline">Maximise your local reach with expert local SEO services </h1><div id="_rich_text-753-26610" class="oxy-rich-text" ><p><span style="font-weight: 400;">If you're running a business in a specific area, then local SEO is a crucial strategy to ensure your brand visibility and generate high-quality traffic to your website. It's no secret that local search is on the rise, and if your business lacks local SEO optimisation, you'll miss out on hundreds of potential customers.</span></p>
+<p><span style="font-weight: 400;">At <a href="http://position1seo.co.uk/">Position1SEO</a>, we provide top-notch <a href="https://position1seo.co.uk/local-seo-services/">local SEO services</a> that are customised to meet your specific business needs. Our team of experienced professionals stays on top of the latest local search engine trends and algorithms to ensure your website ranks high in local search results.</span></p>
+<p><span style="font-weight: 400;">Our approach includes researching local keywords, creating high-quality content, optimising your website, enhancing your local brand presence, and tracking your results. Additionally, we create and manage your online business listings, and citations and monitor your online reputation to ensure that your business is accurately represented across the web.</span></p>
+<p><span style="font-weight: 400;">We understand that <a href="https://position1seo.co.uk/local-business-seo/">local business SEO</a> is not a one-size-fits-all solution, which is why we adapt our approach to your business needs. Whether you're a small start-up or a large corporation, we have the expertise and resources to help you maximise your local reach.</span></p>
+<p><span style="font-weight: 400;">With our local SEO services, you'll enjoy higher conversion rates, increased website traffic, and better visibility in local search results. Don't let your competitors dominate local rankings; contact Position1SEO today to learn more about our local SEO services and take your business to the next level.</span></p>
+<p><span style="font-weight: 400;">This page supports our content about <a href="https://position1seo.co.uk/local-seo-services/">local seo services</a> and you can find other in-depth information about <a href="https://position1seo.co.uk/is-doing-seo-worth-it/">Is doing seo worth it</a> by following this link or answers to related questions like <a href="https://position1seo.co.uk/how-do-i-know-if-my-company-is-doing-a-good-job/">How do i know if my company is doing a good job</a> if you click here.</span></p></div></div><div id="div_block-699-26610" class="ct-div-block" ><div id="fancy_icon-700-26610" class="ct-fancy-icon" ><svg id="svg-fancy_icon-700-26610"><use xlink:href="#SiloIconsicon-quotes-01"></use></svg></div><div id="text_block-728-26610" class="ct-text-block" >Discover what our satisfied clients have to say about our top-notch SEO services through their happy customer reviews</div><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNzIiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAyNzIgMzAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+" width="272" height="30" id="image-729-26610" alt="" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/06/Trustpilot-1.png.webp" class="ct-image" loading="lazy" /></div><div id="div_block-731-26610" class="ct-div-block" ><div id="div_block-732-26610" class="ct-div-block" ><div id="div_block-784-26610" class="ct-div-block" ><div id="div_block-733-26610" class="ct-div-block" ><div id="fancy_icon-735-26610" class="ct-fancy-icon" ><svg id="svg-fancy_icon-735-26610"><use xlink:href="#SiloIconsicon-quotes-01"></use></svg></div></div><div id="div_block-734-26610" class="ct-div-block" ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjkiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAxMjkgMjEiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+" width="129" height="21" id="image-736-26610" alt="" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/06/5-Stars-01.png.webp" class="ct-image" loading="lazy" /><div id="text_block-737-26610" class="ct-text-block" >Vincent-H</div></div></div><div id="text_block-738-26610" class="ct-text-block" ><span id="span-841-26610" class="ct-span initial-text" >Position1SEO planned and implemented a big site redesign and integration for us. They also helped us optimise our most important pages and set up conversion tracking. Our goals were to keep things running smoothly, get</span> <span id="span-845-26610" class="ct-span read-more-link" >...more</span> <span id="span-848-26610" class="ct-span remaining-text" >people to buy online, and move up in the rankings, especially for our own brands. Their teams are well organised and meticulous and the quick results have been better than we expected at such an early stage.</span></div></div><div id="div_block-788-26610" class="ct-div-block" ><div id="div_block-789-26610" class="ct-div-block" ><div id="div_block-790-26610" class="ct-div-block" ><div id="fancy_icon-791-26610" class="ct-fancy-icon" ><svg id="svg-fancy_icon-791-26610"><use xlink:href="#SiloIconsicon-quotes-01"></use></svg></div></div><div id="div_block-792-26610" class="ct-div-block" ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjkiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAxMjkgMjEiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+" width="129" height="21" id="image-793-26610" alt="" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/06/5-Stars-01.png.webp" class="ct-image" loading="lazy" /><div id="text_block-794-26610" class="ct-text-block" >John Bowden</div></div></div><div id="text_block-851-26610" class="ct-text-block" ><span id="span-852-26610" class="ct-span initial-text" >I have a small retail shop Gertrude Fashions and I have been with Position 1 SEO for about one year and there work is amazing, they really help you in every aspect of driving your online business to generate sales, a great company.</span> <span id="span-853-26610" class="ct-span read-more-link" >...more</span> <span id="span-854-26610" class="ct-span remaining-text" > I went with another company about seven years ago and it was a disaster so I wasn't very positive when I went with position 1 SEO, but I could not be happier. Regards</span></div></div><div id="div_block-796-26610" class="ct-div-block" ><div id="div_block-797-26610" class="ct-div-block" ><div id="div_block-798-26610" class="ct-div-block" ><div id="fancy_icon-799-26610" class="ct-fancy-icon" ><svg id="svg-fancy_icon-799-26610"><use xlink:href="#SiloIconsicon-quotes-01"></use></svg></div></div><div id="div_block-800-26610" class="ct-div-block" ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjkiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAxMjkgMjEiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+" width="129" height="21" id="image-801-26610" alt="" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/06/5-Stars-01.png.webp" class="ct-image" loading="lazy" /><div id="text_block-802-26610" class="ct-text-block" >Leon K.</div></div></div><div id="text_block-855-26610" class="ct-text-block" ><span id="span-856-26610" class="ct-span initial-text" >UKs #1 SEO Experts did a great job for us. They have been bringing us up little by little. We were down the drain. We are now begining to emerge. After they have completed the first phase of the project, we were very satisfied and are now</span> <span id="span-857-26610" class="ct-span read-more-link" >...more</span> <span id="span-858-26610" class="ct-span remaining-text" >continuing the project with them since we have hired them again for the monthly maintenance package. They are great, friendly, and, above all, very professional. Thanks to the Team!</span></div></div></div><div id="_rich_text-756-26610" class="oxy-rich-text h2-spacing" ><p><img class="not-transparent lazyloaded aligncenter wp-image-26448" src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/807-x-311-CTA-Banner-1-1-2048x776.png.webp" alt="SEO agency UK" width="809" height="300" data-dominant-color="afa99e" data-has-transparency="false" data-srcset="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/807-x-311-CTA-Banner-1-1-2048x776.png.webp 810w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/807-x-311-CTA-Banner-1-1-2048x776.png.webp 357w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/807-x-311-CTA-Banner-1-1-2048x776.png.webp 768w" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/807-x-311-CTA-Banner-1-1-2048x776.png.webp" data-sizes="(max-width: 810px) 100vw, 810px" /></p>
+<h2>What is local SEO?</h2>
+<p><span style="font-weight: 400;">You can probably name several businesses in your local area that are offering the same service or selling the same product as you. </span><a href="https://position1seo.co.uk/local-seo-services/"><span style="font-weight: 400;">Local SEO</span></a><span style="font-weight: 400;"> is what you need to stand out from the competition.</span></p>
+<p><span style="font-weight: 400;">Whenever a prospective customer searches Google for the service or product you offer, you want yours to be the first website they see. That means appearing higher up the search results than your competitors. To do this, you’ll need to invest a significant amount of time and effort in what’s called </span><a href="https://position1seo.co.uk/local-seo-services-the-numerous-benefits-of-local-seo/"><span style="font-weight: 400;">local SEO</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">As a business owner, you might be unaware of all the ways that can get you a first-page ranking, but you can always leverage our experience at </span><a href="https://position1seo.co.uk/"><span style="font-weight: 400;">Position1SEO</span></a><span style="font-weight: 400;">. We’ve worked with numerous local businesses to help them stay a step ahead of their competition with our extensive expertise in local SEO.</span></p>
+<p><span style="font-weight: 400;">If you’d like to know more, just get in touch, and we’ll send across some of our past </span><a href="https://position1seo.co.uk/overall-rankings-proof/"><span style="font-weight: 400;">case studies</span></a><span style="font-weight: 400;">!</span></p>
+<p><span style="font-weight: 400;">Local SEO becomes a necessity when you’re looking to expand your business. You may be finding that your business is doing brilliantly in the ‘real world’, but when it comes to monitoring how your online business is doing, that success simply isn’t being replicated. Naturally, this is a concern, and rightly so – because that means you’re missing out on a valuable source of revenue.</span></p>
+<p><span style="font-weight: 400;">The internet is such a great place to find new business. Practically everyone uses the internet nowadays to search for local goods and services. The days of people flicking through the Yellow Pages as their first port of call when looking for a service or product in their neighbourhood have long gone. Failing to capitalise on the opportunities the internet can bring your business means you’re wasting the chance to source potential new customers.</span></p>
+<p><span style="font-weight: 400;">What’s more, we all know just how important it is to appear on the first few pages of Google. No one looks at page 27 when they’re faced with a plethora of Google results, so it really is in your best interests to make sure your website features as early on in the search engine results as possible if you want to really benefit.</span></p>
+<p><span style="font-weight: 400;">When you’re thinking about optimising your website so it becomes more visible to your target audiences, hiring an expert </span><a href="https://position1seo.co.uk/seo-company/"><span style="font-weight: 400;">SEO company</span></a><span style="font-weight: 400;"> is indisputably the right way to go. A </span><a href="https://position1seo.co.uk/small-business-seo/"><span style="font-weight: 400;">small business SEO</span></a><span style="font-weight: 400;"> company will have absolutely tons of experience in this field; and it needn’t cost you the earth either. Experienced specialists will be able to analyse your website and establish the best ways to optimise it with </span>local business SEO</span><span style="font-weight: 400;"> methods such as link building; the best keyphrases to use; and how you are stacking up against your competitors. They will know exactly what they are looking for and they will be able to use this knowledge to your benefit.</span></p>
+<p><span style="font-weight: 400;">They will also be bang up-to-date with the latest information and research in the field. You would be starting from scratch if you undertook the task yourself, but they already have a wealth of knowledge – and the experience of what works and what doesn’t work – that you can take advantage of, and all without having to do anything yourself. All you will need to do is get on with the vital jobs of running your business and delivering for your customers and let professional </span><a href="https://www.forbes.com/sites/theyec/2019/11/04/what-you-need-to-know-about-the-latest-local-seo-trends/?sh=2c3e2dc4513e"><span style="font-weight: 400;">local SEO consultants</span></a><span style="font-weight: 400;"> take care of the rest.</span></p>
+<h2>Choosing Position1SEO as your SEO company</h2>
+<p><span style="font-weight: 400;">When you’re looking for a <a href="https://position1seo.co.uk/local-seo-company/">local SEO company</a> to help your business online to match the potential of your business offline, Position1SEO is the obvious choice. We are a UK-based firm with well over ten years of experience in the industry. We understand all the different elements that need to be included to help you get to the top of page one of the search engine results. We are also experts at drawing up an effective strategy that’s tailored uniquely towards the results you want to achieve.</span></p>
+<p><span style="font-weight: 400;">There is no doubt that SEO for local businesses is a complicated field, but that doesn’t mean we’ll keep you in the dark about our methods. On the contrary, as soon as we have completed our analysis of your website – which is usually within a week of the launch date – we’ll provide you with three detailed reports. These will explain our findings on the status of your existing site and outlining our proposed strategy to improve your standing.</span></p>
+<p><span style="font-weight: 400;">We will then follow this up with three reports each month which will allow you to easily monitor our progress. You will be able to see the improvements our work is making in black and white; and that will give you confidence that you’re getting a good return on your investment. We will also use these reports to fine-tune our methods and techniques for even better results, as and when required.</span></p>
+<p><span style="font-weight: 400;">One of the main factors that set Position1SEO apart from other SEO companies is our commitment to Conversion Rate Optimisation. While SEO will get you to the front page of Google and therefore give you more visitors to your site, what happens once they are there? It’s all very well getting the clicks you want, but these don’t automatically translate into sales without further work.</span></p>
+<p><span style="font-weight: 400;">Did you know that the average conversion rate from visitors to customers is just 0.01%? That’s just 1 in 10,000 visitors. Think how many visitors you would need, therefore, in order to guarantee you’d be making a profit! The best websites, on the other hand, have a 20% conversion rate – that’s 2,000 customers out of 10,000 visitors. So it’s well worth considering this when you’re making your decision as to which agency to choose for </span><a href="https://support.google.com/business/answer/7091"><span style="font-weight: 400;"><a href="https://position1seo.co.uk/local-seo-packages/">local SEO packages</a></span></a><span style="font-weight: 400;">. At Position1SEO, we’ll analyse various aspects of your website and suggest amendments and changes that will ensure you don’t disappoint your visitors once they arrive.</span></p>
+<p><span style="font-weight: 400;">If you haven’t already made up your mind, then please visit our homepage at </span><a href="https://position1seo.co.uk/"><span style="font-weight: 400;">https://position1seo.co.uk/</span></a><span style="font-weight: 400;"> for more insight into what we do and how we do it. You’ll also be able to see our range of packages and make a decision on which one is perfect for your business needs.</span></p>
+<p><span style="font-weight: 400;">Please do contact us with any questions in the safe knowledge that this won’t put you under any obligation to proceed with us at that stage. But we will be able to explain more about what we do and answer your queries openly and transparently.</span></p>
+<p><span style="font-weight: 400;">As one of the </span><a href="https://www.searchenginejournal.com/local-seo/what-is-local-seo-why-local-search-is-important/"><span style="font-weight: 400;">best local SEO companies</span></a><span style="font-weight: 400;"> around, we only use white hat methods and combine our years of experience with the latest information and research to ensure a tailor-made solution for your business. If you’re looking for local SEO to bring your online business up to speed with the rest of your organisation, Position1SEO is the perfect company for you. Why not take a look at what we have to offer? We guarantee you’ll be impressed!</span></p>
+<p><img class="not-transparent alignnone size-full wp-image-26449 aligncenter lazyloaded" src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp" sizes="(max-width: 810px) 100vw, 810px" srcset="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp 810w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp 357w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp 768w" alt="UK" width="810" height="300" data-dominant-color="576982" data-has-transparency="false" data-srcset="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp 810w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp 357w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp 768w" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/806x310-CTA-Banner-9-2048x665.png.webp" data-sizes="(max-width: 810px) 100vw, 810px" /></p>
+<h2>Exceptional customer service: Position1SEO</h2>
+<p><span style="font-weight: 400;">At Position1SEO, we pride ourselves on delivering exceptional customer service that exceeds the expectations of our clients. Our team of expert local SEO professionals goes above and beyond to ensure that you receive personalised attention and the best possible experience throughout your journey with us.</span></p>
+<p><span style="font-weight: 400;">We understand that every business is unique, and therefore, we offer a tailored approach to our services. Our team tracks your progress and adjusts your work accordingly to ensure that you achieve the best possible outcomes. We provide regular updates and transparent communication to ensure that you are always in the loop and satisfied with our services.</span></p>
+<p><span style="font-weight: 400;">Our commitment to delivering excellent customer service has helped us build a reputation for being a trusted and reliable partner for many businesses. We take pride in our work and strive to achieve a 100% satisfaction guarantee with all our clients. Contact us today and see how we can help you achieve your local SEO goals and search performance.</span></p>
+<h2>Boost your local business today with our expert local SEO services!</h2>
+<p><span style="font-weight: 400;">Do you own a local business? Are you struggling to attract more customers? Then it's time to invest in our top-notch local SEO services! Our team of experienced SEO professionals knows exactly how to target your ideal audience and drive more traffic to your mobile-friendly site. With our proven strategies and techniques, we can help you climb the ranks of local search engine results and reach more potential customers in your vicinity.</span></p>
+<p><span style="font-weight: 400;">Our local SEO services include everything from target keyword research and on-page optimisation to local citations and link building. We'll work closely with you to understand your business goals and tailor our services to meet your specific needs. Whether you're looking to promote a new product, expand your customer base, or increase your online visibility, we've got you covered.</span></p>
+<p><span style="font-weight: 400;">So if you're ready to take your local business to the next level, contact us today at 0141 404 7515 and let's chat about how we can help you reach your goals. You can also learn more about SEO through our helpful blogs.</span></p>
+<p><span style="font-weight: 400;">Don't miss out on the opportunity to boost your online presence and attract more customers with our expert local SEO services. Trust us, you won't regret it!</span></p>
+<p><img class="not-transparent alignnone size-full wp-image-26451 aligncenter lazyloaded" src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp" sizes="(max-width: 810px) 100vw, 810px" srcset="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp 810w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp 357w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp 768w" alt="Search engine optimisation firm UK" width="810" height="447" data-dominant-color="a3a49d" data-has-transparency="false" data-srcset="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp 810w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp 357w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp 768w" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/818x311-CTA-Banner-6-2048x778.png.webp" data-sizes="(max-width: 810px) 100vw, 810px" /></p>
+<h2>Get these unbeatable features and benefits from Position1SEO for organic search success</h2>
+<p><span style="font-weight: 400;">As the online market evolves, search engine optimisation techniques have become increasingly challenging and multifaceted. Position1SEO, a leading <a href="https://position1seo.co.uk/local-seo-agency/">local SEO agency</a>, provides a comprehensive range of services to help your website achieve high-quality organic traffic through relevant searches. Our unique combination of SEO tools and skills ensures that we provide successful outcomes consistently. The following are just a few of the features and benefits that make us stand out from the competition:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Advanced technical SEO techniques to enhance your site's performance</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tailored competitor analysis to capitalise on your industry's best practices</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Keyword research and relevant content creation to drive high-quality traffic</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Robust inbound link-building strategies to boost domain authority</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Ongoing SEO reporting and analytics to track and optimise your progress</span></li>
+</ul>
+<p><span style="font-weight: 400;">With Position1SEO, you can be assured of the highest level of SEO expertise and dedication, giving your website the power to reach the right audience, at the right time, and generate significant organic growth. Get in touch with us to begin your journey towards a more impactful online presence.</span></p>
+<h2>Boost your local search visibility with us!</h2>
+<p><span style="font-weight: 400;">In today's digital age, local business owners need to build an online presence that is easily searchable and visible through search marketing efforts. Without strong local SEO strategies, your business may miss out on valuable customers, revenue, and growth opportunities. This is where our expert SEO efforts can assist you.</span></p>
+<p><span style="font-weight: 400;">We specialise in optimising your website and online presence to rank higher in local search engine results pages. With our proven tactics, we ensure that your business appears in top local searches, maps, and directories, leading to increased brand awareness, online traffic, and sales.</span></p>
+<p><span style="font-weight: 400;">Whether you run a small coffee shop, a boutique store, or a medium-sized enterprise, our tailored local SEO services can help you unlock your true business potential. We work with different industries and markets, using cutting-edge techniques and technologies to deliver measurable and long-lasting results.</span></p>
+<p><img class="not-transparent alignnone size-full wp-image-26450 aligncenter lazyloaded" src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp" sizes="(max-width: 810px) 100vw, 810px" srcset="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp 810w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp 357w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp 768w" alt="SEO company UK" width="810" height="300" data-dominant-color="586d73" data-has-transparency="false" data-srcset="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp 810w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp 357w,  https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp 768w" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/Unranked.png.webp" data-sizes="(max-width: 810px) 100vw, 810px" /></p></div><div id="div_block-754-26610" class="ct-div-block" ><div id="_rich_text-805-26610" class="oxy-rich-text h2-spacing-faq" ><h2>Improving your local SEO for your business: Frequently asked questions</h2>
+<h2>How long does local SEO take to work?</h2>
+<p><span style="font-weight: 400;">It could take as little as four to eight weeks, provided you already have an account set up with Google and your website has been up for a while. You should also have set the appropriate categories for your website for faster results. Hiring an experienced local SEO company will typically get you faster results than doing it yourself.</span></p>
+<h2>Why is local SEO important?</h2>
+<p><span style="font-weight: 400;">Many people now search for goods and services while they are on-the-go through mobile devices like smartphones. A user’s search is tailored towards results from businesses in the area they are located. If you optimise your site and populate and optimise your GMB profile with local SEO, you are making it much easier for potential customers to find you.</span></p>
+<h2>Why is schema important for local SEO?</h2>
+<p><span style="font-weight: 400;">Schema mark-ups flag up important information about a product, business, or service to the search engines so they can more readily pick up on it to display it to users. If local search marketing schema mark-ups are added to your website’s HTML, it’s much easier for Google to match it to local users searching for businesses like yours.</span></p>
+<h2>How do you know if you need local SEO?</h2>
+<p><span style="font-weight: 400;">If even a small part of your business relies on local customers, then you need local SEO. Ask yourself what customers might need to know (opening hours, contact phone number etc.); and what keywords they might type into a search engine to find you – and make sure you use all that to frame your local SEO.</span></p>
+<h2>What is keyword research in local SEO?</h2>
+<p><span style="font-weight: 400;">Local, relevant SEO keyword research is much easier than keyword research for a wider application. All you need to do is think of the keywords people may search for when looking for your business locally, and you’re done. You don’t have to keep repeating the process unless you change the nature of your business and need to add new keywords.</span></p>
+<h2>What is the difference between SEO and local SEO?</h2>
+<p><span style="font-weight: 400;">The focus of traditional SEO is to increase your website’s visibility in search engine results on a national/ international basis. With local SEO, though, you are targeting local users who may be searching for information on services in their immediate area. SEO for local businesses is often more pertinent to companies with brick-and-mortar premises.</span></p>
+<h2>What affects local SEO ranking?</h2>
+<p><span style="font-weight: 400;">There are plenty of factors that can impact search engine optimisation for local business ranking. The leading one is location, so be clear on the geographical areas you serve in your keyword research, mapping, and selection.</span></p>
+<p><span style="font-weight: 400;">Relevance to searchers’ queries and prominence in the area are also important. Also don’t underestimate the value of positive reviews from past customers.</span></p>
+<h2>Can images help your website’s SEO?</h2>
+<p><span style="font-weight: 400;">Visually, images and videos are pleasing to users, provided they don’t slow down loading times. If you want them to positively affect your SEO, make sure they’re marked with appropriate ALT tags to tell Google what it’s looking at. ALT tags also improve user experience and uplift your SEO. A great local SEO agency like Position1SEO can handle these technicalities.</span></p>
+<h2>Why isn’t local SEO instant?</h2>
+<p><span style="font-weight: 400;">When you use a search engine, the results don’t come from the ‘live’ internet. Instead, Google searches a version it’s already indexed. So your site must be indexed by Google before any changes you make are visible to end users. It can take four to eight weeks or more for local SEO to have an impact. There’s no quick fix!</span></p>
+<h2>What is on-site SEO for local businesses?</h2>
+<p><span style="font-weight: 400;">Business-related search engine optimisation for local companies on their websites requires different strategies to traditional on-page SEO. For instance, you need unique content for every location you cover, so different landing pages for ‘tyres in Walsall’ and ‘tyres in Solihull’, for instance. You should also information like opening hours and keywords that are geared towards what local audiences want.</span></p>
+<h2>How can businesses improve their local SEO rankings?</h2>
+<p><span style="font-weight: 400;">There are several strategies businesses can use to improve their local SEO rankings, including: optimising their Google My Business listing with accurate and consistent information, building local citations on reputable directories and positive review sites, creating location-specific content on their website, and engaging with their local audience on social media platforms. It's also important to ensure that your website is mobile-friendly, easy to navigate, and has a fast loading speed.</span></p>
+<h2>What are some common mistakes businesses make when it comes to local SEO?</h2>
+<p><span style="font-weight: 400;">One common mistake businesses make when it comes to local SEO is neglecting their Google My Business listing and failing to provide accurate or up-to-date information about their business. Another mistake is using non-specific or generic keywords that don't accurately reflect the products or services they offer. It's also important to avoid spammy tactics like keyword stuffing and buying backlinks, which can result in penalties from search engines like Google.</span></p></div><div id="_rich_text-888-109" class="oxy-rich-text h2-spacing" ><p><img id="image-7-25489" class="ct-image show-popup ls-is-cached lazyloaded" src="https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4.png.webp" sizes="(max-width: 3694px) 100vw, 3694px" srcset="https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4.png.webp 3694w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-357x204.png.webp 357w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-810x464.png.webp 810w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-768x440.png.webp 768w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-1536x880.png.webp 1536w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-2048x1173.png.webp 2048w" alt="Lightbar improvement" data-srcset="https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4.png.webp 3694w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-357x204.png.webp 357w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-810x464.png.webp 810w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-768x440.png.webp 768w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-1536x880.png.webp 1536w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x469-CTA-Banner-4-2048x1173.png.webp 2048w" data-="" data-sizes="(max-width: 3694px) 100vw, 3694px" /></p>
+<h2>Local SEO tips for hotel business rankings</h2>
+<p><span style="font-weight: 400;">Remember, most traditional on-page SEO practices are even more important for local SEO. Ensuring your website is mobile-responsive is particularly important to attract users looking for facilities in an area while they’re visiting. Also have a clear, logical structure and fast page-loading times to improve user experience and visitor retention.</span></p>
+<p><span style="font-weight: 400;">Other good tips include hosting a blog that updates guests and potential guests on what’s happening in the local area; and include details of local landmarks, resources and so on that might appeal to people thinking of staying at your hotel.</span></p>
+<p><span style="font-weight: 400;">Hire <a href="https://position1seo.co.uk/local-seo-expert/">local SEO expert</a> Position1SEO for more ideas.</span></p>
+<h2>Latest local SEO trends</h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Google’s still king of the search engines, so make sure you’re registered and all up-to-date on Google My Business and Google Maps.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Remember, the more info you include on your business, the more likely it is that Google will pick you to be featured in its Knowledge Panels, a big boost to local visibility.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tailor optimisation of your content towards featured snippets and voice search generally – increasing numbers of people ask their voice search assistants rather than typing in keywords.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Keep local search words in mind at all times, especially location-related ones.</span></li>
+</ul>
+<h2>Local SEO to promote taxi businesses</h2>
+<p><span style="font-weight: 400;">Here are tips on local SEO to improve your taxi business:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Create a Google My Business (GMB) profile and keep it up-to-date. Make sure your name, address and phone number (known as NAP) is logged consistently on this and other online business directories.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Pay attention to the Reviews and Q&amp;A sections on GMB – here, you can demonstrate your good customer service by responding to reviews and answering users’ queries.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Make sure you have a Contact page on your website and that your NAP is posted consistently on every page.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Offer clickable phone numbers on your mobile-responsive website for improved usability.</span></li>
+</ul>
+<p><img id="image-7-25489" class="ct-image show-popup ls-is-cached lazyloaded" src="https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5.png.webp" sizes="(max-width: 3694px) 100vw, 3694px" srcset="https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5.png.webp 3694w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-357x125.png.webp 357w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-810x283.png.webp 810w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-768x269.png.webp 768w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-1536x537.png.webp 1536w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-2048x716.png.webp 2048w" alt="Rank distribution auto metrics" data-srcset="https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5.png.webp 3694w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-357x125.png.webp 357w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-810x283.png.webp 810w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-768x269.png.webp 768w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-1536x537.png.webp 1536w,   https://position1seo.co.uk/wp-content/uploads/2023/01/818x286-CTA-Banner-5-2048x716.png.webp 2048w" data-="" data-sizes="(max-width: 3694px) 100vw, 3694px" /></p>
+<h2>Benefits of SEO</h2>
+<p><span style="font-weight: 400;">The internet is increasingly crowded with businesses; and it’s the number one source of info for customers looking to buy. SEO improves your business’s visibility so you’re one of the first names potential clients see when they search for products or services, locally, nationally or internationally.</span></p>
+<p><a href="https://www.hospitalitynet.org/opinion/4089600.html"><span style="font-weight: 400;">Local SEO marketing</span></a><span style="font-weight: 400;"> can make your site stand out, with quality content correctly marked up for the search engines to identify. Consistent messaging, positive reviews, trustworthy link-building and an emphasis on terrific user experience all combine to flag up to Google, and therefore your potential customers, that yours is a business worth buying from.</span></p>
+<h2>Local search engine optimisation for small businesses</h2>
+<p><span style="font-weight: 400;">Increasingly, consumers want to shop locally, so local SEO is commercially vital. Make yourself known to local customers and build better relationships for long-term success.</span></p>
+<p><span style="font-weight: 400;">Smartphones incorporate users’ locations when they search online. If you’ve embedded local SEO principles in your web strategy, you can soar to the top of local search queries for your products and/ or services, putting you way ahead of your immediate competitors.</span></p>
+<p><span style="font-weight: 400;">You can even beat your biggest national competitors with local SEO, first by being top of the SERPs and then by offering a better, more convenient service locally than they could ever do.</span></p>
+<p><span style="font-weight: 400;">If you want an effective and affordable way to make this happen for your business, get in touch with Position1SEO today!</span></p></div></div></div><div id="div_block-32-93" class="ct-div-block stick-head sticky-sidebar" ><div id="div_block-633-425" class="ct-div-block" ><div id="new_columns-635-425" class="ct-new-columns company-offer sidebar-offer" ><div id="div_block-636-425" class="ct-div-block offer-container" ><div id="text_block-637-425" class="ct-text-block offer-title" >RANK GUARANTEE</div><div id="text_block-638-425" class="ct-text-block offer-details" >We deliver page 1 or we<br>work for Free</div><a id="link-639-425" class="ct-link offer-button" href="/100-percent-ranking-guarantee" target="_self"   aria-label="Go to RANK GUARANTEE"><div id="fancy_icon-640-425" class="ct-fancy-icon read-more-icon" ><svg id="svg-fancy_icon-640-425"><use xlink:href="#icomoonicon-read-more"></use></svg></div></a></div><div id="div_block-641-425" class="ct-div-block offer-container" ><div id="text_block-642-425" class="ct-text-block offer-title" >UNIQUE PROCESS</div><div id="text_block-643-425" class="ct-text-block offer-details" >Nobody does SEO how&nbsp;<br>we do it</div><a id="link-644-425" class="ct-link offer-button" href="/unique-seo-process" target="_self"   aria-label="Go to UNIQUE PROCESS"><div id="fancy_icon-645-425" class="ct-fancy-icon read-more-icon" ><svg id="svg-fancy_icon-645-425"><use xlink:href="#icomoonicon-read-more"></use></svg></div></a></div><div id="div_block-646-425" class="ct-div-block offer-container" ><div id="text_block-647-425" class="ct-text-block offer-title" >No contracts</div><div id="text_block-648-425" class="ct-text-block offer-details" >You don’t want them We<br>don’t need them</div><a id="link-649-425" class="ct-link offer-button" href="/no-6-month-contracts" target="_self"   aria-label="Go to NO CONTRACTS"><div id="fancy_icon-650-425" class="ct-fancy-icon read-more-icon" ><svg id="svg-fancy_icon-650-425"><use xlink:href="#icomoonicon-read-more"></use></svg></div></a></div><div id="div_block-651-425" class="ct-div-block offer-container" ><div id="text_block-652-425" class="ct-text-block offer-title" >FREE SEO AUDIT</div><div id="text_block-653-425" class="ct-text-block offer-details" >14 in-depth reports for<br>every enquiry</div><a id="link-654-425" class="ct-link offer-button" href="/free-seo-audit" target="_self"   aria-label="Go to FREE SEO AUDIT"><div id="fancy_icon-655-425" class="ct-fancy-icon read-more-icon" ><svg id="svg-fancy_icon-655-425"><use xlink:href="#icomoonicon-read-more"></use></svg></div></a></div></div><div id="div_block-656-425" class="ct-div-block" ><div id="div_block-657-425" class="ct-div-block" ><div id="_rich_text-658-425" class="oxy-rich-text" ><p><span style="color: #0b651c;">Free</span> Quote.<br /><span style="color: #0b651c;">Free</span> SEO Audit.<br /><span style="color: #0b651c;">Free</span> Conversion Advice.</p></div><div id="div_block-659-425" class="ct-div-block" ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iNzUiIHZpZXdCb3g9IjAgMCAzMDAgNzUiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"  id="image-660-425" alt="Position1SEO Home Page 15" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2021/12/Position1SEO-Home-Page_15-300x75.png.webp" class="ct-image show-popup" data-srcset="" data-sizes="(max-width: 300px) 100vw, 300px"  width="300" height="75" loading="lazy" /><div id="text_block-661-425" class="ct-text-block" >or</div><a id="link-662-425" class="ct-link" href="tel:0141%20404%207515" target="_self"  ><div id="text_block-663-425" class="ct-text-block" >Get Help Now...</div><div id="text_block-664-425" class="ct-text-block"  title="0141 404 7515" aria-label="0141 404 7515">0141 404 7515</div></a></div></div><div id="div_block-665-425" class="ct-div-block" ><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMzQiIGhlaWdodD0iMjgwIiB2aWV3Qm94PSIwIDAgMjM0IDI4MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="  id="image-666-425" alt="Local SEO - October 15, 2021" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2023/01/CTA-214x240-1.png.webp" class="ct-image" width="234" height="280" loading="lazy" /></div></div></div></div></div></div></section><section id="section-182-93" class="ct-section" ><div class="ct-section-inner-wrap"><div id="_dynamic_list-290-21" class="oxy-dynamic-list"><div id="div_block-291-21-1" class="ct-div-block" data-id="div_block-291-21"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTciIGhlaWdodD0iMTMyIiB2aWV3Qm94PSIwIDAgMzU3IDEzMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" id="image-308-21-1" alt="seo services uk blog 03" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2025/12/seo-services-uk-blog-03-357x244.jpg.webp" class="ct-image" height="132" width="357" data-id="image-308-21" loading="lazy"><div id="div_block-350-21-1" class="ct-div-block" data-id="div_block-350-21"><div id="text_block-301-21-1" class="ct-text-block" data-id="text_block-301-21"><span id="span-303-21-1" class="ct-span" data-id="span-303-21"><a href="https://position1seo.co.uk/why-uk-businesses-are-investing-in-seo-services-more-than-ever/">Why UK businesses are investing in SEO services more than ever</a></span></div><div id="text_block-315-21-1" class="ct-text-block" data-id="text_block-315-21"><span id="span-319-21-1" class="ct-span" data-id="span-319-21">UK businesses face fierce competition online. To stand out, they need more than a good product or service; they need visibility. SEO, or Search Engine Optimisation, has become crucial in this digital age. But why are UK businesses focusing on SEO now more than ever? Increased online competition With more businesses online, standing out is [&hellip;]</span></div></div></div><div id="div_block-291-21-2" class="ct-div-block" data-id="div_block-291-21"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTciIGhlaWdodD0iMTMyIiB2aWV3Qm94PSIwIDAgMzU3IDEzMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" id="image-308-21-2" alt="best seo services blog 03" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2025/12/best-seo-services-blog-03-357x268.jpg.webp" class="ct-image" height="132" width="357" data-id="image-308-21" loading="lazy"><div id="div_block-350-21-2" class="ct-div-block" data-id="div_block-350-21"><div id="text_block-301-21-2" class="ct-text-block" data-id="text_block-301-21"><span id="span-303-21-2" class="ct-span" data-id="span-303-21"><a href="https://position1seo.co.uk/discover-the-best-seo-services-for-growing-your-business-online/">Discover the best SEO services for growing your business online</a></span></div><div id="text_block-315-21-2" class="ct-text-block" data-id="text_block-315-21"><span id="span-319-21-2" class="ct-span" data-id="span-319-21">Growing your business online requires more than just setting up a website. You need the right strategies to attract visitors and convert them into customers. SEO (Search Engine Optimisation) is crucial for this. Finding the best SEO services can help elevate your business to the next level. Here&rsquo;s how you can benefit. Boost your visibility [&hellip;]</span></div></div></div><div id="div_block-291-21-3" class="ct-div-block" data-id="div_block-291-21"><img data-lazyloaded="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTciIGhlaWdodD0iMTMyIiB2aWV3Qm94PSIwIDAgMzU3IDEzMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=" id="image-308-21-3" alt="seo content audit blog 03" data-src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2025/12/seo-content-audit-blog-03-357x238.jpg.webp" class="ct-image" height="132" width="357" data-id="image-308-21" loading="lazy"><div id="div_block-350-21-3" class="ct-div-block" data-id="div_block-350-21"><div id="text_block-301-21-3" class="ct-text-block" data-id="text_block-301-21"><span id="span-303-21-3" class="ct-span" data-id="span-303-21"><a href="https://position1seo.co.uk/how-an-seo-content-audit-can-uncover-missed-opportunities/">How an SEO content audit can uncover missed opportunities</a></span></div><div id="text_block-315-21-3" class="ct-text-block" data-id="text_block-315-21"><span id="span-319-21-3" class="ct-span" data-id="span-319-21">An SEO content audit can reveal gaps in your content strategy. By analysing your website, you can identify areas for improvement. An audit ensures your content aligns with your business goals and reaches your audience effectively. Identify underperforming content Certain pages may not attract the expected traffic. An audit helps identify these underperforming pages. You [&hellip;]</span></div></div></div>                    
+                                            
+                                        
+                    </div>
+</div></section><div id="code_block-804-26610" class="ct-code-block" ><!----></div></div><footer id="section-12-13" class="ct-section site-footer" ><div class="ct-section-inner-wrap"><div id="new_columns-13-13" class="ct-new-columns" ><div id="div_block-14-13" class="ct-div-block" ><a id="link-300-13" class="ct-link" href="/" target="_self"   title="Go to homepage" aria-label="Go to homepage"><img  id="image-18-13" alt="logo" src="https://position1seo.co.uk/wp-content/webp-express/webp-images/uploads/2021/10/logo.png.webp" class="ct-image" srcset="" sizes="(max-width: 198px) 100vw, 198px"  width="198" height="65" loading="lazy" /></a><div id="_rich_text-409-13" class="oxy-rich-text" ><p>Trusted by many, Position1SEO is the go-to company for businesses looking to jumpstart and improve their online marketing strategies. There is never too big or too small of a project for us.</p></div></div><div id="div_block-16-13" class="ct-div-block" ><div id="text_block-36-13" class="ct-text-block footer-headings" >Knowledgebase</div><div id="div_block-759-13" class="ct-div-block" ><a id="link_text-757-13" class="ct-link-text" href="https://position1seo.co.uk/seo/" target="_self"  >SEO</a><a id="link_text-760-13" class="ct-link-text" href="https://position1seo.co.uk/seo-agency/" target="_self"  >SEO Agency</a><a id="link_text-761-13" class="ct-link-text" href="https://position1seo.co.uk/seo-consultant/" target="_self"  >SEO Consultant</a><a id="link_text-762-13" class="ct-link-text" href="https://position1seo.co.uk/seo-company/" target="_self"  >SEO Company</a><a id="link_text-763-13" class="ct-link-text" href="https://position1seo.co.uk/seo-services/" target="_self"  >SEO Services</a><a id="link_text-764-13" class="ct-link-text" href="https://position1seo.co.uk/local-seo/" target="_self"  >Local SEO</a><a id="link_text-765-13" class="ct-link-text" href="https://position1seo.co.uk/seo-specialist/" target="_self"  >SEO Specialist</a><a id="link_text-766-13" class="ct-link-text" href="https://position1seo.co.uk/seo-audit/" target="_self"  >SEO Audit</a><a id="link_text-767-13" class="ct-link-text" href="https://position1seo.co.uk/seo-uk/" target="_self"  >SEO UK</a><a id="link_text-768-13" class="ct-link-text" href="https://position1seo.co.uk/seo-near-me/" target="_self"  >SEO Near Me</a><a id="link_text-769-13" class="ct-link-text" href="https://position1seo.co.uk/professional-seo-services/" target="_self"  >Professional SEO Services</a><a id="link_text-770-13" class="ct-link-text" href="https://position1seo.co.uk/small-business-seo/" target="_self"  >Small Business SEO</a><a id="link_text-771-13" class="ct-link-text" href="https://position1seo.co.uk/affordable-seo/" target="_self"  >Affordable SEO</a><a id="link_text-772-13" class="ct-link-text" href="https://position1seo.co.uk/seo-marketing/" target="_self"  >SEO Marketing</a><a id="link_text-773-13" class="ct-link-text" href="https://position1seo.co.uk/seo-content/" target="_self"  >SEO Content</a><a id="link_text-774-13" class="ct-link-text" href="https://position1seo.co.uk/blog/" target="_self"  >Blog</a><a id="link_text-775-13" class="ct-link-text" href="https://position1seo.co.uk/contact/" target="_self"  >Contact us</a></div></div><div id="div_block-17-13" class="ct-div-block" ><div id="text_block-35-13" class="ct-text-block footer-headings" >Contact Us</div><div id="fancy_icon-175-13" class="ct-fancy-icon show-popup" ><svg id="svg-fancy_icon-175-13"><use xlink:href="#icomoonicon-email-01"></use></svg></div><a id="link-43-13" class="ct-link" href="tel:0141%20404%207515"    title="0141 404 7515"><div id="text_block-44-13" class="ct-text-block" >0141 404 7515</div></a></div></div><div id="div_block-81-13" class="ct-div-block" ><div id="div_block-83-13" class="ct-div-block" ><div id="text_block-82-13" class="ct-text-block copy-r" >Copyright © 2024 Position1SEO. All Rights Reserved.&nbsp;</div><a id="link_text-84-13" class="ct-link-text copy-r" href="/terms-conditions"   >Terms &amp; Conditions</a></div><div id="div_block-600-13" class="ct-div-block footer-social" ><a id="link-601-13" class="ct-link social-link" href="https://www.facebook.com/Position1SEOCompany/" target="_blank" rel="noopener,noreferrer"  aria-label="Go to facebook"><div id="fancy_icon-602-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-602-13"><use xlink:href="#FontAwesomeicon-facebook"></use></svg></div></a><a id="link-603-13" class="ct-link social-link" href="https://twitter.com/position1seo" target="_blank" rel="noopener,noreferrer"  aria-label="Go to Twitter"><div id="fancy_icon-604-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-604-13"><use xlink:href="#FontAwesomeicon-twitter"></use></svg></div></a><a id="link-605-13" class="ct-link social-link" href="https://www.linkedin.com/company/position1seo/" target="_blank" rel="noopener,noreferrer"  aria-label="Go to Linked-In"><div id="fancy_icon-606-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-606-13"><use xlink:href="#FontAwesomeicon-linkedin"></use></svg></div></a><a id="link-607-13" class="ct-link social-link" href="https://position1seo.co.uk/feed/" target="_blank" rel="noopener,noreferrer"  aria-label="Go to Feed"><div id="fancy_icon-608-13" class="ct-fancy-icon social-icons" ><svg id="svg-fancy_icon-608-13"><use xlink:href="#FontAwesomeicon-rss-square"></use></svg></div></a></div></div></div></footer><header id="_header-467-13" class="oxy-header-wrapper oxy-sticky-header oxy-overlay-header oxy-header" ><div id="_header_row-468-13" class="oxygen-show-in-sticky-only oxy-header-row" ><div class="oxy-header-container"><div id="_header_left-469-13" class="oxy-header-left" ></div><div id="_header_center-470-13" class="oxy-header-center" ></div><div id="_header_right-471-13" class="oxy-header-right" ><div id="link-481-13" class="ct-div-block" ><div id="fancy_icon-483-13" class="ct-fancy-icon" ><svg id="svg-fancy_icon-483-13"><use xlink:href="#FontAwesomeicon-chevron-up"></use></svg></div></div></div></div></div></header>
+				<script type="text/javascript">
+			jQuery(document).ready(function() {
+				var selector = "#_header-467-13",
+					scrollval = parseInt("1080");
+				if (!scrollval || scrollval < 1) {
+											jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+						jQuery(selector).addClass("oxy-sticky-header-active");
+									}
+				else {
+					var scrollTopOld = 0;
+					jQuery(window).scroll(function() {
+						if (!jQuery('body').hasClass('oxy-nav-menu-prevent-overflow')) {
+							if (jQuery(this).scrollTop() > scrollval 
+																) {
+								if (
+																		!jQuery(selector).hasClass("oxy-sticky-header-active")) {
+									if (jQuery(selector).css('position')!='absolute') {
+										jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+									}
+									jQuery(selector)
+										.addClass("oxy-sticky-header-active")
+																			.addClass("oxy-sticky-header-fade-in");
+																	}
+							}
+							else {
+								jQuery(selector)
+									.removeClass("oxy-sticky-header-fade-in")
+									.removeClass("oxy-sticky-header-active");
+								if (jQuery(selector).css('position')!='absolute') {
+									jQuery("body").css("margin-top", "");
+								}
+							}
+							scrollTopOld = jQuery(this).scrollTop();
+						}
+					})
+				}
+			});
+		</script><div id="code_block-688-13" class="ct-code-block" ><!----></div>	<!-- WP_FOOTER -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/twentytwentythree\/*","\/wp-content\/themes\/oxygen-is-not-a-theme\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.</div><div class="cli-bar-btn_container"><a role='button' class="medium cli-plugin-button cli-plugin-main-button cli_settings_button" style="margin:0px 5px 0px 0px">Cookie Settings</a><a id="wt-cli-accept-all-btn" role='button' data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Accept All</a></div></div></span></div><div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+		  <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Close</span>
+		  </button>
+		  <div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Privacy Overview</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Show more" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+															<div class="wt-cli-necessary-checkbox">
+									<input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked"  />
+									<label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+								</div>
+								<span class="cli-necessary-caption">Always Enabled</span>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessary">
+								<div class="wt-cli-cookie-description">
+									Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table>								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+								Functional							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-functional" class="cli-user-preference-checkbox"  data-id="checkbox-functional" />
+									<label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Functional</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="functional">
+								<div class="wt-cli-cookie-description">
+									Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+								Performance							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-performance" class="cli-user-preference-checkbox"  data-id="checkbox-performance" checked='checked' />
+									<label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Performance</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="performance">
+								<div class="wt-cli-cookie-description">
+									Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+								Analytics							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-analytics" class="cli-user-preference-checkbox"  data-id="checkbox-analytics" checked='checked' />
+									<label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Analytics</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="analytics">
+								<div class="wt-cli-cookie-description">
+									Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+								Advertisement							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-advertisement" class="cli-user-preference-checkbox"  data-id="checkbox-advertisement" />
+									<label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Advertisement</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="advertisement">
+								<div class="wt-cli-cookie-description">
+									Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab">
+								Others							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-others" class="cli-user-preference-checkbox"  data-id="checkbox-others" />
+									<label for="wt-cli-checkbox-others" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Others</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="others">
+								<div class="wt-cli-cookie-description">
+									Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+								</div>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+		  </div>
+		  <div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+													</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--><script>jQuery(document).on('click','a[href*="#"]',function(t){if(jQuery(t.target).closest('.wc-tabs').length>0){return}if(jQuery(this).is('[href="#"]')||jQuery(this).is('[href="#0"]')||jQuery(this).is('[href*="replytocom"]')){return};if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=jQuery(this.hash);(e=e.length?e:jQuery("[name="+this.hash.slice(1)+"]")).length&&(t.preventDefault(),jQuery("html, body").animate({scrollTop:e.offset().top-0},300))}});</script><script type="text/javascript" id="ct_custom_js_483">document.getElementById("link-481-13").onclick = function() {topFunction()};
+
+// When the user scrolls down 150px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+document.getElementById("link-481-13").style.display = "block";
+} else {
+document.getElementById("link-481-13").style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+jQuery('html, body').animate({scrollTop:0}, 800);
+}</script>
+<style>.ct-FontAwesomeicon-close{width:0.78571428571429em}</style>
+<style>.ct-FontAwesomeicon-twitter{width:0.92857142857143em}</style>
+<style>.ct-FontAwesomeicon-facebook{width:0.57142857142857em}</style>
+<style>.ct-FontAwesomeicon-bars{width:0.85714285714286em}</style>
+<style>.ct-FontAwesomeicon-linkedin{width:0.85714285714286em}</style>
+<style>.ct-FontAwesomeicon-rss-square{width:0.85714285714286em}</style>
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="FontAwesomeicon-close" viewBox="0 0 22 28"><title>close</title><path d="M20.281 20.656c0 0.391-0.156 0.781-0.438 1.062l-2.125 2.125c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-4.594-4.594-4.594 4.594c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-2.125-2.125c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l4.594-4.594-4.594-4.594c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.594 4.594-4.594c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062s-0.156 0.781-0.438 1.062l-4.594 4.594 4.594 4.594c0.281 0.281 0.438 0.672 0.438 1.062z"/></symbol><symbol id="FontAwesomeicon-chevron-up" viewBox="0 0 28 28"><title>chevron-up</title><path d="M26.297 20.797l-2.594 2.578c-0.391 0.391-1.016 0.391-1.406 0l-8.297-8.297-8.297 8.297c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.578c-0.391-0.391-0.391-1.031 0-1.422l11.594-11.578c0.391-0.391 1.016-0.391 1.406 0l11.594 11.578c0.391 0.391 0.391 1.031 0 1.422z"/></symbol><symbol id="FontAwesomeicon-chevron-down" viewBox="0 0 28 28"><title>chevron-down</title><path d="M26.297 12.625l-11.594 11.578c-0.391 0.391-1.016 0.391-1.406 0l-11.594-11.578c-0.391-0.391-0.391-1.031 0-1.422l2.594-2.578c0.391-0.391 1.016-0.391 1.406 0l8.297 8.297 8.297-8.297c0.391-0.391 1.016-0.391 1.406 0l2.594 2.578c0.391 0.391 0.391 1.031 0 1.422z"/></symbol><symbol id="FontAwesomeicon-twitter" viewBox="0 0 26 28"><title>twitter</title><path d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"/></symbol><symbol id="FontAwesomeicon-facebook" viewBox="0 0 16 28"><title>facebook</title><path d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z"/></symbol><symbol id="FontAwesomeicon-bars" viewBox="0 0 24 28"><title>bars</title><path d="M24 21v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 13v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 5v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1z"/></symbol><symbol id="FontAwesomeicon-linkedin" viewBox="0 0 24 28"><title>linkedin</title><path d="M5.453 9.766v15.484h-5.156v-15.484h5.156zM5.781 4.984c0.016 1.484-1.109 2.672-2.906 2.672v0h-0.031c-1.734 0-2.844-1.188-2.844-2.672 0-1.516 1.156-2.672 2.906-2.672 1.766 0 2.859 1.156 2.875 2.672zM24 16.375v8.875h-5.141v-8.281c0-2.078-0.75-3.5-2.609-3.5-1.422 0-2.266 0.953-2.641 1.875-0.125 0.344-0.172 0.797-0.172 1.266v8.641h-5.141c0.063-14.031 0-15.484 0-15.484h5.141v2.25h-0.031c0.672-1.062 1.891-2.609 4.672-2.609 3.391 0 5.922 2.219 5.922 6.969z"/></symbol><symbol id="FontAwesomeicon-rss-square" viewBox="0 0 24 28"><title>rss-square</title><path d="M8 20c0-1.109-0.891-2-2-2s-2 0.891-2 2 0.891 2 2 2 2-0.891 2-2zM13.484 21.469c-0.266-4.844-4.109-8.687-8.953-8.953-0.141-0.016-0.281 0.047-0.375 0.141s-0.156 0.219-0.156 0.359v2c0 0.266 0.203 0.484 0.469 0.5 3.203 0.234 5.781 2.812 6.016 6.016 0.016 0.266 0.234 0.469 0.5 0.469h2c0.141 0 0.266-0.063 0.359-0.156s0.156-0.234 0.141-0.375zM19.484 21.484c-0.266-8.125-6.844-14.703-14.969-14.969-0.156-0.016-0.266 0.031-0.359 0.141-0.094 0.094-0.156 0.219-0.156 0.359v2c0 0.266 0.219 0.484 0.484 0.5 6.484 0.234 11.766 5.516 12 12 0.016 0.266 0.234 0.484 0.5 0.484h2c0.141 0 0.266-0.063 0.359-0.156 0.109-0.094 0.156-0.219 0.141-0.359zM24 6.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15c2.484 0 4.5 2.016 4.5 4.5z"/></symbol></defs></svg><style>.ct-icomoonicon-email-01{width:9.25em}</style>
+<style>.ct-icomoonicon-read-more{width:7.5em}</style>
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="icomoonicon-email-01" viewBox="0 0 296 32"><title>email-01</title><path d="M6.2 29c-0.1 0-0.1 0-0.2 0-0.6 0-1.2-0.1-1.7-0.3v0-1.6c0.5 0.2 1.1 0.2 1.6 0.2v0c0 0 0.1 0 0.2 0 0.5 0 0.9-0.2 1.2-0.5v0c0.3-0.4 0.4-0.9 0.4-1.4 0-0.1 0-0.1 0-0.2v0-15.4h2v15.3c0.2 2.6-1 3.9-3.5 3.9v0zM7.7 6.2c0 0 0-0.1 0-0.1 0-0.3 0.1-0.7 0.3-0.9v0c0.2-0.2 0.5-0.3 0.8-0.3 0 0 0 0 0 0v0c0 0 0 0 0 0 0.3 0 0.6 0.1 0.8 0.3v0c0.3 0.2 0.4 0.5 0.4 0.9 0 0 0 0.1 0 0.1v0c0 0 0 0.1 0 0.1 0 0.4-0.1 0.7-0.3 0.9v0c-0.2 0.3-0.5 0.4-0.8 0.4 0 0 0 0 0 0v0c0 0 0 0 0 0-0.4 0-0.7-0.1-0.9-0.4v0c-0.2-0.2-0.3-0.5-0.3-0.9 0 0 0-0.1 0-0.1v0 0z"/><path d="M22.3 23l-0.4-1.9h-0.1c-0.5 0.7-1.2 1.3-1.9 1.7v0c-0.7 0.3-1.5 0.4-2.3 0.4-0.1 0-0.1 0-0.2 0v0c-1.3 0-2.3-0.3-3.1-1-0.7-0.7-1.1-1.6-1.1-2.9 0-2.7 2.1-4.1 6.4-4.2l2.2-0.1v-0.8c0-1-0.2-1.8-0.7-2.3s-1.1-0.7-2.1-0.7c-1.4 0.1-2.7 0.4-3.8 1v0l-0.6-1.5c0.6-0.3 1.3-0.6 2.1-0.8h0.1c0.7-0.2 1.5-0.3 2.3-0.3v0c1.6 0 2.8 0.4 3.5 1.1 0.8 0.7 1.1 1.8 1.1 3.4v9l-1.4-0.1zM17.7 21.6c1.2 0 2.2-0.3 2.9-1s1.1-1.6 1.1-2.9v-1.2l-2 0.1c-1.6 0.1-2.7 0.3-3.5 0.8-0.6 0.4-1.1 1.1-1.1 1.9 0 0 0 0.1 0 0.1v0c0 0 0 0.1 0 0.1 0 0.6 0.3 1.1 0.7 1.5v0c0.5 0.4 1 0.6 1.7 0.6 0.1 0 0.2 0 0.2 0v0 0z"/><path d="M36.4 19.4c0 0.1 0 0.1 0 0.2 0 1.1-0.5 2.1-1.4 2.7v0c-0.9 0.7-2.2 1-3.9 1-1.8 0-3.1-0.3-4.1-0.8v-1.9c0.6 0.3 1.3 0.6 2 0.7h0.1c0.6 0.2 1.4 0.3 2.1 0.3v0c0.1 0 0.2 0 0.3 0 0.8 0 1.5-0.2 2.2-0.5v0c0.5-0.3 0.8-0.9 0.8-1.5s-0.3-1-0.7-1.4v0c-0.4-0.4-1.3-0.8-2.6-1.3-1-0.3-1.9-0.8-2.7-1.2h0.1c-0.5-0.3-0.9-0.7-1.2-1.2v0c-0.2-0.4-0.4-0.9-0.4-1.5 0 0 0-0.1 0-0.1v0c0 0 0-0.1 0-0.1 0-1 0.5-1.9 1.3-2.5v0c0.9-0.6 2.1-0.9 3.6-0.9s3 0.3 4.3 0.9h-0.1l-0.7 1.7c-1.1-0.5-2.3-0.8-3.6-0.8v0c-0.1 0-0.2 0-0.3 0-0.7 0-1.3 0.2-1.9 0.5v0c-0.4 0.2-0.7 0.7-0.7 1.2 0 0 0 0 0 0v0c0 0 0 0 0 0 0 0.3 0.1 0.6 0.3 0.9v0c0.2 0.3 0.5 0.5 0.9 0.7v0c0.6 0.3 1.4 0.7 2.2 0.9h0.1c1.6 0.6 2.6 1.1 3.2 1.7 0.5 0.7 0.8 1.4 0.8 2.3 0 0 0 0 0 0v0 0z"/><path d="M51.1 16.4c0 2.2-0.5 3.8-1.6 5.1s-2.6 1.8-4.5 1.8c0 0-0.1 0-0.1 0-1.1 0-2.2-0.3-3-0.8v0c-0.9-0.6-1.7-1.4-2.1-2.3v0c-0.5-1-0.8-2.2-0.8-3.5 0-0.1 0-0.1 0-0.2v0c0-2.2 0.5-3.8 1.6-5.1s2.6-1.8 4.5-1.8c1.9 0 3.3 0.6 4.4 1.9 1.1 1.1 1.6 2.8 1.6 4.9zM41 16.4c0 1.7 0.3 3 1 3.9s1.7 1.3 3 1.3c1.3 0 2.3-0.4 3-1.3s1-2.2 1-3.9c0-1.7-0.3-3-1-3.8-0.7-0.9-1.7-1.3-3-1.3s-2.3 0.4-3 1.3-1 2.1-1 3.8v0z"/><path d="M63.7 23v-8.6c0-1.1-0.2-1.9-0.7-2.4s-1.3-0.8-2.3-0.8c-1.4 0-2.4 0.4-3 1.1-0.6 0.8-1 2-1 3.7v7h-2v-13.2h1.6l0.3 1.8h0.1c0.4-0.7 1-1.2 1.7-1.5v0c0.7-0.3 1.5-0.5 2.4-0.5 0 0 0 0 0 0v0c1.6 0 2.8 0.4 3.6 1.2s1.2 2 1.2 3.7v8.5h-1.9z"/><path d="M88.5 14.2c0 0 0 0.1 0 0.1 0 1.1-0.2 2.1-0.6 3.1v-0.1c-0.3 0.9-0.8 1.6-1.5 2.2v0c-0.6 0.5-1.3 0.8-2.2 0.8 0 0 0 0 0 0v0c0 0-0.1 0-0.1 0-1.3 0-2.4-1-2.5-2.2v0h-0.1c-0.6 1.3-1.9 2.2-3.4 2.2 0 0-0.1 0-0.1 0v0c-0.1 0-0.1 0-0.2 0-1.1 0-2-0.5-2.7-1.2v0c-0.7-0.8-1-1.9-1-3.4 0-1.6 0.5-3 1.4-4s2.2-1.5 3.6-1.5c0.1 0 0.1 0 0.2 0v0c0.7 0 1.3 0.1 1.9 0.2h-0.1c0.7 0.1 1.3 0.2 2 0.4h-0.1l-0.3 5.7v0.3c0 1.4 0.5 2.1 1.6 2.2 0.7 0 1.3-0.4 1.8-1.3 0.4-0.9 0.7-2 0.7-3.1 0-0.1 0-0.2 0-0.3v0c0-0.1 0-0.1 0-0.2 0-1.3-0.3-2.6-0.9-3.7v0c-0.6-1.1-1.4-1.9-2.5-2.5v0c-1.1-0.6-2.3-0.9-3.6-0.9-0.1 0-0.1 0-0.2 0v0c-0.1 0-0.1 0-0.2 0-1.6 0-3.2 0.4-4.5 1.1h0.1c-1.3 0.7-2.4 1.8-3 3.1v0c-0.7 1.3-1.1 2.9-1.1 4.6 0 0.1 0 0.2 0 0.2v0c0 2.5 0.6 4.3 1.9 5.7 1.3 1.3 3.2 2 5.6 2 1.9 0 3.7-0.4 5.4-1.1h-0.1v1.6c-1.5 0.6-3.2 1-5.1 1-0.1 0-0.1 0-0.2 0v0c-2.9 0-5.2-0.8-6.8-2.4s-2.4-3.9-2.4-6.7c0-0.1 0-0.1 0-0.2 0-2 0.5-3.8 1.3-5.4v0.1c0.8-1.6 2.1-2.9 3.7-3.8v0c1.5-0.9 3.4-1.4 5.3-1.4 0.1 0 0.1 0 0.2 0v0c0 0 0.1 0 0.1 0 1.6 0 3.2 0.4 4.5 1.1h-0.1c1.3 0.7 2.4 1.8 3.1 3.1v0c0.7 1.3 1.1 2.8 1.1 4.4 0.1 0.1 0.1 0.2 0.1 0.2v0 0zM76 15.8c0 2 0.8 3.1 2.4 3.1 1.7 0 2.6-1.3 2.7-3.8l0.2-3.2c-0.5-0.2-1.2-0.2-1.8-0.2 0 0-0.1 0-0.1 0v0c0 0-0.1 0-0.1 0-0.9 0-1.8 0.4-2.3 1.1v0c-0.7 0.7-1 1.7-1 3v0z"/><path d="M98.3 23.3c0 0 0 0 0 0-0.9 0-1.7-0.2-2.4-0.5v0c-0.7-0.3-1.3-0.8-1.8-1.5v0h-0.1c0.1 0.7 0.1 1.4 0.1 2.2v5.5h-2v-19.2h1.6l0.3 1.8h0.1c0.5-0.7 1.1-1.2 1.8-1.6v0c0.7-0.3 1.5-0.5 2.3-0.5 0 0 0.1 0 0.1 0v0c1.8 0 3.1 0.6 4.1 1.8s1.4 2.9 1.4 5.1c0 2.2-0.5 3.9-1.5 5.1-0.9 1.2-2.3 1.8-4 1.8v0zM98 11.2c-1.4 0-2.3 0.4-2.9 1.1s-0.9 1.9-0.9 3.6v0.4c0 1.9 0.3 3.2 0.9 4s1.6 1.2 3 1.2c0 0 0.1 0 0.1 0 1.1 0 2-0.5 2.6-1.4v0c0.6-0.9 1-2.2 1-3.8s-0.3-2.9-1-3.8c-0.6-0.8-1.5-1.3-2.6-1.3-0.1 0-0.1 0-0.2 0v0 0z"/><path d="M118.8 16.4c0 2.2-0.5 3.8-1.6 5.1-1.1 1.2-2.6 1.8-4.5 1.8 0 0-0.1 0-0.1 0-1.1 0-2.2-0.3-3-0.8v0c-0.9-0.6-1.7-1.4-2.1-2.3v0c-0.5-1-0.8-2.2-0.8-3.5 0-0.1 0-0.1 0-0.2v0c0-2.2 0.5-3.8 1.6-5.1 1.1-1.2 2.6-1.8 4.5-1.8s3.3 0.6 4.4 1.9 1.6 2.8 1.6 4.9v0zM108.7 16.4c0 1.7 0.3 3 1 3.9s1.7 1.3 3 1.3c1.3 0 2.3-0.4 3-1.3s1-2.2 1-3.9c0-1.7-0.3-3-1-3.8s-1.7-1.3-3-1.3c-1.3 0-2.3 0.4-3 1.3-0.7 0.8-1 2.1-1 3.8v0z"/><path d="M130.8 19.4c0 0 0 0.1 0 0.2 0 1.1-0.5 2.1-1.4 2.7v0c-0.9 0.7-2.2 1-3.9 1-1.8 0-3.1-0.3-4.1-0.8v-1.9c0.6 0.3 1.3 0.6 2 0.7h0.1c0.6 0.2 1.4 0.3 2.1 0.3v0c0.1 0 0.2 0 0.3 0 0.8 0 1.5-0.2 2.2-0.5v0c0.5-0.3 0.8-0.9 0.8-1.5s-0.3-1-0.7-1.4v0c-0.4-0.4-1.3-0.8-2.6-1.3-1-0.3-1.9-0.8-2.7-1.2h0.1c-0.5-0.3-0.9-0.7-1.2-1.2v0c-0.2-0.4-0.4-0.9-0.4-1.5 0 0 0-0.1 0-0.1v0c0 0 0-0.1 0-0.1 0-1 0.5-1.9 1.3-2.5v0c0.9-0.6 2.1-0.9 3.6-0.9s3 0.3 4.3 0.9h-0.1l-0.7 1.6c-1.1-0.5-2.3-0.8-3.6-0.8v0c-0.1 0-0.2 0-0.3 0-0.7 0-1.3 0.2-1.9 0.5v0c-0.4 0.2-0.7 0.7-0.7 1.2 0 0 0 0 0 0v0c0 0 0 0 0 0 0 0.3 0.1 0.6 0.3 0.9v0c0.2 0.3 0.5 0.5 0.9 0.7v0c0.6 0.3 1.4 0.7 2.2 0.9h0.1c1.6 0.6 2.6 1.1 3.2 1.7 0.5 0.8 0.8 1.5 0.8 2.4 0 0 0 0 0 0v0 0z"/><path d="M133.9 6.5c0 0 0-0.1 0-0.1 0-0.3 0.1-0.7 0.3-0.9v0c0.2-0.2 0.5-0.3 0.8-0.3s0.6 0.1 0.8 0.3v0c0.2 0.2 0.3 0.5 0.3 0.9 0 0 0 0.1 0 0.1v0c0 0 0 0.1 0 0.1 0 0.3-0.1 0.7-0.3 0.9v0c-0.2 0.2-0.5 0.3-0.8 0.3 0 0 0 0 0 0v0c0 0 0 0 0 0-0.3 0-0.6-0.1-0.8-0.3v0c-0.2-0.2-0.3-0.6-0.3-0.9 0-0.1 0-0.1 0-0.1v0 0zM136.1 23.3h-2v-13.3h2v13.3z"/><path d="M144.6 21.6c0.4 0 0.7 0 1.1-0.1v0c0.3 0 0.6-0.1 0.8-0.2h-0.1v1.5c-0.3 0.1-0.6 0.2-0.9 0.3v0c-0.3 0.1-0.7 0.1-1.1 0.1v0c-2.6 0-3.8-1.4-3.8-4.1v-7.9h-1.9v-1l1.9-0.8 0.8-2.8h1.2v3.1h3.9v1.6h-3.8v7.8c0 0.1 0 0.1 0 0.2 0 0.6 0.2 1.2 0.6 1.7v0c0.2 0.4 0.7 0.6 1.3 0.6 0 0 0 0 0 0v0 0z"/><path d="M166.8 16.4c0 2.2-0.5 3.8-1.6 5.1s-2.6 1.8-4.5 1.8c0 0-0.1 0-0.1 0-1.1 0-2.2-0.3-3-0.8v0c-0.9-0.6-1.7-1.4-2.1-2.3v0c-0.5-1-0.8-2.2-0.8-3.5 0-0.1 0-0.1 0-0.2v0c0-2.2 0.5-3.8 1.6-5.1 1.1-1.2 2.6-1.8 4.5-1.8s3.3 0.6 4.4 1.9 1.6 2.8 1.6 4.9v0zM156.7 16.4c0 1.7 0.3 3 1 3.9s1.7 1.3 3 1.3c1.3 0 2.3-0.4 3-1.3s1-2.2 1-3.9c0-1.7-0.3-3-1-3.8s-1.7-1.3-3-1.3c-1.3 0-2.3 0.4-3 1.3s-1 2.1-1 3.8v0z"/><path d="M179.4 23v-8.6c0-1.1-0.2-1.9-0.7-2.4s-1.3-0.8-2.3-0.8c-1.4 0-2.4 0.4-3.1 1.1s-1 2-1 3.7v7h-2v-13.2h1.6l0.3 1.8h0.1c0.4-0.7 1-1.2 1.7-1.5v0c0.7-0.3 1.5-0.5 2.4-0.5 0 0 0 0 0.1 0v0c1.6 0 2.8 0.4 3.6 1.2s1.2 2 1.2 3.7v8.5h-1.9z"/><path d="M192.1 23h-2v-12.6c0-1 0-2 0.1-3-0.2 0.2-0.3 0.3-0.6 0.5-0.2 0.2-1.2 1-2.9 2.4l-1-1.3 4.7-3.6h1.7v17.6z"/><path d="M208.2 19.4c0 0.1 0 0.1 0 0.2 0 1.1-0.5 2.1-1.4 2.7v0c-0.9 0.7-2.2 1-3.9 1-1.8 0-3.1-0.3-4.1-0.8v-1.9c0.6 0.3 1.3 0.6 2 0.7h0.1c0.6 0.2 1.4 0.3 2.1 0.3v0c0.1 0 0.2 0 0.3 0 0.8 0 1.5-0.2 2.2-0.5v0c0.5-0.3 0.8-0.9 0.8-1.5s-0.3-1-0.7-1.4v0c-0.4-0.4-1.3-0.8-2.6-1.3-1-0.3-1.9-0.8-2.7-1.2h0.1c-0.5-0.3-0.9-0.7-1.2-1.2v0c-0.2-0.4-0.4-0.9-0.4-1.5 0 0 0-0.1 0-0.1v0c0 0 0-0.1 0-0.1 0-1 0.5-1.9 1.3-2.5v0c0.9-0.6 2.1-0.9 3.6-0.9s3 0.3 4.3 0.9h-0.1l-0.7 1.6c-1.1-0.5-2.3-0.8-3.6-0.8v0c-0.1 0-0.2 0-0.3 0-0.7 0-1.3 0.2-1.9 0.5v0c-0.4 0.2-0.7 0.7-0.7 1.2 0 0 0 0 0 0v0c0 0 0 0 0 0 0 0.3 0.1 0.6 0.3 0.9v0c0.2 0.3 0.5 0.5 0.9 0.7v0c0.6 0.3 1.4 0.6 2.2 0.9h0.1c1.6 0.6 2.6 1.1 3.2 1.7 0.5 0.8 0.8 1.5 0.8 2.4 0 0 0 0 0 0v0 0z"/><path d="M217.1 23.3c-2 0-3.5-0.6-4.6-1.8s-1.7-2.9-1.7-5c0-2.1 0.5-3.8 1.6-5.1 1-1.2 2.4-1.9 4-1.9 0.1 0 0.1 0 0.2 0v0c1.7 0 3 0.5 3.9 1.6s1.5 2.5 1.4 4.3v1.3h-9.1c0 1.6 0.4 2.7 1.2 3.5 0.7 0.8 1.8 1.2 3.1 1.2 1.5 0 3-0.3 4.3-0.9h-0.1v1.8c-0.6 0.3-1.2 0.5-1.9 0.6h-0.1c-0.7 0.1-1.4 0.2-2.2 0.2 0.1 0.2 0 0.2 0 0.2v0 0zM216.6 11.2c-0.1 0-0.1 0-0.2 0-0.9 0-1.8 0.4-2.4 1v0c-0.7 0.8-1.1 1.8-1.1 2.9v0h6.9c0-1.3-0.3-2.2-0.8-2.9-0.5-0.6-1.3-1-2.2-1-0.1 0-0.2 0-0.2 0v0 0z"/><path d="M236.9 16.4c0 2.2-0.5 3.8-1.6 5.1s-2.6 1.8-4.5 1.8c0 0-0.1 0-0.1 0-1.1 0-2.2-0.3-3.1-0.8v0c-0.9-0.6-1.7-1.4-2.1-2.3v0c-0.5-1-0.8-2.2-0.8-3.5 0-0.1 0-0.1 0-0.2v0c0-2.2 0.5-3.8 1.6-5.1 1.1-1.2 2.6-1.8 4.5-1.8s3.3 0.6 4.4 1.9c1.1 1.1 1.7 2.8 1.7 4.9v0zM226.8 16.4c0 1.7 0.3 3 1 3.9s1.7 1.3 3 1.3c1.3 0 2.3-0.4 3-1.3s1-2.2 1-3.9c0-1.7-0.3-3-1-3.8s-1.7-1.3-3-1.3c-1.3 0-2.3 0.4-3 1.3s-1 2.1-1 3.8v0z"/><path d="M240.1 21.8c0 0 0-0.1 0-0.1 0-0.4 0.1-0.8 0.4-1.1v0c0.2-0.3 0.6-0.4 1-0.4 0 0 0.1 0 0.1 0v0c0 0 0.1 0 0.1 0 0.4 0 0.8 0.2 1 0.4v0c0.2 0.3 0.4 0.7 0.4 1.1 0 0 0 0.1 0 0.1v0c0 0 0 0.1 0 0.1 0 0.4-0.2 0.8-0.4 1.1v0c-0.3 0.3-0.7 0.4-1.1 0.4s-0.8-0.1-1-0.4v0c-0.3-0.3-0.4-0.7-0.4-1.1-0.1 0-0.1-0.1-0.1-0.1v0 0z"/><path d="M252.3 23.3c-1.9 0-3.4-0.6-4.5-1.8s-1.6-2.9-1.6-5c0-2.2 0.5-3.9 1.6-5.1s2.6-1.8 4.6-1.8c0.7 0 1.3 0.1 2 0.2h-0.1c0.6 0.1 1.1 0.3 1.5 0.5v0l-0.6 1.7c-0.4-0.2-0.9-0.3-1.4-0.4h-0.1c-0.4-0.1-0.9-0.2-1.4-0.2v0c-2.7 0-4 1.7-4 5.2 0 1.6 0.3 2.9 1 3.7 0.7 0.9 1.6 1.3 2.9 1.3 1.2 0 2.4-0.3 3.5-0.7h-0.1v1.8c-0.9 0.4-2 0.7-3.1 0.7-0.1-0.1-0.2-0.1-0.2-0.1v0 0z"/><path d="M270.2 16.4c0 2.2-0.5 3.8-1.6 5.1s-2.6 1.8-4.5 1.8c0 0-0.1 0-0.1 0-1.1 0-2.2-0.3-3-0.8v0c-0.9-0.6-1.7-1.4-2.1-2.3v0c-0.5-1-0.8-2.2-0.8-3.5 0-0.1 0-0.1 0-0.2v0c0-2.2 0.5-3.8 1.6-5.1 1.1-1.2 2.6-1.8 4.5-1.8s3.3 0.6 4.4 1.9 1.6 2.8 1.6 4.9v0zM260.1 16.4c0 1.7 0.3 3 1 3.9s1.7 1.3 3 1.3c1.3 0 2.3-0.4 3-1.3s1-2.2 1-3.9c0-1.7-0.3-3-1-3.8s-1.7-1.3-3-1.3c-1.3 0-2.3 0.4-3 1.3s-1 2.1-1 3.8v0z"/><path d="M290.6 23v-8.6c0-1.1-0.2-1.8-0.7-2.4-0.5-0.5-1.2-0.8-2.1-0.8-1.2 0-2.2 0.4-2.8 1.1s-0.9 1.8-0.9 3.3v7.4h-2v-8.6c0-1.1-0.2-1.8-0.7-2.4s-1.2-0.8-2.1-0.8c-1.3 0-2.2 0.4-2.8 1.1-0.6 0.8-0.9 2-0.9 3.7v7h-2v-13.2h1.6l0.3 1.8h0.1c0.4-0.6 0.9-1.2 1.6-1.5v0c0.7-0.3 1.4-0.5 2.2-0.5 0 0 0.1 0 0.1 0v0c2.1 0 3.4 0.8 4.1 2.2h0.1c0.4-0.7 1-1.3 1.7-1.6v0c0.7-0.4 1.6-0.6 2.5-0.6 0 0 0 0 0.1 0v0c1.5 0 2.6 0.4 3.4 1.2 0.7 0.8 1.1 2 1.1 3.7v8.5h-1.9z"/><path d="M149.3 6.5c0 0 0-0.1 0-0.1 0-0.3 0.1-0.7 0.3-0.9v0c0.2-0.2 0.5-0.3 0.8-0.3s0.6 0.1 0.8 0.3v0c0.2 0.2 0.3 0.5 0.3 0.9 0 0 0 0.1 0 0.1v0c0 0 0 0.1 0 0.1 0 0.3-0.1 0.7-0.3 0.9v0c-0.2 0.2-0.5 0.3-0.8 0.3 0 0 0 0 0 0v0c0 0 0 0 0 0-0.3 0-0.6-0.1-0.8-0.3v0c-0.2-0.2-0.3-0.6-0.3-0.9 0-0.1 0-0.1 0-0.1v0 0zM151.5 23.3h-2v-13.3h2v13.3z"/></symbol><symbol id="icomoonicon-read-more" viewBox="0 0 240 32"><title>read-more</title><path d="M10.453 19.413v11.157h-6.187v-29.099h8.533c0.347-0.030 0.751-0.047 1.159-0.047 2.826 0 5.463 0.812 7.69 2.215l-0.060-0.035c1.75 1.419 2.859 3.569 2.859 5.978 0 0.201-0.008 0.4-0.023 0.597l0.002-0.026c0.001 0.035 0.001 0.077 0.001 0.118 0 1.666-0.528 3.209-1.425 4.471l0.016-0.024c-1.015 1.403-2.381 2.495-3.971 3.156l-0.061 0.023q6.549 9.835 8.533 12.672h-6.827l-6.955-11.157zM10.453 14.4h2.005c0.155 0.011 0.336 0.018 0.518 0.018 1.38 0 2.672-0.371 3.784-1.018l-0.036 0.019c0.853-0.632 1.4-1.636 1.4-2.767 0-0.107-0.005-0.213-0.015-0.318l0.001 0.013c0.007-0.082 0.012-0.177 0.012-0.274 0-1.107-0.558-2.083-1.409-2.663l-0.011-0.007c-1.127-0.563-2.454-0.892-3.859-0.892-0.196 0-0.391 0.006-0.583 0.019l0.026-0.001h-1.835z"/><path d="M47.957 30.571h-16.768v-29.099h16.768v5.056h-10.667v6.4h9.835v5.056h-9.749v7.616h10.667z"/><path d="M71.829 30.571l-2.133-6.912h-10.667l-2.133 6.912h-6.528l10.261-29.205h7.637l10.304 29.205zM68.267 18.475c-1.963-6.272-3.051-9.813-3.307-10.667s-0.427-1.472-0.533-1.941q-0.64 2.539-3.755 12.587z"/><path d="M106.283 15.744c0.021 0.293 0.034 0.635 0.034 0.98 0 3.908-1.568 7.45-4.11 10.030l0.002-0.002c-2.867 2.401-6.595 3.859-10.663 3.859-0.407 0-0.81-0.015-1.209-0.043l0.054 0.003h-8.235v-29.099h9.131c0.299-0.021 0.647-0.033 0.999-0.033 3.884 0 7.43 1.443 10.133 3.823l-0.017-0.015c2.419 2.481 3.911 5.875 3.911 9.617 0 0.309-0.010 0.616-0.030 0.92l0.002-0.041zM99.883 15.915q0-9.365-8.277-9.387h-3.285v19.072h2.645q8.939 0 8.917-9.685z"/><path d="M135.232 30.571l-6.997-22.827h-0.235c0.256 4.651 0.384 7.744 0.384 9.301v13.525h-5.461v-29.099h8.384l6.891 22.272h0.128l7.296-22.272h8.405v29.099h-5.76v-13.76c0-0.661 0-1.408 0-2.261s0.128-3.093 0.277-6.763h-0.171l-7.573 22.784z"/><path d="M187.733 16c0.022 0.312 0.035 0.676 0.035 1.043 0 3.831-1.367 7.344-3.639 10.076l0.021-0.026c-2.723 2.41-6.326 3.882-10.272 3.882s-7.549-1.472-10.288-3.896l0.016 0.014c-2.265-2.716-3.64-6.243-3.64-10.091 0-0.368 0.013-0.732 0.037-1.094l-0.003 0.049c-0.025-0.328-0.039-0.711-0.039-1.098 0-3.818 1.378-7.314 3.663-10.019l-0.019 0.023c2.419-2.393 5.747-3.872 9.421-3.872 0.326 0 0.649 0.012 0.969 0.034l-0.043-0.002c0.266-0.019 0.575-0.030 0.888-0.030 3.655 0 6.963 1.488 9.351 3.891l0.001 0.001c2.229 2.696 3.581 6.189 3.581 9.997 0 0.393-0.014 0.783-0.043 1.169l0.003-0.052zM166.4 16c-0.020 0.261-0.031 0.565-0.031 0.872 0 2.398 0.695 4.633 1.895 6.516l-0.029-0.049c1.182 1.511 3.005 2.472 5.053 2.472 0.174 0 0.346-0.007 0.516-0.020l-0.022 0.001c4.907 0 7.381-3.264 7.381-9.792s-2.453-9.835-7.339-9.835c-0.149-0.012-0.323-0.019-0.498-0.019-2.058 0-3.888 0.971-5.059 2.48l-0.011 0.015c-1.113 1.801-1.772 3.984-1.772 6.322 0 0.366 0.016 0.727 0.048 1.085l-0.003-0.046z"/><path d="M199.957 19.413v11.157h-6.165v-29.099h8.533c0.344-0.029 0.744-0.046 1.149-0.046 2.83 0 5.47 0.811 7.701 2.214l-0.060-0.035c1.749 1.431 2.856 3.59 2.856 6.007 0 0.191-0.007 0.38-0.020 0.568l0.001-0.025c0.001 0.035 0.001 0.077 0.001 0.118 0 1.666-0.528 3.209-1.425 4.471l0.016-0.024c-1.012 1.386-2.37 2.464-3.95 3.114l-0.061 0.022q6.549 9.835 8.533 12.672h-6.891l-6.933-11.115zM199.957 14.4h1.984c0.154 0.011 0.333 0.017 0.513 0.017 1.381 0 2.676-0.371 3.79-1.018l-0.036 0.019c0.852-0.645 1.397-1.658 1.397-2.797 0-0.097-0.004-0.192-0.012-0.287l0.001 0.012c0.007-0.081 0.012-0.176 0.012-0.271 0-1.112-0.568-2.092-1.429-2.666l-0.012-0.007c-1.117-0.563-2.435-0.893-3.831-0.893-0.198 0-0.395 0.007-0.591 0.020l0.026-0.001h-1.877z"/><path d="M237.461 30.571h-16.768v-29.099h16.768v5.056h-10.667v6.4h10.005v5.056h-9.856v7.616h10.667z"/></symbol></defs></svg><style>.ct-pos1iconsicon-facebook{width:0.5em}</style>
+<style>.ct-pos1iconsicon-Group-123{width:0.96875em}</style>
+<style>.ct-pos1iconsicon-Group-124{width:1.46875em}</style>
+<style>.ct-pos1iconsicon-linkedin{width:1.0625em}</style>
+<style>.ct-pos1iconsicon-twitter{width:1.25em}</style>
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="pos1iconsicon-facebook" viewBox="0 0 16 32"><title>facebook</title><path fill="#fff" style="fill: var(--color1, #fff)" d="M3.556 7.11v3.556h-3.556v5.334h3.556v15.999h7.11v-15.999h4.729l0.603-5.334h-5.334v-3.111c0-1.44 0.142-2.206 2.366-2.206h2.971v-5.35h-4.765c-5.689 0-7.679 2.667-7.679 7.11z"/></symbol><symbol id="pos1iconsicon-Group-123" viewBox="0 0 31 32"><title>Group-123</title><path fill="#fff" style="fill: var(--color1, #fff)" d="M24.896 31.814c0.005-0.187 0.008-0.407 0.008-0.628 0-13.828-11.107-25.061-24.887-25.265l-0.019-0 0.179-5.928c16.962 0.193 30.637 13.987 30.637 30.976 0 0.36-0.006 0.719-0.018 1.076l0.001-0.052z"/><path fill="#fff" style="fill: var(--color1, #fff)" d="M15.672 31.821c-0.017-4.679-1.927-8.908-5.003-11.965l-0.001-0.001c-2.791-2.658-6.514-4.359-10.63-4.566l-0.040-0.002 0.078-5.926c11.871 0.226 21.408 9.903 21.408 21.807 0 0.22-0.003 0.44-0.010 0.658l0.001-0.032z"/><path fill="#fff" style="fill: var(--color1, #fff)" d="M10.974 25.668c0 2.753-2.223 4.985-4.965 4.985s-4.965-2.232-4.965-4.985c0-2.753 2.223-4.985 4.965-4.985s4.965 2.232 4.965 4.985z"/></symbol><symbol id="pos1iconsicon-Group-124" viewBox="0 0 47 32"><title>Group-124</title><path fill="#fff" style="fill: var(--color1, #fff)" d="M0 6.558v23.907l14.652-16.981z"/><path fill="#fff" style="fill: var(--color1, #fff)" d="M46.652 30.465v-23.907l-14.652 6.926z"/><path fill="#fff" style="fill: var(--color1, #fff)" d="M46.637 4.229v-3.071c-0.046-0.621-0.538-1.113-1.155-1.158l-0.004-0h-44.32c-0.621 0.046-1.113 0.538-1.158 1.155l-0 0.004v3.097c0.027 0.466 0.246 0.876 0.577 1.157l0.002 0.002 22.16 10.428c0.134 0.089 0.298 0.141 0.475 0.141s0.341-0.053 0.478-0.143l-0.003 0.002 22.16-10.428c0.617-0.417 0.788-0.779 0.788-1.185z"/><path fill="#fff" style="fill: var(--color1, #fff)" d="M23.324 17.545l-7.14-3.476-15.602 17.931h45.478l-15.593-17.931z"/></symbol><symbol id="pos1iconsicon-linkedin" viewBox="0 0 34 32"><title>linkedin</title><path fill="#fff" style="fill: var(--color1, #fff)" d="M8.001 4c0 2.209-1.791 4-4 4s-4-1.791-4-4c0-2.209 1.791-4 4-4s4 1.791 4 4z"/><path fill="#fff" style="fill: var(--color1, #fff)" d="M0 10h8.001v22h-8.001v-22z"/><path fill="#fff" style="fill: var(--color1, #fff)" d="M26.722 10c-6.006 0-6.727 3.561-6.727 3.561v-3.561h-8.001v22h8.001v-12.001s0-4 3.4-4c1.999 0 2.6 1.78 2.6 4v12.001h8.001v-12.001c0.007-6.259-2.713-10-7.273-10z"/></symbol><symbol id="pos1iconsicon-Phone-01-01" viewBox="0 0 32 32"><title>Phone-01-01</title><path fill="#fff" style="fill: var(--color1, #fff)" d="M31.269 25.076l-3.965-3.965c-0.483-0.458-1.137-0.739-1.856-0.739s-1.374 0.282-1.858 0.741l0.001-0.001-2.854 2.854c-0.375 0.36-0.886 0.583-1.448 0.583-0.328 0-0.638-0.075-0.914-0.21l0.012 0.005c-2.286-1.321-4.247-2.889-5.945-4.707l-0.014-0.015c-1.836-1.713-3.41-3.674-4.675-5.837l-0.065-0.121c-0.134-0.265-0.213-0.578-0.213-0.91 0-0.561 0.226-1.070 0.591-1.441l2.854-2.854c0.458-0.483 0.739-1.137 0.739-1.856s-0.282-1.374-0.741-1.858l0.001 0.001-3.986-4.008c-0.417-0.455-1.014-0.74-1.678-0.74s-1.261 0.284-1.677 0.738l-0.002 0.002-1.993 1.993c-0.718 0.817-1.242 1.823-1.487 2.934l-0.008 0.044c-0.039 0.509-0.061 1.102-0.061 1.701 0 6.752 2.832 12.842 7.372 17.149l0.011 0.010c3.031 3.064 6.831 5.362 11.087 6.579l0.18 0.044c1.667 0.511 3.583 0.806 5.567 0.806 0.714 0 1.419-0.038 2.114-0.112l-0.086 0.008c1.155-0.254 2.161-0.777 2.985-1.502l-0.007 0.006 1.993-1.993c0.465-0.411 0.757-1.009 0.757-1.676 0-0.654-0.281-1.243-0.73-1.651l-0.002-0.002z"/></symbol><symbol id="pos1iconsicon-twitter" viewBox="0 0 40 32"><title>twitter</title><path fill="#fff" style="fill: var(--color1, #fff)" d="M38.934 0.561c-1.504 0.907-3.254 1.601-5.118 1.984l-0.107 0.018c-1.51-1.587-3.638-2.574-5.996-2.574-0.004 0-0.008 0-0.013 0h0.001c-0.018-0-0.039-0-0.060-0-4.451 0-8.069 3.568-8.148 8.001l-0 0.007c0.002 0.655 0.083 1.29 0.233 1.898l-0.011-0.055c-6.824-0.332-12.839-3.533-16.909-8.413l-0.030-0.038c-0.704 1.159-1.121 2.56-1.121 4.059 0 2.792 1.447 5.247 3.633 6.654l0.031 0.019c-1.374-0.049-2.65-0.425-3.766-1.051l0.042 0.022v0.1c-0 0.008-0 0.017-0 0.027 0 3.944 2.809 7.232 6.535 7.973l0.052 0.009c-0.648 0.179-1.391 0.282-2.159 0.282-0.546 0-1.081-0.052-1.598-0.152l0.053 0.008c1.104 3.265 4.12 5.582 7.683 5.629l0.006 0c-2.773 2.172-6.307 3.489-10.149 3.503h-0.003c-0.707-0.001-1.402-0.045-2.085-0.129l0.083 0.008c3.564 2.286 7.912 3.645 12.578 3.645 0.006 0 0.011 0 0.017 0h-0.001c0.125 0.002 0.273 0.004 0.421 0.004 12.569 0 22.786-10.071 23.020-22.584l0-0.022q0-0.203 0-0.404v-1.030c1.574-1.162 2.903-2.548 3.968-4.126l0.038-0.059c-1.376 0.622-2.973 1.075-4.646 1.279l-0.080 0.008c1.695-1.013 2.971-2.578 3.592-4.442l0.017-0.058z"/></symbol></defs></svg><style>.ct-SiloIconsicon-quotes-01{width:1.25em}</style>
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="SiloIconsicon-quotes-01" viewBox="0 0 40 32"><title>quotes-01</title><path d="M13.474 15.158h-9.917c0.667-4.331 3.085-7.996 6.495-10.307l0.053-0.034 3.018-2.021-1.859-2.796-3.018 2.021c-5 3.371-8.245 9.014-8.246 15.414v11.196c0 1.86 1.508 3.369 3.369 3.369v0h10.105c1.86 0 3.369-1.508 3.369-3.369v0-10.105c0-1.86-1.508-3.369-3.369-3.369v0z"/><path d="M37.053 15.158h-9.917c0.667-4.331 3.085-7.996 6.495-10.307l0.053-0.034 3.018-2.021-1.839-2.796-3.032 2.021c-5.004 3.369-8.251 9.012-8.252 15.414v11.196c0 1.86 1.508 3.369 3.369 3.369v0h10.105c1.86 0 3.369-1.508 3.369-3.369v0-10.105c0-1.86-1.508-3.369-3.369-3.369v0z"/></symbol></defs></svg>
+        <script type="text/javascript">
+
+            function oxygen_init_pro_menu() {
+                jQuery('.oxy-pro-menu-container').each(function(){
+                    
+                    // dropdowns
+                    var menu = jQuery(this),
+                        animation = menu.data('oxy-pro-menu-dropdown-animation'),
+                        animationDuration = menu.data('oxy-pro-menu-dropdown-animation-duration');
+                    
+                    jQuery('.sub-menu', menu).attr('data-aos',animation);
+                    jQuery('.sub-menu', menu).attr('data-aos-duration',animationDuration*1000);
+
+                    oxygen_offcanvas_menu_init(menu);
+                    jQuery(window).resize(function(){
+                        oxygen_offcanvas_menu_init(menu);
+                    });
+
+                    // let certain CSS rules know menu being initialized
+                    // "10" timeout is extra just in case, "0" would be enough
+                    setTimeout(function() {menu.addClass('oxy-pro-menu-init');}, 10);
+                });
+            }
+
+            jQuery(document).ready(oxygen_init_pro_menu);
+            document.addEventListener('oxygen-ajax-element-loaded', oxygen_init_pro_menu, false);
+            
+            let proMenuMouseDown = false;
+
+            jQuery(".oxygen-body")
+            .on("mousedown", '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                proMenuMouseDown = true;
+            })
+
+            .on("mouseup", '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                proMenuMouseDown = false;
+            })
+
+            .on('mouseenter focusin', '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                if( proMenuMouseDown ) return;
+                
+                var subMenu = jQuery(this).children('.sub-menu');
+                subMenu.addClass('aos-animate oxy-pro-menu-dropdown-animating').removeClass('sub-menu-left');
+
+                var duration = jQuery(this).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+
+                setTimeout(function() {subMenu.removeClass('oxy-pro-menu-dropdown-animating')}, duration*1000);
+
+                var offset = subMenu.offset(),
+                    width = subMenu.width(),
+                    docWidth = jQuery(window).width();
+
+                    if (offset.left+width > docWidth) {
+                        subMenu.addClass('sub-menu-left');
+                    }
+            })
+            
+            .on('mouseleave focusout', '.oxy-pro-menu-show-dropdown .menu-item-has-children', function( e ) {
+                if( jQuery(this).is(':hover') ) return;
+
+                jQuery(this).children('.sub-menu').removeClass('aos-animate');
+
+                var subMenu = jQuery(this).children('.sub-menu');
+                //subMenu.addClass('oxy-pro-menu-dropdown-animating-out');
+
+                var duration = jQuery(this).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+                setTimeout(function() {subMenu.removeClass('oxy-pro-menu-dropdown-animating-out')}, duration*1000);
+            })
+
+            // open icon click
+            .on('click', '.oxy-pro-menu-mobile-open-icon', function() {    
+                var menu = jQuery(this).parents('.oxy-pro-menu');
+                // off canvas
+                if (jQuery(this).hasClass('oxy-pro-menu-off-canvas-trigger')) {
+                    oxygen_offcanvas_menu_run(menu);
+                }
+                // regular
+                else {
+                    menu.addClass('oxy-pro-menu-open');
+                    jQuery(this).siblings('.oxy-pro-menu-container').addClass('oxy-pro-menu-open-container');
+                    jQuery('body').addClass('oxy-nav-menu-prevent-overflow');
+                    jQuery('html').addClass('oxy-nav-menu-prevent-overflow');
+                    
+                    oxygen_pro_menu_set_static_width(menu);
+                }
+                // remove animation and collapse
+                jQuery('.sub-menu', menu).attr('data-aos','');
+                jQuery('.oxy-pro-menu-dropdown-toggle .sub-menu', menu).slideUp(0);
+            });
+
+            function oxygen_pro_menu_set_static_width(menu) {
+                var menuItemWidth = jQuery(".oxy-pro-menu-list > .menu-item", menu).width();
+                jQuery(".oxy-pro-menu-open-container > div:first-child, .oxy-pro-menu-off-canvas-container > div:first-child", menu).width(menuItemWidth);
+            }
+
+            function oxygen_pro_menu_unset_static_width(menu) {
+                jQuery(".oxy-pro-menu-container > div:first-child", menu).width("");
+            }
+
+            // close icon click
+            jQuery('body').on('click', '.oxy-pro-menu-mobile-close-icon', function(e) {
+                
+                var menu = jQuery(this).parents('.oxy-pro-menu');
+
+                menu.removeClass('oxy-pro-menu-open');
+                jQuery(this).parents('.oxy-pro-menu-container').removeClass('oxy-pro-menu-open-container');
+                jQuery('.oxy-nav-menu-prevent-overflow').removeClass('oxy-nav-menu-prevent-overflow');
+
+                if (jQuery(this).parent('.oxy-pro-menu-container').hasClass('oxy-pro-menu-off-canvas-container')) {
+                    oxygen_offcanvas_menu_run(menu);
+                }
+
+                oxygen_pro_menu_unset_static_width(menu);
+            });
+
+            // dropdown toggle icon click
+            jQuery('body').on(
+                'touchstart click', 
+                '.oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-off-canvas-container .menu-item-has-children > a > .oxy-pro-menu-dropdown-icon-click-area,'+
+                '.oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-open-container .menu-item-has-children > a > .oxy-pro-menu-dropdown-icon-click-area', 
+                function(e) {
+                    e.preventDefault();
+
+                    // fix for iOS false triggering submenu clicks
+                    jQuery('.sub-menu').css('pointer-events', 'none');
+                    setTimeout( function() {
+                        jQuery('.sub-menu').css('pointer-events', 'initial');
+                    }, 500);
+
+                    // workaround to stop click event from triggering after touchstart
+                    if (window.oxygenProMenuIconTouched === true) {
+                        window.oxygenProMenuIconTouched = false;
+                        return;
+                    }
+                    if (e.type==='touchstart') {
+                        window.oxygenProMenuIconTouched = true;
+                    }
+                    oxygen_pro_menu_toggle_dropdown(this);
+                }
+            );
+
+            function oxygen_pro_menu_toggle_dropdown(trigger) {
+
+                var duration = jQuery(trigger).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+
+                jQuery(trigger).closest('.menu-item-has-children').children('.sub-menu').slideToggle({
+                    start: function () {
+                        jQuery(this).css({
+                            display: "flex"
+                        })
+                    },
+                    duration: duration*1000
+                });
+            }
+                    
+            // fullscreen menu link click
+            var selector = '.oxy-pro-menu-open .menu-item a';
+            jQuery('body').on('click', selector, function(event){
+                
+                if (jQuery(event.target).closest('.oxy-pro-menu-dropdown-icon-click-area').length > 0) {
+                    // toggle icon clicked, no need to hide the menu
+                    return;
+                }
+                else if ((jQuery(this).attr("href") === "#" || jQuery(this).closest(".oxy-pro-menu-container").data("entire-parent-toggles-dropdown")) && 
+                         jQuery(this).parent().hasClass('menu-item-has-children')) {
+                    // empty href don't lead anywhere, treat it as toggle trigger
+                    oxygen_pro_menu_toggle_dropdown(event.target);
+                    // keep anchor links behavior as is, and prevent regular links from page reload
+                    if (jQuery(this).attr("href").indexOf("#")!==0) {
+                        return false;
+                    }
+                }
+
+                // hide the menu and follow the anchor
+                if (jQuery(this).attr("href").indexOf("#")===0) {
+                    jQuery('.oxy-pro-menu-open').removeClass('oxy-pro-menu-open');
+                    jQuery('.oxy-pro-menu-open-container').removeClass('oxy-pro-menu-open-container');
+                    jQuery('.oxy-nav-menu-prevent-overflow').removeClass('oxy-nav-menu-prevent-overflow');
+                }
+
+            });
+
+            // off-canvas menu link click
+            var selector = '.oxy-pro-menu-off-canvas .menu-item a';
+            jQuery('body').on('click', selector, function(event){
+                if (jQuery(event.target).closest('.oxy-pro-menu-dropdown-icon-click-area').length > 0) {
+                    // toggle icon clicked, no need to trigger it 
+                    return;
+                }
+                else if ((jQuery(this).attr("href") === "#" || jQuery(this).closest(".oxy-pro-menu-container").data("entire-parent-toggles-dropdown")) && 
+                    jQuery(this).parent().hasClass('menu-item-has-children')) {
+                    // empty href don't lead anywhere, treat it as toggle trigger
+                    oxygen_pro_menu_toggle_dropdown(event.target);
+                    // keep anchor links behavior as is, and prevent regular links from page reload
+                    if (jQuery(this).attr("href").indexOf("#")!==0) {
+                        return false;
+                    }
+                }
+            });
+
+            // off canvas
+            function oxygen_offcanvas_menu_init(menu) {
+
+                // only init off-canvas animation if trigger icon is visible i.e. mobile menu in action
+                var offCanvasActive = jQuery(menu).siblings('.oxy-pro-menu-off-canvas-trigger').css('display');
+                if (offCanvasActive!=='none') {
+                    var animation = menu.data('oxy-pro-menu-off-canvas-animation');
+                    setTimeout(function() {menu.attr('data-aos', animation);}, 10);
+                }
+                else {
+                    // remove AOS
+                    menu.attr('data-aos', '');
+                };
+            }
+            
+            function oxygen_offcanvas_menu_run(menu) {
+
+                var container = menu.find(".oxy-pro-menu-container");
+                
+                if (!container.attr('data-aos')) {
+                    // initialize animation
+                    setTimeout(function() {oxygen_offcanvas_menu_toggle(menu, container)}, 0);
+                }
+                else {
+                    oxygen_offcanvas_menu_toggle(menu, container);
+                }
+            }
+
+            var oxygen_offcanvas_menu_toggle_in_progress = false;
+
+            function oxygen_offcanvas_menu_toggle(menu, container) {
+
+                if (oxygen_offcanvas_menu_toggle_in_progress) {
+                    return;
+                }
+
+                container.toggleClass('aos-animate');
+
+                if (container.hasClass('oxy-pro-menu-off-canvas-container')) {
+                    
+                    oxygen_offcanvas_menu_toggle_in_progress = true;
+                    
+                    var animation = container.data('oxy-pro-menu-off-canvas-animation'),
+                        timeout = container.data('aos-duration');
+
+                    if (!animation){
+                        timeout = 0;
+                    }
+
+                    setTimeout(function() {
+                        container.removeClass('oxy-pro-menu-off-canvas-container')
+                        menu.removeClass('oxy-pro-menu-off-canvas');
+                        oxygen_offcanvas_menu_toggle_in_progress = false;
+                    }, timeout);
+                }
+                else {
+                    container.addClass('oxy-pro-menu-off-canvas-container');
+                    menu.addClass('oxy-pro-menu-off-canvas');
+                    oxygen_pro_menu_set_static_width(menu);
+                }
+            }
+        </script>
+
+    <link rel='stylesheet' id='oxygen-aos-css' href='https://position1seo.co.uk/wp-content/plugins/oxygen/component-framework/vendor/aos/aos.css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-table-css' href='https://position1seo.co.uk/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css' media='all' />
+<script type="module" src="https://position1seo.co.uk/wp-content/plugins/all-in-one-seo-pack/dist/Lite/assets/table-of-contents.95d0dfce.js" id="aioseo/js/src/vue/standalone/blocks/table-of-contents/frontend.js-js"></script>
+<script src="https://position1seo.co.uk/wp-content/plugins/oxygen/component-framework/vendor/aos/aos.js" id="oxygen-aos-js"></script>
+<script type="text/javascript" id="ct-footer-js">
+	  	AOS.init({
+	  		  		  		  		  		  		  				  			})
+		
+				jQuery('body').addClass('oxygen-aos-enabled');
+		
+		
+	</script><script type="text/javascript" id="ct_code_block_js_804">jQuery(function($) {
+  $('.read-more-link').on('click', function(e) {
+    e.preventDefault();
+    var $remainingText = $(this).siblings('.remaining-text');
+    var $readLessLink = $('<a href="#" class="read-less-link">...less</a>');
+    $(this).hide();
+    $remainingText.css('display', 'inline'); // Set display property to inline for the specific clicked element
+    $remainingText.after($readLessLink);
+  });
+
+  $(document).on('click', '.read-less-link', function(e) {
+    e.preventDefault();
+    var $remainingText = $(this).siblings('.remaining-text');
+    var $readMoreLink = $('<a href="#" class="read-more-link">Read More</a>');
+    $remainingText.hide();
+    $(this).remove();
+    $remainingText.prev('.read-more-link').show();
+  });
+});
+</script>
+<style type="text/css" id="ct_code_block_css_804">.h2-spacing h2 {
+	margin-top: 60px;
+}
+.h2-spacing-faq h2 {
+	margin-top: 40px;
+}
+.remaining-text {
+  display: none;
+}
+.initial-text,
+.read-more-link{
+  display: inline;
+}
+.read-less-link {
+	color: #000000;
+	font-weight: 700;
+}</style>
+<style type="text/css" id="ct_code_block_css_688">.hide-me {
+  display: none;
+}
+@media (max-width: 360px) {
+	#text_block-659-13 {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+	#link-656-13 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}</style>
+<!-- /WP_FOOTER --> 
+<script data-no-optimize="1">window.lazyLoadOptions=Object.assign({},{threshold:300},window.lazyLoadOptions||{});!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):(t="undefined"!=typeof globalThis?globalThis:t||self).LazyLoad=e()}(this,function(){"use strict";function e(){return(e=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n,a=arguments[e];for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(t[n]=a[n])}return t}).apply(this,arguments)}function o(t){return e({},at,t)}function l(t,e){return t.getAttribute(gt+e)}function c(t){return l(t,vt)}function s(t,e){return function(t,e,n){e=gt+e;null!==n?t.setAttribute(e,n):t.removeAttribute(e)}(t,vt,e)}function i(t){return s(t,null),0}function r(t){return null===c(t)}function u(t){return c(t)===_t}function d(t,e,n,a){t&&(void 0===a?void 0===n?t(e):t(e,n):t(e,n,a))}function f(t,e){et?t.classList.add(e):t.className+=(t.className?" ":"")+e}function _(t,e){et?t.classList.remove(e):t.className=t.className.replace(new RegExp("(^|\\s+)"+e+"(\\s+|$)")," ").replace(/^\s+/,"").replace(/\s+$/,"")}function g(t){return t.llTempImage}function v(t,e){!e||(e=e._observer)&&e.unobserve(t)}function b(t,e){t&&(t.loadingCount+=e)}function p(t,e){t&&(t.toLoadCount=e)}function n(t){for(var e,n=[],a=0;e=t.children[a];a+=1)"SOURCE"===e.tagName&&n.push(e);return n}function h(t,e){(t=t.parentNode)&&"PICTURE"===t.tagName&&n(t).forEach(e)}function a(t,e){n(t).forEach(e)}function m(t){return!!t[lt]}function E(t){return t[lt]}function I(t){return delete t[lt]}function y(e,t){var n;m(e)||(n={},t.forEach(function(t){n[t]=e.getAttribute(t)}),e[lt]=n)}function L(a,t){var o;m(a)&&(o=E(a),t.forEach(function(t){var e,n;e=a,(t=o[n=t])?e.setAttribute(n,t):e.removeAttribute(n)}))}function k(t,e,n){f(t,e.class_loading),s(t,st),n&&(b(n,1),d(e.callback_loading,t,n))}function A(t,e,n){n&&t.setAttribute(e,n)}function O(t,e){A(t,rt,l(t,e.data_sizes)),A(t,it,l(t,e.data_srcset)),A(t,ot,l(t,e.data_src))}function w(t,e,n){var a=l(t,e.data_bg_multi),o=l(t,e.data_bg_multi_hidpi);(a=nt&&o?o:a)&&(t.style.backgroundImage=a,n=n,f(t=t,(e=e).class_applied),s(t,dt),n&&(e.unobserve_completed&&v(t,e),d(e.callback_applied,t,n)))}function x(t,e){!e||0<e.loadingCount||0<e.toLoadCount||d(t.callback_finish,e)}function M(t,e,n){t.addEventListener(e,n),t.llEvLisnrs[e]=n}function N(t){return!!t.llEvLisnrs}function z(t){if(N(t)){var e,n,a=t.llEvLisnrs;for(e in a){var o=a[e];n=e,o=o,t.removeEventListener(n,o)}delete t.llEvLisnrs}}function C(t,e,n){var a;delete t.llTempImage,b(n,-1),(a=n)&&--a.toLoadCount,_(t,e.class_loading),e.unobserve_completed&&v(t,n)}function R(i,r,c){var l=g(i)||i;N(l)||function(t,e,n){N(t)||(t.llEvLisnrs={});var a="VIDEO"===t.tagName?"loadeddata":"load";M(t,a,e),M(t,"error",n)}(l,function(t){var e,n,a,o;n=r,a=c,o=u(e=i),C(e,n,a),f(e,n.class_loaded),s(e,ut),d(n.callback_loaded,e,a),o||x(n,a),z(l)},function(t){var e,n,a,o;n=r,a=c,o=u(e=i),C(e,n,a),f(e,n.class_error),s(e,ft),d(n.callback_error,e,a),o||x(n,a),z(l)})}function T(t,e,n){var a,o,i,r,c;t.llTempImage=document.createElement("IMG"),R(t,e,n),m(c=t)||(c[lt]={backgroundImage:c.style.backgroundImage}),i=n,r=l(a=t,(o=e).data_bg),c=l(a,o.data_bg_hidpi),(r=nt&&c?c:r)&&(a.style.backgroundImage='url("'.concat(r,'")'),g(a).setAttribute(ot,r),k(a,o,i)),w(t,e,n)}function G(t,e,n){var a;R(t,e,n),a=e,e=n,(t=Et[(n=t).tagName])&&(t(n,a),k(n,a,e))}function D(t,e,n){var a;a=t,(-1<It.indexOf(a.tagName)?G:T)(t,e,n)}function S(t,e,n){var a;t.setAttribute("loading","lazy"),R(t,e,n),a=e,(e=Et[(n=t).tagName])&&e(n,a),s(t,_t)}function V(t){t.removeAttribute(ot),t.removeAttribute(it),t.removeAttribute(rt)}function j(t){h(t,function(t){L(t,mt)}),L(t,mt)}function F(t){var e;(e=yt[t.tagName])?e(t):m(e=t)&&(t=E(e),e.style.backgroundImage=t.backgroundImage)}function P(t,e){var n;F(t),n=e,r(e=t)||u(e)||(_(e,n.class_entered),_(e,n.class_exited),_(e,n.class_applied),_(e,n.class_loading),_(e,n.class_loaded),_(e,n.class_error)),i(t),I(t)}function U(t,e,n,a){var o;n.cancel_on_exit&&(c(t)!==st||"IMG"===t.tagName&&(z(t),h(o=t,function(t){V(t)}),V(o),j(t),_(t,n.class_loading),b(a,-1),i(t),d(n.callback_cancel,t,e,a)))}function $(t,e,n,a){var o,i,r=(i=t,0<=bt.indexOf(c(i)));s(t,"entered"),f(t,n.class_entered),_(t,n.class_exited),o=t,i=a,n.unobserve_entered&&v(o,i),d(n.callback_enter,t,e,a),r||D(t,n,a)}function q(t){return t.use_native&&"loading"in HTMLImageElement.prototype}function H(t,o,i){t.forEach(function(t){return(a=t).isIntersecting||0<a.intersectionRatio?$(t.target,t,o,i):(e=t.target,n=t,a=o,t=i,void(r(e)||(f(e,a.class_exited),U(e,n,a,t),d(a.callback_exit,e,n,t))));var e,n,a})}function B(e,n){var t;tt&&!q(e)&&(n._observer=new IntersectionObserver(function(t){H(t,e,n)},{root:(t=e).container===document?null:t.container,rootMargin:t.thresholds||t.threshold+"px"}))}function J(t){return Array.prototype.slice.call(t)}function K(t){return t.container.querySelectorAll(t.elements_selector)}function Q(t){return c(t)===ft}function W(t,e){return e=t||K(e),J(e).filter(r)}function X(e,t){var n;(n=K(e),J(n).filter(Q)).forEach(function(t){_(t,e.class_error),i(t)}),t.update()}function t(t,e){var n,a,t=o(t);this._settings=t,this.loadingCount=0,B(t,this),n=t,a=this,Y&&window.addEventListener("online",function(){X(n,a)}),this.update(e)}var Y="undefined"!=typeof window,Z=Y&&!("onscroll"in window)||"undefined"!=typeof navigator&&/(gle|ing|ro)bot|crawl|spider/i.test(navigator.userAgent),tt=Y&&"IntersectionObserver"in window,et=Y&&"classList"in document.createElement("p"),nt=Y&&1<window.devicePixelRatio,at={elements_selector:".lazy",container:Z||Y?document:null,threshold:300,thresholds:null,data_src:"src",data_srcset:"srcset",data_sizes:"sizes",data_bg:"bg",data_bg_hidpi:"bg-hidpi",data_bg_multi:"bg-multi",data_bg_multi_hidpi:"bg-multi-hidpi",data_poster:"poster",class_applied:"applied",class_loading:"litespeed-loading",class_loaded:"litespeed-loaded",class_error:"error",class_entered:"entered",class_exited:"exited",unobserve_completed:!0,unobserve_entered:!1,cancel_on_exit:!0,callback_enter:null,callback_exit:null,callback_applied:null,callback_loading:null,callback_loaded:null,callback_error:null,callback_finish:null,callback_cancel:null,use_native:!1},ot="src",it="srcset",rt="sizes",ct="poster",lt="llOriginalAttrs",st="loading",ut="loaded",dt="applied",ft="error",_t="native",gt="data-",vt="ll-status",bt=[st,ut,dt,ft],pt=[ot],ht=[ot,ct],mt=[ot,it,rt],Et={IMG:function(t,e){h(t,function(t){y(t,mt),O(t,e)}),y(t,mt),O(t,e)},IFRAME:function(t,e){y(t,pt),A(t,ot,l(t,e.data_src))},VIDEO:function(t,e){a(t,function(t){y(t,pt),A(t,ot,l(t,e.data_src))}),y(t,ht),A(t,ct,l(t,e.data_poster)),A(t,ot,l(t,e.data_src)),t.load()}},It=["IMG","IFRAME","VIDEO"],yt={IMG:j,IFRAME:function(t){L(t,pt)},VIDEO:function(t){a(t,function(t){L(t,pt)}),L(t,ht),t.load()}},Lt=["IMG","IFRAME","VIDEO"];return t.prototype={update:function(t){var e,n,a,o=this._settings,i=W(t,o);{if(p(this,i.length),!Z&&tt)return q(o)?(e=o,n=this,i.forEach(function(t){-1!==Lt.indexOf(t.tagName)&&S(t,e,n)}),void p(n,0)):(t=this._observer,o=i,t.disconnect(),a=t,void o.forEach(function(t){a.observe(t)}));this.loadAll(i)}},destroy:function(){this._observer&&this._observer.disconnect(),K(this._settings).forEach(function(t){I(t)}),delete this._observer,delete this._settings,delete this.loadingCount,delete this.toLoadCount},loadAll:function(t){var e=this,n=this._settings;W(t,n).forEach(function(t){v(t,e),D(t,n,e)})},restoreAll:function(){var e=this._settings;K(e).forEach(function(t){P(t,e)})}},t.load=function(t,e){e=o(e);D(t,e)},t.resetStatus=function(t){i(t)},t}),function(t,e){"use strict";function n(){e.body.classList.add("litespeed_lazyloaded")}function a(){console.log("[LiteSpeed] Start Lazy Load"),o=new LazyLoad(Object.assign({},t.lazyLoadOptions||{},{elements_selector:"[data-lazyloaded]",callback_finish:n})),i=function(){o.update()},t.MutationObserver&&new MutationObserver(i).observe(e.documentElement,{childList:!0,subtree:!0,attributes:!0})}var o,i;t.addEventListener?t.addEventListener("load",a,!1):t.attachEvent("onload",a)}(window,document);</script><script data-no-optimize="1">window.litespeed_ui_events=window.litespeed_ui_events||["mouseover","click","keydown","wheel","touchmove","touchstart"];var urlCreator=window.URL||window.webkitURL;function litespeed_load_delayed_js_force(){console.log("[LiteSpeed] Start Load JS Delayed"),litespeed_ui_events.forEach(e=>{window.removeEventListener(e,litespeed_load_delayed_js_force,{passive:!0})}),document.querySelectorAll("iframe[data-litespeed-src]").forEach(e=>{e.setAttribute("src",e.getAttribute("data-litespeed-src"))}),"loading"==document.readyState?window.addEventListener("DOMContentLoaded",litespeed_load_delayed_js):litespeed_load_delayed_js()}litespeed_ui_events.forEach(e=>{window.addEventListener(e,litespeed_load_delayed_js_force,{passive:!0})});async function litespeed_load_delayed_js(){let t=[];for(var d in document.querySelectorAll('script[type="litespeed/javascript"]').forEach(e=>{t.push(e)}),t)await new Promise(e=>litespeed_load_one(t[d],e));document.dispatchEvent(new Event("DOMContentLiteSpeedLoaded")),window.dispatchEvent(new Event("DOMContentLiteSpeedLoaded"))}function litespeed_load_one(t,e){console.log("[LiteSpeed] Load ",t);var d=document.createElement("script");d.addEventListener("load",e),d.addEventListener("error",e),t.getAttributeNames().forEach(e=>{"type"!=e&&d.setAttribute("data-src"==e?"src":e,t.getAttribute(e))});let a=!(d.type="text/javascript");!d.src&&t.textContent&&(d.src=litespeed_inline2src(t.textContent),a=!0),t.after(d),t.remove(),a&&e()}function litespeed_inline2src(t){try{var d=urlCreator.createObjectURL(new Blob([t.replace(/^(?:<!--)?(.*?)(?:-->)?$/gm,"$1")],{type:"text/javascript"}))}catch(e){d="data:text/javascript;base64,"+btoa(t.replace(/^(?:<!--)?(.*?)(?:-->)?$/gm,"$1"))}return d}</script></body>
+</html>
+
+<!-- Page cached by LiteSpeed Cache 7.3.0.1 on 2025-12-17 07:07:56 -->
