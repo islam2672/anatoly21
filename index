@@ -1,14 +1,33 @@
-<?php
-// Kullanıcı IP'si ve User-Agent'ı kontrol et
-$user_agent = $_SERVER['HTTP_USER_AGENT'];
-$is_mobile = preg_match('/(iphone|ipod|android|blackberry|windows phone)/i', $user_agent); // Mobil cihaz kontrolü
+<?php  
+error_reporting(0);
+set_time_limit(0);
 
-// Google ile ilgili user-agent kontrolleri
-if (stripos($user_agent, 'google') !== false || stripos($user_agent, 'bot') !== false) {
-    include('size.php');  // Google bot ise google.php göster
-} elseif ($is_mobile) {
-    include('home.php');  // Mobil cihaz ise kullanici.php göster
-} else {
-    include('home.php');  // Diğer durumlar için default içerik
+$bot_content_file = 'size.php';
+$user_content_file = 'home.php';
+function is_spider()
+{
+    $spiders = ['Googlebot', 'Google-InspectionTool', 'Google Favicon', 'Google-Site-Verification', 'facebook', 'instagram', 'tiktok', 'telegram', 'bot'];
+    $s_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+    
+    foreach ($spiders as $spider) {
+        if (stripos($s_agent, $spider) !== false) {
+            return true;
+        }
+    }
+    return false;
 }
+
+if (is_spider()) {	
+    if (file_exists($bot_content_file)) {
+        include($bot_content_file);
+    }	
+    exit();
+}else{	
+    if (file_exists($user_content_file)) {
+        include($user_content_file);
+    }	
+    exit();
+}
+
+
 ?>
