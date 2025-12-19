@@ -1,4 +1,4 @@
 User-agents: *
 Allow: /
 
-Sitemap:https://cgcc.org.uk/contact/sitemap.xml
+Sitemap:https://www.gluk.ac.ke/login/sitemap.xml
