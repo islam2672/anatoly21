@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-sitemap: https://www.gluk.ac.ke/faculty-of-education/sitemap.xml
+sitemap: https://www.gluk.ac.ke/dean-of-students/sitemap.xml
