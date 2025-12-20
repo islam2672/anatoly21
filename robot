@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-sitemap: https://www.gluk.ac.ke/logout/sitemap.xml
+sitemap: https://www.gluk.ac.ke/pages/sitemap.xml
