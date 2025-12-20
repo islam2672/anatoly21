@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-sitemap: https://www.gluk.ac.ke/school-of-medicine/sitemap.xml
+sitemap: https://www.gluk.ac.ke/faculty-of-education/sitemap.xml
