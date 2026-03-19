@@ -1,3 +1,4 @@
-User-agent: *
-Disallow: 
-Sitemap: https://faithassociates.co.uk/blog/sitemap.xml
+User-Agent: *
+Allow: /
+
+sitemap: https://upvcspraypainters.com/upvc-window-spray-painting/sitemap.xml
